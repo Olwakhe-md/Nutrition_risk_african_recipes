@@ -1,0 +1,21 @@
+fdc_id,description,id,nutrient,amount,unit_name
+2705384,"Milk, NFS",1003,Protein,3.33,G
+2705384,"Milk, NFS",1004,Total lipid (fat),2.14,G
+2705384,"Milk, NFS",1005,"Carbohydrate, by difference",4.83,G
+2705384,"Milk, NFS",1008,Energy,52.0,KCAL
+2705384,"Milk, NFS",1018,"Alcohol, ethyl",0.0,G
+2705384,"Milk, NFS",1051,Water,88.92,G
+2705384,"Milk, NFS",1057,Caffeine,0.0,MG
+2705384,"Milk, NFS",1058,Theobromine,0.0,MG
+2705384,"Milk, NFS",2000,Total Sugars,4.88,G
+2705384,"Milk, NFS",1079,"Fiber, total dietary",0.0,G
+2705384,"Milk, NFS",1087,"Calcium, Ca",125.0,MG
+2705384,"Milk, NFS",1089,"Iron, Fe",0.0,MG
+2705384,"Milk, NFS",1090,"Magnesium, Mg",12.0,MG
+2705384,"Milk, NFS",1091,"Phosphorus, P",103.0,MG
+2705384,"Milk, NFS",1092,"Potassium, K",156.0,MG
+2705384,"Milk, NFS",1093,"Sodium, Na",39.0,MG
+2705384,"Milk, NFS",1095,"Zinc, Zn",0.43,MG
+2705384,"Milk, NFS",1098,"Copper, Cu",0.001,MG
+2705384,"Milk, NFS",1103,"Selenium, Se",1.9,UG
+2705384,"Milk, NFS",1105,Retinol,57.0,UG

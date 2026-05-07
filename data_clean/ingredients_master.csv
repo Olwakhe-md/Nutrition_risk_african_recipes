@@ -1,0 +1,672 @@
+ingredient_id,ingredient_name,base_ingredient,form,nutrition_lookup_key
+1,active yeast (dried),active yeast,dried,active yeast|dried
+2,active yeast batter cover bowl clean kitchen (dried),active yeast batter cover bowl clean kitchen,dried,active yeast batter cover bowl clean kitchen|dried
+3,african bird eye chile habanero chile,african bird eye chile habanero chile,unspecified,african bird eye chile habanero chile|unspecified
+4,african bird eye chile red thai chile habanero chile,african bird eye chile red thai chile habanero chile,unspecified,african bird eye chile red thai chile habanero chile|unspecified
+5,african nutmeg (ground),african nutmeg,ground,african nutmeg|ground
+6,african nutmeg,african nutmeg,unspecified,african nutmeg|unspecified
+7,aish baladi,aish baladi,unspecified,aish baladi|unspecified
+8,all purpose flour,all purpose flour,unspecified,all purpose flour|unspecified
+9,all purpose flour enough water make (paste),all purpose flour enough water make,paste,all purpose flour enough water make|paste
+10,all-purpose flour,all-purpose flour,unspecified,all-purpose flour|unspecified
+11,all-purpose flour as,all-purpose flour as,unspecified,all-purpose flour as|unspecified
+12,all-purpose flour handheld,all-purpose flour handheld,unspecified,all-purpose flour handheld|unspecified
+13,all-purpose flour pancake batter,all-purpose flour pancake batter,unspecified,all-purpose flour pancake batter|unspecified
+14,all-purpose flour sifted,all-purpose flour sifted,unspecified,all-purpose flour sifted|unspecified
+15,all-purpose seasoning,all-purpose seasoning,unspecified,all-purpose seasoning|unspecified
+16,allspice (ground),allspice,ground,allspice|ground
+17,almond (roasted),almond,roasted,almond|roasted
+18,almond extract,almond extract,unspecified,almond extract|unspecified
+19,apple cider vinegar,apple cider vinegar,unspecified,apple cider vinegar|unspecified
+20,apricot (dried),apricot,dried,apricot|dried
+21,apricot chutney,apricot chutney,unspecified,apricot chutney|unspecified
+22,apricot jam,apricot jam,unspecified,apricot jam|unspecified
+23,assorted boneles meat bite-size,assorted boneles meat bite-size,unspecified,assorted boneles meat bite-size|unspecified
+24,aunty bernie chapati rice,aunty bernie chapati rice,unspecified,aunty bernie chapati rice|unspecified
+25,avocado pitted,avocado pitted,unspecified,avocado pitted|unspecified
+26,baking (powder),baking,powder,baking|powder
+27,baking flour (powder),baking flour,powder,baking flour|powder
+28,baking oil (powder),baking oil,powder,baking oil|powder
+29,baking soda,baking soda,unspecified,baking soda|unspecified
+30,banana leave hot water soften thoroughly,banana leave hot water soften thoroughly,unspecified,banana leave hot water soften thoroughly|unspecified
+31,banku fufu,banku fufu,unspecified,banku fufu|unspecified
+32,basil (dried),basil,dried,basil|dried
+33,basil (fresh),basil,fresh,basil|fresh
+34,basmati rice,basmati rice,unspecified,basmati rice|unspecified
+35,bay leaf,bay leaf,unspecified,bay leaf|unspecified
+36,bay leave,bay leave,unspecified,bay leave|unspecified
+37,bean (dried),bean,dried,bean|dried
+38,beef (bouillon),beef,bouillon,beef|bouillon
+39,beef (ground),beef,ground,beef|ground
+40,beef (stock),beef,stock,beef|stock
+41,beef,beef,unspecified,beef|unspecified
+42,beef chicken (bouillon),beef chicken,bouillon,beef chicken|bouillon
+43,beef chicken cube (bouillon),beef chicken cube,bouillon,beef chicken cube|bouillon
+44,beef chicken vegetable (bouillon),beef chicken vegetable,bouillon,beef chicken vegetable|bouillon
+45,beef cube (bouillon),beef cube,bouillon,beef cube|bouillon
+46,beef cube (stock),beef cube,stock,beef cube|stock
+47,beef short rib,beef short rib,unspecified,beef short rib|unspecified
+48,beef silverside brisket coarsely,beef silverside brisket coarsely,unspecified,beef silverside brisket coarsely|unspecified
+49,beef stew meat,beef stew meat,unspecified,beef stew meat|unspecified
+50,beef trotter,beef trotter,unspecified,beef trotter|unspecified
+51,bell pepper,bell pepper,unspecified,bell pepper|unspecified
+52,berbere spice,berbere spice,unspecified,berbere spice|unspecified
+53,berbere spice mix,berbere spice mix,unspecified,berbere spice mix|unspecified
+54,berbere spice texture potato season,berbere spice texture potato season,unspecified,berbere spice texture potato season|unspecified
+55,bicarbonate soda,bicarbonate soda,unspecified,bicarbonate soda|unspecified
+56,bisto gravy,bisto gravy,unspecified,bisto gravy|unspecified
+57,bisto gravy thickener,bisto gravy thickener,unspecified,bisto gravy thickener|unspecified
+58,bitter leaf washed,bitter leaf washed,unspecified,bitter leaf washed|unspecified
+59,black cardamom seed,black cardamom seed,unspecified,black cardamom seed|unspecified
+60,black eyed bean overnight least hour,black eyed bean overnight least hour,unspecified,black eyed bean overnight least hour|unspecified
+61,black eyed pea,black eyed pea,unspecified,black eyed pea|unspecified
+62,black pepper (ground),black pepper,ground,black pepper|ground
+63,black pepper,black pepper,unspecified,black pepper|unspecified
+64,black pepper as,black pepper as,unspecified,black pepper as|unspecified
+65,black peppercorn (ground),black peppercorn,ground,black peppercorn|ground
+66,black peppercorn,black peppercorn,unspecified,black peppercorn|unspecified
+67,black peppercorn ginger,black peppercorn ginger,unspecified,black peppercorn ginger|unspecified
+68,black-eyed bean (dried),black-eyed bean,dried,black-eyed bean|dried
+69,black-eyed pea (dried),black-eyed pea,dried,black-eyed pea|dried
+70,black-eyed pea,black-eyed pea,unspecified,black-eyed pea|unspecified
+71,black-eyed pea overnight (dried),black-eyed pea overnight,dried,black-eyed pea overnight|dried
+72,blanched almond,blanched almond,unspecified,blanched almond|unspecified
+73,boerewor sausage,boerewor sausage,unspecified,boerewor sausage|unspecified
+74,boiled fried plantain,boiled fried plantain,unspecified,boiled fried plantain|unspecified
+75,boiled yam,boiled yam,unspecified,boiled yam|unspecified
+76,boiling water,boiling water,unspecified,boiling water|unspecified
+77,boiling water as,boiling water as,unspecified,boiling water as|unspecified
+78,bologna,bologna,unspecified,bologna|unspecified
+79,bondwe,bondwe,unspecified,bondwe|unspecified
+80,bondwe leave,bondwe leave,unspecified,bondwe leave|unspecified
+81,bone-in boneles chicken,bone-in boneles chicken,unspecified,bone-in boneles chicken|unspecified
+82,bone-in chicken breast bite-size,bone-in chicken breast bite-size,unspecified,bone-in chicken breast bite-size|unspecified
+83,bone-in chicken thigh drumstick,bone-in chicken thigh drumstick,unspecified,bone-in chicken thigh drumstick|unspecified
+84,boneles pork loin roast,boneles pork loin roast,unspecified,boneles pork loin roast|unspecified
+85,boneles skinles chicken breast,boneles skinles chicken breast,unspecified,boneles skinles chicken breast|unspecified
+86,boneles skinles chicken breast bite-size,boneles skinles chicken breast bite-size,unspecified,boneles skinles chicken breast bite-size|unspecified
+87,boneles skinles chicken thigh breast,boneles skinles chicken thigh breast,unspecified,boneles skinles chicken thigh breast|unspecified
+88,bread,bread,unspecified,bread|unspecified
+89,bread bowl,bread bowl,unspecified,bread bowl|unspecified
+90,breadcrumb,breadcrumb,unspecified,breadcrumb|unspecified
+91,brown flour,brown flour,unspecified,brown flour|unspecified
+92,brown lentil,brown lentil,unspecified,brown lentil|unspecified
+93,brown onion,brown onion,unspecified,brown onion|unspecified
+94,brown spirit vinegar,brown spirit vinegar,unspecified,brown spirit vinegar|unspecified
+95,brown sugar,brown sugar,unspecified,brown sugar|unspecified
+96,bunch cilantro (fresh),bunch cilantro,fresh,bunch cilantro|fresh
+97,bunch cilantro garnish (fresh),bunch cilantro garnish,fresh,bunch cilantro garnish|fresh
+98,bunch coriander (fresh),bunch coriander,fresh,bunch coriander|fresh
+99,butter,butter,unspecified,butter|unspecified
+100,butter as,butter as,unspecified,butter as|unspecified
+101,butter extra greasing,butter extra greasing,unspecified,butter extra greasing|unspecified
+102,butter greasing,butter greasing,unspecified,butter greasing|unspecified
+103,butter margarine,butter margarine,unspecified,butter margarine|unspecified
+104,buttermilk plain them,buttermilk plain them,unspecified,buttermilk plain them|unspecified
+105,butternut,butternut,unspecified,butternut|unspecified
+106,butternut squash,butternut squash,unspecified,butternut squash|unspecified
+107,cabbage,cabbage,unspecified,cabbage|unspecified
+108,cake flour,cake flour,unspecified,cake flour|unspecified
+109,canola oil,canola oil,unspecified,canola oil|unspecified
+110,canola oil as,canola oil as,unspecified,canola oil as|unspecified
+111,canola oil end skin plantain half lengthwise,canola oil end skin plantain half lengthwise,unspecified,canola oil end skin plantain half lengthwise|unspecified
+112,canola oil oil,canola oil oil,unspecified,canola oil oil|unspecified
+113,canola oil sprinkle over onion (bouillon),canola oil sprinkle over onion,bouillon,canola oil sprinkle over onion|bouillon
+114,canola oil turmeric,canola oil turmeric,unspecified,canola oil turmeric|unspecified
+115,canola oil warm oil dutch oven other heavy,canola oil warm oil dutch oven other heavy,unspecified,canola oil warm oil dutch oven other heavy|unspecified
+116,cardamom (ground),cardamom,ground,cardamom|ground
+117,cardamom fat ghee egg yolk will start (ground),cardamom fat ghee egg yolk will start,ground,cardamom fat ghee egg yolk will start|ground
+118,cardamom pod,cardamom pod,unspecified,cardamom pod|unspecified
+119,cardamom seed,cardamom seed,unspecified,cardamom seed|unspecified
+120,carrot,carrot,unspecified,carrot|unspecified
+121,carrot bite-size,carrot bite-size,unspecified,carrot bite-size|unspecified
+122,carrot julienned,carrot julienned,unspecified,carrot julienned|unspecified
+123,carrot shredded,carrot shredded,unspecified,carrot shredded|unspecified
+124,cassava flour all-purpose,cassava flour all-purpose,unspecified,cassava flour all-purpose|unspecified
+125,caster sugar,caster sugar,unspecified,caster sugar|unspecified
+126,castor sugar,castor sugar,unspecified,castor sugar|unspecified
+127,cayenne pepper,cayenne pepper,unspecified,cayenne pepper|unspecified
+128,cayenne pepper nigerian red pepper,cayenne pepper nigerian red pepper,unspecified,cayenne pepper nigerian red pepper|unspecified
+129,celery stick,celery stick,unspecified,celery stick|unspecified
+130,chapati,chapati,unspecified,chapati|unspecified
+131,cheddar cheese,cheddar cheese,unspecified,cheddar cheese|unspecified
+132,cherry tomato,cherry tomato,unspecified,cherry tomato|unspecified
+133,chicken (bouillon),chicken,bouillon,chicken|bouillon
+134,chicken (stock),chicken,stock,chicken|stock
+135,chicken,chicken,unspecified,chicken|unspecified
+136,chicken -inch,chicken -inch,unspecified,chicken -inch|unspecified
+137,chicken bite-size,chicken bite-size,unspecified,chicken bite-size|unspecified
+138,chicken bone skin separated (whole),chicken bone skin separated,whole,chicken bone skin separated|whole
+139,chicken breast,chicken breast,unspecified,chicken breast|unspecified
+140,chicken breast -inch,chicken breast -inch,unspecified,chicken breast -inch|unspecified
+141,chicken breast julienned,chicken breast julienned,unspecified,chicken breast julienned|unspecified
+142,chicken drumstick,chicken drumstick,unspecified,chicken drumstick|unspecified
+143,chicken gizzard,chicken gizzard,unspecified,chicken gizzard|unspecified
+144,chicken quarter,chicken quarter,unspecified,chicken quarter|unspecified
+145,chicken thigh,chicken thigh,unspecified,chicken thigh|unspecified
+146,chicken thigh skin-on bone-in,chicken thigh skin-on bone-in,unspecified,chicken thigh skin-on bone-in|unspecified
+147,chicken vegetable (bouillon),chicken vegetable,bouillon,chicken vegetable|bouillon
+148,chicken vegetable (stock),chicken vegetable,stock,chicken vegetable|stock
+149,chicken wing,chicken wing,unspecified,chicken wing|unspecified
+150,chickpea,chickpea,unspecified,chickpea|unspecified
+151,chile pepper (dried),chile pepper,dried,chile pepper|dried
+152,chili (fresh),chili,fresh,chili|fresh
+153,chili (powder),chili,powder,chili|powder
+154,chilli (dried),chilli,dried,chilli|dried
+155,chilli (flakes),chilli,flakes,chilli|flakes
+156,chilli chutney plain chutney,chilli chutney plain chutney,unspecified,chilli chutney plain chutney|unspecified
+157,chily (fresh),chily,fresh,chily|fresh
+158,cider vinegar,cider vinegar,unspecified,cider vinegar|unspecified
+159,cilantro (fresh),cilantro,fresh,cilantro|fresh
+160,cinnamon (ground),cinnamon,ground,cinnamon|ground
+161,cinnamon extra dusting (ground),cinnamon extra dusting,ground,cinnamon extra dusting|ground
+162,cinnamon stick,cinnamon stick,unspecified,cinnamon stick|unspecified
+163,cm root ginger (fresh),cm root ginger,fresh,cm root ginger|fresh
+164,cob sweetcorn,cob sweetcorn,unspecified,cob sweetcorn|unspecified
+165,coconut milk (canned),coconut milk,canned,coconut milk|canned
+166,coconut milk,coconut milk,unspecified,coconut milk|unspecified
+167,coconut milk tin,coconut milk tin,unspecified,coconut milk tin|unspecified
+168,coconut oil medium-high,coconut oil medium-high,unspecified,coconut oil medium-high|unspecified
+169,coconut raw unsweetened coconut (flakes),coconut raw unsweetened coconut,flakes,coconut raw unsweetened coconut|flakes
+170,coconut sugar,coconut sugar,unspecified,coconut sugar|unspecified
+171,cod fillet thawed (frozen),cod fillet thawed,frozen,cod fillet thawed|frozen
+172,cold margarine tiny,cold margarine tiny,unspecified,cold margarine tiny|unspecified
+173,cold water,cold water,unspecified,cold water|unspecified
+174,cold water once bubble,cold water once bubble,unspecified,cold water once bubble|unspecified
+175,cooked french fry as,cooked french fry as,unspecified,cooked french fry as|unspecified
+176,cooked rice,cooked rice,unspecified,cooked rice|unspecified
+177,cooking oil,cooking oil,unspecified,cooking oil|unspecified
+178,cooking spray,cooking spray,unspecified,cooking spray|unspecified
+179,coriander (fresh),coriander,fresh,coriander|fresh
+180,coriander (ground),coriander,ground,coriander|ground
+181,coriander leave some stem attached (fresh),coriander leave some stem attached,fresh,coriander leave some stem attached|fresh
+182,coriander seed,coriander seed,unspecified,coriander seed|unspecified
+183,corn flour,corn flour,unspecified,corn flour|unspecified
+184,corn kernel (fresh),corn kernel,fresh,corn kernel|fresh
+185,corned beef (canned),corned beef,canned,corned beef|canned
+186,corned beef,corned beef,unspecified,corned beef|unspecified
+187,cornmeal,cornmeal,unspecified,cornmeal|unspecified
+188,couscous (dried),couscous,dried,couscous|dried
+189,couscous rice,couscous rice,unspecified,couscous rice|unspecified
+190,cranberry (dried),cranberry,dried,cranberry|dried
+191,crayfish (ground),crayfish,ground,crayfish|ground
+192,crayfish (powder),crayfish,powder,crayfish|powder
+193,cream mushroom soup bisto gravy thickener,cream mushroom soup bisto gravy thickener,unspecified,cream mushroom soup bisto gravy thickener|unspecified
+194,cream tomato soup (powder),cream tomato soup,powder,cream tomato soup|powder
+195,crusty hoagie roll split half lightly (toasted),crusty hoagie roll split half lightly,toasted,crusty hoagie roll split half lightly|toasted
+196,cucumber,cucumber,unspecified,cucumber|unspecified
+197,cumin (ground),cumin,ground,cumin|ground
+198,cumin (powder),cumin,powder,cumin|powder
+199,cumin seed,cumin seed,unspecified,cumin seed|unspecified
+200,cumin seed pestle mortar,cumin seed pestle mortar,unspecified,cumin seed pestle mortar|unspecified
+201,currant (dried),currant,dried,currant|dried
+202,curry (powder),curry,powder,curry|powder
+203,custard (powder),custard,powder,custard|powder
+204,desiccated coconut serve,desiccated coconut serve,unspecified,desiccated coconut serve|unspecified
+205,dijon mustard,dijon mustard,unspecified,dijon mustard|unspecified
+206,distilled white vinegar,distilled white vinegar,unspecified,distilled white vinegar|unspecified
+207,drumstick,drumstick,unspecified,drumstick|unspecified
+208,ear corn,ear corn,unspecified,ear corn|unspecified
+209,egg,egg,unspecified,egg|unspecified
+210,egg lightly,egg lightly,unspecified,egg lightly|unspecified
+211,eggplant,eggplant,unspecified,eggplant|unspecified
+212,egusi melon seed (ground),egusi melon seed,ground,egusi melon seed|ground
+213,egusi seed (toasted),egusi seed,toasted,egusi seed|toasted
+214,egusi seed pumpkin seed,egusi seed pumpkin seed,unspecified,egusi seed pumpkin seed|unspecified
+215,elbow macaroni,elbow macaroni,unspecified,elbow macaroni|unspecified
+216,enough water go just below potato,enough water go just below potato,unspecified,enough water go just below potato|unspecified
+217,evaporated milk,evaporated milk,unspecified,evaporated milk|unspecified
+218,ewedu leave (fresh),ewedu leave,fresh,ewedu leave|fresh
+219,extra hot chilli (powder),extra hot chilli,powder,extra hot chilli|powder
+220,extra-virgin olive oil,extra-virgin olive oil,unspecified,extra-virgin olive oil|unspecified
+221,extra-virgin olive oil ae,extra-virgin olive oil ae,unspecified,extra-virgin olive oil ae|unspecified
+222,extra-virgin olive oil garnish,extra-virgin olive oil garnish,unspecified,extra-virgin olive oil garnish|unspecified
+223,extremely ripe mango,extremely ripe mango,unspecified,extremely ripe mango|unspecified
+224,fennel seed,fennel seed,unspecified,fennel seed|unspecified
+225,fenugreek seed,fenugreek seed,unspecified,fenugreek seed|unspecified
+226,filo pastry sheet,filo pastry sheet,unspecified,filo pastry sheet|unspecified
+227,fire-roasted tomato,fire-roasted tomato,unspecified,fire-roasted tomato|unspecified
+228,fish fillet your choice,fish fillet your choice,unspecified,fish fillet your choice|unspecified
+229,fl brandy,fl brandy,unspecified,fl brandy|unspecified
+230,fl chicken (stock),fl chicken,stock,fl chicken|stock
+231,fl full-fat milk,fl full-fat milk,unspecified,fl full-fat milk|unspecified
+232,fl full-fat milk warmed,fl full-fat milk warmed,unspecified,fl full-fat milk warmed|unspecified
+233,fl lamb (stock),fl lamb,stock,fl lamb|stock
+234,fl milk,fl milk,unspecified,fl milk|unspecified
+235,fl tomato ketchup,fl tomato ketchup,unspecified,fl tomato ketchup|unspecified
+236,fl vegetable oil,fl vegetable oil,unspecified,fl vegetable oil|unspecified
+237,flaky sea salt,flaky sea salt,unspecified,flaky sea salt|unspecified
+238,flavored salt,flavored salt,unspecified,flavored salt|unspecified
+239,flour,flour,unspecified,flour|unspecified
+240,fonio,fonio,unspecified,fonio|unspecified
+241,free-range egg,free-range egg,unspecified,free-range egg|unspecified
+242,free-range egg free-range egg yolk,free-range egg free-range egg yolk,unspecified,free-range egg free-range egg yolk|unspecified
+243,free-range egg white,free-range egg white,unspecified,free-range egg white|unspecified
+244,free-range egg yolk,free-range egg yolk,unspecified,free-range egg yolk|unspecified
+245,fufu,fufu,unspecified,fufu|unspecified
+246,full-fat plain yoghurt,full-fat plain yoghurt,unspecified,full-fat plain yoghurt|unspecified
+247,full-fat unsweetened,full-fat unsweetened,unspecified,full-fat unsweetened|unspecified
+248,full-fat unsweetened other heavy pot,full-fat unsweetened other heavy pot,unspecified,full-fat unsweetened other heavy pot|unspecified
+249,full-fat unsweetened reserved bone,full-fat unsweetened reserved bone,unspecified,full-fat unsweetened reserved bone|unspecified
+250,garam masala,garam masala,unspecified,garam masala|unspecified
+251,garlic (fresh),garlic,fresh,garlic|fresh
+252,garlic (granulated),garlic,granulated,garlic|granulated
+253,garlic (powder),garlic,powder,garlic|powder
+254,garlic (whole),garlic,whole,garlic|whole
+255,garlic half (fresh),garlic half,fresh,garlic half|fresh
+256,garri,garri,unspecified,garri|unspecified
+257,generou red chilli extra if desired (flakes),generou red chilli extra if desired,flakes,generou red chilli extra if desired|flakes
+258,ghee,ghee,unspecified,ghee|unspecified
+259,ghee unsalted,ghee unsalted,unspecified,ghee unsalted|unspecified
+260,ginger (fresh),ginger,fresh,ginger|fresh
+261,ginger (ground),ginger,ground,ginger|ground
+262,ginger (powder),ginger,powder,ginger|powder
+263,ginger cumin (fresh),ginger cumin,fresh,ginger cumin|fresh
+264,grain hub mhunga,grain hub mhunga,unspecified,grain hub mhunga|unspecified
+265,grain hub mupunga,grain hub mupunga,unspecified,grain hub mupunga|unspecified
+266,grain hub sorghum,grain hub sorghum,unspecified,grain hub sorghum|unspecified
+267,grain hub zviyo,grain hub zviyo,unspecified,grain hub zviyo|unspecified
+268,greek yogurt,greek yogurt,unspecified,greek yogurt|unspecified
+269,green banana,green banana,unspecified,green banana|unspecified
+270,green bell pepper,green bell pepper,unspecified,green bell pepper|unspecified
+271,green chilli,green chilli,unspecified,green chilli|unspecified
+272,green onion,green onion,unspecified,green onion|unspecified
+273,green pepper,green pepper,unspecified,green pepper|unspecified
+274,green ripe plantain,green ripe plantain,unspecified,green ripe plantain|unspecified
+275,green yellow pepper,green yellow pepper,unspecified,green yellow pepper|unspecified
+276,grilled lemon parsley garnishing (fresh),grilled lemon parsley garnishing,fresh,grilled lemon parsley garnishing|fresh
+277,groundnut oil vegetable oil,groundnut oil vegetable oil,unspecified,groundnut oil vegetable oil|unspecified
+278,gruy re cheese,gruy re cheese,unspecified,gruy re cheese|unspecified
+279,guinea pepper,guinea pepper,unspecified,guinea pepper|unspecified
+280,habanero chile,habanero chile,unspecified,habanero chile|unspecified
+281,habanero chile seeded,habanero chile seeded,unspecified,habanero chile seeded|unspecified
+282,habanero chile stem removed,habanero chile stem removed,unspecified,habanero chile stem removed|unspecified
+283,habanero pepper,habanero pepper,unspecified,habanero pepper|unspecified
+284,halibut -inch,halibut -inch,unspecified,halibut -inch|unspecified
+285,halibut fillet skin removed,halibut fillet skin removed,unspecified,halibut fillet skin removed|unspecified
+286,handful spring onion green tip,handful spring onion green tip,unspecified,handful spring onion green tip|unspecified
+287,hard-boiled egg,hard-boiled egg,unspecified,hard-boiled egg|unspecified
+288,harissa sauce,harissa sauce,unspecified,harissa sauce|unspecified
+289,harissa spice mix,harissa spice mix,unspecified,harissa spice mix|unspecified
+290,head green cabbage shredded,head green cabbage shredded,unspecified,head green cabbage shredded|unspecified
+291,head lettuce shredded,head lettuce shredded,unspecified,head lettuce shredded|unspecified
+292,heaped ancho habanero chilli (flakes),heaped ancho habanero chilli,flakes,heaped ancho habanero chilli|flakes
+293,heaped butter margarine,heaped butter margarine,unspecified,heaped butter margarine|unspecified
+294,heaped flour,heaped flour,unspecified,heaped flour|unspecified
+295,heaped peanut butter,heaped peanut butter,unspecified,heaped peanut butter|unspecified
+296,heinz brand baked bean,heinz brand baked bean,unspecified,heinz brand baked bean|unspecified
+297,heinz salad cream,heinz salad cream,unspecified,heinz salad cream|unspecified
+298,homemade shop bought puff pastry thawed egg,homemade shop bought puff pastry thawed egg,unspecified,homemade shop bought puff pastry thawed egg|unspecified
+299,hot curry (powder),hot curry,powder,hot curry|powder
+300,hot paprika,hot paprika,unspecified,hot paprika|unspecified
+301,hot water,hot water,unspecified,hot water|unspecified
+302,hot water chicken (stock),hot water chicken,stock,hot water chicken|stock
+303,ice cube as,ice cube as,unspecified,ice cube as|unspecified
+304,ice-cold water,ice-cold water,unspecified,ice-cold water|unspecified
+305,icing sugar dusting,icing sugar dusting,unspecified,icing sugar dusting|unspecified
+306,impwa,impwa,unspecified,impwa|unspecified
+307,instant yeast,instant yeast,unspecified,instant yeast|unspecified
+308,jalape,jalape,unspecified,jalape|unspecified
+309,jalape chile,jalape chile,unspecified,jalape chile|unspecified
+310,jalape chile seeded,jalape chile seeded,unspecified,jalape chile seeded|unspecified
+311,jalape chile serrano chile,jalape chile serrano chile,unspecified,jalape chile serrano chile|unspecified
+312,jalape seeded,jalape seeded,unspecified,jalape seeded|unspecified
+313,jar mango chutney,jar mango chutney,unspecified,jar mango chutney|unspecified
+314,jarred red bell pepper (fresh),jarred red bell pepper,fresh,jarred red bell pepper|fresh
+315,jasmine rice,jasmine rice,unspecified,jasmine rice|unspecified
+316,jollof rice,jollof rice,unspecified,jollof rice|unspecified
+317,juice lemon,juice lemon,unspecified,juice lemon|unspecified
+318,juice lime,juice lime,unspecified,juice lime|unspecified
+319,kabulangeti bean (dried),kabulangeti bean,dried,kabulangeti bean|dried
+320,kachumbari,kachumbari,unspecified,kachumbari|unspecified
+321,kalembula,kalembula,unspecified,kalembula|unspecified
+322,kapenta (dried),kapenta,dried,kapenta|dried
+323,kariba bream gutted scaled,kariba bream gutted scaled,unspecified,kariba bream gutted scaled|unspecified
+324,ketchup,ketchup,unspecified,ketchup|unspecified
+325,kosher salt,kosher salt,unspecified,kosher salt|unspecified
+326,kosher salt kitchen,kosher salt kitchen,unspecified,kosher salt kitchen|unspecified
+327,lamb meat inch cube,lamb meat inch cube,unspecified,lamb meat inch cube|unspecified
+328,lamb mince,lamb mince,unspecified,lamb mince|unspecified
+329,lamb rib chop,lamb rib chop,unspecified,lamb rib chop|unspecified
+330,lamb shoulder coarsely,lamb shoulder coarsely,unspecified,lamb shoulder coarsely|unspecified
+331,lemon,lemon,unspecified,lemon|unspecified
+332,lemon essence,lemon essence,unspecified,lemon essence|unspecified
+333,lemon juice (fresh),lemon juice,fresh,lemon juice|fresh
+334,lemon juice,lemon juice,unspecified,lemon juice|unspecified
+335,lemon juice only,lemon juice only,unspecified,lemon juice only|unspecified
+336,lemon rind,lemon rind,unspecified,lemon rind|unspecified
+337,lemon wedge garnish,lemon wedge garnish,unspecified,lemon wedge garnish|unspecified
+338,lemon zest only,lemon zest only,unspecified,lemon zest only|unspecified
+339,light brown sugar,light brown sugar,unspecified,light brown sugar|unspecified
+340,lime juice (fresh),lime juice,fresh,lime juice|fresh
+341,litre boiling water,litre boiling water,unspecified,litre boiling water|unspecified
+342,long grain rice,long grain rice,unspecified,long grain rice|unspecified
+343,long grain white rice,long grain white rice,unspecified,long grain white rice|unspecified
+344,loosely packed spinach,loosely packed spinach,unspecified,loosely packed spinach|unspecified
+345,low-sodium chicken (stock),low-sodium chicken,stock,low-sodium chicken|stock
+346,lukewarm water,lukewarm water,unspecified,lukewarm water|unspecified
+347,lumanda leave,lumanda leave,unspecified,lumanda leave|unspecified
+348,mackerel,mackerel,unspecified,mackerel|unspecified
+349,madra curry (paste),madra curry,paste,madra curry|paste
+350,malt vinegar,malt vinegar,unspecified,malt vinegar|unspecified
+351,mango,mango,unspecified,mango|unspecified
+352,mango chutney,mango chutney,unspecified,mango chutney|unspecified
+353,mango chutney other chutney,mango chutney other chutney,unspecified,mango chutney other chutney|unspecified
+354,margarine,margarine,unspecified,margarine|unspecified
+355,mature cheddar,mature cheddar,unspecified,mature cheddar|unspecified
+356,mayonnaise,mayonnaise,unspecified,mayonnaise|unspecified
+357,mealie meal white cornmeal,mealie meal white cornmeal,unspecified,mealie meal white cornmeal|unspecified
+358,meat,meat,unspecified,meat|unspecified
+359,medium-large potato,medium-large potato,unspecified,medium-large potato|unspecified
+360,mild curry (powder),mild curry,powder,mild curry|powder
+361,mild hot red chile pepper,mild hot red chile pepper,unspecified,mild hot red chile pepper|unspecified
+362,milk (fresh),milk,fresh,milk|fresh
+363,milk (powder),milk,powder,milk|powder
+364,milk,milk,unspecified,milk|unspecified
+365,milk (whole),milk,whole,milk|whole
+366,milk alternatively (whole),milk alternatively,whole,milk alternatively|whole
+367,milk maa,milk maa,unspecified,milk maa|unspecified
+368,mint (fresh),mint,fresh,mint|fresh
+369,mint leave (fresh),mint leave,fresh,mint leave|fresh
+370,mixed offal,mixed offal,unspecified,mixed offal|unspecified
+371,moscato,moscato,unspecified,moscato|unspecified
+372,mr sauce bbq sauce,mr sauce bbq sauce,unspecified,mr sauce bbq sauce|unspecified
+373,mr sauce beef burger sauce,mr sauce beef burger sauce,unspecified,mr sauce beef burger sauce|unspecified
+374,mr sauce ketchup,mr sauce ketchup,unspecified,mr sauce ketchup|unspecified
+375,mr sauce lemon herb marinade,mr sauce lemon herb marinade,unspecified,mr sauce lemon herb marinade|unspecified
+376,mr sauce lemon juice,mr sauce lemon juice,unspecified,mr sauce lemon juice|unspecified
+377,mr sauce miri piri sauce,mr sauce miri piri sauce,unspecified,mr sauce miri piri sauce|unspecified
+378,mr sauce mustard sauce,mr sauce mustard sauce,unspecified,mr sauce mustard sauce|unspecified
+379,mr sauce smokey bbq marinade,mr sauce smokey bbq marinade,unspecified,mr sauce smokey bbq marinade|unspecified
+380,mr sauce soy sauce,mr sauce soy sauce,unspecified,mr sauce soy sauce|unspecified
+381,mr sauce sticky bbq basting,mr sauce sticky bbq basting,unspecified,mr sauce sticky bbq basting|unspecified
+382,mr sauce sweet chilli sauce,mr sauce sweet chilli sauce,unspecified,mr sauce sweet chilli sauce|unspecified
+383,mr sauce tomato sauce,mr sauce tomato sauce,unspecified,mr sauce tomato sauce|unspecified
+384,mr sauce worcester sauce,mr sauce worcester sauce,unspecified,mr sauce worcester sauce|unspecified
+385,mufushwa wemunyemba,mufushwa wemunyemba,unspecified,mufushwa wemunyemba|unspecified
+386,new mexico chile (ground),new mexico chile,ground,new mexico chile|ground
+387,nigerian red pepper,nigerian red pepper,unspecified,nigerian red pepper|unspecified
+388,nigerian red pepper cayenne pepper,nigerian red pepper cayenne pepper,unspecified,nigerian red pepper cayenne pepper|unspecified
+389,nutmeg (ground),nutmeg,ground,nutmeg|ground
+390,oil,oil,unspecified,oil|unspecified
+391,oil frying,oil frying,unspecified,oil frying|unspecified
+392,okra (fresh),okra,fresh,okra|fresh
+393,okra,okra,unspecified,okra|unspecified
+394,okra (whole),okra,whole,okra|whole
+395,okra half,okra half,unspecified,okra half|unspecified
+396,okra trimmed -inch round,okra trimmed -inch round,unspecified,okra trimmed -inch round|unspecified
+397,olive oil,olive oil,unspecified,olive oil|unspecified
+398,olive oil as,olive oil as,unspecified,olive oil as|unspecified
+399,onion (fresh),onion,fresh,onion|fresh
+400,onion (powder),onion,powder,onion|powder
+401,onion salt,onion salt,unspecified,onion salt|unspecified
+402,orange bell pepper,orange bell pepper,unspecified,orange bell pepper|unspecified
+403,oregano (dried),oregano,dried,oregano|dried
+404,organic jaggery,organic jaggery,unspecified,organic jaggery|unspecified
+405,overly ripe plantain,overly ripe plantain,unspecified,overly ripe plantain|unspecified
+406,overripe banana,overripe banana,unspecified,overripe banana|unspecified
+407,ox kidney,ox kidney,unspecified,ox kidney|unspecified
+408,packet active yeast (dried),packet active yeast,dried,packet active yeast|dried
+409,palm oil,palm oil,unspecified,palm oil|unspecified
+410,panko breadcrumb,panko breadcrumb,unspecified,panko breadcrumb|unspecified
+411,paprika (smoked),paprika,smoked,paprika|smoked
+412,paprika,paprika,unspecified,paprika|unspecified
+413,paprika curry (smoked),paprika curry,smoked,paprika curry|smoked
+414,parsley (dried),parsley,dried,parsley|dried
+415,parsley (fresh),parsley,fresh,parsley|fresh
+416,parsley garnish (fresh),parsley garnish,fresh,parsley garnish|fresh
+417,parsley garnish,parsley garnish,unspecified,parsley garnish|unspecified
+418,pea (frozen),pea,frozen,pea|frozen
+419,pea carrot thawed (frozen),pea carrot thawed,frozen,pea carrot thawed|frozen
+420,pea thawed (frozen),pea thawed,frozen,pea thawed|frozen
+421,peanut (ground),peanut,ground,peanut|ground
+422,peanut butter,peanut butter,unspecified,peanut butter|unspecified
+423,peanut oil,peanut oil,unspecified,peanut oil|unspecified
+424,penne pasta,penne pasta,unspecified,penne pasta|unspecified
+425,pepper (fresh),pepper,fresh,pepper|fresh
+426,pepper soup spice mix,pepper soup spice mix,unspecified,pepper soup spice mix|unspecified
+427,peri peri sauce,peri peri sauce,unspecified,peri peri sauce|unspecified
+428,pili pili,pili pili,unspecified,pili pili|unspecified
+429,pili pili store-bought hot sauce,pili pili store-bought hot sauce,unspecified,pili pili store-bought hot sauce|unspecified
+430,pimento-stuffed olive,pimento-stuffed olive,unspecified,pimento-stuffed olive|unspecified
+431,pint cherry tomato half,pint cherry tomato half,unspecified,pint cherry tomato half|unspecified
+432,pint lamb (stock),pint lamb,stock,pint lamb|stock
+433,pint sunflower oil deep-frying,pint sunflower oil deep-frying,unspecified,pint sunflower oil deep-frying|unspecified
+434,piri piri sauce refrigerator let marinate,piri piri sauce refrigerator let marinate,unspecified,piri piri sauce refrigerator let marinate|unspecified
+435,plain flour,plain flour,unspecified,plain flour|unspecified
+436,plantain,plantain,unspecified,plantain|unspecified
+437,plum tomato,plum tomato,unspecified,plum tomato|unspecified
+438,plum tomato (whole),plum tomato,whole,plum tomato|whole
+439,plum tomato seed removed strip,plum tomato seed removed strip,unspecified,plum tomato seed removed strip|unspecified
+440,pointed red pepper,pointed red pepper,unspecified,pointed red pepper|unspecified
+441,pork,pork,unspecified,pork|unspecified
+442,pork chop,pork chop,unspecified,pork chop|unspecified
+443,pork chop trimmed,pork chop trimmed,unspecified,pork chop trimmed|unspecified
+444,pork fillet,pork fillet,unspecified,pork fillet|unspecified
+445,pork sausage (ground),pork sausage,ground,pork sausage|ground
+446,pork shoulder belly coarsely,pork shoulder belly coarsely,unspecified,pork shoulder belly coarsely|unspecified
+447,potato,potato,unspecified,potato|unspecified
+448,pound beef (ground),pound beef,ground,pound beef|ground
+449,pound bone-in,pound bone-in,unspecified,pound bone-in|unspecified
+450,pound boneles,pound boneles,unspecified,pound boneles|unspecified
+451,pound boneles salt cod bowl,pound boneles salt cod bowl,unspecified,pound boneles salt cod bowl|unspecified
+452,pound each,pound each,unspecified,pound each|unspecified
+453,pound kale collard,pound kale collard,unspecified,pound kale collard|unspecified
+454,pound lamb stew meat,pound lamb stew meat,unspecified,pound lamb stew meat|unspecified
+455,pound oxtail,pound oxtail,unspecified,pound oxtail|unspecified
+456,pound red potato,pound red potato,unspecified,pound red potato|unspecified
+457,pound shredded,pound shredded,unspecified,pound shredded|unspecified
+458,pound skirt steak flank steak,pound skirt steak flank steak,unspecified,pound skirt steak flank steak|unspecified
+459,pounded groundnut,pounded groundnut,unspecified,pounded groundnut|unspecified
+460,prawn shrimp,prawn shrimp,unspecified,prawn shrimp|unspecified
+461,puff pastry sheet thawed (frozen),puff pastry sheet thawed,frozen,puff pastry sheet thawed|frozen
+462,puff pastry thawed (frozen),puff pastry thawed,frozen,puff pastry thawed|frozen
+463,punnet cauliflower,punnet cauliflower,unspecified,punnet cauliflower|unspecified
+464,punnet green bean,punnet green bean,unspecified,punnet green bean|unspecified
+465,punnet mushroom,punnet mushroom,unspecified,punnet mushroom|unspecified
+466,punnet oyster mushroom,punnet oyster mushroom,unspecified,punnet oyster mushroom|unspecified
+467,punnet oyster mushroom julienned,punnet oyster mushroom julienned,unspecified,punnet oyster mushroom julienned|unspecified
+468,punnet pea (fresh),punnet pea,fresh,punnet pea|fresh
+469,punnet pea,punnet pea,unspecified,punnet pea|unspecified
+470,pure vanilla extract,pure vanilla extract,unspecified,pure vanilla extract|unspecified
+471,purple onion,purple onion,unspecified,purple onion|unspecified
+472,rack pork rib,rack pork rib,unspecified,rack pork rib|unspecified
+473,raisin,raisin,unspecified,raisin|unspecified
+474,ras el hanout,ras el hanout,unspecified,ras el hanout|unspecified
+475,raw organic tigernut,raw organic tigernut,unspecified,raw organic tigernut|unspecified
+476,raw unsweetened coconut (flakes),raw unsweetened coconut,flakes,raw unsweetened coconut|flakes
+477,real premium spice black pepper (ground),real premium spice black pepper,ground,real premium spice black pepper|ground
+478,real premium spice cayenne pepper,real premium spice cayenne pepper,unspecified,real premium spice cayenne pepper|unspecified
+479,real premium spice chisa nyama,real premium spice chisa nyama,unspecified,real premium spice chisa nyama|unspecified
+480,real premium spice cinnamon (ground),real premium spice cinnamon,ground,real premium spice cinnamon|ground
+481,real premium spice coriander,real premium spice coriander,unspecified,real premium spice coriander|unspecified
+482,real premium spice curry (powder),real premium spice curry,powder,real premium spice curry|powder
+483,real premium spice lemon garlic herb seasoning,real premium spice lemon garlic herb seasoning,unspecified,real premium spice lemon garlic herb seasoning|unspecified
+484,real premium spice mild curry (powder),real premium spice mild curry,powder,real premium spice mild curry|powder
+485,real premium spice paprika,real premium spice paprika,unspecified,real premium spice paprika|unspecified
+486,real premium spice potato mate,real premium spice potato mate,unspecified,real premium spice potato mate|unspecified
+487,real premium spice sour cream chive,real premium spice sour cream chive,unspecified,real premium spice sour cream chive|unspecified
+488,real premium spice turmeric,real premium spice turmeric,unspecified,real premium spice turmeric|unspecified
+489,red bell pepper,red bell pepper,unspecified,red bell pepper|unspecified
+490,red bell pepper chargrilled,red bell pepper chargrilled,unspecified,red bell pepper chargrilled|unspecified
+491,red bell pepper thin strip,red bell pepper thin strip,unspecified,red bell pepper thin strip|unspecified
+492,red bird s-eye chilly,red bird s-eye chilly,unspecified,red bird s-eye chilly|unspecified
+493,red chili (powder),red chili,powder,red chili|powder
+494,red chilly,red chilly,unspecified,red chilly|unspecified
+495,red chily,red chily,unspecified,red chily|unspecified
+496,red lentil washed,red lentil washed,unspecified,red lentil washed|unspecified
+497,red onion,red onion,unspecified,red onion|unspecified
+498,red onion bite-sized chunk,red onion bite-sized chunk,unspecified,red onion bite-sized chunk|unspecified
+499,red onion char-grilled,red onion char-grilled,unspecified,red onion char-grilled|unspecified
+500,red orange pepper de-seeded bite-sized chunk,red orange pepper de-seeded bite-sized chunk,unspecified,red orange pepper de-seeded bite-sized chunk|unspecified
+501,red pepper (flakes),red pepper,flakes,red pepper|flakes
+502,red pepper,red pepper,unspecified,red pepper|unspecified
+503,red pepper deseeded,red pepper deseeded,unspecified,red pepper deseeded|unspecified
+504,red wine vinegar,red wine vinegar,unspecified,red wine vinegar|unspecified
+505,red yellow bell pepper,red yellow bell pepper,unspecified,red yellow bell pepper|unspecified
+506,regular salt seasoned salt,regular salt seasoned salt,unspecified,regular salt seasoned salt|unspecified
+507,rice (parboiled),rice,parboiled,rice|parboiled
+508,rice,rice,unspecified,rice|unspecified
+509,rice couscous,rice couscous,unspecified,rice couscous|unspecified
+510,rice injera,rice injera,unspecified,rice injera|unspecified
+511,ripe plantain,ripe plantain,unspecified,ripe plantain|unspecified
+512,ripe plantain -inch thick round,ripe plantain -inch thick round,unspecified,ripe plantain -inch thick round|unspecified
+513,ripe tomato,ripe tomato,unspecified,ripe tomato|unspecified
+514,roma tomato,roma tomato,unspecified,roma tomato|unspecified
+515,room temperature water,room temperature water,unspecified,room temperature water|unspecified
+516,room-temperature unsalted butter,room-temperature unsalted butter,unspecified,room-temperature unsalted butter|unspecified
+517,rosemary (dried),rosemary,dried,rosemary|dried
+518,runny honey,runny honey,unspecified,runny honey|unspecified
+519,russet potato,russet potato,unspecified,russet potato|unspecified
+520,russet potato bite-size,russet potato bite-size,unspecified,russet potato bite-size|unspecified
+521,sadza remhunga,sadza remhunga,unspecified,sadza remhunga|unspecified
+522,salt,salt,unspecified,salt|unspecified
+523,salt as,salt as,unspecified,salt as|unspecified
+524,salt black pepper (ground),salt black pepper,ground,salt black pepper|ground
+525,salt black pepper,salt black pepper,unspecified,salt black pepper|unspecified
+526,salt black pepper as,salt black pepper as,unspecified,salt black pepper as|unspecified
+527,salt pepper (ground),salt pepper,ground,salt pepper|ground
+528,salt pepper,salt pepper,unspecified,salt pepper|unspecified
+529,salt white pepper black pepper (ground),salt white pepper black pepper,ground,salt white pepper black pepper|ground
+530,samp,samp,unspecified,samp|unspecified
+531,sardine olive oil (smoked),sardine olive oil,smoked,sardine olive oil|smoked
+532,scallion,scallion,unspecified,scallion|unspecified
+533,scotch bonnet chile habanero chile,scotch bonnet chile habanero chile,unspecified,scotch bonnet chile habanero chile|unspecified
+534,scotch bonnet chilli,scotch bonnet chilli,unspecified,scotch bonnet chilli|unspecified
+535,scotch bonnet chilli de-seeded,scotch bonnet chilli de-seeded,unspecified,scotch bonnet chilli de-seeded|unspecified
+536,scotch bonnet chilly left (whole),scotch bonnet chilly left,whole,scotch bonnet chilly left|whole
+537,sea salt,sea salt,unspecified,sea salt|unspecified
+538,sea salt black pepper (ground),sea salt black pepper,ground,sea salt black pepper|ground
+539,self raising flour,self raising flour,unspecified,self raising flour|unspecified
+540,self-raising flour,self-raising flour,unspecified,self-raising flour|unspecified
+541,semolina,semolina,unspecified,semolina|unspecified
+542,semolina flour,semolina flour,unspecified,semolina flour|unspecified
+543,serrano chile,serrano chile,unspecified,serrano chile|unspecified
+544,sharp white bread,sharp white bread,unspecified,sharp white bread|unspecified
+545,sheet ready-rolled puff pastry,sheet ready-rolled puff pastry,unspecified,sheet ready-rolled puff pastry|unspecified
+546,shelled unsalted pistachio nut,shelled unsalted pistachio nut,unspecified,shelled unsalted pistachio nut|unspecified
+547,sherry vinegar,sherry vinegar,unspecified,sherry vinegar|unspecified
+548,shoulder lamb,shoulder lamb,unspecified,shoulder lamb|unspecified
+549,shredded lettuce,shredded lettuce,unspecified,shredded lettuce|unspecified
+550,simple syrup,simple syrup,unspecified,simple syrup|unspecified
+551,sirloin chuck roast,sirloin chuck roast,unspecified,sirloin chuck roast|unspecified
+552,sirloin steak cm cube,sirloin steak cm cube,unspecified,sirloin steak cm cube|unspecified
+553,sized kariba bream fish gutted,sized kariba bream fish gutted,unspecified,sized kariba bream fish gutted|unspecified
+554,sized potato,sized potato,unspecified,sized potato|unspecified
+555,skin-on bone-in chicken thigh,skin-on bone-in chicken thigh,unspecified,skin-on bone-in chicken thigh|unspecified
+556,smooth peanut butter,smooth peanut butter,unspecified,smooth peanut butter|unspecified
+557,soda,soda,unspecified,soda|unspecified
+558,soda bicarbonate soda,soda bicarbonate soda,unspecified,soda bicarbonate soda|unspecified
+559,soft-boiled egg,soft-boiled egg,unspecified,soft-boiled egg|unspecified
+560,sour milk,sour milk,unspecified,sour milk|unspecified
+561,soy sauce,soy sauce,unspecified,soy sauce|unspecified
+562,spinach,spinach,unspecified,spinach|unspecified
+563,split fava bean (dried),split fava bean,dried,split fava bean|dried
+564,sprig thyme (fresh),sprig thyme,fresh,sprig thyme|fresh
+565,sprig thyme leave only (fresh),sprig thyme leave only,fresh,sprig thyme leave only|fresh
+566,sprinkle sesame seed,sprinkle sesame seed,unspecified,sprinkle sesame seed|unspecified
+567,squeezed,squeezed,unspecified,squeezed|unspecified
+568,squeezed refrigerator,squeezed refrigerator,unspecified,squeezed refrigerator|unspecified
+569,stale white bread crust removed,stale white bread crust removed,unspecified,stale white bread crust removed|unspecified
+570,star anise (ground),star anise,ground,star anise|ground
+571,star anise,star anise,unspecified,star anise|unspecified
+572,star anise seed,star anise seed,unspecified,star anise seed|unspecified
+573,steak mince,steak mince,unspecified,steak mince|unspecified
+574,stem ginger,stem ginger,unspecified,stem ginger|unspecified
+575,sugar (granulated),sugar,granulated,sugar|granulated
+576,sugar (powder),sugar,powder,sugar|powder
+577,sugar,sugar,unspecified,sugar|unspecified
+578,sweet corn,sweet corn,unspecified,sweet corn|unspecified
+579,sweet paprika (smoked),sweet paprika,smoked,sweet paprika|smoked
+580,sweet potato,sweet potato,unspecified,sweet potato|unspecified
+581,sweet potato scrubbed bite-sized chunk,sweet potato scrubbed bite-sized chunk,unspecified,sweet potato scrubbed bite-sized chunk|unspecified
+582,sweet potato skin scrubbed clean,sweet potato skin scrubbed clean,unspecified,sweet potato skin scrubbed clean|unspecified
+583,t-bone steak,t-bone steak,unspecified,t-bone steak|unspecified
+584,tamarind salt serve hot (paste),tamarind salt serve hot,paste,tamarind salt serve hot|paste
+585,tammy garlic sesame oil (infused),tammy garlic sesame oil,infused,tammy garlic sesame oil|infused
+586,tammy pure organic sesame oil,tammy pure organic sesame oil,unspecified,tammy pure organic sesame oil|unspecified
+587,teaspooon chili curry (powder),teaspooon chili curry,powder,teaspooon chili curry|powder
+588,teff flour,teff flour,unspecified,teff flour|unspecified
+589,tente mushroom,tente mushroom,unspecified,tente mushroom|unspecified
+590,thumb-sized root ginger (fresh),thumb-sized root ginger,fresh,thumb-sized root ginger|fresh
+591,thyme (dried),thyme,dried,thyme|dried
+592,thyme leave (fresh),thyme leave,fresh,thyme leave|fresh
+593,tightly packed spinach,tightly packed spinach,unspecified,tightly packed spinach|unspecified
+594,tilapia fish fillet,tilapia fish fillet,unspecified,tilapia fish fillet|unspecified
+595,tilapia washed cleaned thoroughly (whole),tilapia washed cleaned thoroughly,whole,tilapia washed cleaned thoroughly|whole
+596,tin tomato,tin tomato,unspecified,tin tomato|unspecified
+597,tomato (fresh),tomato,fresh,tomato|fresh
+598,tomato (paste),tomato,paste,tomato|paste
+599,tomato (whole),tomato,whole,tomato|whole
+600,tomato pur,tomato pur,unspecified,tomato pur|unspecified
+601,tumeric (powder),tumeric,powder,tumeric|powder
+602,turkey breast,turkey breast,unspecified,turkey breast|unspecified
+603,turkey wing chicken quarter,turkey wing chicken quarter,unspecified,turkey wing chicken quarter|unspecified
+604,turmeric (ground),turmeric,ground,turmeric|ground
+605,uda pod (ground),uda pod,ground,uda pod|ground
+606,unsalted butter,unsalted butter,unspecified,unsalted butter|unspecified
+607,unsalted butter occasionally,unsalted butter occasionally,unspecified,unsalted butter occasionally|unspecified
+608,unsalted butter water,unsalted butter water,unspecified,unsalted butter water|unspecified
+609,unsweetened coconut spoon (flakes),unsweetened coconut spoon,flakes,unsweetened coconut spoon|flakes
+610,vanilla essence,vanilla essence,unspecified,vanilla essence|unspecified
+611,vanilla extract,vanilla extract,unspecified,vanilla extract|unspecified
+612,vegetable (bouillon),vegetable,bouillon,vegetable|bouillon
+613,vegetable (stock),vegetable,stock,vegetable|stock
+614,vegetable crumbled (stock),vegetable crumbled,stock,vegetable crumbled|stock
+615,vegetable oil,vegetable oil,unspecified,vegetable oil|unspecified
+616,vegetable oil as,vegetable oil as,unspecified,vegetable oil as|unspecified
+617,vegetable oil extra greasing,vegetable oil extra greasing,unspecified,vegetable oil extra greasing|unspecified
+618,vegetable oil frying,vegetable oil frying,unspecified,vegetable oil frying|unspecified
+619,vinegar,vinegar,unspecified,vinegar|unspecified
+620,warm milk,warm milk,unspecified,warm milk|unspecified
+621,warm water,warm water,unspecified,warm water|unspecified
+622,warm water as,warm water as,unspecified,warm water as|unspecified
+623,warm water body,warm water body,unspecified,warm water body|unspecified
+624,warm water nonstick skillet over,warm water nonstick skillet over,unspecified,warm water nonstick skillet over|unspecified
+625,water,water,unspecified,water|unspecified
+626,water as,water as,unspecified,water as|unspecified
+627,water cornmeal salt,water cornmeal salt,unspecified,water cornmeal salt|unspecified
+628,water simmer oxtail,water simmer oxtail,unspecified,water simmer oxtail|unspecified
+629,water soften,water soften,unspecified,water soften|unspecified
+630,water use handheld sieve,water use handheld sieve,unspecified,water use handheld sieve|unspecified
+631,wheat flour (whole),wheat flour,whole,wheat flour|whole
+632,wheat flour hand (whole),wheat flour hand,whole,wheat flour hand|whole
+633,white bowl clean kitchen (ground),white bowl clean kitchen,ground,white bowl clean kitchen|ground
+634,white bread,white bread,unspecified,white bread|unspecified
+635,white breadcrumb (fresh),white breadcrumb,fresh,white breadcrumb|fresh
+636,white cabbage shredded,white cabbage shredded,unspecified,white cabbage shredded|unspecified
+637,white kidney bean overnight (dried),white kidney bean overnight,dried,white kidney bean overnight|dried
+638,white onion,white onion,unspecified,white onion|unspecified
+639,white pepper,white pepper,unspecified,white pepper|unspecified
+640,white sugar,white sugar,unspecified,white sugar|unspecified
+641,white teff flour,white teff flour,unspecified,white teff flour|unspecified
+642,white wine spirit vinegar,white wine spirit vinegar,unspecified,white wine spirit vinegar|unspecified
+643,white wooden spoon (ground),white wooden spoon,ground,white wooden spoon|ground
+644,wholegrain mustard,wholegrain mustard,unspecified,wholegrain mustard|unspecified
+645,worcestershire sauce,worcestershire sauce,unspecified,worcestershire sauce|unspecified
+646,xawaash spice,xawaash spice,unspecified,xawaash spice|unspecified
+647,yam,yam,unspecified,yam|unspecified
+648,yam flour,yam flour,unspecified,yam flour|unspecified
+649,yam plantain rice,yam plantain rice,unspecified,yam plantain rice|unspecified
+650,yam tuber,yam tuber,unspecified,yam tuber|unspecified
+651,yellow bell pepper,yellow bell pepper,unspecified,yellow bell pepper|unspecified
+652,yellow cornmeal,yellow cornmeal,unspecified,yellow cornmeal|unspecified
+653,yellow lusaka bean,yellow lusaka bean,unspecified,yellow lusaka bean|unspecified
+654,yellow pepper,yellow pepper,unspecified,yellow pepper|unspecified
+655,yellow red bell pepper,yellow red bell pepper,unspecified,yellow red bell pepper|unspecified
+656,young turkey (fresh),young turkey,fresh,young turkey|fresh
+657,yuca root,yuca root,unspecified,yuca root|unspecified
+658,yucca root,yucca root,unspecified,yucca root|unspecified
+659,yukon gold potato,yukon gold potato,unspecified,yukon gold potato|unspecified
+660,yukon gold potato -inch cube,yukon gold potato -inch cube,unspecified,yukon gold potato -inch cube|unspecified
+661,yukon gold potato -inch thick,yukon gold potato -inch thick,unspecified,yukon gold potato -inch thick|unspecified
+662,yukon gold potato chunk,yukon gold potato chunk,unspecified,yukon gold potato chunk|unspecified
+663,zest juice lemon,zest juice lemon,unspecified,zest juice lemon|unspecified
+664,zest lemon,zest lemon,unspecified,zest lemon|unspecified
+665,zest orange,zest orange,unspecified,zest orange|unspecified
+666,zimspice blue poppy seed,zimspice blue poppy seed,unspecified,zimspice blue poppy seed|unspecified
+667,zimspice curry (powder),zimspice curry,powder,zimspice curry|powder
+668,zimspice fish curry,zimspice fish curry,unspecified,zimspice fish curry|unspecified
+669,zimspice portuguese chicken masala,zimspice portuguese chicken masala,unspecified,zimspice portuguese chicken masala|unspecified
+670,zimspice turmeric,zimspice turmeric,unspecified,zimspice turmeric|unspecified
+671,zucchini,zucchini,unspecified,zucchini|unspecified
