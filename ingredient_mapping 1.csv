@@ -1,0 +1,672 @@
+recipe_ingredient_name,matched_fdc_id,matched_food_name,match_status,notes
+active yeast (dried),2710005,Yeast,matched,NULL
+active yeast batter cover bowl clean kitchen (dried),NULL,NULL,unmatched,NULL
+african bird eye chile habanero chile,NULL,NULL,unmatched,NULL
+african bird eye chile red thai chile habanero chile,NULL,NULL,unmatched,NULL
+african nutmeg (ground),NULL,NULL,unmatched,NULL
+african nutmeg,NULL,NULL,unmatched,NULL
+aish baladi,NULL,NULL,unmatched,NULL
+all purpose flour,2707827,"Taco shell, flour",matched,NULL
+all purpose flour enough water make (paste),2708056,"Pastry, mainly flour and water, fried",matched,NULL
+all-purpose flour,2707827,"Taco shell, flour",matched,NULL
+all-purpose flour as,2707827,"Taco shell, flour",matched,NULL
+all-purpose flour handheld,NULL,NULL,unmatched,NULL
+all-purpose flour pancake batter,NULL,NULL,unmatched,NULL
+all-purpose flour sifted,NULL,NULL,unmatched,NULL
+all-purpose seasoning,2709754,Puerto Rican seasoning with ham,matched,NULL
+allspice (ground),NULL,NULL,unmatched,NULL
+almond (roasted),2710181,Almond oil,matched,NULL
+almond extract,2707533,Almond butter,matched,NULL
+apple cider vinegar,2709319,Apple cider,matched,NULL
+apricot (dried),2709221,"Apricot, raw",matched,NULL
+apricot chutney,2709222,"Apricot, canned",matched,NULL
+apricot jam,2709221,"Apricot, raw",matched,NULL
+assorted boneles meat bite-size,NULL,NULL,unmatched,NULL
+aunty bernie chapati rice,NULL,NULL,unmatched,NULL
+avocado pitted,2709223,"Avocado, raw",matched,NULL
+baking (powder),NULL,NULL,unmatched,NULL
+baking flour (powder),2707824,"Tortilla, flour",matched,NULL
+baking oil (powder),2710191,Soybean oil,matched,NULL
+baking soda,2707852,"Bread, Irish soda",matched,NULL
+banana leave hot water soften thoroughly,NULL,NULL,unmatched,NULL
+banku fufu,2709568,Fufu,matched,NULL
+basil (dried),2709780,"Basil, raw",matched,NULL
+basil (fresh),2709780,"Basil, raw",matched,NULL
+basmati rice,2707794,"Bread, rice",matched,NULL
+bay leaf,2710488,"Tea, hot, leaf, black",matched,NULL
+bay leave,NULL,NULL,unmatched,NULL
+bean (dried),2707409,Bean cake,matched,NULL
+beef (bouillon),2705822,"Beef, NFS",matched,NULL
+beef (ground),2705822,"Beef, NFS",matched,NULL
+beef (stock),2705822,"Beef, NFS",matched,NULL
+beef,2705822,"Beef, NFS",matched,NULL
+beef chicken (bouillon),2707471,"Luncheon slice, meatless-beef, chicken, salami or turkey",matched,NULL
+beef chicken cube (bouillon),2705826,"Beef, steak, cube",matched,NULL
+beef chicken vegetable (bouillon),2707097,"Beef with vegetable, diet frozen meal",matched,NULL
+beef cube (bouillon),2705826,"Beef, steak, cube",matched,NULL
+beef cube (stock),2705826,"Beef, steak, cube",matched,NULL
+beef short rib,2705845,"Beef, shortribs",matched,NULL
+beef silverside brisket coarsely,2705851,"Beef, brisket",matched,NULL
+beef stew meat,2705849,"Beef, stew meat",matched,NULL
+beef trotter,2705847,"Beef, roast",matched,NULL
+bell pepper,2710045,Stuffed jalapeno pepper,matched,NULL
+berbere spice,2707885,"Cake or cupcake, spice",matched,NULL
+berbere spice mix,NULL,NULL,unmatched,NULL
+berbere spice texture potato season,NULL,NULL,unmatched,NULL
+bicarbonate soda,2707852,"Bread, Irish soda",matched,NULL
+bisto gravy,2706379,Beef with gravy,matched,NULL
+bisto gravy thickener,2707145,"Gravy, beef",matched,NULL
+bitter leaf washed,2709878,"Bitter melon, cooked",matched,NULL
+black cardamom seed,2707395,Black bean salad,matched,NULL
+black eyed bean overnight least hour,2707395,Black bean salad,matched,NULL
+black eyed pea,2707359,"Black beans, NFS",matched,NULL
+black pepper (ground),2707404,Black bean sauce,matched,NULL
+black pepper,2707404,Black bean sauce,matched,NULL
+black pepper as,2707359,"Black beans, NFS",matched,NULL
+black peppercorn (ground),2710672,Black Russian,matched,NULL
+black peppercorn,2710672,Black Russian,matched,NULL
+black peppercorn ginger,2709035,Black beans and brown rice,matched,NULL
+black-eyed bean (dried),2707395,Black bean salad,matched,NULL
+black-eyed pea (dried),2707359,"Black beans, NFS",matched,NULL
+black-eyed pea,2707359,"Black beans, NFS",matched,NULL
+black-eyed pea overnight (dried),NULL,NULL,unmatched,NULL
+blanched almond,2707900,"Cookie, almond",matched,NULL
+boerewor sausage,2706171,Beef sausage,matched,NULL
+boiled fried plantain,2710048,Fried eggplant,matched,NULL
+boiled yam,2709385,"Potato, boiled, NFS",matched,NULL
+boiling water,2710669,Vodka and water,matched,NULL
+boiling water as,2710706,"Water, NFS",matched,NULL
+bologna,2706176,Bologna,matched,NULL
+bondwe,NULL,NULL,unmatched,NULL
+bondwe leave,NULL,NULL,unmatched,NULL
+bone-in boneles chicken,2708560,"Burrito bowl, chicken",matched,NULL
+bone-in chicken breast bite-size,2705965,"Chicken breast, stewed, skin eaten",matched,NULL
+bone-in chicken thigh drumstick,2705988,"Chicken leg, drumstick and thigh, stewed, skin eaten",matched,NULL
+boneles pork loin roast,2705882,"Pork, roast",matched,NULL
+boneles skinles chicken breast,2705965,"Chicken breast, stewed, skin eaten",matched,NULL
+boneles skinles chicken breast bite-size,2705965,"Chicken breast, stewed, skin eaten",matched,NULL
+boneles skinles chicken thigh breast,2706037,"Chicken thigh, stewed, skin eaten",matched,NULL
+bread,2707755,"Bread, rye",matched,NULL
+bread bowl,2707764,"Bread, black",matched,NULL
+breadcrumb,NULL,NULL,unmatched,NULL
+brown flour,2707824,"Tortilla, flour",matched,NULL
+brown lentil,2707462,"Soup, lentil",matched,NULL
+brown onion,2707633,"Bread, onion",matched,NULL
+brown spirit vinegar,2709351,Vinegar,matched,NULL
+brown sugar,2710260,"Sugar, brown",matched,NULL
+bunch cilantro (fresh),2709782,"Cilantro, raw",matched,NULL
+bunch cilantro garnish (fresh),2709782,"Cilantro, raw",matched,NULL
+bunch coriander (fresh),NULL,NULL,unmatched,NULL
+butter,2710154,"Butter, NFS",matched,NULL
+butter as,2710154,"Butter, NFS",matched,NULL
+butter extra greasing,2710155,"Butter, stick",matched,NULL
+butter greasing,2710155,"Butter, stick",matched,NULL
+butter margarine,2709562,"Plantain, cooked with butter or margarine",matched,NULL
+buttermilk plain them,2705393,Buttermilk,matched,NULL
+butternut,NULL,NULL,unmatched,NULL
+butternut squash,2709693,"Winter squash, raw",matched,NULL
+cabbage,2709775,"Cabbage, red, raw",matched,NULL
+cake flour,2707882,"Cake, pound",matched,NULL
+canola oil,2710188,Canola oil,matched,NULL
+canola oil as,2710188,Canola oil,matched,NULL
+canola oil end skin plantain half lengthwise,NULL,NULL,unmatched,NULL
+canola oil oil,2710188,Canola oil,matched,NULL
+canola oil sprinkle over onion (bouillon),2710188,Canola oil,matched,NULL
+canola oil turmeric,2710188,Canola oil,matched,NULL
+canola oil warm oil dutch oven other heavy,NULL,NULL,unmatched,NULL
+cardamom (ground),NULL,NULL,unmatched,NULL
+cardamom fat ghee egg yolk will start (ground),NULL,NULL,unmatched,NULL
+cardamom pod,NULL,NULL,unmatched,NULL
+cardamom seed,NULL,NULL,unmatched,NULL
+carrot,2707845,"Muffin, carrot",matched,NULL
+carrot bite-size,2709683,"Carrot juice, 100%",matched,NULL
+carrot julienned,2709683,"Carrot juice, 100%",matched,NULL
+carrot shredded,2708479,"Cereal, shredded wheat, plain",matched,NULL
+cassava flour all-purpose,2709564,"Cassava, cooked",matched,NULL
+caster sugar,2707970,"Cookie, butter or sugar",matched,NULL
+castor sugar,2707970,"Cookie, butter or sugar",matched,NULL
+cayenne pepper,2710045,Stuffed jalapeno pepper,matched,NULL
+cayenne pepper nigerian red pepper,NULL,NULL,unmatched,NULL
+celery stick,2710072,"Celery, pickled",matched,NULL
+chapati,NULL,NULL,unmatched,NULL
+cheddar cheese,2705773,"Cheese spread, American or Cheddar cheese base",matched,NULL
+cherry tomato,2709757,"Soup, tomato",matched,NULL
+chicken (bouillon),2706081,"Chicken, back",matched,NULL
+chicken (stock),2706081,"Chicken, back",matched,NULL
+chicken,2706081,"Chicken, back",matched,NULL
+chicken -inch,2706084,Chicken skin,matched,NULL
+chicken bite-size,2706439,Chicken with mole sauce,matched,NULL
+chicken bone skin separated (whole),2705965,"Chicken breast, stewed, skin eaten",matched,NULL
+chicken breast,2705965,"Chicken breast, stewed, skin eaten",matched,NULL
+chicken breast -inch,2705965,"Chicken breast, stewed, skin eaten",matched,NULL
+chicken breast julienned,2705971,"Chicken breast, sauteed, skin eaten",matched,NULL
+chicken drumstick,2706014,"Chicken drumstick, stewed, skin eaten",matched,NULL
+chicken gizzard,2706091,"Chicken, ground",matched,NULL
+chicken quarter,2706437,Chicken curry,matched,NULL
+chicken thigh,2706037,"Chicken thigh, stewed, skin eaten",matched,NULL
+chicken thigh skin-on bone-in,2706037,"Chicken thigh, stewed, skin eaten",matched,NULL
+chicken vegetable (bouillon),2707110,"Chicken with rice and vegetable, diet frozen meal",matched,NULL
+chicken vegetable (stock),2707110,"Chicken with rice and vegetable, diet frozen meal",matched,NULL
+chicken wing,2706061,"Chicken wing, stewed",matched,NULL
+chickpea,2707414,"Chickpeas, NFS",matched,NULL
+chile pepper (dried),2710093,Hot pepper sauce,matched,NULL
+chili (fresh),2706373,"Chili, NFS",matched,NULL
+chili (powder),2706373,"Chili, NFS",matched,NULL
+chilli (dried),NULL,NULL,unmatched,NULL
+chilli (flakes),NULL,NULL,unmatched,NULL
+chilli chutney plain chutney,NULL,NULL,unmatched,NULL
+chily (fresh),NULL,NULL,unmatched,NULL
+cider vinegar,2709351,Vinegar,matched,NULL
+cilantro (fresh),2709782,"Cilantro, raw",matched,NULL
+cinnamon (ground),2707620,"Bread, cinnamon",matched,NULL
+cinnamon extra dusting (ground),2708450,"Cereal, cinnamon toast",matched,NULL
+cinnamon stick,2708450,"Cereal, cinnamon toast",matched,NULL
+cm root ginger (fresh),2710082,"Ginger root, pickled",matched,NULL
+cob sweetcorn,NULL,NULL,unmatched,NULL
+coconut milk (canned),2705413,Coconut milk,matched,NULL
+coconut milk,2705413,Coconut milk,matched,NULL
+coconut milk tin,2705413,Coconut milk,matched,NULL
+coconut oil medium-high,2710182,Coconut oil,matched,NULL
+coconut raw unsweetened coconut (flakes),2707572,"Coconut water, unsweetened",matched,NULL
+coconut sugar,2707500,"Coconut, fresh",matched,NULL
+cod fillet thawed (frozen),2706089,"Chicken fillet, breaded",matched,NULL
+cold margarine tiny,2710159,"Margarine, stick",matched,NULL
+cold water,2710669,Vodka and water,matched,NULL
+cold water once bubble,2710508,"Tea, bubble",matched,NULL
+cooked french fry as,2709456,"Potato, french fries, NFS",matched,NULL
+cooked rice,2707794,"Bread, rice",matched,NULL
+cooking oil,2710183,Corn oil,matched,NULL
+cooking spray,2707161,"Egg, whole, fried with cooking spray",matched,NULL
+coriander (fresh),NULL,NULL,unmatched,NULL
+coriander (ground),NULL,NULL,unmatched,NULL
+coriander leave some stem attached (fresh),NULL,NULL,unmatched,NULL
+coriander seed,NULL,NULL,unmatched,NULL
+corn flour,2707815,"Corn flour patty or tart, fried",matched,NULL
+corn kernel (fresh),2710504,Corn beverage,matched,NULL
+corned beef (canned),2706477,Corned beef hash,matched,NULL
+corned beef,2706477,Corned beef hash,matched,NULL
+cornmeal,2708375,"Cornmeal mush, fat added",matched,NULL
+couscous (dried),2708441,"Couscous, plain, cooked",matched,NULL
+couscous rice,2708441,"Couscous, plain, cooked",matched,NULL
+cranberry (dried),2709280,Cranberry sauce,matched,NULL
+crayfish (ground),2706347,"Crayfish, fried",matched,NULL
+crayfish (powder),2706347,"Crayfish, fried",matched,NULL
+cream mushroom soup bisto gravy thickener,2710107,"Soup, cream of mushroom",matched,NULL
+cream tomato soup (powder),2709758,"Soup, cream of tomato",matched,NULL
+crusty hoagie roll split half lightly (toasted),NULL,NULL,unmatched,NULL
+cucumber,2709784,"Cucumber, raw",matched,NULL
+cumin (ground),NULL,NULL,unmatched,NULL
+cumin (powder),NULL,NULL,unmatched,NULL
+cumin seed,NULL,NULL,unmatched,NULL
+cumin seed pestle mortar,NULL,NULL,unmatched,NULL
+currant (dried),NULL,NULL,unmatched,NULL
+curry (powder),2706388,Beef curry,matched,NULL
+custard (powder),2705682,Custard,matched,NULL
+desiccated coconut serve,2710343,"Chocolate candy, coconut filled",matched,NULL
+dijon mustard,2710085,Mustard,matched,NULL
+distilled white vinegar,2707655,"Roll, white, hard",matched,NULL
+drumstick,2706122,"Turkey, drumstick, cooked, skin eaten",matched,NULL
+ear corn,2710047,"Fritter, corn",matched,NULL
+egg,2707179,"Egg, creamed",matched,NULL
+egg lightly,2707168,"Egg, white only, raw",matched,NULL
+eggplant,2709785,"Eggplant, raw",matched,NULL
+egusi melon seed (ground),2709878,"Bitter melon, cooked",matched,NULL
+egusi seed (toasted),NULL,NULL,unmatched,NULL
+egusi seed pumpkin seed,2707579,"Pumpkin seeds, NFS",matched,NULL
+elbow macaroni,2706483,Chili with macaroni,matched,NULL
+enough water go just below potato,NULL,NULL,unmatched,NULL
+evaporated milk,2705399,"Milk, evaporated, whole",matched,NULL
+ewedu leave (fresh),NULL,NULL,unmatched,NULL
+extra hot chilli (powder),2710505,"Tea, hot, chamomile",matched,NULL
+extra-virgin olive oil,2710186,Olive oil,matched,NULL
+extra-virgin olive oil ae,2710186,Olive oil,matched,NULL
+extra-virgin olive oil garnish,2710186,Olive oil,matched,NULL
+extremely ripe mango,NULL,NULL,unmatched,NULL
+fennel seed,2709907,"Fennel bulb, cooked",matched,NULL
+fenugreek seed,NULL,NULL,unmatched,NULL
+filo pastry sheet,2708061,"Danish pastry, with cheese",matched,NULL
+fire-roasted tomato,2709758,"Soup, cream of tomato",matched,NULL
+fish fillet your choice,2710784,"Fish fillet, fried as ingredient in sandwiches",matched,NULL
+fl brandy,2710699,Brandy,matched,NULL
+fl chicken (stock),2706154,"Liver, chicken",matched,NULL
+fl full-fat milk,2705387,"Milk, low fat (1%)",matched,NULL
+fl full-fat milk warmed,2705419,"Yogurt, low fat milk, plain",matched,NULL
+fl lamb (stock),2706660,"Stew, lamb",matched,NULL
+fl milk,2705412,Oat milk,matched,NULL
+fl tomato ketchup,2709733,Ketchup,matched,NULL
+fl vegetable oil,2710180,"Vegetable oil, NFS",matched,NULL
+flaky sea salt,NULL,NULL,unmatched,NULL
+flavored salt,2708930,Flavored pasta,matched,NULL
+flour,2707824,"Tortilla, flour",matched,NULL
+fonio,NULL,NULL,unmatched,NULL
+free-range egg,NULL,NULL,unmatched,NULL
+free-range egg free-range egg yolk,2708049,"Pastry, made with bean paste and salted egg yolk filling, baked",matched,NULL
+free-range egg white,2707168,"Egg, white only, raw",matched,NULL
+free-range egg yolk,2707172,"Egg, yolk only, raw",matched,NULL
+fufu,2709568,Fufu,matched,NULL
+full-fat plain yoghurt,2705419,"Yogurt, low fat milk, plain",matched,NULL
+full-fat unsweetened,2707572,"Coconut water, unsweetened",matched,NULL
+full-fat unsweetened other heavy pot,NULL,NULL,unmatched,NULL
+full-fat unsweetened reserved bone,NULL,NULL,unmatched,NULL
+garam masala,NULL,NULL,unmatched,NULL
+garlic (fresh),2709786,"Garlic, raw",matched,NULL
+garlic (granulated),2709786,"Garlic, raw",matched,NULL
+garlic (powder),2709786,"Garlic, raw",matched,NULL
+garlic (whole),2709786,"Garlic, raw",matched,NULL
+garlic half (fresh),2709786,"Garlic, raw",matched,NULL
+garri,NULL,NULL,unmatched,NULL
+generou red chilli extra if desired (flakes),NULL,NULL,unmatched,NULL
+ghee,2710168,"Ghee, clarified butter",matched,NULL
+ghee unsalted,2707497,"Cashews, unsalted",matched,NULL
+ginger (fresh),2710507,"Tea, ginger",matched,NULL
+ginger (ground),2710507,"Tea, ginger",matched,NULL
+ginger (powder),2710507,"Tea, ginger",matched,NULL
+ginger cumin (fresh),2710507,"Tea, ginger",matched,NULL
+grain hub mhunga,NULL,NULL,unmatched,NULL
+grain hub mupunga,NULL,NULL,unmatched,NULL
+grain hub sorghum,NULL,NULL,unmatched,NULL
+grain hub zviyo,NULL,NULL,unmatched,NULL
+greek yogurt,2705441,"Yogurt, Greek, with oats",matched,NULL
+green banana,2709769,"Green beans, raw",matched,NULL
+green bell pepper,2710798,"Green pepper, cooked, as ingredient",matched,NULL
+green chilli,2710070,"Green beans, pickled",matched,NULL
+green onion,2709829,"Seven-layer salad, lettuce salad made with a combination of onion, celery, green pepper, peas, mayonnaise, cheese, eggs, and/or bacon",matched,NULL
+green pepper,2710798,"Green pepper, cooked, as ingredient",matched,NULL
+green ripe plantain,2710140,"Ripe plantain meat pie, Puerto Rican style",matched,NULL
+green yellow pepper,2710058,"Fried summer squash, yellow or green",matched,NULL
+grilled lemon parsley garnishing (fresh),NULL,NULL,unmatched,NULL
+groundnut oil vegetable oil,2710180,"Vegetable oil, NFS",matched,NULL
+gruy re cheese,2708042,"Strudel, cheese",matched,NULL
+guinea pepper,2710545,"Soft drink, pepper type",matched,NULL
+habanero chile,NULL,NULL,unmatched,NULL
+habanero chile seeded,NULL,NULL,unmatched,NULL
+habanero chile stem removed,NULL,NULL,unmatched,NULL
+habanero pepper,2710093,Hot pepper sauce,matched,NULL
+halibut -inch,2706260,"Fish, halibut",matched,NULL
+halibut fillet skin removed,2706089,"Chicken fillet, breaded",matched,NULL
+handful spring onion green tip,NULL,NULL,unmatched,NULL
+hard-boiled egg,2707154,"Egg, whole, boiled or poached",matched,NULL
+harissa sauce,2707441,Hoisin sauce,matched,NULL
+harissa spice mix,NULL,NULL,unmatched,NULL
+head green cabbage shredded,2709773,"Cabbage, green, raw",matched,NULL
+head lettuce shredded,2709949,"Lettuce, cooked",matched,NULL
+heaped ancho habanero chilli (flakes),NULL,NULL,unmatched,NULL
+heaped butter margarine,2709562,"Plantain, cooked with butter or margarine",matched,NULL
+heaped flour,2707827,"Taco shell, flour",matched,NULL
+heaped peanut butter,2707537,Peanut butter,matched,NULL
+heinz brand baked bean,2707390,Baked beans,matched,NULL
+heinz salad cream,2706221,Chicken salad spread,matched,NULL
+homemade shop bought puff pastry thawed egg,NULL,NULL,unmatched,NULL
+hot curry (powder),2706460,Fish curry,matched,NULL
+hot paprika,2709744,Hot Thai sauce,matched,NULL
+hot water,2705483,"Hot chocolate / cocoa, dry mix, made with water",matched,NULL
+hot water chicken (stock),2708740,"Turnover or hot pocket, chicken",matched,NULL
+ice cube as,2705629,"Ice cream, NFS",matched,NULL
+ice-cold water,2710656,Whiskey and water,matched,NULL
+icing sugar dusting,2710372,"Chewing gum, sugar free",matched,NULL
+impwa,NULL,NULL,unmatched,NULL
+instant yeast,2710005,Yeast,matched,NULL
+jalape,NULL,NULL,unmatched,NULL
+jalape chile,NULL,NULL,unmatched,NULL
+jalape chile seeded,NULL,NULL,unmatched,NULL
+jalape chile serrano chile,NULL,NULL,unmatched,NULL
+jalape seeded,NULL,NULL,unmatched,NULL
+jar mango chutney,2709243,"Mango, canned",matched,NULL
+jarred red bell pepper (fresh),NULL,NULL,unmatched,NULL
+jasmine rice,2710691,"Wine, rice",matched,NULL
+jollof rice,2709146,"Soup, rice",matched,NULL
+juice lemon,2709181,"Lemon juice, 100%, freshly squeezed",matched,NULL
+juice lime,2709184,"Lime juice, 100%, freshly squeezed",matched,NULL
+kabulangeti bean (dried),2707395,Black bean salad,matched,NULL
+kachumbari,NULL,NULL,unmatched,NULL
+kalembula,NULL,NULL,unmatched,NULL
+kapenta (dried),NULL,NULL,unmatched,NULL
+kariba bream gutted scaled,NULL,NULL,unmatched,NULL
+ketchup,2709733,Ketchup,matched,NULL
+kosher salt,NULL,NULL,unmatched,NULL
+kosher salt kitchen,NULL,NULL,unmatched,NULL
+lamb meat inch cube,2708611,"Pupusa, meat, with beans",matched,NULL
+lamb mince,2705906,"Lamb, chop",matched,NULL
+lamb rib chop,2705906,"Lamb, chop",matched,NULL
+lamb shoulder coarsely,NULL,NULL,unmatched,NULL
+lemon,2708000,"Pie, lemon",matched,NULL
+lemon essence,2710170,Lemon-butter sauce,matched,NULL
+lemon juice (fresh),2709180,"Lemon juice, 100%, NS as to form",matched,NULL
+lemon juice,2709180,"Lemon juice, 100%, NS as to form",matched,NULL
+lemon juice only,2709181,"Lemon juice, 100%, freshly squeezed",matched,NULL
+lemon rind,2709168,"Lemon, raw",matched,NULL
+lemon wedge garnish,2709168,"Lemon, raw",matched,NULL
+lemon zest only,2709169,Lemon pie filling,matched,NULL
+light brown sugar,2710260,"Sugar, brown",matched,NULL
+lime juice (fresh),2709183,"Lime juice, 100%, NS as to form",matched,NULL
+litre boiling water,2710656,Whiskey and water,matched,NULL
+long grain rice,2710679,Long Island iced tea,matched,NULL
+long grain white rice,2708990,Beans and white rice,matched,NULL
+loosely packed spinach,2708755,Lasagna with meat and spinach,matched,NULL
+low-sodium chicken (stock),2707134,"Soup, chicken",matched,NULL
+lukewarm water,2708178,"Crackers, water",matched,NULL
+lumanda leave,NULL,NULL,unmatched,NULL
+mackerel,2706263,"Fish, mackerel, NFS",matched,NULL
+madra curry (paste),2706388,Beef curry,matched,NULL
+malt vinegar,2709351,Vinegar,matched,NULL
+mango,2709242,"Mango, raw",matched,NULL
+mango chutney,2709243,"Mango, canned",matched,NULL
+mango chutney other chutney,2709345,Mango nectar,matched,NULL
+margarine,2710158,"Margarine, NFS",matched,NULL
+mature cheddar,2705709,"Cheese, Cheddar",matched,NULL
+mayonnaise,2710205,Vegan mayonnaise,matched,NULL
+mealie meal white cornmeal,2708990,Beans and white rice,matched,NULL
+meat,2705819,"Meat, NFS",matched,NULL
+medium-large potato,2707648,"Bread, sweet potato",matched,NULL
+mild curry (powder),2707431,Lentil curry,matched,NULL
+mild hot red chile pepper,2710093,Hot pepper sauce,matched,NULL
+milk (fresh),2705384,"Milk, NFS",matched,NULL
+milk (powder),2705384,"Milk, NFS",matched,NULL
+milk,2705384,"Milk, NFS",matched,NULL
+milk (whole),2705384,"Milk, NFS",matched,NULL
+milk alternatively (whole),2705501,"Milk, malted",matched,NULL
+milk maa,2705383,"Milk, human",matched,NULL
+mint (fresh),2710358,"Candy, mint",matched,NULL
+mint leave (fresh),2710643,Mint julep,matched,NULL
+mixed offal,2707504,"Mixed nuts, NFS",matched,NULL
+moscato,NULL,NULL,unmatched,NULL
+mr sauce bbq sauce,2710176,Fry sauce,matched,NULL
+mr sauce beef burger sauce,2706391,"Barbecue beef, no sauce",matched,NULL
+mr sauce ketchup,2709733,Ketchup,matched,NULL
+mr sauce lemon herb marinade,NULL,NULL,unmatched,NULL
+mr sauce lemon juice,2709811,Celery juice,matched,NULL
+mr sauce miri piri sauce,NULL,NULL,unmatched,NULL
+mr sauce mustard sauce,2706405,Sausage with tomato-based sauce,matched,NULL
+mr sauce smokey bbq marinade,NULL,NULL,unmatched,NULL
+mr sauce soy sauce,2707442,Soy sauce,matched,NULL
+mr sauce sticky bbq basting,NULL,NULL,unmatched,NULL
+mr sauce sweet chilli sauce,2709735,Tomato chili sauce,matched,NULL
+mr sauce tomato sauce,2706405,Sausage with tomato-based sauce,matched,NULL
+mr sauce worcester sauce,2707447,Worcestershire sauce,matched,NULL
+mufushwa wemunyemba,NULL,NULL,unmatched,NULL
+new mexico chile (ground),NULL,NULL,unmatched,NULL
+nigerian red pepper,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+nigerian red pepper cayenne pepper,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+nutmeg (ground),NULL,NULL,unmatched,NULL
+oil,2710183,Corn oil,matched,NULL
+oil frying,2710164,"Oil or table fat, NFS",matched,NULL
+okra (fresh),2710054,Fried okra,matched,NULL
+okra,2710054,Fried okra,matched,NULL
+okra (whole),2710054,Fried okra,matched,NULL
+okra half,2710087,"Okra, pickled",matched,NULL
+okra trimmed -inch round,NULL,NULL,unmatched,NULL
+olive oil,2710186,Olive oil,matched,NULL
+olive oil as,2710186,Olive oil,matched,NULL
+onion (fresh),2707633,"Bread, onion",matched,NULL
+onion (powder),2707633,"Bread, onion",matched,NULL
+onion salt,2705622,"Onion dip, light",matched,NULL
+orange bell pepper,2709171,"Orange, raw",matched,NULL
+oregano (dried),NULL,NULL,unmatched,NULL
+organic jaggery,NULL,NULL,unmatched,NULL
+overly ripe plantain,2710140,"Ripe plantain meat pie, Puerto Rican style",matched,NULL
+overripe banana,2707856,"Cake or cupcake, banana",matched,NULL
+ox kidney,2706157,Kidney,matched,NULL
+packet active yeast (dried),NULL,NULL,unmatched,NULL
+palm oil,2710181,Almond oil,matched,NULL
+panko breadcrumb,NULL,NULL,unmatched,NULL
+paprika (smoked),NULL,NULL,unmatched,NULL
+paprika,NULL,NULL,unmatched,NULL
+paprika curry (smoked),2706437,Chicken curry,matched,NULL
+parsley (dried),2709796,"Parsley, raw",matched,NULL
+parsley (fresh),2709796,"Parsley, raw",matched,NULL
+parsley garnish (fresh),2709796,"Parsley, raw",matched,NULL
+parsley garnish,2709796,"Parsley, raw",matched,NULL
+pea (frozen),2710056,Pea salad,matched,NULL
+pea carrot thawed (frozen),2710056,Pea salad,matched,NULL
+pea thawed (frozen),2710056,Pea salad,matched,NULL
+peanut (ground),2710187,Peanut oil,matched,NULL
+peanut butter,2707537,Peanut butter,matched,NULL
+peanut oil,2710187,Peanut oil,matched,NULL
+penne pasta,2708930,Flavored pasta,matched,NULL
+pepper (fresh),2706747,Pepper steak,matched,NULL
+pepper soup spice mix,2710093,Hot pepper sauce,matched,NULL
+peri peri sauce,2707445,Teriyaki sauce,matched,NULL
+pili pili,NULL,NULL,unmatched,NULL
+pili pili store-bought hot sauce,NULL,NULL,unmatched,NULL
+pimento-stuffed olive,2710091,"Olives, stuffed",matched,NULL
+pint cherry tomato half,NULL,NULL,unmatched,NULL
+pint lamb (stock),2706660,"Stew, lamb",matched,NULL
+pint sunflower oil deep-frying,2710192,Sunflower oil,matched,NULL
+piri piri sauce refrigerator let marinate,NULL,NULL,unmatched,NULL
+plain flour,2707824,"Tortilla, flour",matched,NULL
+plantain,2709560,"Plantain, raw",matched,NULL
+plum tomato,2709757,"Soup, tomato",matched,NULL
+plum tomato (whole),2709757,"Soup, tomato",matched,NULL
+plum tomato seed removed strip,NULL,NULL,unmatched,NULL
+pointed red pepper,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+pork,2705862,"Pork, NFS",matched,NULL
+pork chop,2705872,"Pork, chop, stuffed",matched,NULL
+pork chop trimmed,2705872,"Pork, chop, stuffed",matched,NULL
+pork fillet,2705883,"Pork, roll",matched,NULL
+pork sausage (ground),2706191,Pork sausage,matched,NULL
+pork shoulder belly coarsely,2705901,"Pork, belly",matched,NULL
+potato,2709382,"Potato, NFS",matched,NULL
+pound beef (ground),2710115,"Soup, beef",matched,NULL
+pound bone-in,2707882,"Cake, pound",matched,NULL
+pound boneles,2707882,"Cake, pound",matched,NULL
+pound boneles salt cod bowl,NULL,NULL,unmatched,NULL
+pound each,2707882,"Cake, pound",matched,NULL
+pound kale collard,NULL,NULL,unmatched,NULL
+pound lamb stew meat,2705849,"Beef, stew meat",matched,NULL
+pound oxtail,2707882,"Cake, pound",matched,NULL
+pound red potato,2707642,"Bread, potato",matched,NULL
+pound shredded,2708479,"Cereal, shredded wheat, plain",matched,NULL
+pound skirt steak flank steak,2705827,"Beef, steak, flank",matched,NULL
+pounded groundnut,NULL,NULL,unmatched,NULL
+prawn shrimp,2706857,Kung Pao shrimp,matched,NULL
+puff pastry sheet thawed (frozen),2708726,"Pastry, cheese-filled",matched,NULL
+puff pastry thawed (frozen),2708053,"Pastry, puff",matched,NULL
+punnet cauliflower,2710042,Fried cauliflower,matched,NULL
+punnet green bean,2710040,Green bean casserole,matched,NULL
+punnet mushroom,2710107,"Soup, cream of mushroom",matched,NULL
+punnet oyster mushroom,2710107,"Soup, cream of mushroom",matched,NULL
+punnet oyster mushroom julienned,NULL,NULL,unmatched,NULL
+punnet pea (fresh),2707459,"Soup, split pea",matched,NULL
+punnet pea,2707459,"Soup, split pea",matched,NULL
+pure vanilla extract,2708013,"Pie, vanilla cream",matched,NULL
+purple onion,2707633,"Bread, onion",matched,NULL
+rack pork rib,2705894,"Pork, ribs",matched,NULL
+raisin,2707644,"Bread, raisin",matched,NULL
+ras el hanout,NULL,NULL,unmatched,NULL
+raw organic tigernut,2705559,"Infant formula, organic, ready-to-feed",matched,NULL
+raw unsweetened coconut (flakes),2707572,"Coconut water, unsweetened",matched,NULL
+real premium spice black pepper (ground),NULL,NULL,unmatched,NULL
+real premium spice cayenne pepper,NULL,NULL,unmatched,NULL
+real premium spice chisa nyama,NULL,NULL,unmatched,NULL
+real premium spice cinnamon (ground),2707620,"Bread, cinnamon",matched,NULL
+real premium spice coriander,NULL,NULL,unmatched,NULL
+real premium spice curry (powder),NULL,NULL,unmatched,NULL
+real premium spice lemon garlic herb seasoning,NULL,NULL,unmatched,NULL
+real premium spice mild curry (powder),NULL,NULL,unmatched,NULL
+real premium spice paprika,NULL,NULL,unmatched,NULL
+real premium spice potato mate,2707649,"Bread, sweet potato, toasted",matched,NULL
+real premium spice sour cream chive,NULL,NULL,unmatched,NULL
+real premium spice turmeric,NULL,NULL,unmatched,NULL
+red bell pepper,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+red bell pepper chargrilled,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+red bell pepper thin strip,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+red bird s-eye chilly,NULL,NULL,unmatched,NULL
+red chili (powder),2706373,"Chili, NFS",matched,NULL
+red chilly,2710076,"Cabbage, red, pickled",matched,NULL
+red chily,2710076,"Cabbage, red, pickled",matched,NULL
+red lentil washed,2707460,"Soup, lentil, canned",matched,NULL
+red onion,2707633,"Bread, onion",matched,NULL
+red onion bite-sized chunk,NULL,NULL,unmatched,NULL
+red onion char-grilled,2707634,"Bread, onion, toasted",matched,NULL
+red orange pepper de-seeded bite-sized chunk,NULL,NULL,unmatched,NULL
+red pepper (flakes),2710799,"Red pepper, cooked, as ingredient",matched,NULL
+red pepper,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+red pepper deseeded,2710799,"Red pepper, cooked, as ingredient",matched,NULL
+red wine vinegar,2710688,"Wine, red",matched,NULL
+red yellow bell pepper,NULL,NULL,unmatched,NULL
+regular salt seasoned salt,NULL,NULL,unmatched,NULL
+rice (parboiled),2705411,Rice milk,matched,NULL
+rice,2705411,Rice milk,matched,NULL
+rice couscous,2709071,Rice croquette,matched,NULL
+rice injera,2708166,Rice paper,matched,NULL
+ripe plantain,2710140,"Ripe plantain meat pie, Puerto Rican style",matched,NULL
+ripe plantain -inch thick round,2710140,"Ripe plantain meat pie, Puerto Rican style",matched,NULL
+ripe tomato,2709757,"Soup, tomato",matched,NULL
+roma tomato,2709757,"Soup, tomato",matched,NULL
+room temperature water,2708178,"Crackers, water",matched,NULL
+room-temperature unsalted butter,2708272,"Pretzels, soft, ready-to-eat, unsalted, no butter",matched,NULL
+rosemary (dried),NULL,NULL,unmatched,NULL
+runny honey,2710281,Honey,matched,NULL
+russet potato,2707642,"Bread, potato",matched,NULL
+russet potato bite-size,2709709,"Sweet potato fries, NFS",matched,NULL
+sadza remhunga,NULL,NULL,unmatched,NULL
+salt,NULL,NULL,unmatched,NULL
+salt as,NULL,NULL,unmatched,NULL
+salt black pepper (ground),2710545,"Soft drink, pepper type",matched,NULL
+salt black pepper,2710545,"Soft drink, pepper type",matched,NULL
+salt black pepper as,2710545,"Soft drink, pepper type",matched,NULL
+salt pepper (ground),2710093,Hot pepper sauce,matched,NULL
+salt pepper,2710093,Hot pepper sauce,matched,NULL
+salt white pepper black pepper (ground),NULL,NULL,unmatched,NULL
+samp,NULL,NULL,unmatched,NULL
+sardine olive oil (smoked),2710186,Olive oil,matched,NULL
+scallion,NULL,NULL,unmatched,NULL
+scotch bonnet chile habanero chile,NULL,NULL,unmatched,NULL
+scotch bonnet chilli,NULL,NULL,unmatched,NULL
+scotch bonnet chilli de-seeded,NULL,NULL,unmatched,NULL
+scotch bonnet chilly left (whole),NULL,NULL,unmatched,NULL
+sea salt,NULL,NULL,unmatched,NULL
+sea salt black pepper (ground),2710045,Stuffed jalapeno pepper,matched,NULL
+self raising flour,2707827,"Taco shell, flour",matched,NULL
+self-raising flour,2707827,"Taco shell, flour",matched,NULL
+semolina,NULL,NULL,unmatched,NULL
+semolina flour,2707824,"Tortilla, flour",matched,NULL
+serrano chile,NULL,NULL,unmatched,NULL
+sharp white bread,2707307,Egg sandwich on white bread,matched,NULL
+sheet ready-rolled puff pastry,NULL,NULL,unmatched,NULL
+shelled unsalted pistachio nut,2707530,"Pistachio nuts, unsalted",matched,NULL
+sherry vinegar,2709351,Vinegar,matched,NULL
+shoulder lamb,2706660,"Stew, lamb",matched,NULL
+shredded lettuce,2709590,"Romaine lettuce, raw",matched,NULL
+simple syrup,2710278,Simple syrup,matched,NULL
+sirloin chuck roast,2705882,"Pork, roast",matched,NULL
+sirloin steak cm cube,2705826,"Beef, steak, cube",matched,NULL
+sized kariba bream fish gutted,NULL,NULL,unmatched,NULL
+sized potato,2707642,"Bread, potato",matched,NULL
+skin-on bone-in chicken thigh,2706037,"Chicken thigh, stewed, skin eaten",matched,NULL
+smooth peanut butter,2707952,"Cookie, peanut butter",matched,NULL
+soda,2710664,Vodka and soda,matched,NULL
+soda bicarbonate soda,2710664,Vodka and soda,matched,NULL
+soft-boiled egg,2707154,"Egg, whole, boiled or poached",matched,NULL
+sour milk,2705412,Oat milk,matched,NULL
+soy sauce,2707442,Soy sauce,matched,NULL
+spinach,2709614,"Spinach, raw",matched,NULL
+split fava bean (dried),2707453,"Soup, bean",matched,NULL
+sprig thyme (fresh),NULL,NULL,unmatched,NULL
+sprig thyme leave only (fresh),2708554,"Burrito, cheese only",matched,NULL
+sprinkle sesame seed,2707586,Sesame seeds,matched,NULL
+squeezed,2709184,"Lime juice, 100%, freshly squeezed",matched,NULL
+squeezed refrigerator,NULL,NULL,unmatched,NULL
+stale white bread crust removed,2707309,"Egg sandwich on white bread, with meat",matched,NULL
+star anise (ground),NULL,NULL,unmatched,NULL
+star anise,NULL,NULL,unmatched,NULL
+star anise seed,NULL,NULL,unmatched,NULL
+steak mince,2709752,Steak sauce,matched,NULL
+stem ginger,2710507,"Tea, ginger",matched,NULL
+sugar (granulated),2710257,"Sugar, NFS",matched,NULL
+sugar (powder),2710257,"Sugar, NFS",matched,NULL
+sugar,2710257,"Sugar, NFS",matched,NULL
+sweet corn,2709697,"Sweet potato, NFS",matched,NULL
+sweet paprika (smoked),2710308,Sweet potato paste,matched,NULL
+sweet potato,2708012,"Pie, sweet potato",matched,NULL
+sweet potato scrubbed bite-sized chunk,2709700,"Sweet potato, baked, fat added",matched,NULL
+sweet potato skin scrubbed clean,2709717,"Sweet potato tots, school",matched,NULL
+t-bone steak,2705838,"Beef, steak, T-bone, NS as to fat eaten",matched,NULL
+tamarind salt serve hot (paste),2705635,"Ice cream, soft serve, chocolate",matched,NULL
+tammy garlic sesame oil (infused),2710190,Sesame oil,matched,NULL
+tammy pure organic sesame oil,2710190,Sesame oil,matched,NULL
+teaspooon chili curry (powder),2709735,Tomato chili sauce,matched,NULL
+teff flour,2707827,"Taco shell, flour",matched,NULL
+tente mushroom,2710107,"Soup, cream of mushroom",matched,NULL
+thumb-sized root ginger (fresh),2710082,"Ginger root, pickled",matched,NULL
+thyme (dried),NULL,NULL,unmatched,NULL
+thyme leave (fresh),NULL,NULL,unmatched,NULL
+tightly packed spinach,2708755,Lasagna with meat and spinach,matched,NULL
+tilapia fish fillet,2706320,"Fish, tilapia, grilled",matched,NULL
+tilapia washed cleaned thoroughly (whole),NULL,NULL,unmatched,NULL
+tin tomato,2709757,"Soup, tomato",matched,NULL
+tomato (fresh),2709757,"Soup, tomato",matched,NULL
+tomato (paste),2709757,"Soup, tomato",matched,NULL
+tomato (whole),2709757,"Soup, tomato",matched,NULL
+tomato pur,2709728,"Tomato juice, 100%",matched,NULL
+tumeric (powder),NULL,NULL,unmatched,NULL
+turkey breast,2706131,"Turkey, back",matched,NULL
+turkey wing chicken quarter,2706200,Turkey or chicken sausage,matched,NULL
+turmeric (ground),NULL,NULL,unmatched,NULL
+uda pod (ground),NULL,NULL,unmatched,NULL
+unsalted butter,2708270,"Pretzels, soft, ready-to-eat, unsalted, buttered",matched,NULL
+unsalted butter occasionally,2708272,"Pretzels, soft, ready-to-eat, unsalted, no butter",matched,NULL
+unsalted butter water,2708272,"Pretzels, soft, ready-to-eat, unsalted, no butter",matched,NULL
+unsweetened coconut spoon (flakes),2707572,"Coconut water, unsweetened",matched,NULL
+vanilla essence,2707975,"Cookie, vanilla sandwich",matched,NULL
+vanilla extract,2708013,"Pie, vanilla cream",matched,NULL
+vegetable (bouillon),2710063,"Stew, vegetable",matched,NULL
+vegetable (stock),2710063,"Stew, vegetable",matched,NULL
+vegetable crumbled (stock),2710067,Vegetable curry,matched,NULL
+vegetable oil,2710180,"Vegetable oil, NFS",matched,NULL
+vegetable oil as,2710180,"Vegetable oil, NFS",matched,NULL
+vegetable oil extra greasing,2710180,"Vegetable oil, NFS",matched,NULL
+vegetable oil frying,2710180,"Vegetable oil, NFS",matched,NULL
+vinegar,2709351,Vinegar,matched,NULL
+warm milk,2705412,Oat milk,matched,NULL
+warm water,2708178,"Crackers, water",matched,NULL
+warm water as,2710706,"Water, NFS",matched,NULL
+warm water body,2710713,"Water, baby",matched,NULL
+warm water nonstick skillet over,NULL,NULL,unmatched,NULL
+water,2710706,"Water, NFS",matched,NULL
+water as,2710706,"Water, NFS",matched,NULL
+water cornmeal salt,2708375,"Cornmeal mush, fat added",matched,NULL
+water simmer oxtail,2710707,"Water, tap",matched,NULL
+water soften,2710538,"Water, tonic",matched,NULL
+water use handheld sieve,2710712,"Water, enhanced, diet",matched,NULL
+wheat flour (whole),2708477,Wheat germ,matched,NULL
+wheat flour hand (whole),2708488,Wheat bran,matched,NULL
+white bowl clean kitchen (ground),2707353,"White beans, NFS",matched,NULL
+white bread,2707307,Egg sandwich on white bread,matched,NULL
+white breadcrumb (fresh),2707353,"White beans, NFS",matched,NULL
+white cabbage shredded,2709893,"Cabbage, red, cooked",matched,NULL
+white kidney bean overnight (dried),2708993,Kidney beans and white rice,matched,NULL
+white onion,2707633,"Bread, onion",matched,NULL
+white pepper,2710093,Hot pepper sauce,matched,NULL
+white sugar,2710258,"Sugar, white, granulated or lump",matched,NULL
+white teff flour,2705703,White sauce or gravy,matched,NULL
+white wine spirit vinegar,2710697,Wine spritzer,matched,NULL
+white wooden spoon (ground),2707353,"White beans, NFS",matched,NULL
+wholegrain mustard,2710086,Honey mustard dip,matched,NULL
+worcestershire sauce,2707447,Worcestershire sauce,matched,NULL
+xawaash spice,2707885,"Cake or cupcake, spice",matched,NULL
+yam,NULL,NULL,unmatched,NULL
+yam flour,2707824,"Tortilla, flour",matched,NULL
+yam plantain rice,2709560,"Plantain, raw",matched,NULL
+yam tuber,NULL,NULL,unmatched,NULL
+yellow bell pepper,2709870,"Yellow string beans, cooked",matched,NULL
+yellow cornmeal,2708420,"Yellow rice, cooked, no added fat",matched,NULL
+yellow lusaka bean,2710009,"Bean salad, yellow and/or green string beans",matched,NULL
+yellow pepper,2710045,Stuffed jalapeno pepper,matched,NULL
+yellow red bell pepper,NULL,NULL,unmatched,NULL
+young turkey (fresh),2706170,"Hot dog, turkey",matched,NULL
+yuca root,2709565,Yuca fries,matched,NULL
+yucca root,2709936,"Lotus root, cooked",matched,NULL
+yukon gold potato,2709556,"Soup, potato",matched,NULL
+yukon gold potato -inch cube,NULL,NULL,unmatched,NULL
+yukon gold potato -inch thick,NULL,NULL,unmatched,NULL
+yukon gold potato chunk,NULL,NULL,unmatched,NULL
+zest juice lemon,2708000,"Pie, lemon",matched,NULL
+zest lemon,2708000,"Pie, lemon",matched,NULL
+zest orange,2709171,"Orange, raw",matched,NULL
+zimspice blue poppy seed,2710210,Poppy seed dressing,matched,NULL
+zimspice curry (powder),2706437,Chicken curry,matched,NULL
+zimspice fish curry,2706460,Fish curry,matched,NULL
+zimspice portuguese chicken masala,NULL,NULL,unmatched,NULL
+zimspice turmeric,NULL,NULL,unmatched,NULL
+zucchini,2707851,"Bread, zucchini",matched,NULL
