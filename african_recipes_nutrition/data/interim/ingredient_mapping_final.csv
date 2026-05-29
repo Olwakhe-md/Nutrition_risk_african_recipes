@@ -1,0 +1,1169 @@
+recipe_ingredient_name,cleaned_ingredient_name,matched_fdc_id,matched_food_name,match_status,match_type,notes
+active yeast (dried),active yeast (dried),2710005.0,Yeast,matched,original,
+active yeast batter cover bowl clean kitchen (dried),Yeast,2710005.0,Yeast,matched,manual_match,Matched after cleaning ingredient name
+african bird eye chile habanero chile,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+african bird eye chile red thai chile habanero chile,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+african nutmeg (ground),"Cake or cupcake, spice",2707885,"Cake or cupcake, spice",matched,manual_match,Best available — no plain nutmeg in USDA subset; used in small amounts
+african nutmeg,"Cake or cupcake, spice",2707885,"Cake or cupcake, spice",matched,manual_match,Best available — no plain nutmeg in USDA subset; used in small amounts
+aish baladi,aish baladi,2708157,"Crackers, flatbread",matched,african_proxy,"African proxy resolved: 'whole wheat flatbread' → USDA 'Crackers, flatbread'"
+all purpose flour,all purpose flour,2708157,"Crackers, flatbread",matched,original,Corrected: taco shell has added fat — flatbread is closer to plain flour
+all purpose flour enough water make (paste),all purpose flour enough water make (paste),2708056.0,"Pastry, mainly flour and water, fried",matched,original,
+all-purpose flour,all-purpose flour,2708157,"Crackers, flatbread",matched,original,Corrected: taco shell has added fat — flatbread is closer to plain flour
+all-purpose flour as,all-purpose flour as,2708157,"Crackers, flatbread",matched,original,Corrected: taco shell has added fat — flatbread is closer to plain flour
+all-purpose flour handheld,"Tortilla, flour",2707824.0,"Tortilla, flour",matched,manual_match,Matched after cleaning ingredient name
+all-purpose flour pancake batter,"Tortilla, flour",2707824.0,"Tortilla, flour",matched,manual_match,Matched after cleaning ingredient name
+all-purpose flour sifted,"Tortilla, flour",2707824.0,"Tortilla, flour",matched,manual_match,Matched after cleaning ingredient name
+all-purpose seasoning,all-purpose seasoning,2709754.0,Puerto Rican seasoning with ham,matched,original,
+allspice (ground),"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+almond (roasted),almond (roasted),2710181.0,Almond oil,matched,original,
+almond extract,almond extract,2707533.0,Almond butter,matched,original,
+apple cider vinegar,apple cider vinegar,2709319.0,Apple cider,matched,original,
+apricot (dried),apricot (dried),2709221.0,"Apricot, raw",matched,original,
+apricot chutney,apricot chutney,2709222.0,"Apricot, canned",matched,original,
+apricot jam,apricot jam,2709221.0,"Apricot, raw",matched,original,
+assorted boneles meat bite-size,"Beef, NFS",2105822.0,"Beef, NFS",matched,manual_match,Matched after cleaning ingredient name
+aunty bernie chapati rice,"Yellow rice, cooked, no added fat",2707797.0,"Yellow rice, cooked, no added fat",matched,manual_match,Matched after cleaning ingredient name
+avocado pitted,avocado pitted,2709223.0,"Avocado, raw",matched,original,
+baking (powder),"Tortilla, flour",2707824.0,"Tortilla, flour",matched,manual_match,Matched after cleaning ingredient name
+baking flour (powder),baking flour (powder),2707824.0,"Tortilla, flour",matched,original,
+baking oil (powder),baking oil (powder),2710191.0,Soybean oil,matched,original,
+baking soda,baking soda,2707852.0,"Bread, Irish soda",matched,original,
+banana leave hot water soften thoroughly,"Green beans, raw",2109285.0,"Green beans, raw",matched,manual_match,Matched after cleaning ingredient name
+banku fufu,banku fufu,2709568.0,Fufu,matched,original,
+basil (dried),basil (dried),2709780.0,"Basil, raw",matched,original,
+basil (fresh),basil (fresh),2709780.0,"Basil, raw",matched,original,
+basmati rice,basmati rice,2707794.0,"Bread, rice",matched,original,
+bay leaf,bay leaf,2710488.0,"Tea, hot, leaf, black",matched,original,
+bay leave,"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+bean (dried),bean (dried),2707409.0,Bean cake,matched,original,
+beef (bouillon),beef (bouillon),2705822.0,"Beef, NFS",matched,original,
+beef (ground),beef (ground),2705822.0,"Beef, NFS",matched,original,
+beef (stock),beef (stock),2705822.0,"Beef, NFS",matched,original,
+beef,beef,2705822.0,"Beef, NFS",matched,original,
+beef chicken (bouillon),beef chicken (bouillon),2707471.0,"Luncheon slice, meatless-beef, chicken, salami or turkey",matched,original,
+beef chicken cube (bouillon),beef chicken cube (bouillon),2705826.0,"Beef, steak, cube",matched,original,
+beef chicken vegetable (bouillon),beef chicken vegetable (bouillon),2707097.0,"Beef with vegetable, diet frozen meal",matched,original,
+beef cube (bouillon),beef cube (bouillon),2705826.0,"Beef, steak, cube",matched,original,
+beef cube (stock),beef cube (stock),2705826.0,"Beef, steak, cube",matched,original,
+beef short rib,beef short rib,2705845.0,"Beef, shortribs",matched,original,
+beef silverside brisket coarsely,beef silverside brisket coarsely,2705851.0,"Beef, brisket",matched,original,
+beef stew meat,beef stew meat,2705849.0,"Beef, stew meat",matched,original,
+beef trotter,beef trotter,2705847.0,"Beef, roast",matched,original,
+bell pepper,bell pepper,2710045.0,Stuffed jalapeno pepper,matched,original,
+berbere spice,berbere spice,2707885.0,"Cake or cupcake, spice",matched,original,
+berbere spice mix,berbere,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'ethiopian spice blend' → USDA 'Hot pepper sauce'
+berbere spice texture potato season,Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+bicarbonate soda,bicarbonate soda,2707852.0,"Bread, Irish soda",matched,original,
+bisto gravy,bisto gravy,2706379.0,Beef with gravy,matched,original,
+bisto gravy thickener,bisto gravy thickener,2707145.0,"Gravy, beef",matched,original,
+bitter leaf washed,bitter leaf washed,2709878.0,"Bitter melon, cooked",matched,original,
+black cardamom seed,black cardamom seed,2707395.0,Black bean salad,matched,original,
+black eyed bean overnight least hour,black eyed bean overnight least hour,2707395.0,Black bean salad,matched,original,
+black eyed pea,black eyed pea,2707359.0,"Black beans, NFS",matched,original,
+black pepper (ground),black pepper (ground),2707404.0,Black bean sauce,matched,original,
+black pepper,black pepper,2707404.0,Black bean sauce,matched,original,
+black pepper as,black pepper as,2707359.0,"Black beans, NFS",matched,original,
+black peppercorn (ground),black peppercorn (ground),2710672.0,Black Russian,matched,original,
+black peppercorn,black peppercorn,2710672.0,Black Russian,matched,original,
+black peppercorn ginger,black peppercorn ginger,2709035.0,Black beans and brown rice,matched,original,
+black-eyed bean (dried),black-eyed bean (dried),2707395.0,Black bean salad,matched,original,
+black-eyed pea (dried),black-eyed pea (dried),2707359.0,"Black beans, NFS",matched,original,
+black-eyed pea,black-eyed pea,2707359.0,"Black beans, NFS",matched,original,
+black-eyed pea overnight (dried),"Black beans, NFS",2709236.0,"Black beans, NFS",matched,manual_match,Matched after cleaning ingredient name
+blanched almond,blanched almond,2707900.0,"Cookie, almond",matched,original,
+boerewor sausage,boerewor sausage,2706171.0,Beef sausage,matched,original,
+boiled fried plantain,boiled fried plantain,2709559,"Plantain, cooked with oil",matched,original,Corrected: was matched to fried eggplant
+boiled yam,boiled yam,2709385.0,"Potato, boiled, NFS",matched,original,
+boiling water,boiling water,2710669.0,Vodka and water,matched,original,
+boiling water as,boiling water as,2710706.0,"Water, NFS",matched,original,
+bologna,bologna,2706176.0,Bologna,matched,original,
+bondwe,bondwe leaves,2709642,"Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked",matched,african_proxy,"African proxy resolved: 'amaranth leaves' → USDA 'Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked'"
+bondwe leave,bondwe leaves,2709642,"Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked",matched,african_proxy,"African proxy resolved: 'amaranth leaves' → USDA 'Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked'"
+bone-in boneles chicken,bone-in boneles chicken,2708560.0,"Burrito bowl, chicken",matched,original,
+bone-in chicken breast bite-size,bone-in chicken breast bite-size,2705965.0,"Chicken breast, stewed, skin eaten",matched,original,
+bone-in chicken thigh drumstick,bone-in chicken thigh drumstick,2705988.0,"Chicken leg, drumstick and thigh, stewed, skin eaten",matched,original,
+boneles pork loin roast,boneles pork loin roast,2705882.0,"Pork, roast",matched,original,
+boneles skinles chicken breast,boneles skinles chicken breast,2705965.0,"Chicken breast, stewed, skin eaten",matched,original,
+boneles skinles chicken breast bite-size,boneles skinles chicken breast bite-size,2705965.0,"Chicken breast, stewed, skin eaten",matched,original,
+boneles skinles chicken thigh breast,boneles skinles chicken thigh breast,2706037.0,"Chicken thigh, stewed, skin eaten",matched,original,
+bread,bread,2707755.0,"Bread, rye",matched,original,
+bread bowl,bread bowl,2707764.0,"Bread, black",matched,original,
+breadcrumb,"Bread, rye",2707838.0,"Bread, rye",matched,manual_match,Matched after cleaning ingredient name
+brown flour,brown flour,2707824.0,"Tortilla, flour",matched,original,
+brown lentil,brown lentil,2707462.0,"Soup, lentil",matched,original,
+brown onion,brown onion,2707633.0,"Bread, onion",matched,original,
+brown spirit vinegar,brown spirit vinegar,2709351.0,Vinegar,matched,original,
+brown sugar,brown sugar,2710260.0,"Sugar, brown",matched,original,
+bunch cilantro (fresh),bunch cilantro (fresh),2709782.0,"Cilantro, raw",matched,original,
+bunch cilantro garnish (fresh),bunch cilantro garnish (fresh),2709782.0,"Cilantro, raw",matched,original,
+bunch coriander (fresh),"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+butter,butter,2710154.0,"Butter, NFS",matched,original,
+butter as,butter as,2710154.0,"Butter, NFS",matched,original,
+butter extra greasing,butter extra greasing,2710155.0,"Butter, stick",matched,original,
+butter greasing,butter greasing,2710155.0,"Butter, stick",matched,original,
+butter margarine,butter margarine,2709562.0,"Plantain, cooked with butter or margarine",matched,original,
+buttermilk plain them,buttermilk plain them,2705393.0,Buttermilk,matched,original,
+butternut,butternut squash,2709693,"Winter squash, raw",matched,african_proxy,"African proxy resolved: 'butternut squash' → USDA 'Winter squash, raw'"
+butternut squash,butternut squash,2709693.0,"Winter squash, raw",matched,original,
+cabbage,cabbage,2709775.0,"Cabbage, red, raw",matched,original,
+cake flour,cake flour,2707882.0,"Cake, pound",matched,original,
+canola oil,canola oil,2710188.0,Canola oil,matched,original,
+canola oil as,canola oil as,2710188.0,Canola oil,matched,original,
+canola oil end skin plantain half lengthwise,Canola oil,2710189.0,Canola oil,matched,manual_match,Matched after cleaning ingredient name
+canola oil oil,canola oil oil,2710188.0,Canola oil,matched,original,
+canola oil sprinkle over onion (bouillon),canola oil sprinkle over onion (bouillon),2710188.0,Canola oil,matched,original,
+canola oil turmeric,canola oil turmeric,2710188.0,Canola oil,matched,original,
+canola oil warm oil dutch oven other heavy,Canola oil,2710189.0,Canola oil,matched,manual_match,Matched after cleaning ingredient name
+cardamom (ground),"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+cardamom fat ghee egg yolk will start (ground),"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+cardamom pod,"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+cardamom seed,"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+carrot,carrot,2707845.0,"Muffin, carrot",matched,original,
+carrot bite-size,carrot bite-size,2709683.0,"Carrot juice, 100%",matched,original,
+carrot julienned,carrot julienned,2709683.0,"Carrot juice, 100%",matched,original,
+carrot shredded,carrot shredded,2708479.0,"Cereal, shredded wheat, plain",matched,original,
+cassava flour all-purpose,cassava flour all-purpose,2709564.0,"Cassava, cooked",matched,original,
+caster sugar,caster sugar,2707970.0,"Cookie, butter or sugar",matched,original,
+castor sugar,castor sugar,2707970.0,"Cookie, butter or sugar",matched,original,
+cayenne pepper,cayenne pepper,2710045.0,Stuffed jalapeno pepper,matched,original,
+cayenne pepper nigerian red pepper,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+celery stick,celery stick,2710072.0,"Celery, pickled",matched,original,
+chapati,chapati,2708157,"Crackers, flatbread",matched,african_proxy,"African proxy resolved: 'flatbread' → USDA 'Crackers, flatbread'"
+cheddar cheese,cheddar cheese,2705773.0,"Cheese spread, American or Cheddar cheese base",matched,original,
+cherry tomato,cherry tomato,2709757.0,"Soup, tomato",matched,original,
+chicken (bouillon),chicken (bouillon),2706081.0,"Chicken, back",matched,original,
+chicken (stock),chicken (stock),2706081.0,"Chicken, back",matched,original,
+chicken,chicken,2706081.0,"Chicken, back",matched,original,
+chicken -inch,chicken -inch,2706084.0,Chicken skin,matched,original,
+chicken bite-size,chicken bite-size,2706439.0,Chicken with mole sauce,matched,original,
+chicken bone skin separated (whole),chicken bone skin separated (whole),2705965.0,"Chicken breast, stewed, skin eaten",matched,original,
+chicken breast,chicken breast,2705965.0,"Chicken breast, stewed, skin eaten",matched,original,
+chicken breast -inch,chicken breast -inch,2705965.0,"Chicken breast, stewed, skin eaten",matched,original,
+chicken breast julienned,chicken breast julienned,2705971.0,"Chicken breast, sauteed, skin eaten",matched,original,
+chicken drumstick,chicken drumstick,2706014.0,"Chicken drumstick, stewed, skin eaten",matched,original,
+chicken gizzard,chicken gizzard,2706091.0,"Chicken, ground",matched,original,
+chicken quarter,chicken quarter,2706437.0,Chicken curry,matched,original,
+chicken thigh,chicken thigh,2706037.0,"Chicken thigh, stewed, skin eaten",matched,original,
+chicken thigh skin-on bone-in,chicken thigh skin-on bone-in,2706037.0,"Chicken thigh, stewed, skin eaten",matched,original,
+chicken vegetable (bouillon),chicken vegetable (bouillon),2707110.0,"Chicken with rice and vegetable, diet frozen meal",matched,original,
+chicken vegetable (stock),chicken vegetable (stock),2707110.0,"Chicken with rice and vegetable, diet frozen meal",matched,original,
+chicken wing,chicken wing,2706061.0,"Chicken wing, stewed",matched,original,
+chickpea,chickpea,2707414.0,"Chickpeas, NFS",matched,original,
+chile pepper (dried),chile pepper (dried),2710093.0,Hot pepper sauce,matched,original,
+chili (fresh),chili (fresh),2706373.0,"Chili, NFS",matched,original,
+chili (powder),chili (powder),2706373.0,"Chili, NFS",matched,original,
+chilli (dried),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+chilli (flakes),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+chilli chutney plain chutney,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+chily (fresh),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+cider vinegar,cider vinegar,2709351.0,Vinegar,matched,original,
+cilantro (fresh),cilantro (fresh),2709782.0,"Cilantro, raw",matched,original,
+cinnamon (ground),cinnamon (ground),2707620.0,"Bread, cinnamon",matched,original,
+cinnamon extra dusting (ground),cinnamon extra dusting (ground),2708450.0,"Cereal, cinnamon toast",matched,original,
+cinnamon stick,cinnamon stick,2708450.0,"Cereal, cinnamon toast",matched,original,
+cm root ginger (fresh),cm root ginger (fresh),2710082.0,"Ginger root, pickled",matched,original,
+cob sweetcorn,sweetcorn,2709933,"Hominy, cooked",matched,african_proxy,"African proxy resolved: 'corn on the cob' → USDA 'Hominy, cooked'"
+coconut milk (canned),coconut milk (canned),2705413.0,Coconut milk,matched,original,
+coconut milk,coconut milk,2705413.0,Coconut milk,matched,original,
+coconut milk tin,coconut milk tin,2705413.0,Coconut milk,matched,original,
+coconut oil medium-high,coconut oil medium-high,2710182.0,Coconut oil,matched,original,
+coconut raw unsweetened coconut (flakes),coconut raw unsweetened coconut (flakes),2707572.0,"Coconut water, unsweetened",matched,original,
+coconut sugar,coconut sugar,2707500.0,"Coconut, fresh",matched,original,
+cod fillet thawed (frozen),cod fillet thawed (frozen),2706089.0,"Chicken fillet, breaded",matched,original,
+cold margarine tiny,cold margarine tiny,2710159.0,"Margarine, stick",matched,original,
+cold water,cold water,2710669.0,Vodka and water,matched,original,
+cold water once bubble,cold water once bubble,2710508.0,"Tea, bubble",matched,original,
+cooked french fry as,cooked french fry as,2709456.0,"Potato, french fries, NFS",matched,original,
+cooked rice,cooked rice,2707794.0,"Bread, rice",matched,original,
+cooking oil,cooking oil,2710183.0,Corn oil,matched,original,
+cooking spray,cooking spray,2707161.0,"Egg, whole, fried with cooking spray",matched,original,
+coriander (fresh),"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+coriander (ground),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+coriander leave some stem attached (fresh),"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+coriander seed,"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+corn flour,corn flour,2707815.0,"Corn flour patty or tart, fried",matched,original,
+corn kernel (fresh),corn kernel (fresh),2710504.0,Corn beverage,matched,original,
+corned beef (canned),corned beef (canned),2706477.0,Corned beef hash,matched,original,
+corned beef,corned beef,2706477.0,Corned beef hash,matched,original,
+cornmeal,cornmeal,2708375.0,"Cornmeal mush, fat added",matched,original,
+couscous (dried),couscous (dried),2708441.0,"Couscous, plain, cooked",matched,original,
+couscous rice,couscous rice,2708441.0,"Couscous, plain, cooked",matched,original,
+cranberry (dried),cranberry (dried),2709280.0,Cranberry sauce,matched,original,
+crayfish (ground),crayfish (ground),2706347.0,"Crayfish, fried",matched,original,
+crayfish (powder),crayfish (powder),2706347.0,"Crayfish, fried",matched,original,
+cream mushroom soup bisto gravy thickener,cream mushroom soup bisto gravy thickener,2710107.0,"Soup, cream of mushroom",matched,original,
+cream tomato soup (powder),cream tomato soup (powder),2709758.0,"Soup, cream of tomato",matched,original,
+crusty hoagie roll split half lightly (toasted),"Bread, rye",2707838.0,"Bread, rye",matched,manual_match,Matched after cleaning ingredient name
+cucumber,cucumber,2709784.0,"Cucumber, raw",matched,original,
+cumin (ground),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+cumin (powder),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+cumin seed,Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+cumin seed pestle mortar,Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+currant (dried),"Mango, canned",2709224.0,"Mango, canned",matched,manual_match,Matched after cleaning ingredient name
+curry (powder),curry (powder),2706388.0,Beef curry,matched,original,
+custard (powder),custard (powder),2705682.0,Custard,matched,original,
+desiccated coconut serve,desiccated coconut serve,2710343.0,"Chocolate candy, coconut filled",matched,original,
+dijon mustard,dijon mustard,2710085.0,Mustard,matched,original,
+distilled white vinegar,distilled white vinegar,2707655.0,"Roll, white, hard",matched,original,
+drumstick,drumstick,2706122.0,"Turkey, drumstick, cooked, skin eaten",matched,original,
+ear corn,ear corn,2710047.0,"Fritter, corn",matched,original,
+egg,egg,2707179.0,"Egg, creamed",matched,original,
+egg lightly,egg lightly,2707168.0,"Egg, white only, raw",matched,original,
+eggplant,eggplant,2709785.0,"Eggplant, raw",matched,original,
+egusi melon seed (ground),egusi melon seed (ground),2709878.0,"Bitter melon, cooked",matched,original,
+egusi seed (toasted),Sesame oil,2110193.0,Sesame oil,matched,manual_match,Matched after cleaning ingredient name
+egusi seed pumpkin seed,egusi seed pumpkin seed,2707579.0,"Pumpkin seeds, NFS",matched,original,
+elbow macaroni,elbow macaroni,2706483.0,Chili with macaroni,matched,original,
+enough water go just below potato,,,"SKIP - instruction fragment, not an ingredient",skip,skip,"This entry appears to be a recipe instruction, not an ingredient"
+evaporated milk,evaporated milk,2705399.0,"Milk, evaporated, whole",matched,original,
+ewedu leave (fresh),"Green beans, raw",2109285.0,"Green beans, raw",matched,manual_match,Matched after cleaning ingredient name
+extra hot chilli (powder),extra hot chilli (powder),2710505.0,"Tea, hot, chamomile",matched,original,
+extra-virgin olive oil,extra-virgin olive oil,2710186.0,Olive oil,matched,original,
+extra-virgin olive oil ae,extra-virgin olive oil ae,2710186.0,Olive oil,matched,original,
+extra-virgin olive oil garnish,extra-virgin olive oil garnish,2710186.0,Olive oil,matched,original,
+extremely ripe mango,"Mango, raw",2109236.0,"Mango, raw",matched,manual_match,Matched after cleaning ingredient name
+fennel seed,fennel seed,2709907.0,"Fennel bulb, cooked",matched,original,
+fenugreek seed,Sesame oil,2110193.0,Sesame oil,matched,manual_match,Matched after cleaning ingredient name
+filo pastry sheet,filo pastry sheet,2708061.0,"Danish pastry, with cheese",matched,original,
+fire-roasted tomato,fire-roasted tomato,2709758.0,"Soup, cream of tomato",matched,original,
+fish fillet your choice,fish fillet your choice,2710784.0,"Fish fillet, fried as ingredient in sandwiches",matched,original,
+fl brandy,fl brandy,2710699.0,Brandy,matched,original,
+fl chicken (stock),fl chicken (stock),2706154.0,"Liver, chicken",matched,original,
+fl full-fat milk,fl full-fat milk,2705387.0,"Milk, low fat (1%)",matched,original,
+fl full-fat milk warmed,fl full-fat milk warmed,2705419.0,"Yogurt, low fat milk, plain",matched,original,
+fl lamb (stock),fl lamb (stock),2706660.0,"Stew, lamb",matched,original,
+fl milk,fl milk,2705412.0,Oat milk,matched,original,
+fl tomato ketchup,fl tomato ketchup,2709733.0,Ketchup,matched,original,
+fl vegetable oil,fl vegetable oil,2710180.0,"Vegetable oil, NFS",matched,original,
+flaky sea salt,"Sugar, NFS",2100373.0,"Sugar, NFS",matched,manual_match,Matched after cleaning ingredient name
+flavored salt,flavored salt,2708930.0,Flavored pasta,matched,original,
+flour,flour,2707824.0,"Tortilla, flour",matched,original,
+fonio,fonio,2708377,Millet,matched,african_proxy,African proxy resolved: 'millet' → USDA 'Millet'
+free-range egg,"Egg, whole, boiled or poached",2108064.0,"Egg, whole, boiled or poached",matched,manual_match,Matched after cleaning ingredient name
+free-range egg free-range egg yolk,free-range egg free-range egg yolk,2708049.0,"Pastry, made with bean paste and salted egg yolk filling, baked",matched,original,
+free-range egg white,free-range egg white,2707168.0,"Egg, white only, raw",matched,original,
+free-range egg yolk,free-range egg yolk,2707172.0,"Egg, yolk only, raw",matched,original,
+fufu,fufu,2709568.0,Fufu,matched,original,
+full-fat plain yoghurt,full-fat plain yoghurt,2705419.0,"Yogurt, low fat milk, plain",matched,original,
+full-fat unsweetened,full-fat unsweetened,2707572.0,"Coconut water, unsweetened",matched,original,
+full-fat unsweetened other heavy pot,,,"SKIP - instruction fragment, not an ingredient",skip,skip,"This entry appears to be a recipe instruction, not an ingredient"
+full-fat unsweetened reserved bone,,,"SKIP - instruction fragment, not an ingredient",skip,skip,"This entry appears to be a recipe instruction, not an ingredient"
+garam masala,garam masala,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'indian spice blend' → USDA 'Hot pepper sauce'
+garlic (fresh),garlic (fresh),2709786.0,"Garlic, raw",matched,original,
+garlic (granulated),garlic (granulated),2709786.0,"Garlic, raw",matched,original,
+garlic (powder),garlic (powder),2709786.0,"Garlic, raw",matched,original,
+garlic (whole),garlic (whole),2709786.0,"Garlic, raw",matched,original,
+garlic half (fresh),garlic half (fresh),2709786.0,"Garlic, raw",matched,original,
+garri,garri,2709564,"Cassava, cooked",matched,african_proxy,"African proxy resolved: 'cassava flour' → USDA 'Cassava, cooked'"
+generou red chilli extra if desired (flakes),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+ghee,ghee,2710168.0,"Ghee, clarified butter",matched,original,
+ghee unsalted,ghee unsalted,2707497.0,"Cashews, unsalted",matched,original,
+ginger (fresh),ginger (fresh),2710507.0,"Tea, ginger",matched,original,
+ginger (ground),ginger (ground),2710507.0,"Tea, ginger",matched,original,
+ginger (powder),ginger (powder),2710507.0,"Tea, ginger",matched,original,
+ginger cumin (fresh),ginger cumin (fresh),2710507.0,"Tea, ginger",matched,original,
+grain hub mhunga,mhunga,2708377,Millet,matched,african_proxy,African proxy resolved: 'pearl millet' → USDA 'Millet'
+grain hub mupunga,mupunga,2708403,"Rice, white, cooked, NS as to fat",matched,african_proxy,"African proxy resolved: 'white rice' → USDA 'Rice, white, cooked, NS as to fat'"
+grain hub sorghum,sorghum,2708377,Millet,matched,african_proxy,African proxy resolved: 'sorghum grain' → USDA 'Millet'
+grain hub zviyo,zviyo,2708377,Millet,matched,african_proxy,African proxy resolved: 'finger millet' → USDA 'Millet'
+greek yogurt,greek yogurt,2705441.0,"Yogurt, Greek, with oats",matched,original,
+green banana,green banana,2709769.0,"Green beans, raw",matched,original,
+green bell pepper,green bell pepper,2710798.0,"Green pepper, cooked, as ingredient",matched,original,
+green chilli,green chilli,2710070.0,"Green beans, pickled",matched,original,
+green onion,green onion,2709829.0,"Seven-layer salad, lettuce salad made with a combination of onion, celery, green pepper, peas, mayonnaise, cheese, eggs, and/or bacon",matched,original,
+green pepper,green pepper,2710798.0,"Green pepper, cooked, as ingredient",matched,original,
+green ripe plantain,green ripe plantain,2709560,"Plantain, raw",matched,original,Corrected: was matched to Puerto Rican plantain pie
+green yellow pepper,green yellow pepper,2710058.0,"Fried summer squash, yellow or green",matched,original,
+grilled lemon parsley garnishing (fresh),"Lemon, raw",2109242.0,"Lemon, raw",matched,manual_match,Matched after cleaning ingredient name
+groundnut oil vegetable oil,groundnut oil vegetable oil,2710180.0,"Vegetable oil, NFS",matched,original,
+gruy re cheese,gruy re cheese,2708042.0,"Strudel, cheese",matched,original,
+guinea pepper,guinea pepper,2710545.0,"Soft drink, pepper type",matched,original,
+habanero chile,habanero,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'habanero pepper' → USDA 'Hot pepper sauce'
+habanero chile seeded,habanero,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'habanero pepper' → USDA 'Hot pepper sauce'
+habanero chile stem removed,habanero,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'habanero pepper' → USDA 'Hot pepper sauce'
+habanero pepper,habanero pepper,2710093.0,Hot pepper sauce,matched,original,
+halibut -inch,halibut -inch,2706260.0,"Fish, halibut",matched,original,
+halibut fillet skin removed,halibut fillet skin removed,2706089.0,"Chicken fillet, breaded",matched,original,
+handful spring onion green tip,"Bread, onion",2707834.0,"Bread, onion",matched,manual_match,Matched after cleaning ingredient name
+hard-boiled egg,hard-boiled egg,2707154.0,"Egg, whole, boiled or poached",matched,original,
+harissa sauce,harissa sauce,2707441.0,Hoisin sauce,matched,original,
+harissa spice mix,harissa,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'chili spice paste' → USDA 'Hot pepper sauce'
+head green cabbage shredded,head green cabbage shredded,2709773.0,"Cabbage, green, raw",matched,original,
+head lettuce shredded,head lettuce shredded,2709949.0,"Lettuce, cooked",matched,original,
+heaped ancho habanero chilli (flakes),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+heaped butter margarine,heaped butter margarine,2709562.0,"Plantain, cooked with butter or margarine",matched,original,
+heaped flour,heaped flour,2708157,"Crackers, flatbread",matched,original,Corrected: taco shell has added fat — flatbread is closer to plain flour
+heaped peanut butter,heaped peanut butter,2707537.0,Peanut butter,matched,original,
+heinz brand baked bean,heinz brand baked bean,2707390.0,Baked beans,matched,original,
+heinz salad cream,heinz salad cream,2706221.0,Chicken salad spread,matched,original,
+homemade shop bought puff pastry thawed egg,"Pastry, mainly flour and water, fried",2708056.0,"Pastry, mainly flour and water, fried",matched,manual_match,Matched after cleaning ingredient name
+hot curry (powder),hot curry (powder),2706460.0,Fish curry,matched,original,
+hot paprika,hot paprika,2709744.0,Hot Thai sauce,matched,original,
+hot water,hot water,2705483.0,"Hot chocolate / cocoa, dry mix, made with water",matched,original,
+hot water chicken (stock),hot water chicken (stock),2708740.0,"Turnover or hot pocket, chicken",matched,original,
+ice cube as,ice cube as,2705629.0,"Ice cream, NFS",matched,original,
+ice-cold water,ice-cold water,2710656.0,Whiskey and water,matched,original,
+icing sugar dusting,icing sugar dusting,2710372.0,"Chewing gum, sugar free",matched,original,
+impwa,impwa,2709785,"Eggplant, raw",matched,african_proxy,"African proxy resolved: 'african eggplant' → USDA 'Eggplant, raw'"
+instant yeast,instant yeast,2710005.0,Yeast,matched,original,
+jalape,Stuffed jalapeno pepper,2109371.0,Stuffed jalapeno pepper,matched,manual_match,Matched after cleaning ingredient name
+jalape chile,Stuffed jalapeno pepper,2109371.0,Stuffed jalapeno pepper,matched,manual_match,Matched after cleaning ingredient name
+jalape chile seeded,Stuffed jalapeno pepper,2109371.0,Stuffed jalapeno pepper,matched,manual_match,Matched after cleaning ingredient name
+jalape chile serrano chile,Stuffed jalapeno pepper,2109371.0,Stuffed jalapeno pepper,matched,manual_match,Matched after cleaning ingredient name
+jalape seeded,Stuffed jalapeno pepper,2109371.0,Stuffed jalapeno pepper,matched,manual_match,Matched after cleaning ingredient name
+jar mango chutney,jar mango chutney,2709243.0,"Mango, canned",matched,original,
+jarred red bell pepper (fresh),"Red pepper, cooked, as ingredient",2109394.0,"Red pepper, cooked, as ingredient",matched,manual_match,Matched after cleaning ingredient name
+jasmine rice,jasmine rice,2710691.0,"Wine, rice",matched,original,
+jollof rice,jollof rice,2709146.0,"Soup, rice",matched,original,
+juice lemon,juice lemon,2709181.0,"Lemon juice, 100%, freshly squeezed",matched,original,
+juice lime,juice lime,2709184.0,"Lime juice, 100%, freshly squeezed",matched,original,
+kabulangeti bean (dried),kabulangeti bean (dried),2707395.0,Black bean salad,matched,original,
+kachumbari,kachumbari,2709795,"Onions, raw",matched,african_proxy,"African proxy resolved: 'fresh tomato onion salad' → USDA 'Onions, raw'"
+kalembula,kalembula,2709642,"Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked",matched,african_proxy,"African proxy resolved: 'sweet potato leaves' → USDA 'Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked'"
+kapenta (dried),"Fish, mackerel, NFS",2101107.0,"Fish, mackerel, NFS",matched,manual_match,Matched after cleaning ingredient name
+kariba bream gutted scaled,"Fish, halibut",2101106.0,"Fish, halibut",matched,manual_match,Matched after cleaning ingredient name
+ketchup,ketchup,2709733.0,Ketchup,matched,original,
+kosher salt,"Sugar, NFS",2100373.0,"Sugar, NFS",matched,manual_match,Matched after cleaning ingredient name
+kosher salt kitchen,"Sugar, NFS",2100373.0,"Sugar, NFS",matched,manual_match,Matched after cleaning ingredient name
+lamb meat inch cube,lamb meat inch cube,2708611.0,"Pupusa, meat, with beans",matched,original,
+lamb mince,lamb mince,2705906.0,"Lamb, chop",matched,original,
+lamb rib chop,lamb rib chop,2705906.0,"Lamb, chop",matched,original,
+lamb shoulder coarsely,"Stew, lamb",2705840.0,"Stew, lamb",matched,manual_match,Matched after cleaning ingredient name
+lemon,lemon,2708000.0,"Pie, lemon",matched,original,
+lemon essence,lemon essence,2710170.0,Lemon-butter sauce,matched,original,
+lemon juice (fresh),lemon juice (fresh),2709180.0,"Lemon juice, 100%, NS as to form",matched,original,
+lemon juice,lemon juice,2709180.0,"Lemon juice, 100%, NS as to form",matched,original,
+lemon juice only,lemon juice only,2709181.0,"Lemon juice, 100%, freshly squeezed",matched,original,
+lemon rind,lemon rind,2709168.0,"Lemon, raw",matched,original,
+lemon wedge garnish,lemon wedge garnish,2709168.0,"Lemon, raw",matched,original,
+lemon zest only,lemon zest only,2709169.0,Lemon pie filling,matched,original,
+light brown sugar,light brown sugar,2710260.0,"Sugar, brown",matched,original,
+lime juice (fresh),lime juice (fresh),2709183.0,"Lime juice, 100%, NS as to form",matched,original,
+litre boiling water,litre boiling water,2710656.0,Whiskey and water,matched,original,
+long grain rice,long grain rice,2710679.0,Long Island iced tea,matched,original,
+long grain white rice,long grain white rice,2708990.0,Beans and white rice,matched,original,
+loosely packed spinach,loosely packed spinach,2708755.0,Lasagna with meat and spinach,matched,original,
+low-sodium chicken (stock),low-sodium chicken (stock),2707134.0,"Soup, chicken",matched,original,
+lukewarm water,lukewarm water,2708178.0,"Crackers, water",matched,original,
+lumanda leave,lumanda leaves,2709642,"Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked",matched,african_proxy,"African proxy resolved: 'hibiscus leaves' → USDA 'Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked'"
+mackerel,mackerel,2706263.0,"Fish, mackerel, NFS",matched,original,
+madra curry (paste),madra curry (paste),2706388.0,Beef curry,matched,original,
+malt vinegar,malt vinegar,2709351.0,Vinegar,matched,original,
+mango,mango,2709242.0,"Mango, raw",matched,original,
+mango chutney,mango chutney,2709243.0,"Mango, canned",matched,original,
+mango chutney other chutney,mango chutney other chutney,2709345.0,Mango nectar,matched,original,
+margarine,margarine,2710158.0,"Margarine, NFS",matched,original,
+mature cheddar,mature cheddar,2705709.0,"Cheese, Cheddar",matched,original,
+mayonnaise,mayonnaise,2710205.0,Vegan mayonnaise,matched,original,
+mealie meal white cornmeal,mealie meal white cornmeal,2708990.0,Beans and white rice,matched,original,
+meat,meat,2705819.0,"Meat, NFS",matched,original,
+medium-large potato,medium-large potato,2707648.0,"Bread, sweet potato",matched,original,
+mild curry (powder),mild curry (powder),2707431.0,Lentil curry,matched,original,
+mild hot red chile pepper,mild hot red chile pepper,2710093.0,Hot pepper sauce,matched,original,
+milk (fresh),milk (fresh),2705384.0,"Milk, NFS",matched,original,
+milk (powder),milk (powder),2705384.0,"Milk, NFS",matched,original,
+milk,milk,2705384.0,"Milk, NFS",matched,original,
+milk (whole),milk (whole),2705384.0,"Milk, NFS",matched,original,
+milk alternatively (whole),milk alternatively (whole),2705501.0,"Milk, malted",matched,original,
+milk maa,milk maa,2705383.0,"Milk, human",matched,original,
+mint (fresh),mint (fresh),2710358.0,"Candy, mint",matched,original,
+mint leave (fresh),mint leave (fresh),2710643.0,Mint julep,matched,original,
+mixed offal,mixed offal,2707504.0,"Mixed nuts, NFS",matched,original,
+moscato,moscato,2710687,"Wine, sparkling",matched,african_proxy,"African proxy resolved: 'sweet white wine' → USDA 'Wine, sparkling'"
+mr sauce bbq sauce,mr sauce bbq sauce,2710176.0,Fry sauce,matched,original,
+mr sauce beef burger sauce,mr sauce beef burger sauce,2706391.0,"Barbecue beef, no sauce",matched,original,
+mr sauce ketchup,mr sauce ketchup,2709733.0,Ketchup,matched,original,
+mr sauce lemon herb marinade,Lemon-butter sauce,2109762.0,Lemon-butter sauce,matched,manual_match,Matched after cleaning ingredient name
+mr sauce lemon juice,mr sauce lemon juice,2709811.0,Celery juice,matched,original,
+mr sauce miri piri sauce,Hot Thai sauce,2109753.0,Hot Thai sauce,matched,manual_match,Matched after cleaning ingredient name
+mr sauce mustard sauce,mr sauce mustard sauce,2706405.0,Sausage with tomato-based sauce,matched,original,
+mr sauce smokey bbq marinade,"Barbecue beef, no sauce",2105862.0,"Barbecue beef, no sauce",matched,manual_match,Matched after cleaning ingredient name
+mr sauce soy sauce,mr sauce soy sauce,2707442.0,Soy sauce,matched,original,
+mr sauce sticky bbq basting,"Barbecue beef, no sauce",2105862.0,"Barbecue beef, no sauce",matched,manual_match,Matched after cleaning ingredient name
+mr sauce sweet chilli sauce,mr sauce sweet chilli sauce,2709735.0,Tomato chili sauce,matched,original,
+mr sauce tomato sauce,mr sauce tomato sauce,2706405.0,Sausage with tomato-based sauce,matched,original,
+mr sauce worcester sauce,mr sauce worcester sauce,2707447.0,Worcestershire sauce,matched,original,
+mufushwa wemunyemba,mufushwa,2709642,"Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked",matched,african_proxy,"African proxy resolved: 'dried cowpea leaves' → USDA 'Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked'"
+new mexico chile (ground),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+nigerian red pepper,nigerian red pepper,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+nigerian red pepper cayenne pepper,nigerian red pepper cayenne pepper,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+nutmeg (ground),"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+oil,oil,2710183.0,Corn oil,matched,original,
+oil frying,oil frying,2710164.0,"Oil or table fat, NFS",matched,original,
+okra (fresh),okra (fresh),2710054.0,Fried okra,matched,original,
+okra,okra,2710054.0,Fried okra,matched,original,
+okra (whole),okra (whole),2710054.0,Fried okra,matched,original,
+okra half,okra half,2710087.0,"Okra, pickled",matched,original,
+okra trimmed -inch round,Fried okra,2109308.0,Fried okra,matched,manual_match,Matched after cleaning ingredient name
+olive oil,olive oil,2710186.0,Olive oil,matched,original,
+olive oil as,olive oil as,2710186.0,Olive oil,matched,original,
+onion (fresh),onion (fresh),2707633.0,"Bread, onion",matched,original,
+onion (powder),onion (powder),2707633.0,"Bread, onion",matched,original,
+onion salt,onion salt,2705622.0,"Onion dip, light",matched,original,
+orange bell pepper,orange bell pepper,2709171.0,"Orange, raw",matched,original,
+oregano (dried),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+organic jaggery,jaggery,2710260,"Sugar, brown",matched,african_proxy,"African proxy resolved: 'unrefined cane sugar' → USDA 'Sugar, brown'"
+overly ripe plantain,overly ripe plantain,2710140.0,"Ripe plantain meat pie, Puerto Rican style",matched,original,
+overripe banana,overripe banana,2707856.0,"Cake or cupcake, banana",matched,original,
+ox kidney,ox kidney,2706157.0,Kidney,matched,original,
+packet active yeast (dried),Yeast,2710005.0,Yeast,matched,manual_match,Matched after cleaning ingredient name
+palm oil,palm oil,2710181.0,Almond oil,matched,original,
+panko breadcrumb,"Bread, rye",2707838.0,"Bread, rye",matched,manual_match,Matched after cleaning ingredient name
+paprika (smoked),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+paprika,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+paprika curry (smoked),paprika curry (smoked),2706437.0,Chicken curry,matched,original,
+parsley (dried),parsley (dried),2709796.0,"Parsley, raw",matched,original,
+parsley (fresh),parsley (fresh),2709796.0,"Parsley, raw",matched,original,
+parsley garnish (fresh),parsley garnish (fresh),2709796.0,"Parsley, raw",matched,original,
+parsley garnish,parsley garnish,2709796.0,"Parsley, raw",matched,original,
+pea (frozen),pea (frozen),2710056.0,Pea salad,matched,original,
+pea carrot thawed (frozen),pea carrot thawed (frozen),2710056.0,Pea salad,matched,original,
+pea thawed (frozen),pea thawed (frozen),2710056.0,Pea salad,matched,original,
+peanut (ground),peanut (ground),2710187.0,Peanut oil,matched,original,
+peanut butter,peanut butter,2707537.0,Peanut butter,matched,original,
+peanut oil,peanut oil,2710187.0,Peanut oil,matched,original,
+penne pasta,penne pasta,2708930.0,Flavored pasta,matched,original,
+pepper (fresh),pepper (fresh),2706747.0,Pepper steak,matched,original,
+pepper soup spice mix,pepper soup spice mix,2710093.0,Hot pepper sauce,matched,original,
+peri peri sauce,peri peri sauce,2707445.0,Teriyaki sauce,matched,original,
+pili pili,pili pili,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'hot chili pepper' → USDA 'Hot pepper sauce'
+pili pili store-bought hot sauce,hot sauce,2707442.0,Soy sauce,matched,fuzzy (78%),Fuzzy matched after cleaning (score: 78)
+pimento-stuffed olive,pimento-stuffed olive,2710091.0,"Olives, stuffed",matched,original,
+pint cherry tomato half,"Soup, cream of tomato",2103199.0,"Soup, cream of tomato",matched,manual_match,Matched after cleaning ingredient name
+pint lamb (stock),pint lamb (stock),2706660.0,"Stew, lamb",matched,original,
+pint sunflower oil deep-frying,pint sunflower oil deep-frying,2710192.0,Sunflower oil,matched,original,
+piri piri sauce refrigerator let marinate,Hot Thai sauce,2109753.0,Hot Thai sauce,matched,manual_match,Matched after cleaning ingredient name
+plain flour,plain flour,2707824.0,"Tortilla, flour",matched,original,
+plantain,plantain,2709560.0,"Plantain, raw",matched,original,
+plum tomato,plum tomato,2709757.0,"Soup, tomato",matched,original,
+plum tomato (whole),plum tomato (whole),2709757.0,"Soup, tomato",matched,original,
+plum tomato seed removed strip,"Soup, tomato",2103200.0,"Soup, tomato",matched,manual_match,Matched after cleaning ingredient name
+pointed red pepper,pointed red pepper,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+pork,pork,2705862.0,"Pork, NFS",matched,original,
+pork chop,pork chop,2705872.0,"Pork, chop, stuffed",matched,original,
+pork chop trimmed,pork chop trimmed,2705872.0,"Pork, chop, stuffed",matched,original,
+pork fillet,pork fillet,2705883.0,"Pork, roll",matched,original,
+pork sausage (ground),pork sausage (ground),2706191.0,Pork sausage,matched,original,
+pork shoulder belly coarsely,pork shoulder belly coarsely,2705901.0,"Pork, belly",matched,original,
+potato,potato,2709382.0,"Potato, NFS",matched,original,
+pound beef (ground),pound beef (ground),2710115.0,"Soup, beef",matched,original,
+pound bone-in,pound bone-in,2707882.0,"Cake, pound",matched,original,
+pound boneles,pound boneles,2707882.0,"Cake, pound",matched,original,
+pound boneles salt cod bowl,"Fish, mackerel, NFS",2101107.0,"Fish, mackerel, NFS",matched,manual_match,Matched after cleaning ingredient name
+pound each,pound each,2707882.0,"Cake, pound",matched,original,
+pound kale collard,"Green beans, raw",2109285.0,"Green beans, raw",matched,manual_match,Matched after cleaning ingredient name
+pound lamb stew meat,pound lamb stew meat,2705849.0,"Beef, stew meat",matched,original,
+pound oxtail,pound oxtail,2707882.0,"Cake, pound",matched,original,
+pound red potato,pound red potato,2707642.0,"Bread, potato",matched,original,
+pound shredded,pound shredded,2708479.0,"Cereal, shredded wheat, plain",matched,original,
+pound skirt steak flank steak,pound skirt steak flank steak,2705827.0,"Beef, steak, flank",matched,original,
+pounded groundnut,pounded groundnut,2707519,"Peanuts, dry roasted, unsalted",matched,african_proxy,"African proxy resolved: 'ground peanuts' → USDA 'Peanuts, dry roasted, unsalted'"
+prawn shrimp,prawn shrimp,2706857.0,Kung Pao shrimp,matched,original,
+puff pastry sheet thawed (frozen),puff pastry sheet thawed (frozen),2708726.0,"Pastry, cheese-filled",matched,original,
+puff pastry thawed (frozen),puff pastry thawed (frozen),2708053.0,"Pastry, puff",matched,original,
+punnet cauliflower,punnet cauliflower,2710042.0,Fried cauliflower,matched,original,
+punnet green bean,punnet green bean,2710040.0,Green bean casserole,matched,original,
+punnet mushroom,punnet mushroom,2710107.0,"Soup, cream of mushroom",matched,original,
+punnet oyster mushroom,punnet oyster mushroom,2710107.0,"Soup, cream of mushroom",matched,original,
+punnet oyster mushroom julienned,"Soup, cream of mushroom",2103195.0,"Soup, cream of mushroom",matched,manual_match,Matched after cleaning ingredient name
+punnet pea (fresh),punnet pea (fresh),2707459.0,"Soup, split pea",matched,original,
+punnet pea,punnet pea,2707459.0,"Soup, split pea",matched,original,
+pure vanilla extract,pure vanilla extract,2708013.0,"Pie, vanilla cream",matched,original,
+purple onion,purple onion,2707633.0,"Bread, onion",matched,original,
+rack pork rib,rack pork rib,2705894.0,"Pork, ribs",matched,original,
+raisin,raisin,2707644.0,"Bread, raisin",matched,original,
+ras el hanout,ras el hanout,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'moroccan spice blend' → USDA 'Hot pepper sauce'
+raw organic tigernut,raw organic tigernut,2705559.0,"Infant formula, organic, ready-to-feed",matched,original,
+raw unsweetened coconut (flakes),raw unsweetened coconut (flakes),2707572.0,"Coconut water, unsweetened",matched,original,
+real premium spice black pepper (ground),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+real premium spice cayenne pepper,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+real premium spice chisa nyama,"Barbecue beef, no sauce",2105862.0,"Barbecue beef, no sauce",matched,manual_match,Matched after cleaning ingredient name
+real premium spice cinnamon (ground),real premium spice cinnamon (ground),2707620.0,"Bread, cinnamon",matched,original,
+real premium spice coriander,"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+real premium spice curry (powder),Vegetable curry,2709767.0,Vegetable curry,matched,manual_match,Matched after cleaning ingredient name
+real premium spice lemon garlic herb seasoning,Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+real premium spice mild curry (powder),Vegetable curry,2709767.0,Vegetable curry,matched,manual_match,Matched after cleaning ingredient name
+real premium spice paprika,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+real premium spice potato mate,real premium spice potato mate,2707649.0,"Bread, sweet potato, toasted",matched,original,
+real premium spice sour cream chive,"Onion dip, light",2108393.0,"Onion dip, light",matched,manual_match,Matched after cleaning ingredient name
+real premium spice turmeric,Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+red bell pepper,red bell pepper,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+red bell pepper chargrilled,red bell pepper chargrilled,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+red bell pepper thin strip,red bell pepper thin strip,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+red bird s-eye chilly,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+red chili (powder),red chili (powder),2706373.0,"Chili, NFS",matched,original,
+red chilly,red chilly,2710076.0,"Cabbage, red, pickled",matched,original,
+red chily,red chily,2710076.0,"Cabbage, red, pickled",matched,original,
+red lentil washed,red lentil washed,2707460.0,"Soup, lentil, canned",matched,original,
+red onion,red onion,2707633.0,"Bread, onion",matched,original,
+red onion bite-sized chunk,"Bread, onion",2707834.0,"Bread, onion",matched,manual_match,Matched after cleaning ingredient name
+red onion char-grilled,red onion char-grilled,2707634.0,"Bread, onion, toasted",matched,original,
+red orange pepper de-seeded bite-sized chunk,"Red pepper, cooked, as ingredient",2109394.0,"Red pepper, cooked, as ingredient",matched,manual_match,Matched after cleaning ingredient name
+red pepper (flakes),red pepper (flakes),2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+red pepper,red pepper,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+red pepper deseeded,red pepper deseeded,2710799.0,"Red pepper, cooked, as ingredient",matched,original,
+red wine vinegar,red wine vinegar,2710688.0,"Wine, red",matched,original,
+red yellow bell pepper,"Red pepper, cooked, as ingredient",2109394.0,"Red pepper, cooked, as ingredient",matched,manual_match,Matched after cleaning ingredient name
+regular salt seasoned salt,"Sugar, NFS",2100373.0,"Sugar, NFS",matched,manual_match,Matched after cleaning ingredient name
+rice (parboiled),rice (parboiled),2705411.0,Rice milk,matched,original,
+rice,rice,2705411.0,Rice milk,matched,original,
+rice couscous,rice couscous,2709071.0,Rice croquette,matched,original,
+rice injera,rice injera,2708166.0,Rice paper,matched,original,
+ripe plantain,ripe plantain,2710140.0,"Ripe plantain meat pie, Puerto Rican style",matched,original,
+ripe plantain -inch thick round,ripe plantain -inch thick round,2710140.0,"Ripe plantain meat pie, Puerto Rican style",matched,original,
+ripe tomato,ripe tomato,2709757.0,"Soup, tomato",matched,original,
+roma tomato,roma tomato,2709757.0,"Soup, tomato",matched,original,
+room temperature water,room temperature water,2708178.0,"Crackers, water",matched,original,
+room-temperature unsalted butter,room-temperature unsalted butter,2708272.0,"Pretzels, soft, ready-to-eat, unsalted, no butter",matched,original,
+rosemary (dried),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+runny honey,runny honey,2710281.0,Honey,matched,original,
+russet potato,russet potato,2707642.0,"Bread, potato",matched,original,
+russet potato bite-size,russet potato bite-size,2709709.0,"Sweet potato fries, NFS",matched,original,
+sadza remhunga,sadza remhunga,2708363,"Grits, NFS",matched,african_proxy,"African proxy resolved: 'sorghum porridge' → USDA 'Grits, NFS'"
+salt,"Sugar, NFS",2100373.0,"Sugar, NFS",matched,manual_match,Matched after cleaning ingredient name
+salt as,"Sugar, NFS",2100373.0,"Sugar, NFS",matched,manual_match,Matched after cleaning ingredient name
+salt black pepper (ground),salt black pepper (ground),2710545.0,"Soft drink, pepper type",matched,original,
+salt black pepper,salt black pepper,2710545.0,"Soft drink, pepper type",matched,original,
+salt black pepper as,salt black pepper as,2710545.0,"Soft drink, pepper type",matched,original,
+salt pepper (ground),salt pepper (ground),2710093.0,Hot pepper sauce,matched,original,
+salt pepper,salt pepper,2710093.0,Hot pepper sauce,matched,original,
+salt white pepper black pepper (ground),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+samp,samp,2709933,"Hominy, cooked",matched,african_proxy,"African proxy resolved: 'hominy corn' → USDA 'Hominy, cooked'"
+sardine olive oil (smoked),sardine olive oil (smoked),2710186.0,Olive oil,matched,original,
+scallion,scallion,2709795,"Onions, raw",matched,african_proxy,"African proxy resolved: 'green onion' → USDA 'Onions, raw'"
+scotch bonnet chile habanero chile,scotch bonnet,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'habanero pepper' → USDA 'Hot pepper sauce'
+scotch bonnet chilli,scotch bonnet,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'habanero pepper' → USDA 'Hot pepper sauce'
+scotch bonnet chilli de-seeded,Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+scotch bonnet chilly left (whole),Hot pepper sauce,2709753.0,Hot pepper sauce,matched,manual_match,Matched after cleaning ingredient name
+sea salt,"Sugar, NFS",2100373.0,"Sugar, NFS",matched,manual_match,Matched after cleaning ingredient name
+sea salt black pepper (ground),sea salt black pepper (ground),2710045.0,Stuffed jalapeno pepper,matched,original,
+self raising flour,self raising flour,2707827.0,"Taco shell, flour",matched,original,
+self-raising flour,self-raising flour,2707827.0,"Taco shell, flour",matched,original,
+semolina,semolina,2708157,"Crackers, flatbread",matched,african_proxy,"African proxy resolved: 'semolina flour' → USDA 'Crackers, flatbread'"
+semolina flour,semolina flour,2707824.0,"Tortilla, flour",matched,original,
+serrano chile,serrano,2710093,Hot pepper sauce,matched,african_proxy,African proxy resolved: 'serrano pepper' → USDA 'Hot pepper sauce'
+sharp white bread,sharp white bread,2707307.0,Egg sandwich on white bread,matched,original,
+sheet ready-rolled puff pastry,"Pastry, mainly flour and water, fried",2708056.0,"Pastry, mainly flour and water, fried",matched,manual_match,Matched after cleaning ingredient name
+shelled unsalted pistachio nut,shelled unsalted pistachio nut,2707530.0,"Pistachio nuts, unsalted",matched,original,
+sherry vinegar,sherry vinegar,2709351.0,Vinegar,matched,original,
+shoulder lamb,shoulder lamb,2706660.0,"Stew, lamb",matched,original,
+shredded lettuce,shredded lettuce,2709590.0,"Romaine lettuce, raw",matched,original,
+simple syrup,simple syrup,2710278.0,Simple syrup,matched,original,
+sirloin chuck roast,sirloin chuck roast,2705882.0,"Pork, roast",matched,original,
+sirloin steak cm cube,sirloin steak cm cube,2705826.0,"Beef, steak, cube",matched,original,
+sized kariba bream fish gutted,"Fish, halibut",2101106.0,"Fish, halibut",matched,manual_match,Matched after cleaning ingredient name
+sized potato,sized potato,2707642.0,"Bread, potato",matched,original,
+skin-on bone-in chicken thigh,skin-on bone-in chicken thigh,2706037.0,"Chicken thigh, stewed, skin eaten",matched,original,
+smooth peanut butter,smooth peanut butter,2707952.0,"Cookie, peanut butter",matched,original,
+soda,soda,2710664.0,Vodka and soda,matched,original,
+soda bicarbonate soda,soda bicarbonate soda,2710664.0,Vodka and soda,matched,original,
+soft-boiled egg,soft-boiled egg,2707154.0,"Egg, whole, boiled or poached",matched,original,
+sour milk,sour milk,2705412.0,Oat milk,matched,original,
+soy sauce,soy sauce,2707442.0,Soy sauce,matched,original,
+spinach,spinach,2709614.0,"Spinach, raw",matched,original,
+split fava bean (dried),split fava bean (dried),2707453.0,"Soup, bean",matched,original,
+sprig thyme (fresh),"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+sprig thyme leave only (fresh),sprig thyme leave only (fresh),2708554.0,"Burrito, cheese only",matched,original,
+sprinkle sesame seed,sprinkle sesame seed,2707586.0,Sesame seeds,matched,original,
+squeezed,squeezed,2709184.0,"Lime juice, 100%, freshly squeezed",matched,original,
+squeezed refrigerator,,,"SKIP - instruction fragment, not an ingredient",skip,skip,"This entry appears to be a recipe instruction, not an ingredient"
+stale white bread crust removed,stale white bread crust removed,2707309.0,"Egg sandwich on white bread, with meat",matched,original,
+star anise (ground),"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+star anise,"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+star anise seed,"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+steak mince,steak mince,2709752.0,Steak sauce,matched,original,
+stem ginger,stem ginger,2710507.0,"Tea, ginger",matched,original,
+sugar (granulated),sugar (granulated),2710257.0,"Sugar, NFS",matched,original,
+sugar (powder),sugar (powder),2710257.0,"Sugar, NFS",matched,original,
+sugar,sugar,2710257.0,"Sugar, NFS",matched,original,
+sweet corn,sweet corn,2709697.0,"Sweet potato, NFS",matched,original,
+sweet paprika (smoked),sweet paprika (smoked),2710308.0,Sweet potato paste,matched,original,
+sweet potato,sweet potato,2708012.0,"Pie, sweet potato",matched,original,
+sweet potato scrubbed bite-sized chunk,sweet potato scrubbed bite-sized chunk,2709700.0,"Sweet potato, baked, fat added",matched,original,
+sweet potato skin scrubbed clean,sweet potato skin scrubbed clean,2709717.0,"Sweet potato tots, school",matched,original,
+t-bone steak,t-bone steak,2705838.0,"Beef, steak, T-bone, NS as to fat eaten",matched,original,
+tamarind salt serve hot (paste),tamarind salt serve hot (paste),2705635.0,"Ice cream, soft serve, chocolate",matched,original,
+tammy garlic sesame oil (infused),tammy garlic sesame oil (infused),2710190.0,Sesame oil,matched,original,
+tammy pure organic sesame oil,tammy pure organic sesame oil,2710190.0,Sesame oil,matched,original,
+teaspooon chili curry (powder),teaspooon chili curry (powder),2709735.0,Tomato chili sauce,matched,original,
+teff flour,teff flour,2707827.0,"Taco shell, flour",matched,original,
+tente mushroom,tente mushroom,2710107.0,"Soup, cream of mushroom",matched,original,
+thumb-sized root ginger (fresh),thumb-sized root ginger (fresh),2710082.0,"Ginger root, pickled",matched,original,
+thyme (dried),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+thyme leave (fresh),"Garlic, raw",2110003.0,"Garlic, raw",matched,manual_match,Matched after cleaning ingredient name
+tightly packed spinach,tightly packed spinach,2708755.0,Lasagna with meat and spinach,matched,original,
+tilapia fish fillet,tilapia fish fillet,2706320.0,"Fish, tilapia, grilled",matched,original,
+tilapia washed cleaned thoroughly (whole),"Fish, tilapia, grilled",2101108.0,"Fish, tilapia, grilled",matched,manual_match,Matched after cleaning ingredient name
+tin tomato,tin tomato,2709757.0,"Soup, tomato",matched,original,
+tomato (fresh),tomato (fresh),2709757.0,"Soup, tomato",matched,original,
+tomato (paste),tomato (paste),2709757.0,"Soup, tomato",matched,original,
+tomato (whole),tomato (whole),2709757.0,"Soup, tomato",matched,original,
+tomato pur,tomato pur,2709728.0,"Tomato juice, 100%",matched,original,
+tumeric (powder),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+turkey breast,turkey breast,2706131.0,"Turkey, back",matched,original,
+turkey wing chicken quarter,turkey wing chicken quarter,2706200.0,Turkey or chicken sausage,matched,original,
+turmeric (ground),Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+uda pod (ground),"Cake or cupcake, spice",2708000.0,"Cake or cupcake, spice",matched,manual_match,Matched after cleaning ingredient name
+unsalted butter,unsalted butter,2708270.0,"Pretzels, soft, ready-to-eat, unsalted, buttered",matched,original,
+unsalted butter occasionally,unsalted butter occasionally,2708272.0,"Pretzels, soft, ready-to-eat, unsalted, no butter",matched,original,
+unsalted butter water,unsalted butter water,2708272.0,"Pretzels, soft, ready-to-eat, unsalted, no butter",matched,original,
+unsweetened coconut spoon (flakes),unsweetened coconut spoon (flakes),2707572.0,"Coconut water, unsweetened",matched,original,
+vanilla essence,vanilla essence,2707975.0,"Cookie, vanilla sandwich",matched,original,
+vanilla extract,vanilla extract,2708013.0,"Pie, vanilla cream",matched,original,
+vegetable (bouillon),vegetable (bouillon),2710063.0,"Stew, vegetable",matched,original,
+vegetable (stock),vegetable (stock),2710063.0,"Stew, vegetable",matched,original,
+vegetable crumbled (stock),vegetable crumbled (stock),2710067.0,Vegetable curry,matched,original,
+vegetable oil,vegetable oil,2710180.0,"Vegetable oil, NFS",matched,original,
+vegetable oil as,vegetable oil as,2710180.0,"Vegetable oil, NFS",matched,original,
+vegetable oil extra greasing,vegetable oil extra greasing,2710180.0,"Vegetable oil, NFS",matched,original,
+vegetable oil frying,vegetable oil frying,2710180.0,"Vegetable oil, NFS",matched,original,
+vinegar,vinegar,2709351.0,Vinegar,matched,original,
+warm milk,warm milk,2705412.0,Oat milk,matched,original,
+warm water,warm water,2708178.0,"Crackers, water",matched,original,
+warm water as,warm water as,2710706.0,"Water, NFS",matched,original,
+warm water body,warm water body,2710713.0,"Water, baby",matched,original,
+warm water nonstick skillet over,"Lemon juice, 100%, freshly squeezed",2109239.0,"Lemon juice, 100%, freshly squeezed",matched,manual_match,Matched after cleaning ingredient name
+water,water,2710706.0,"Water, NFS",matched,original,
+water as,water as,2710706.0,"Water, NFS",matched,original,
+water cornmeal salt,water cornmeal salt,2708375.0,"Cornmeal mush, fat added",matched,original,
+water simmer oxtail,water simmer oxtail,2710707.0,"Water, tap",matched,original,
+water soften,water soften,2710538.0,"Water, tonic",matched,original,
+water use handheld sieve,water use handheld sieve,2710712.0,"Water, enhanced, diet",matched,original,
+wheat flour (whole),wheat flour (whole),2708477.0,Wheat germ,matched,original,
+wheat flour hand (whole),wheat flour hand (whole),2708488.0,Wheat bran,matched,original,
+white bowl clean kitchen (ground),white bowl clean kitchen (ground),2707353.0,"White beans, NFS",matched,original,
+white bread,white bread,2707307.0,Egg sandwich on white bread,matched,original,
+white breadcrumb (fresh),white breadcrumb (fresh),2707353.0,"White beans, NFS",matched,original,
+white cabbage shredded,white cabbage shredded,2709893.0,"Cabbage, red, cooked",matched,original,
+white kidney bean overnight (dried),white kidney bean overnight (dried),2708993.0,Kidney beans and white rice,matched,original,
+white onion,white onion,2707633.0,"Bread, onion",matched,original,
+white pepper,white pepper,2710093.0,Hot pepper sauce,matched,original,
+white sugar,white sugar,2710258.0,"Sugar, white, granulated or lump",matched,original,
+white teff flour,white teff flour,2705703.0,White sauce or gravy,matched,original,
+white wine spirit vinegar,white wine spirit vinegar,2710697.0,Wine spritzer,matched,original,
+white wooden spoon (ground),white wooden spoon (ground),2707353.0,"White beans, NFS",matched,original,
+wholegrain mustard,wholegrain mustard,2710086.0,Honey mustard dip,matched,original,
+worcestershire sauce,worcestershire sauce,2707447.0,Worcestershire sauce,matched,original,
+xawaash spice,xawaash spice,2707885.0,"Cake or cupcake, spice",matched,original,
+yam,yam,2710794,"Sweet potato, cooked, as ingredient",matched,african_proxy,"African proxy resolved: 'yam tuber' → USDA 'Sweet potato, cooked, as ingredient'"
+yam flour,yam flour,2707824.0,"Tortilla, flour",matched,original,
+yam plantain rice,yam plantain rice,2709560.0,"Plantain, raw",matched,original,
+yam tuber,yam,2710794,"Sweet potato, cooked, as ingredient",matched,african_proxy,"African proxy resolved: 'yam tuber' → USDA 'Sweet potato, cooked, as ingredient'"
+yellow bell pepper,yellow bell pepper,2709870.0,"Yellow string beans, cooked",matched,original,
+yellow cornmeal,yellow cornmeal,2708420.0,"Yellow rice, cooked, no added fat",matched,original,
+yellow lusaka bean,yellow lusaka bean,2710009.0,"Bean salad, yellow and/or green string beans",matched,original,
+yellow pepper,yellow pepper,2710045.0,Stuffed jalapeno pepper,matched,original,
+yellow red bell pepper,"Red pepper, cooked, as ingredient",2109394.0,"Red pepper, cooked, as ingredient",matched,manual_match,Matched after cleaning ingredient name
+young turkey (fresh),young turkey (fresh),2706170.0,"Hot dog, turkey",matched,original,
+yuca root,yuca root,2709565.0,Yuca fries,matched,original,
+yucca root,yucca root,2709936.0,"Lotus root, cooked",matched,original,
+yukon gold potato,yukon gold potato,2709556.0,"Soup, potato",matched,original,
+yukon gold potato -inch cube,"Potato, boiled, NFS",2109423.0,"Potato, boiled, NFS",matched,manual_match,Matched after cleaning ingredient name
+yukon gold potato -inch thick,"Potato, boiled, NFS",2109423.0,"Potato, boiled, NFS",matched,manual_match,Matched after cleaning ingredient name
+yukon gold potato chunk,"Potato, boiled, NFS",2109423.0,"Potato, boiled, NFS",matched,manual_match,Matched after cleaning ingredient name
+zest juice lemon,zest juice lemon,2708000.0,"Pie, lemon",matched,original,
+zest lemon,zest lemon,2708000.0,"Pie, lemon",matched,original,
+zest orange,zest orange,2709171.0,"Orange, raw",matched,original,
+zimspice blue poppy seed,zimspice blue poppy seed,2710210.0,Poppy seed dressing,matched,original,
+zimspice curry (powder),zimspice curry (powder),2706437.0,Chicken curry,matched,original,
+zimspice fish curry,zimspice fish curry,2706460.0,Fish curry,matched,original,
+zimspice portuguese chicken masala,Chicken curry,2105913.0,Chicken curry,matched,manual_match,Matched after cleaning ingredient name
+zimspice turmeric,Puerto Rican seasoning with ham,2709754.0,Puerto Rican seasoning with ham,matched,manual_match,Matched after cleaning ingredient name
+zucchini,zucchini,2707851.0,"Bread, zucchini",matched,original,
+cod fillets,cod fillets,2706240,"Fish, cod, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Fish, cod, NFS"""
+onions,onions,2709795,"Onions, raw",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+garlic,garlic,2709786,"Garlic, raw",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+red chile pepper,red chile pepper,2709977,"Peppers, red, cooked",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+bay leaves,bay leaves,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+black peppercorns,black peppercorns,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+allspice berries,allspice berries,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+packed brown sugar,packed brown sugar,2710260,"Sugar, brown",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+curry powder,curry powder,2709767.0,Vegetable curry,matched,manual_match,Added from scraped allrecipes data
+ground cumin,ground cumin,2706091,"Chicken, ground",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+ground coriander,ground coriander,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+ground turmeric,ground turmeric,2706133,"Turkey, ground",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+lamb meat,lamb meat,2705840,"Stew, lamb",matched,manual_fix,"Manual fix: matched to USDA ""Stew, lamb"""
+ground cinnamon,ground cinnamon,2710261,"Sugar, cinnamon",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+garlic powder,garlic powder,2709786,"Garlic, raw",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+ground cardamom,ground cardamom,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+ground ginger,ground ginger,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+ground cloves,ground cloves,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+saffron,saffron,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+carrots,carrots,2709660,"Carrots, raw",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+freshly grated ginger,freshly grated ginger,2710082,"Ginger root, pickled",matched,manual_fix,"Manual fix: matched to USDA ""Ginger root, pickled"""
+homemade chicken broth or low-sodium canned broth,homemade chicken broth or low-sodium canned broth,2707132,"Soup, broth",matched,manual_fix,"Manual fix: matched to USDA ""Soup, broth"""
+sun-dried tomato paste,sun-dried tomato paste,2709727,Sun-dried tomatoes,matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+honey,honey,2710281.0,Honey,matched,fuzzy_80%,Added from scraped allrecipes data
+cornstarch optional,cornstarch optional,,,skip,artifact,Parsing artefact: not a real ingredient
+water optional,water optional,2710538,"Water, tonic",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+ground cayenne pepper,ground cayenne pepper,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+ground allspice,ground allspice,2706091,"Chicken, ground",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+red,red,,,skip,artifact,Parsing artefact: not a real ingredient
+zucchinis,zucchinis,2707851,"Bread, zucchini",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+golden raisins,golden raisins,2709212,Raisins,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+grated zest of one orange,grated zest of one orange,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+low-sodium chickpeas,low-sodium chickpeas,2707414,"Chickpeas, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Chickpeas, NFS"""
+chicken broth,chicken broth,2706081,"Chicken, back",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+orange juice,orange juice,2706443,Orange chicken,matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+couscous,couscous,2706331,Octopus,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+chopped fresh mint,chopped fresh mint,2709796,"Parsley, raw",matched,manual_fix,"Manual fix: matched to USDA ""Parsley, raw"""
+grated fresh ginger,grated fresh ginger,2710082,"Ginger root, pickled",matched,manual_fix,"Manual fix: matched to USDA ""Ginger root, pickled"""
+red lentils,red lentils,2707423,"Lentils, NFS",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+garbanzo beans,garbanzo beans,2707414,"Chickpeas, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Chickpeas, NFS"""
+cannellini beans,cannellini beans,2709850,"Lima beans, from canned",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+diced tomatoes,diced tomatoes,2709727,Sun-dried tomatoes,matched,fuzzy_usda_81%,Added from scraped allrecipes data; rematched vs full USDA
+diced carrots,diced carrots,2709201,"Currants, dried",matched,fuzzy_usda_71%,Added from scraped allrecipes data; rematched vs full USDA
+chopped celery,chopped celery,2709906,"Celery, cooked",matched,fuzzy_usda_78%,Added from scraped allrecipes data; rematched vs full USDA
+indian spice blend,garam masala,2710093,Hot pepper sauce,matched,proxy_fix,"Proxy resolved: matched to USDA ""Hot pepper sauce"""
+egusi seeds or pumpkin seeds,egusi seeds or pumpkin seeds,2707580,"Pumpkin seeds, salted",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+cubed beef stew meat,cubed beef stew meat,2705849.0,"Beef, stew meat",matched,fuzzy_74%,Added from scraped allrecipes data
+tomatoes,tomatoes,2709719,"Tomatoes, raw",matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+onion,onion,2709795,"Onions, raw",matched,manual_fix,"Manual fix: matched to USDA ""Onions, raw"""
+habanero peppers,habanero peppers,2710096,"Peppers, jalapenos",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+fresh shrimp,fresh shrimp,2706364,"Shrimp, fried",matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+tomato sauce,tomato sauce,2709740,Taco sauce,matched,fuzzy_usda_81%,Added from scraped allrecipes data; rematched vs full USDA
+tomato paste,tomato paste,2707703,Anisette toast,matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+fresh spinach,fresh spinach,2709614,"Spinach, raw",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+cubes beef bouillon,cubes beef bouillon,2708535,"Burrito, beef, cheese",matched,fuzzy_usda_65%,Added from scraped allrecipes data; rematched vs full USDA
+minced garlic,minced garlic,2710169,Garlic sauce,matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+beef oxtail,beef oxtail,2705843,"Beef, oxtails",matched,fuzzy_usda_91%,Added from scraped allrecipes data; rematched vs full USDA
+salt and ground black pepper,salt and ground black pepper,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+kidney beans,kidney beans,2707379,"Kidney beans, NFS",matched,fuzzy_usda_82%,Added from scraped allrecipes data; rematched vs full USDA
+cornstarch,cornstarch,2705928,Ostrich,matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+blanched almonds,blanched almonds,2707490,"Almonds, flavored",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+raisins,raisins,2709212,Raisins,matched,fuzzy_usda_100%,Added from scraped allrecipes data; rematched vs full USDA
+freshly ground black pepper,freshly ground black pepper,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+ground white pepper,ground white pepper,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+ground coriander seed,ground coriander seed,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+ground nutmeg,ground nutmeg,2705881,"Ham, ground",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+green cabbage,green cabbage,2709773.0,"Cabbage, green, raw",matched,fuzzy_75%,Added from scraped allrecipes data
+ground black pepper,ground black pepper,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+potatoes,potatoes,2709556,"Soup, potato",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+ground beef,ground beef,2705854,"Beef, ground",matched,fuzzy_usda_95%,Added from scraped allrecipes data; rematched vs full USDA
+texas toast thick-sliced bread,texas toast thick-sliced bread,2707838,"Bread, rye",matched,manual_fix,"Manual fix: matched to USDA ""Bread, rye"""
+hot chutney,hot chutney,2709309,Chutney,matched,fuzzy_usda_77%,Added from scraped allrecipes data; rematched vs full USDA
+baking powder,baking powder,2707824.0,"Tortilla, flour",matched,manual_match,Added from scraped allrecipes data
+eggs,eggs,2108064,"Egg, whole, boiled or poached",matched,manual_fix,"Manual fix: matched to USDA ""Egg, whole, boiled or poached"""
+uncooked white rice,uncooked white rice,2707874,"Snack cake, white",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+uncooked elbow macaroni,uncooked elbow macaroni,2708357,"Pasta, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Pasta, cooked"""
+beluga lentils,beluga lentils,2707423,"Lentils, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Lentils, NFS"""
+ripe tomatoes,ripe tomatoes,2709727,Sun-dried tomatoes,matched,fuzzy_usda_77%,Added from scraped allrecipes data; rematched vs full USDA
+skinless,skinless,,,skip,artifact,Parsing artefact: not a real ingredient
+celery,celery,2709778,"Celery, raw",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+minced fresh ginger root,minced fresh ginger root,2710082,"Ginger root, pickled",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+dried oregano,dried oregano,2709205,"Mango, dried",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+crushed tomatoes,crushed tomatoes,2709727,Sun-dried tomatoes,matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+canned chickpeas,canned chickpeas,2707133,"Soup, chicken, canned",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+frozen puff pastry sheets,frozen puff pastry sheets,2708056,"Pastry, mainly flour and water, fried",matched,manual_fix,"Manual fix: matched to USDA ""Pastry, mainly flour and water, fried"""
+chopped walnuts,chopped walnuts,2707531,"Walnuts, excluding honey roasted",matched,manual_fix,"Manual fix: matched to USDA ""Walnuts, excluding honey roasted"""
+chopped pecans,chopped pecans,2707521,"Pecans, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Pecans, NFS"""
+chopped hazelnuts,chopped hazelnuts,2707502,Hazelnuts,matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+flaked coconut,flaked coconut,2707501,"Coconut, packaged",matched,fuzzy_usda_77%,Added from scraped allrecipes data; rematched vs full USDA
+heavy cream,heavy cream,2705597,"Cream, heavy",matched,fuzzy_usda_95%,Added from scraped allrecipes data; rematched vs full USDA
+warm water 115 degrees f/46 degrees c,warm water 115 degrees f/46 degrees c,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+active dry yeast,active dry yeast,2710005,Yeast,matched,manual_fix,"Manual fix: matched to USDA ""Yeast"""
+orange-flower water,orange-flower water,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+tilapia fillets,tilapia fillets,2706320,"Fish, tilapia, grilled",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+chicken bouillon granules,chicken bouillon granules,2707132,"Soup, broth",matched,manual_fix,"Manual fix: matched to USDA ""Soup, broth"""
+chopped fresh parsley,chopped fresh parsley,2709796,"Parsley, raw",matched,manual_fix,"Manual fix: matched to USDA ""Parsley, raw"""
+chopped onion,chopped onion,2709795,"Onions, raw",matched,manual_fix,"Manual fix: matched to USDA ""Onions, raw"""
+thinly sliced bell peppers,thinly sliced bell peppers,2709801,"Peppers, sweet, red, raw",matched,manual_fix,"Manual fix: matched to USDA ""Peppers, sweet, red, raw"""
+chopped tomatoes,chopped tomatoes,2709723,"Tomatoes, scalloped",matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+hot chile pepper,hot chile pepper,2709978,"Peppers, hot, cooked",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+butter or margarine,butter or margarine,2710154,"Butter, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Butter, NFS"""
+vanilla,vanilla,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+sweet onion,sweet onion,2709795,"Onions, raw",matched,manual_fix,"Manual fix: matched to USDA ""Onions, raw"""
+finely shredded kale,finely shredded kale,2709600,"Kale, fresh, cooked, no added fat",matched,manual_fix,"Manual fix: matched to USDA ""Kale, fresh, cooked, no added fat"""
+organic vegetable broth,organic vegetable broth,2710152,Vegetable smoothie,matched,fuzzy_usda_68%,Added from scraped allrecipes data; rematched vs full USDA
+sweet potatoes,sweet potatoes,2708012.0,"Pie, sweet potato",matched,fuzzy_77%,Added from scraped allrecipes data
+dried lentils,dried lentils,2707423,"Lentils, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Lentils, NFS"""
+chopped dried apricots,chopped dried apricots,2709197,"Apricot, dried",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+kale,kale,2710607,Atole,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+chickpeas,chickpeas,2707414,"Chickpeas, NFS",matched,fuzzy_usda_78%,Added from scraped allrecipes data; rematched vs full USDA
+chopped fresh cilantro,chopped fresh cilantro,2709782,"Cilantro, raw",matched,manual_fix,"Manual fix: matched to USDA ""Cilantro, raw"""
+chopped fresh ginger,chopped fresh ginger,2710082,"Ginger root, pickled",matched,manual_fix,"Manual fix: matched to USDA ""Ginger root, pickled"""
+crushed red pepper,crushed red pepper,2709977,"Peppers, red, cooked",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+chicken stock,chicken stock,2706084.0,Chicken skin,matched,fuzzy_72%,Added from scraped allrecipes data
+chunky peanut butter,chunky peanut butter,2707537,Peanut butter,matched,fuzzy_usda_78%,Added from scraped allrecipes data; rematched vs full USDA
+collard greens,collard greens,2709576,"Collards, raw",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+cube chicken bouillon such as maggi®,cube chicken bouillon such as maggi®,2707132,"Soup, broth",matched,manual_fix,"Manual fix (substring ""maggi""): matched to USDA ""Soup, broth"""
+cracked black pepper,cracked black pepper,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+head cabbage,head cabbage,2709775,"Cabbage, red, raw",matched,fuzzy_usda_68%,Added from scraped allrecipes data; rematched vs full USDA
+roma plum tomatoes,roma plum tomatoes,2709719,"Tomatoes, raw",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+mackerel in tomato sauce,mackerel in tomato sauce,2709735,Tomato chili sauce,matched,fuzzy_usda_71%,Added from scraped allrecipes data; rematched vs full USDA
+red pepper flakes,red pepper flakes,2709977,"Peppers, red, cooked",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+seasoned salt,seasoned salt,2706838,Seafood salad,matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+vegetable broth,vegetable broth,2710063.0,"Stew, vegetable",matched,fuzzy_73%,Added from scraped allrecipes data
+pearl israeli couscous,pearl israeli couscous,2708441,"Couscous, plain, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Couscous, plain, cooked"""
+pine nuts,pine nuts,2707526,Pine nuts,matched,fuzzy_usda_100%,Added from scraped allrecipes data; rematched vs full USDA
+shallot,shallot,2709795,"Onions, raw",matched,manual_fix,"Manual fix: matched to USDA ""Onions, raw"""
+sliced black olives,sliced black olives,2710090,"Olives, black",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+sun-dried tomatoes packed in oil,sun-dried tomatoes packed in oil,2709727,Sun-dried tomatoes,matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+chopped fresh flat-leaf parsley,chopped fresh flat-leaf parsley,2709796,"Parsley, raw",matched,manual_fix,"Manual fix: matched to USDA ""Parsley, raw"""
+tahini sauce,tahini sauce,2709740,Taco sauce,matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+red pepper flakes optional,red pepper flakes optional,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+dried parsley flakes,dried parsley flakes,2709796,"Parsley, raw",matched,manual_fix,"Manual fix: matched to USDA ""Parsley, raw"""
+red chili powder,red chili powder,2710042,Fried cauliflower,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+ground fenugreek,ground fenugreek,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+onion powder,onion powder,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+jalapeno peppers,jalapeno peppers,2710045.0,Stuffed jalapeno pepper,matched,fuzzy_76%,Added from scraped allrecipes data
+minced fresh ginger,minced fresh ginger,2710082,"Ginger root, pickled",matched,manual_fix,"Manual fix: matched to USDA ""Ginger root, pickled"""
+sliced green beans,sliced green beans,2710070,"Green beans, pickled",matched,fuzzy_usda_84%,Added from scraped allrecipes data; rematched vs full USDA
+berbere seasoning,berbere seasoning,2710093,Hot pepper sauce,matched,manual_fix,"Manual fix: matched to USDA ""Hot pepper sauce"""
+chopped garlic,chopped garlic,2709932,"Garlic, cooked",matched,fuzzy_usda_78%,Added from scraped allrecipes data; rematched vs full USDA
+sweet white wine,sweet white wine,2710689,"Wine, white",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+hard-cooked eggs,hard-cooked eggs,2709575,"Chard, cooked",matched,fuzzy_usda_68%,Added from scraped allrecipes data; rematched vs full USDA
+dried split fava beans,dried split fava beans,2707369,"Lima beans, from dried",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+fresh parsley,fresh parsley,2709796,"Parsley, raw",matched,manual_fix,"Manual fix: matched to USDA ""Parsley, raw"""
+fresh cilantro,fresh cilantro,2709782,"Cilantro, raw",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+fresh dill,fresh dill,2709796,"Parsley, raw",matched,manual_fix,"Manual fix: matched to USDA ""Parsley, raw"""
+sesame seeds optional,sesame seeds optional,2707586,Sesame seeds,matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+quart vegetable oil,quart vegetable oil,2705627,"Vegetable dip, regular",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+1/2 long vermicelli,1/2 long vermicelli,2708357,"Pasta, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Pasta, cooked"""
+egyptian rice short-grain rice,egyptian rice short-grain rice,2708403,"Rice, white, cooked, NS as to fat",matched,manual_fix,"Manual fix: matched to USDA ""Rice, white, cooked, NS as to fat"""
+finely ground roasted peanuts,finely ground roasted peanuts,2707520,"Peanuts, honey roasted",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+ground paprika,ground paprika,2705863,"Pork, ground",matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+beef tri-tip steak,beef tri-tip steak,2705841,"Beef, steak, tenderloin",matched,fuzzy_usda_68%,Added from scraped allrecipes data; rematched vs full USDA
+mushrooms,mushrooms,2709793,"Mushrooms, raw",matched,fuzzy_usda_78%,Added from scraped allrecipes data; rematched vs full USDA
+ground dried new mexico chiles,ground dried new mexico chiles,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+cumin,cumin,2709754,Puerto Rican seasoning with ham,matched,manual_fix,"Manual fix: matched to USDA ""Puerto Rican seasoning with ham"""
+white vinegar,white vinegar,2710291,"Icing, white",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+mutton chops,mutton chops,2705840,"Stew, lamb",matched,manual_fix,"Manual fix: matched to USDA ""Stew, lamb"""
+chicken drumsticks,chicken drumsticks,2706084,Chicken skin,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+water to cover,water to cover,2710003,Water Chesnut,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+turnips,turnips,2706162,Tripe,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+moroccan spice blend,ras el hanout,2710093,Hot pepper sauce,matched,proxy_fix,"Proxy resolved: matched to USDA ""Hot pepper sauce"""
+cilantro,cilantro,2709782,"Cilantro, raw",matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+harissa,harissa,2710093,Hot pepper sauce,matched,manual_fix,"Manual fix: matched to USDA ""Hot pepper sauce"""
+piece fresh ginger root,piece fresh ginger root,2710082,"Ginger root, pickled",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+cubes chicken bouillon,cubes chicken bouillon,2707132,"Soup, broth",matched,manual_fix,"Manual fix: matched to USDA ""Soup, broth"""
+herbes de provence,herbes de provence,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+parboiled rice such as uncle ben's®,parboiled rice such as uncle ben's®,2708403,"Rice, white, cooked, NS as to fat",matched,manual_fix,"Manual fix (substring ""uncle ben""): matched to USDA ""Rice, white, cooked, NS as to fat"""
+frozen mixed vegetables,frozen mixed vegetables,2709810,Mixed vegetable juice,matched,fuzzy_usda_77%,Added from scraped allrecipes data; rematched vs full USDA
+ripe plantains,ripe plantains,2709560,"Plantain, raw",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+fine white sugar,fine white sugar,2708349,Funnel cake with sugar,matched,fuzzy_usda_68%,Added from scraped allrecipes data; rematched vs full USDA
+quarts vegetable oil,quarts vegetable oil,2708966,"Sushi roll, vegetable",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+ginger-garlic paste,ginger-garlic paste,2110003,"Garlic, raw",matched,manual_fix,"Manual fix: matched to USDA ""Garlic, raw"""
+frozen chopped spinach,frozen chopped spinach,2709624,"Spinach, frozen, cooked with oil",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+brown teff flour,brown teff flour,2708377,Millet,matched,manual_fix,"Manual fix: matched to USDA ""Millet"""
+vegetable oil optional,vegetable oil optional,2710152,Vegetable smoothie,matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+dried,dried,2709204,"Fig, dried",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+cumin seeds,cumin seeds,2707590,Chia seeds,matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+coriander seeds,coriander seeds,2707590,Chia seeds,matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+caraway seeds,caraway seeds,2707590,Chia seeds,matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+multi-colored peppercorns,multi-colored peppercorns,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+smoked paprika,smoked paprika,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+smoked salt,smoked salt,2706230,"Fish, smoked",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+dried parsley,dried parsley,2709208,"Pear, dried",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+boneless pork loin roast,boneless pork loin roast,2705862,"Pork, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Pork, NFS"""
+baby potatoes,baby potatoes,2709510,Potato patty,matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+anaheim chile peppers,anaheim chile peppers,2710093,Hot pepper sauce,matched,manual_fix,"Manual fix: matched to USDA ""Hot pepper sauce"""
+plain greek yogurt,plain greek yogurt,2705422,"Yogurt, Greek, whole milk, plain",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+thinly sliced fresh mint,thinly sliced fresh mint,2709796,"Parsley, raw",matched,manual_fix,"Manual fix: matched to USDA ""Parsley, raw"""
+celery stalk,celery stalk,2709778,"Celery, raw",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+chuck roast,chuck roast,2708070,Churros,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+low-sodium beef broth,low-sodium beef broth,2707132,"Soup, broth",matched,manual_fix,"Manual fix: matched to USDA ""Soup, broth"""
+molasses,molasses,2710283,Molasses,matched,fuzzy_usda_100%,Added from scraped allrecipes data; rematched vs full USDA
+dried red lentils,dried red lentils,2707423,"Lentils, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Lentils, NFS"""
+dried apricots,dried apricots,2709197,"Apricot, dried",matched,fuzzy_usda_92%,Added from scraped allrecipes data; rematched vs full USDA
+mild to medium hot red chile peppers,mild to medium hot red chile peppers,2710093,Hot pepper sauce,matched,manual_fix,"Manual fix: matched to USDA ""Hot pepper sauce"""
+ground cumin seeds,ground cumin seeds,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+garlic cloves,garlic cloves,2709932,"Garlic, cooked",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+peeled tomatoes,peeled tomatoes,2709723,"Tomatoes, scalloped",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+2 to 3 chicken,2 to 3 chicken,2706085,Chicken feet,matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+unsweetened coconut milk,unsweetened coconut milk,2707572.0,"Coconut water, unsweetened",matched,fuzzy_72%,Added from scraped allrecipes data
+leek,leek,2709935,Leeks,matched,fuzzy_usda_88%,Added from scraped allrecipes data; rematched vs full USDA
+pepper,pepper,2706747,Pepper steak,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+spring roll wrappers,spring roll wrappers,2708056,"Pastry, mainly flour and water, fried",matched,manual_fix,"Manual fix: matched to USDA ""Pastry, mainly flour and water, fried"""
+quart oil,quart oil,2710189,Canola oil,matched,manual_fix,"Manual fix: matched to USDA ""Canola oil"""
+chopped,chopped,,,skip,artifact,Parsing artefact: not a real ingredient
+creamy peanut butter,creamy peanut butter,2708009,"Pie, peanut butter cream",matched,fuzzy_usda_86%,Added from scraped allrecipes data; rematched vs full USDA
+superfine sugar,superfine sugar,2710257,"Sugar, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Sugar, NFS"""
+apricot jelly,apricot jelly,2709197,"Apricot, dried",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+yucca cassava roots,yucca cassava roots,2709564,"Cassava, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Cassava, cooked"""
+yellow plantains,yellow plantains,2709560,"Plantain, raw",matched,fuzzy_usda_68%,Added from scraped allrecipes data; rematched vs full USDA
+lamb or mutton breast chops,lamb or mutton breast chops,2706413,Lamb or mutton with gravy,matched,fuzzy_usda_65%,Added from scraped allrecipes data; rematched vs full USDA
+fresh tomatoes,fresh tomatoes,2709721,"Tomatoes, fresh, cooked",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+cube beef bouillon cube,cube beef bouillon cube,2707132,"Soup, broth",matched,manual_fix,"Manual fix: matched to USDA ""Soup, broth"""
+white peppercorns,white peppercorns,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+fresh lemon juice,fresh lemon juice,2709181,"Lemon juice, 100%, freshly squeezed",matched,fuzzy_usda_65%,Added from scraped allrecipes data; rematched vs full USDA
+hot chili powder,hot chili powder,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+bone-in chicken breast halves,bone-in chicken breast halves,2705929,"Chicken, NS as to part and cooking method, NS as to skin eaten",matched,manual_fix,"Manual fix: matched to USDA ""Chicken, NS as to part and cooking method, NS as to skin eaten"""
+frozen puff pastry,frozen puff pastry,2708053,"Pastry, puff",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+slivered almonds,slivered almonds,2707490,"Almonds, flavored",matched,fuzzy_usda_78%,Added from scraped allrecipes data; rematched vs full USDA
+chopped pistachio nuts,chopped pistachio nuts,2707527,"Pistachio nuts, NFS",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+sweetened,sweetened,2706158,Sweetbreads,matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+red bell peppers,red bell peppers,2709977,"Peppers, red, cooked",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+vegetable broth or stock,vegetable broth or stock,2710109,"Soup, cream of vegetable",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+chili powder optional,chili powder optional,,,skip,negligible,Negligible: spice/flavouring with <5 kcal contribution per serving
+extra crunchy peanut butter,extra crunchy peanut butter,2708009,"Pie, peanut butter cream",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+uncooked brown rice,uncooked brown rice,2708409,"Rice, brown, cooked, NS as to fat",matched,manual_fix,"Manual fix: matched to USDA ""Rice, brown, cooked, NS as to fat"""
+egg yolks,egg yolks,2707172,"Egg, yolk only, raw",matched,manual_fix,"Manual fix: matched to USDA ""Egg, yolk only, raw"""
+egg white,egg white,2707334,Egg white sandwich,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+cinnamon sugar,cinnamon sugar,2710261,"Sugar, cinnamon",matched,fuzzy_usda_96%,Added from scraped allrecipes data; rematched vs full USDA
+chopped dates,chopped dates,2709203,Date,matched,manual_fix,"Manual fix: matched to USDA ""Date"""
+dry couscous,dry couscous,2708441,"Couscous, plain, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Couscous, plain, cooked"""
+dried white kidney beans,dried white kidney beans,2708993,Kidney beans and white rice,matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+red pimento sauce,red pimento sauce,2710175,Pesto sauce,matched,fuzzy_usda_71%,Added from scraped allrecipes data; rematched vs full USDA
+salt and pepper,salt and pepper,2706747,Pepper steak,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+beef broth,beef broth,2705847,"Beef, roast",matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+boneless lamb shoulder,boneless lamb shoulder,2705840,"Stew, lamb",matched,manual_fix,"Manual fix: matched to USDA ""Stew, lamb"""
+yellow onion,yellow onion,2709795,"Onions, raw",matched,manual_fix,"Manual fix: matched to USDA ""Onions, raw"""
+ribs celery with leaves,ribs celery with leaves,2709778,"Celery, raw",matched,manual_fix,"Manual fix: matched to USDA ""Celery, raw"""
+green lentils,green lentils,2710089,"Olives, green",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+vermicelli pasta,vermicelli pasta,2708357,"Pasta, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Pasta, cooked"""
+black raisins,black raisins,2710672,Black Russian,matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+16 ounces mackerel drained,16 ounces mackerel drained,2706240,"Fish, cod, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Fish, cod, NFS"""
+onion finely chopped,onion finely chopped,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+green onions,green onions,2709794,"Onions, green, raw",matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+rice use tuwo rice,rice use tuwo rice,2708403,"Rice, white, cooked, NS as to fat",matched,keyword_rule,"Keyword rule: matched to USDA ""Rice, white, cooked, NS as to fat"""
+yeast active dry,yeast active dry,2710005,Yeast,matched,manual_fix,"Manual fix: matched to USDA ""Yeast"""
+cooked rice pre-cooked,cooked rice pre-cooked,2708356,"Rice noodles, cooked",matched,fuzzy_usda_71%,Added from scraped allrecipes data; rematched vs full USDA
+yogurt,yogurt,2705414,"Yogurt, NFS",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+inch ginger,inch ginger,2710082,"Ginger root, pickled",matched,keyword_rule,"Keyword rule: matched to USDA ""Ginger root, pickled"""
+sugar 4 tablespoons,sugar 4 tablespoons,2710257,"Sugar, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Sugar, NFS"""
+nutmeg or cinnamon,nutmeg or cinnamon,2710261,"Sugar, cinnamon",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+melted butter,melted butter,2705393,Buttermilk,matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+bread crumbs,bread crumbs,2707604,"Bread, Cuban",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+dried thyme,dried thyme,2706366,"Shrimp, dried",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+onion finely diced,onion finely diced,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+garlic minced,garlic minced,2710169,Garlic sauce,matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+red chili flakes or cayenne pepper or add,red chili flakes or cayenne pepper or add,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+beef stock or milk,beef stock or milk,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+plum tomatoes,plum tomatoes,2709719,"Tomatoes, raw",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+scotch bonnets habanero,scotch bonnets habanero,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+olive oil or any other cooking oil of your choice,olive oil or any other cooking oil of your choice,2710192,Olive oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Olive oil"""
+diced onion,diced onion,2707633,"Bread, onion",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+bouillon cube,bouillon cube,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+thyme,thyme,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+to 1 cup beef stock or add,to 1 cup beef stock or add,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+parsley,parsley,2708361,Barley,matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+onion medium size [diced],onion medium size [diced],2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+rosemary or thyme,rosemary or thyme,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+beef bouillon or chicken bouillon powder or 2 cubes,beef bouillon or chicken bouillon powder or 2 cubes,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+water or,water or,2710538,"Water, tonic",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+bell peppers large,bell peppers large,2709801,"Peppers, sweet, red, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, sweet, red, raw"""
+scotch bonnet peppers,scotch bonnet peppers,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+plum tomatoes medium size,plum tomatoes medium size,2709797,"Tomatoes, red, ripe, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Tomatoes, red, ripe, raw"""
+olive oil or vegetable oil,olive oil or vegetable oil,2710192,Olive oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Olive oil"""
+to 11/2 cups beef stock i used liquid from cooking beef,to 11/2 cups beef stock i used liquid from cooking beef,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+chicken bouillon or beef bouillon,chicken bouillon or beef bouillon,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+salt to taste if needed,salt to taste if needed,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+turkey wings or chicken quarters cut into smaller sizes,turkey wings or chicken quarters cut into smaller sizes,2705929,"Chicken, NS as to part and cooking method, NS as to skin eaten",matched,keyword_rule,"Keyword rule: matched to USDA ""Chicken, NS as to part and cooking method, NS as to skin eaten"""
+onion diced (divided,onion diced (divided,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+scotch bonnet ata rodo,scotch bonnet ata rodo,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+minced ginger,minced ginger,2710082,"Ginger root, pickled",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+bouillon powder,bouillon powder,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+coconut oil or any other cooking oil,coconut oil or any other cooking oil,2707568,"Coconut milk, used in cooking",matched,fuzzy_usda_67%,Added from scraped allrecipes data; rematched vs full USDA
+remaining diced onion,remaining diced onion,2710055,Fried onion rings,matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+habanero minced,habanero minced,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+tatashe or any other savory,tatashe or any other savory,2709801,"Peppers, sweet, red, raw",matched,manual_fix,"Manual fix: matched to USDA ""Peppers, sweet, red, raw"""
+crayfish,crayfish,2706460,Fish curry,matched,fuzzy_usda_77%,Added from scraped allrecipes data; rematched vs full USDA
+chicken stock from boiled chicken,chicken stock from boiled chicken,2706087,"Chicken, chicken roll, roasted",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+mixed bell peppers diced (green,mixed bell peppers diced (green,2709801,"Peppers, sweet, red, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, sweet, red, raw"""
+shrimp cleaned and deveined,shrimp cleaned and deveined,2706360,"Shrimp, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Shrimp, NFS"""
+coconut oil,coconut oil,2710182.0,Coconut oil,matched,fuzzy_90%,Added from cheflola scraped data
+1/4-1/2 cup extra water or add,1/4-1/2 cup extra water or add,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+beef stock,beef stock,2706592,"Stew, beef",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+onion medium- [sliced],onion medium- [sliced],2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+chicken bouillon powder or use 4 cubes,chicken bouillon powder or use 4 cubes,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+salt and black pepper,salt and black pepper,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+to 3 scotch bonnet,to 3 scotch bonnet,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+curry,curry,2706388,Beef curry,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+chicken bouillon powder,chicken bouillon powder,2706151,Baby Toddler chicken,matched,fuzzy_usda_65%,Added from scraped allrecipes data; rematched vs full USDA
+onion small size [diced],onion small size [diced],2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+fenugreek seeds,fenugreek seeds,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+cardamom pods,cardamom pods,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+dried garlic flakes,dried garlic flakes,2110003,"Garlic, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Garlic, raw"""
+dried onion flakes,dried onion flakes,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+chiles de árbol stemmed and,chiles de árbol stemmed and,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+hungarian paprika,hungarian paprika,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+1-1/2 teaspoons kosher salt,1-1/2 teaspoons kosher salt,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+cloves [or ¼ teaspoon of ground],cloves [or ¼ teaspoon of ground],,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+ajwain seeds nech azmud,ajwain seeds nech azmud,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+black cumin seeds tikur azmud,black cumin seeds tikur azmud,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+dried ethiopian besobela sacred basil,dried ethiopian besobela sacred basil,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+black eyed peas,black eyed peas,2707412,"Blackeyed peas, NFS",matched,fuzzy_usda_82%,Added from scraped allrecipes data; rematched vs full USDA
+onion diced,onion diced,2707633,"Bread, onion",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+to 1/2 cup palm oil or add,to 1/2 cup palm oil or add,2710197,Palm oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Palm oil"""
+onion - sliced,onion - sliced,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+garlic cloves - minced,garlic cloves - minced,2110003,"Garlic, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Garlic, raw"""
+tomatoes or 3 medium - diced,tomatoes or 3 medium - diced,2709797,"Tomatoes, red, ripe, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Tomatoes, red, ripe, raw"""
+bell pepper mixed - red,bell pepper mixed - red,2709801,"Peppers, sweet, red, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, sweet, red, raw"""
+to 1 cup water,to 1 cup water,2710003,Water Chesnut,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+habaneroes green and,habaneroes green and,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+red onion finely chopped,red onion finely chopped,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+garlic chopped,garlic chopped,2709932,"Garlic, cooked",matched,fuzzy_usda_78%,Added from scraped allrecipes data; rematched vs full USDA
+inch ginger finely grated,inch ginger finely grated,2710082,"Ginger root, pickled",matched,keyword_rule,"Keyword rule: matched to USDA ""Ginger root, pickled"""
+red pepper deseeded and chopped,red pepper deseeded and chopped,2710799,"Red pepper, cooked, as ingredient",matched,fuzzy_usda_65%,Added from scraped allrecipes data; rematched vs full USDA
+green pepper deseeded and chopped,green pepper deseeded and chopped,2709800,"Peppers, sweet, green, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, sweet, green, raw"""
+carrots medium size [peeled and grated],carrots medium size [peeled and grated],2709660,"Carrots, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Carrots, raw"""
+canned tomatoes or 4 large ripe tomatoes - chopped,canned tomatoes or 4 large ripe tomatoes - chopped,2709797,"Tomatoes, red, ripe, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Tomatoes, red, ripe, raw"""
+1/4-1/2 teaspoon red chili flakes or fresh red or green chili deseeded and chopped,1/4-1/2 teaspoon red chili flakes or fresh red or green chili deseeded and chopped,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+baked beans in tomato sauce,baked beans in tomato sauce,2708991,"Beans and rice, with tomatoes",matched,fuzzy_usda_67%,Added from scraped allrecipes data; rematched vs full USDA
+garlic inced,garlic inced,2710169,Garlic sauce,matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+ground chicken,ground chicken,2706091.0,"Chicken, ground",matched,fuzzy_89%,Added from cheflola scraped data
+potatoes peeled and diced,potatoes peeled and diced,2709423,"Potato, boiled, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Potato, boiled, NFS"""
+green peas,green peas,2709797,"Green peas, raw",matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+salt to taste or add,salt to taste or add,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+black pepper or add,black pepper or add,2709799,"Peppers, raw, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, raw, NFS"""
+scotch bonnet minced or any chilies,scotch bonnet minced or any chilies,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+parsley or coriander,parsley or coriander,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+oil enough,oil enough,2710187.0,Peanut oil,matched,fuzzy_70%,Added from cheflola scraped data
+onion [diced],onion [diced],2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+ginger minced,ginger minced,2710082,"Ginger root, pickled",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+scotch bonnet,scotch bonnet,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+mixed veggies carrots and peas and sweet corn,mixed veggies carrots and peas and sweet corn,2108064,"Egg, whole, boiled or poached",matched,keyword_rule,"Keyword rule: matched to USDA ""Egg, whole, boiled or poached"""
+beef liver cooked and diced,beef liver cooked and diced,2705857,"Beef, bacon, reduced sodium, cooked",matched,fuzzy_usda_67%,Added from scraped allrecipes data; rematched vs full USDA
+shrimps fresh,shrimps fresh,2706364,"Shrimp, fried",matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+coconut oil divided,coconut oil divided,2710182,Coconut oil,matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+green onions sliced,green onions sliced,2709794,"Onions, green, raw",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+fonio washed,fonio washed,2708377,Millet,matched,keyword_rule,"Keyword rule: matched to USDA ""Millet"""
+milk any type: dairy or plant-based,milk any type: dairy or plant-based,2705384,"Milk, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Milk, NFS"""
+pinch salt,pinch salt,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+pinch cinnamon,pinch cinnamon,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+honey or maple syrup or any other sweetener of choice,honey or maple syrup or any other sweetener of choice,2710260,"Sugar, brown",matched,keyword_rule,"Keyword rule: matched to USDA ""Sugar, brown"""
+low-sodium chicken broth or water,low-sodium chicken broth or water,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+polenta coarse cornmeal,polenta coarse cornmeal,2708363,"Grits, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Grits, NFS"""
+grated parmesan cheese,grated parmesan cheese,2705728,"Cheese, Parmesan, dry grated",matched,fuzzy_usda_88%,Added from scraped allrecipes data; rematched vs full USDA
+yuca root medium size,yuca root medium size,2709564,"Cassava, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Cassava, cooked"""
+sweet potatoes medium,sweet potatoes medium,2707648.0,"Bread, sweet potato",matched,fuzzy_75%,Added from cheflola scraped data
+butter softened,butter softened,2710179,Honey butter,matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+eggs large size,eggs large size,2108064,"Egg, whole, boiled or poached",matched,keyword_rule,"Keyword rule: matched to USDA ""Egg, whole, boiled or poached"""
+unbaked pie crust,unbaked pie crust,2708056,"Pastry, mainly flour and water, fried",matched,manual_fix,"Manual fix: matched to USDA ""Pastry, mainly flour and water, fried"""
+habanero pepper use 1 or ½,habanero pepper use 1 or ½,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+onion divided,onion divided,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+1- inch ginger root,1- inch ginger root,2710082,"Ginger root, pickled",matched,fuzzy_usda_71%,Added from scraped allrecipes data; rematched vs full USDA
+chicken thighs,chicken thighs,2706083,"Chicken, tail",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+remaining half onion - sliced,remaining half onion - sliced,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+bouillon powder or 2 cubes,bouillon powder or 2 cubes,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+unsweetened peanut butter,unsweetened peanut butter,2710309,"Bean paste, sweetened",matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+to 3 cups chicken stock,to 3 cups chicken stock,2705911,Mock chicken legs,matched,fuzzy_usda_65%,Added from scraped allrecipes data; rematched vs full USDA
+of spinach,of spinach,2709629,Spinach souffle,matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+sugar add more if you wwant it sweeter,sugar add more if you wwant it sweeter,2710257,"Sugar, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Sugar, NFS"""
+freshly grated nutmeg,freshly grated nutmeg,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+to 21/2 cups water or milk,to 21/2 cups water or milk,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+plantains ripe,plantains ripe,2709560,"Plantain, raw",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+black-eyed peas or honey beans,black-eyed peas or honey beans,2709957,"Blackeyed peas, from canned",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+to 4 tablespoons palm oil,to 4 tablespoons palm oil,2710197,Palm oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Palm oil"""
+crayfish ground,crayfish ground,2706347,"Crayfish, fried",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+locust beans iru or dawadawa,locust beans iru or dawadawa,2707423,"Lentils, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Lentils, NFS"""
+stock cube maggi,stock cube maggi,2707132,"Soup, broth",matched,manual_fix,"Manual fix (substring ""maggi""): matched to USDA ""Soup, broth"""
+salt to taste‌,salt to taste‌,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+ears of corn husks and silk removed,ears of corn husks and silk removed,2709933,"Hominy, cooked",matched,keyword_rule,"Keyword rule: matched to USDA ""Hominy, cooked"""
+unsalted butter softened,unsalted butter softened,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+optional toppings: fresh herbs salt,optional toppings: fresh herbs salt,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+chicken wings,chicken wings,2706084.0,Chicken skin,matched,fuzzy_72%,Added from cheflola scraped data
+salt and pepper to taste or use mychicken seasoning blend,salt and pepper to taste or use mychicken seasoning blend,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+butter or oil,butter or oil,2705393,Buttermilk,matched,fuzzy_usda_69%,Added from scraped allrecipes data; rematched vs full USDA
+4 tablespoon chicken stock if needed,4 tablespoon chicken stock if needed,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+fresh young turkey approximately 10 lbs - to room temp,fresh young turkey approximately 10 lbs - to room temp,2705953,"Turkey, NS as to part, roasted, skin not eaten",matched,keyword_rule,"Keyword rule: matched to USDA ""Turkey, NS as to part, roasted, skin not eaten"""
+rosemary minced,rosemary minced,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+thyme minced,thyme minced,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+unsalted butter [melted] or oil,unsalted butter [melted] or oil,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+chili powder,chili powder,2706427,"Chili, white",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+dried oregano or thyme,dried oregano or thyme,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+dried rosemary,dried rosemary,2709208,"Pear, dried",matched,fuzzy_usda_72%,Added from scraped allrecipes data; rematched vs full USDA
+chicken stock powder,chicken stock powder,2705911,Mock chicken legs,matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+onion quartered,onion quartered,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+garlic cut in half,garlic cut in half,2110003,"Garlic, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Garlic, raw"""
+rosemary,rosemary,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+garri cassava flakes,garri cassava flakes,2709564,"Cassava, cooked",matched,keyword_rule,"Keyword rule: matched to USDA ""Cassava, cooked"""
+water hot,water hot,2710707,"Water, tap",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+beef cut into cubes,beef cut into cubes,2105822,"Beef, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Beef, NFS"""
+cow skin ponmo,cow skin ponmo,2105822,"Beef, NFS",matched,manual_fix,"Manual fix: matched to USDA ""Beef, NFS"""
+yam water yam,yam water yam,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+peppers blended mix of bell peppers and 1-2 rodo,peppers blended mix of bell peppers and 1-2 rodo,2709801,"Peppers, sweet, red, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, sweet, red, raw"""
+crayfish large,crayfish large,2706347,"Crayfish, fried",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+fish dried,fish dried,2709204,"Fig, dried",matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+mackerel fish,mackerel fish,2706263.0,"Fish, mackerel, NFS",matched,fuzzy_75%,Added from cheflola scraped data
+locust beans,locust beans,2707423,"Lentils, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Lentils, NFS"""
+bouillon powder divided,bouillon powder divided,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+15 ounces pumpkin puree,15 ounces pumpkin puree,2709693,"Winter squash, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Winter squash, raw"""
+flour or cornstarch,flour or cornstarch,2708157,"Crackers, flatbread",matched,keyword_rule,"Keyword rule: matched to USDA ""Crackers, flatbread"""
+12 fluid ounces can heavy cream,12 fluid ounces can heavy cream,2705405,"Cream, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Cream, NFS"""
+1-1/2 teaspoon cinnamon,1-1/2 teaspoon cinnamon,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+nutmeg,nutmeg,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+unbaked 9 pie shell 4-cup volume deep-dish,unbaked 9 pie shell 4-cup volume deep-dish,2708056,"Pastry, mainly flour and water, fried",matched,manual_fix,"Manual fix: matched to USDA ""Pastry, mainly flour and water, fried"""
+roma tomatoes,roma tomatoes,2709719,"Tomatoes, raw",matched,fuzzy_usda_84%,Added from scraped allrecipes data; rematched vs full USDA
+onions divided,onions divided,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+fresh ginger grated,fresh ginger grated,2710082,"Ginger root, pickled",matched,keyword_rule,"Keyword rule: matched to USDA ""Ginger root, pickled"""
+spaghetti pasta,spaghetti pasta,2709745,Spaghetti sauce,matched,fuzzy_usda_80%,Added from scraped allrecipes data; rematched vs full USDA
+to 41/2 cups chicken beef or vegetable broth,to 41/2 cups chicken beef or vegetable broth,2705929,"Chicken, NS as to part and cooking method, NS as to skin eaten",matched,keyword_rule,"Keyword rule: matched to USDA ""Chicken, NS as to part and cooking method, NS as to skin eaten"""
+1/2-1 cup peas,1/2-1 cup peas,2707423,"Lentils, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Lentils, NFS"""
+cooked protein of choice optional: (e.g diced chicken,cooked protein of choice optional: (e.g diced chicken,2705929,"Chicken, NS as to part and cooking method, NS as to skin eaten",matched,keyword_rule,"Keyword rule: matched to USDA ""Chicken, NS as to part and cooking method, NS as to skin eaten"""
+fresh ewedu leaves,fresh ewedu leaves,2709642,"Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked"""
+to 4 cups water,to 4 cups water,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+locust bean,locust bean,2707428,Bean chips,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+ground crayfish,ground crayfish,2706347,"Crayfish, fried",matched,fuzzy_usda_73%,Added from scraped allrecipes data; rematched vs full USDA
+chicken bouillon powder or 1 cube,chicken bouillon powder or 1 cube,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+pack frozen jute leaves 8 ounces,pack frozen jute leaves 8 ounces,2709642,"Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked",matched,manual_fix,"Manual fix: matched to USDA ""Sweet potato, squash, pumpkin, chrysanthemum, or bean leaves, cooked"""
+bouilon powder or 1 cube,bouilon powder or 1 cube,2707132,"Soup, broth",matched,manual_fix,"Manual fix: matched to USDA ""Soup, broth"""
+dry beans black eyed peas or brown beans-''ewa oloyin'',dry beans black eyed peas or brown beans-''ewa oloyin'',2707414,"Chickpeas, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Chickpeas, NFS"""
+red bell pepper/tatashe medium size,red bell pepper/tatashe medium size,2709801,"Peppers, sweet, red, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, sweet, red, raw"""
+habanero scotch bonnet/rodo,habanero scotch bonnet/rodo,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+bouillon cubes,bouillon cubes,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+cooked minced fish,cooked minced fish,2708402,"Rice, cooked, NFS",matched,fuzzy_usda_74%,Added from scraped allrecipes data; rematched vs full USDA
+hard-boiled eggs,hard-boiled eggs,2710189,Canola oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Canola oil"""
+onions or 3 medium/2 large,onions or 3 medium/2 large,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+hot pepper of choice jalapeno,hot pepper of choice jalapeno,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+powdered chicken stock or 3 cubes,powdered chicken stock or 3 cubes,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+cloves,cloves,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+inch ginger grated,inch ginger grated,2710082,"Ginger root, pickled",matched,keyword_rule,"Keyword rule: matched to USDA ""Ginger root, pickled"""
+salt to taste lesser better,salt to taste lesser better,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+to 2 cups water more or less,to 2 cups water more or less,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+suya spice,suya spice,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+black cardamom seeds korerima,black cardamom seeds korerima,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+black cumin seeds tikurazmud,black cumin seeds tikurazmud,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+fenugreek seeds abish,fenugreek seeds abish,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+unsalted organic grass-fed butter,unsalted organic grass-fed butter,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+lippia adoensis - abyssinia koseret,lippia adoensis - abyssinia koseret,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+sacred basil beso bela or basil,sacred basil beso bela or basil,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+ajwain carom seeds/nech azmud,ajwain carom seeds/nech azmud,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+fresh basil lemon grass,fresh basil lemon grass,2109242,"Lemon, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Lemon, raw"""
+meat preferably goat or beef,meat preferably goat or beef,2105822,"Beef, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Beef, NFS"""
+grated ginger,grated ginger,2710507,"Tea, ginger",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+rosemary leaves minced,rosemary leaves minced,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+bouillon powder or 1 tablespoon soy sauce,bouillon powder or 1 tablespoon soy sauce,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+cayenne pepper or add to taste,cayenne pepper or add to taste,2709799,"Peppers, raw, NFS",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, raw, NFS"""
+lemon juice freshly,lemon juice freshly,2709181,"Lemon juice, 100%, freshly squeezed",matched,fuzzy_usda_70%,Added from scraped allrecipes data; rematched vs full USDA
+to 8 lb. turkey breast,to 8 lb. turkey breast,2705953,"Turkey, NS as to part, roasted, skin not eaten",matched,keyword_rule,"Keyword rule: matched to USDA ""Turkey, NS as to part, roasted, skin not eaten"""
+oregano,oregano,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+chicken quarters,chicken quarters,2706437,Chicken curry,matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+birds' eye chilies add more or less to your taste,birds' eye chilies add more or less to your taste,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+to 5 sprigs thyme or 1 tablespoon of dried thyme,to 5 sprigs thyme or 1 tablespoon of dried thyme,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+lemon juiced,lemon juiced,2708000.0,"Pie, lemon",matched,fuzzy_72%,Added from cheflola scraped data
+african birds' eye chilies,african birds' eye chilies,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+onion medium size,onion medium size,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+to 5 sprigs fresh thyme or 1 tablespoon of dried thyme,to 5 sprigs fresh thyme or 1 tablespoon of dried thyme,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+vinegar white or red wine vinegar,vinegar white or red wine vinegar,2709351,Vinegar,matched,manual_fix,"Manual fix: matched to USDA ""Vinegar"""
+lemon juice of,lemon juice of,2109239,"Lemon juice, 100%, freshly squeezed",matched,keyword_rule,"Keyword rule: matched to USDA ""Lemon juice, 100%, freshly squeezed"""
+yeast,yeast,2710005.0,Yeast,matched,fuzzy_80%,Added from cheflola scraped data
+pinch of salt,pinch of salt,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+2-1/2 cups water,2-1/2 cups water,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+onion chopped,onion chopped,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+bell peppers or peppers of your choice cut into small chunks,bell peppers or peppers of your choice cut into small chunks,2709801,"Peppers, sweet, red, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Peppers, sweet, red, raw"""
+lots of tooth picks,lots of tooth picks,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+habanero,habanero,2706337,Abalone,matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+each of smoked paprika,each of smoked paprika,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+beef flank steak,beef flank steak,2705827.0,"Beef, steak, flank",matched,fuzzy_88%,Added from cheflola scraped data
+to 1 teaspoon salt,to 1 teaspoon salt,,,skip,negligible,Negligible: spice/flavouring/water with <5 kcal contribution per serving
+beef bouillon or chicken [or use cube],beef bouillon or chicken [or use cube],2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+suya spice plus more,suya spice plus more,2710093,Hot pepper sauce,matched,keyword_rule,"Keyword rule: matched to USDA ""Hot pepper sauce"""
+peanut oil or any other oil of choice,peanut oil or any other oil of choice,2710189,Canola oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Canola oil"""
+sweet potatoes 2 large,sweet potatoes 2 large,2707648.0,"Bread, sweet potato",matched,fuzzy_73%,Added from cheflola scraped data
+extra-virgin olive oil divided,extra-virgin olive oil divided,2710192,Olive oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Olive oil"""
+dried cranberries,dried cranberries,2709202,"Cranberries, dried",matched,fuzzy_usda_97%,Added from scraped allrecipes data; rematched vs full USDA
+red onion thinly sliced into half moons,red onion thinly sliced into half moons,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+cranberries,cranberries,2709279,"Cranberries, raw",matched,fuzzy_usda_81%,Added from scraped allrecipes data; rematched vs full USDA
+tahini,tahini,2707587,Tahini,matched,fuzzy_usda_100%,Added from scraped allrecipes data; rematched vs full USDA
+garlic grated or finely minced,garlic grated or finely minced,2110003,"Garlic, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Garlic, raw"""
+mango frozen chunks,mango frozen chunks,2709244,"Mango, frozen",matched,fuzzy_usda_75%,Added from scraped allrecipes data; rematched vs full USDA
+pineapple chunks fresh,pineapple chunks fresh,2709261,"Pineapple, canned, NFS",matched,fuzzy_usda_68%,Added from scraped allrecipes data; rematched vs full USDA
+banana peeled and sliced,banana peeled and sliced,2709197,"Banana, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Banana, raw"""
+tomato,tomato,2709757,"Soup, tomato",matched,fuzzy_usda_66%,Added from scraped allrecipes data; rematched vs full USDA
+onion divided into two,onion divided into two,2709795,"Onions, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Onions, raw"""
+palm oil of fresh,palm oil of fresh,2710197,Palm oil,matched,keyword_rule,"Keyword rule: matched to USDA ""Palm oil"""
+chicken bouillon powder or 2 cubes,chicken bouillon powder or 2 cubes,2707132,"Soup, broth",matched,keyword_rule,"Keyword rule: matched to USDA ""Soup, broth"""
+mackerel fish salmon,mackerel fish salmon,2706263,"Fish, mackerel, NFS",matched,fuzzy_usda_76%,Added from scraped allrecipes data; rematched vs full USDA
+basil or parsley or any leafy vegetables (spinach,basil or parsley or any leafy vegetables (spinach,2709605,"Spinach, raw",matched,keyword_rule,"Keyword rule: matched to USDA ""Spinach, raw"""

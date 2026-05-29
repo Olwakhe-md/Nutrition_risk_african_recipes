@@ -1,0 +1,24 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+
+# Database files (large — regenerate with pipeline)
+*.db
+*.sqlite
+
+# Large USDA reference files (download from fdc.nal.usda.gov)
+african_recipes_nutrition/data/raw/food_nutrient.csv
+
+# Streamlit debug/temp
+african_recipes_nutrition/streamlit_log.txt
+
+# IDE
+.vscode/

@@ -1,0 +1,279 @@
+recipe_id,recipe_name,servings,energy_kcal,protein_g,fat_g,carbohydrate_g,sugars_g,sodium_mg,ingredient_coverage_pct,energy_risk,sodium_risk,fat_risk,sugar_risk,protein_risk,flag_count,flag_risk_level,weighted_risk_score,weighted_risk_level,data_status
+1,KOSHARI,5,703.6,24.5,21.2,105.1,13.8,1564.8,80.0,medium,high,medium,medium,low,1,Medium,46.4,Medium,calculated
+2,PARTY JOLLOF RICE,7,431.1,24.7,28.3,18.2,6.9,794.4,78.6,low,high,high,low,low,2,Medium,28.3,Medium,calculated
+3,NIGERIAN RED STEW,9,970.1,49.3,79.3,12.1,4.1,1248.5,82.4,high,high,high,low,low,3,High,61.9,High,calculated
+4,MAAFE,7,566.9,34.8,24.5,50.6,13.7,923.3,82.4,medium,high,medium,medium,low,1,Medium,33.7,Medium,calculated
+5,EGUSI SOUP,7,1064.6,86.8,71.0,19.2,3.1,1547.3,86.7,high,high,high,low,low,3,High,66.6,High,calculated
+6,YASSA,6,420.3,22.7,20.4,35.8,3.0,946.0,69.2,low,high,medium,low,low,1,Medium,25.7,Medium,calculated
+7,SUYA,6,344.8,40.2,18.5,2.0,0.5,590.9,70.0,low,medium,medium,low,low,0,Low,13.0,Low,calculated
+8,EWA OLOYIN,6,411.1,5.4,36.7,17.1,11.8,278.0,77.8,low,low,high,low,high,2,Medium,21.3,Low,calculated
+9,PLANTAIN FRITTATA,4,876.7,33.7,60.9,49.3,18.6,1733.2,100.0,high,high,high,medium,low,3,High,69.9,High,calculated
+10,MUM’S CORNED BEEF AND SPINACH STEW,5,281.4,13.6,15.3,22.5,2.5,757.0,76.9,low,high,medium,low,medium,1,Medium,17.5,Low,calculated
+11,GRILLED TILAPIA WITH GINGER-PEPPER MARINADE,5,203.5,4.2,8.4,28.2,10.0,281.0,57.1,low,low,low,low,high,1,Medium,7.4,Low,calculated
+12,GOOD-FOR-THE-SOUL NIGERIAN PEPPER SOUP,5,85.0,3.7,1.6,14.5,1.2,555.4,58.3,low,medium,low,low,high,1,Medium,15.5,Low,calculated
+13,BUCHI’S OKRA SOUP,6,408.1,26.7,21.0,27.7,2.2,673.4,75.0,low,medium,medium,low,low,0,Low,19.7,Low,calculated
+14,SPICY NIGERIAN OMELET,3,793.3,18.9,69.6,22.7,7.0,1003.5,85.7,medium,high,high,low,low,2,Medium,53.7,High,calculated
+15,PILI PILI,4,186.6,1.9,15.7,9.7,1.4,176.5,57.1,low,low,medium,low,high,1,Medium,9.5,Low,calculated
+16,PLANTAIN CHIPS,7,106.0,1.1,0.3,27.7,15.1,17.8,50.0,low,low,low,medium,high,1,Medium,12.2,Low,calculated
+17,BOULETTES DE POISSON,5,445.9,20.5,26.3,32.0,4.8,931.6,60.0,low,high,high,low,low,2,Medium,30.5,Medium,calculated
+18,TATALE,5,493.2,16.3,34.3,31.6,14.4,738.0,77.8,low,high,high,medium,low,2,Medium,31.8,Medium,calculated
+19,CHIN CHIN,9,317.3,4.5,12.1,48.3,17.8,360.5,85.7,low,low,low,medium,high,1,Medium,12.6,Low,calculated
+20,ERAN PAII,6,1637.5,42.0,96.2,155.3,12.8,2187.6,81.2,high,high,high,medium,low,3,High,75.8,Very High,calculated
+21,"SCOTCH EGG, NIGERIAN-STYLE",4,867.2,56.0,61.9,22.0,7.4,1647.9,75.0,high,high,high,low,low,3,High,63.5,High,calculated
+22,NIGERIAN SALAD,5,572.1,22.7,13.0,92.8,14.4,766.4,90.0,medium,high,low,medium,low,1,Medium,21.7,Low,calculated
+23,AKARA,5,96.9,4.1,2.7,14.5,1.6,222.0,62.5,low,low,low,low,high,1,Medium,7.4,Low,calculated
+24,MUM’S MOIN MOIN,5,470.4,19.8,34.8,20.2,1.7,546.8,83.3,low,medium,high,low,low,1,Medium,21.3,Low,calculated
+25,KOKI,5,486.0,6.3,39.5,27.4,1.4,532.3,70.0,low,medium,high,low,high,2,Medium,28.5,Medium,calculated
+26,AFRICAN YAM FRIES,4,72.0,3.3,4.2,5.1,1.2,161.6,42.9,low,low,low,low,high,1,Medium,7.9,Low,calculated
+27,PUFF PUFF,5,891.6,16.1,14.5,175.0,41.1,1105.1,66.7,high,high,low,high,low,3,High,52.6,High,calculated
+28,KUNNU AYA,8,531.5,9.0,9.6,102.9,15.3,693.8,60.0,medium,medium,low,medium,medium,0,Low,23.4,Low,calculated
+29,DORO WOT,5,1036.3,75.7,71.9,22.1,2.0,1370.8,84.6,high,high,high,low,low,3,High,65.6,High,calculated
+30,TSEBHI BIRSEN,5,230.1,5.6,11.0,27.7,8.0,736.6,78.3,low,high,low,low,high,2,Medium,22.3,Low,calculated
+31,BEEF SAMOSAS,5,1108.1,42.0,42.6,138.8,5.2,1538.8,76.5,high,high,high,low,low,3,High,64.4,High,calculated
+32,MUAMBA DE GALINHA,5,1085.6,70.8,56.8,77.8,33.0,5697.0,80.0,high,high,high,high,low,4,High,79.3,Very High,calculated
+33,PILAU,5,1383.7,57.6,98.0,64.3,6.1,1640.8,76.5,high,high,high,low,low,3,High,71.6,High,calculated
+34,MTUZI WA SAMAKI,5,439.3,20.1,24.4,35.9,5.6,946.1,85.7,low,high,medium,low,low,1,Medium,29.7,Medium,calculated
+35,SUPU VIAZI,5,516.1,9.7,25.8,63.3,19.2,801.6,83.3,medium,high,high,medium,medium,2,Medium,38.7,Medium,calculated
+36,KACHUMBARI,5,53.8,2.0,0.8,10.1,2.1,221.3,62.5,low,low,low,low,high,1,Medium,8.8,Low,calculated
+37,BHAJIAS,4,261.0,11.1,4.2,44.8,7.9,486.9,72.7,low,medium,low,low,medium,0,Low,7.1,Low,calculated
+38,AUNTY BERNIE’S CHAPATI,5,367.0,7.4,12.2,57.4,3.2,476.2,80.0,low,medium,low,low,high,1,Medium,9.2,Low,calculated
+39,INJERA,5,111.2,2.4,3.5,17.7,0.8,170.1,60.0,low,low,low,low,high,1,Medium,8.5,Low,calculated
+40,SUMMERTIME MANGO LEMONADE,8,56.9,0.1,0.1,12.0,10.9,3.4,62.5,low,low,low,low,high,1,Medium,9.9,Low,calculated
+41,VITUMBUA,5,360.0,2.4,14.6,34.1,25.1,31.2,83.3,low,low,low,high,high,2,Medium,17.9,Low,calculated
+42,MANDAZI,5,532.5,11.2,11.1,97.6,32.9,662.3,76.9,medium,medium,low,high,medium,1,Medium,29.5,Medium,calculated
+43,HARISSA GRILLED CHICKEN,7,879.0,76.8,52.4,25.4,13.7,2364.4,66.7,high,high,high,medium,low,3,High,65.3,High,calculated
+44,SHAKSHUKA,5,459.5,18.4,29.7,30.3,11.3,1283.9,84.6,low,high,high,low,low,2,Medium,39.4,Medium,calculated
+45,NORTH AFRICAN MEATBALLS,5,587.7,44.0,34.6,23.3,5.8,1085.6,81.0,medium,high,high,low,low,2,Medium,40.8,Medium,calculated
+46,MOROCCAN-SPICED LAMB CHOPS,5,491.3,50.0,29.9,2.2,0.5,731.0,66.7,low,high,high,low,low,2,Medium,27.6,Medium,calculated
+47,LEBLEBI,5,383.7,10.5,21.4,38.4,5.9,447.0,69.2,low,medium,medium,low,medium,0,Low,12.0,Low,calculated
+48,MOROCCAN CHICKEN TAGINE,5,1269.4,47.6,98.1,46.9,18.1,1310.3,92.3,high,high,high,medium,low,3,High,73.6,High,calculated
+49,ONE-POT NORTH AFRICAN CHICKEN AND RICE,5,491.2,23.2,27.0,37.6,3.3,747.2,83.3,low,high,high,low,low,2,Medium,26.8,Medium,calculated
+50,MOROCCAN-SPICED VEGGIE COUSCOUS,5,663.4,20.4,30.1,79.4,21.4,910.5,85.7,medium,high,high,high,low,3,High,46.4,Medium,calculated
+51,MAAQUODA,7,78.1,3.8,4.9,4.8,2.2,185.1,63.6,low,low,low,low,high,1,Medium,7.6,Low,calculated
+52,NORTH AFRICAN POTATO SALAD WITH RAS EL HANOUT,5,164.1,3.7,10.9,12.7,5.7,64.4,76.5,low,low,low,low,high,1,Medium,7.7,Low,calculated
+53,AISH BALADI,5,251.7,6.1,7.9,39.4,3.2,330.1,75.0,low,low,low,low,high,1,Medium,6.2,Low,calculated
+54,CHARMOULA EGGPLANT,4,164.0,0.9,15.9,4.9,2.4,35.2,80.0,low,low,medium,low,high,1,Medium,10.3,Low,calculated
+55,CHICKEN WITH FIERY PERI PERI SAUCE,7,277.4,3.2,18.4,25.4,8.1,487.9,64.7,low,medium,medium,low,high,1,Medium,15.8,Low,calculated
+56,PRAWN NACIONAL,7,914.2,36.1,79.1,15.2,4.0,549.5,71.4,high,medium,high,low,low,2,Medium,41.8,Medium,calculated
+57,SOUTH AFRICAN YELLOW RICE,7,546.9,37.1,29.3,14.2,2.5,626.4,100.0,medium,medium,high,low,low,1,Medium,25.0,Medium,calculated
+58,THE GATSBY,2,195.3,6.4,16.8,4.6,1.4,664.6,42.9,low,medium,medium,low,high,1,Medium,21.0,Low,calculated
+59,KOTA,5,839.8,50.3,55.1,33.7,5.6,1008.9,66.7,high,high,high,low,low,3,High,54.7,High,calculated
+60,CALULU DE PEIXE,5,464.7,25.2,23.2,39.1,5.6,1024.1,71.4,low,high,medium,low,low,1,Medium,30.1,Medium,calculated
+61,DOVI,5,799.3,24.6,45.7,79.5,24.2,1896.8,92.3,medium,high,high,high,low,3,High,69.8,High,calculated
+62,VETKOEK,7,813.1,29.2,31.7,103.3,25.5,1226.9,82.4,high,high,high,high,low,4,High,61.2,High,calculated
+63,BOBOTIE,7,426.1,28.0,21.3,29.9,7.7,683.0,82.4,low,medium,medium,low,low,0,Low,20.5,Low,calculated
+64,BRAAIBROODJIE,5,505.6,14.9,16.5,76.0,25.6,872.3,66.7,medium,high,medium,high,medium,2,Medium,30.1,Medium,calculated
+65,ZANZIBAR PIZZA,3,1909.7,75.0,138.6,88.7,12.2,2706.8,81.8,high,high,high,medium,low,3,High,75.2,Very High,calculated
+66,SWEET POTATO FRITTERS,7,339.8,6.7,16.8,41.0,17.4,407.0,57.1,low,medium,medium,medium,high,1,Medium,13.0,Low,calculated
+67,MALVA PUDDING,5,612.0,12.5,31.7,69.8,47.0,580.3,85.7,medium,medium,high,high,medium,2,Medium,43.1,Medium,calculated
+68,Cape Malay Pickled Fish,12,421.8,16.0,24.3,26.6,11.7,493.7,62.5,low,medium,medium,low,low,0,Low,14.0,Low,calculated
+69,Lamb Tagine,4,689.9,64.1,40.6,13.7,9.7,1305.8,62.5,medium,high,high,low,low,2,Medium,52.1,High,calculated
+70,Moroccan Couscous,8,449.2,24.9,23.7,34.7,14.2,625.0,47.4,low,medium,medium,medium,low,0,Low,22.0,Low,calculated
+71,Moroccan Lentil Soup,6,594.1,25.1,16.8,97.0,43.5,729.5,80.0,medium,high,medium,high,low,2,Medium,36.4,Medium,calculated
+72,Egusi Soup,6,1037.1,63.8,73.4,33.6,5.2,1812.2,83.3,high,high,high,low,low,3,High,66.2,High,calculated
+73,African-Style Oxtail Stew,6,954.0,69.7,57.2,37.5,10.3,1188.6,71.4,high,high,high,low,low,3,High,60.4,High,calculated
+74,Marrakesh Vegetable Curry,6,491.4,15.8,32.3,36.8,14.0,489.6,63.2,low,medium,high,medium,low,1,Medium,19.3,Low,calculated
+75,Ras el Hanout,12,3.7,0.3,0.1,0.3,0.3,6.4,41.7,low,low,low,low,high,1,Medium,9.8,Low,calculated
+76,Ethiopian Cabbage Dish,5,369.8,3.0,29.5,23.2,7.2,336.9,77.8,low,low,high,low,high,2,Medium,19.9,Low,calculated
+77,Best Bobotie,8,373.1,25.4,20.8,20.9,15.8,455.8,71.4,low,medium,medium,medium,low,0,Low,12.2,Low,calculated
+78,Milk Tart,16,324.9,5.9,11.2,50.2,26.6,286.6,78.6,low,low,low,high,high,2,Medium,16.3,Low,calculated
+79,Egyptian Koshary,8,474.3,10.1,14.9,74.7,27.6,558.7,64.7,low,medium,low,high,medium,1,Medium,21.8,Low,calculated
+80,Moroccan Chicken,4,489.7,33.5,24.9,38.7,24.2,659.7,66.7,low,medium,medium,high,low,1,Medium,32.0,Medium,calculated
+81,Om Ali,8,1282.8,20.7,78.4,130.3,86.9,552.3,100.0,high,medium,high,high,low,3,High,62.7,High,calculated
+82,Beghrir (Moroccan Pancakes),6,518.8,9.1,19.8,77.9,29.8,640.1,66.7,medium,medium,medium,high,medium,1,Medium,33.0,Medium,calculated
+83,Moroccan Shabbat Fish,6,142.4,7.7,11.5,2.2,0.7,160.8,70.0,low,low,low,low,high,1,Medium,5.2,Low,calculated
+84,Shakshuka,4,322.2,5.8,19.0,32.8,12.9,346.1,70.0,low,low,medium,medium,high,1,Medium,11.2,Low,calculated
+85,South African Brown Pudding,16,364.3,4.4,9.9,64.1,48.6,290.2,78.6,low,low,low,high,high,2,Medium,22.2,Low,calculated
+86,Make-Ahead Vegetarian Moroccan Stew,8,591.4,21.2,19.9,91.0,46.2,648.3,78.3,medium,medium,medium,high,low,1,Medium,36.1,Medium,calculated
+87,Moroccan Chickpea Stew,4,746.5,27.7,17.4,138.9,87.2,735.3,76.5,medium,high,medium,high,low,2,Medium,43.4,Medium,calculated
+88,West African Peanut Stew,4,2396.0,109.8,194.0,53.7,24.1,2344.8,83.3,high,high,high,high,low,4,High,84.0,Very High,calculated
+89,Egyptian Lentil Soup,4,117.0,6.1,4.4,13.8,2.1,148.9,50.0,low,low,low,low,high,1,Medium,6.2,Low,calculated
+90,African Cabbage Stew,12,140.5,2.1,6.9,17.4,9.2,517.6,80.0,low,medium,low,low,high,1,Medium,14.6,Low,calculated
+91,Couscous with Olives and Sun-Dried Tomato,4,664.8,14.3,43.8,60.3,12.3,880.6,76.9,medium,high,high,medium,medium,2,Medium,44.0,Medium,calculated
+92,Traditional Baba Ghanoush,4,88.0,1.0,6.1,7.7,3.9,56.9,75.0,low,low,low,low,high,1,Medium,9.4,Low,calculated
+93,Berbere (Ethiopian Spice),24,28.6,0.5,1.3,3.7,0.7,95.7,36.4,low,low,low,low,high,1,Medium,9.7,Low,calculated
+94,African Sweet Potato Stew,10,601.8,18.7,21.6,90.0,50.6,950.6,80.0,medium,high,medium,high,low,2,Medium,46.2,Medium,calculated
+95,South African Traditional Vetkoek (Fried Bread),12,1292.4,16.9,74.5,139.7,9.1,1113.6,83.3,high,high,high,low,low,3,High,64.1,High,calculated
+96,Sabaayad (Somali Flatbread),10,610.4,12.0,18.0,100.9,5.3,812.5,83.3,medium,high,medium,low,medium,1,Medium,27.2,Medium,calculated
+97,Doro Wat: Ethiopian Chicken Dish,4,392.2,8.8,6.3,71.9,12.5,554.9,50.0,low,medium,low,medium,medium,0,Low,12.6,Low,calculated
+98,Ta'ameya (Egyptian Falafel),10,244.8,9.6,18.3,14.4,1.7,137.1,63.6,low,low,medium,low,medium,0,Low,7.2,Low,calculated
+99,The Perfect Egyptian Rice with Vermicelli,3,202.1,3.3,7.9,28.5,0.2,246.0,80.0,low,low,low,low,high,1,Medium,7.9,Low,calculated
+100,Nigerian Suya,4,359.8,53.0,16.0,1.3,0.6,641.2,36.4,low,medium,medium,low,low,0,Low,13.1,Low,calculated
+101,Berbere Spice Blend,48,3.1,0.1,0.1,0.5,0.2,18.1,50.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+102,Ginger Malva Pudding,8,471.2,5.2,18.1,72.1,50.3,308.3,84.6,low,low,medium,high,high,2,Medium,24.9,Low,calculated
+103,Algerian Couscous,10,292.8,11.1,17.4,23.0,5.9,420.4,52.4,low,medium,medium,low,medium,0,Low,6.2,Low,calculated
+104,Nigerian Jollof Rice with Chicken and Fried Plantains,8,852.3,26.5,68.1,31.2,3.4,981.7,61.9,high,high,high,low,low,3,High,54.4,High,calculated
+105,Chapati (East African Bread),6,481.7,10.2,12.2,83.3,2.4,687.4,83.3,low,medium,low,low,medium,0,Low,17.8,Low,calculated
+106,Mandazi (African Donuts),18,250.9,5.6,8.7,37.8,2.3,332.4,66.7,low,low,low,low,high,1,Medium,6.5,Low,calculated
+107,Vegan Chickpea Curry without Coconut Milk,4,579.2,26.5,19.4,89.7,44.6,518.0,72.7,medium,medium,medium,high,low,1,Medium,28.6,Medium,calculated
+108,Injera (Ethiopian Teff Bread),2,156.4,4.3,8.9,14.8,3.9,322.1,100.0,low,low,low,low,high,1,Medium,7.3,Low,calculated
+109,Harissa Powder,16,30.2,1.1,1.7,3.0,0.5,3.9,70.0,low,low,low,low,high,1,Medium,9.3,Low,calculated
+110,Moroccan-Spiced Pork Roast,12,288.0,32.1,15.4,4.0,3.6,404.3,50.0,low,medium,medium,low,low,0,Low,0.6,Low,calculated
+111,Moroccan Beef and Lentil Stew,6,689.6,13.5,34.2,84.2,42.7,1062.2,56.5,medium,high,high,high,medium,3,High,60.4,High,calculated
+112,Harissa Paste,4,312.1,7.6,17.1,32.1,1.1,279.5,50.0,low,low,medium,low,high,1,Medium,7.4,Low,calculated
+113,African Curry,4,168.0,3.2,8.9,19.4,7.8,248.2,50.0,low,low,low,low,high,1,Medium,8.0,Low,calculated
+114,Sambusa,24,186.8,11.2,10.7,10.6,2.8,259.4,69.2,low,low,low,low,medium,0,Low,2.7,Low,calculated
+115,African Sweet Potato and Peanut Soup,6,379.8,7.4,15.5,54.1,33.1,353.3,70.6,low,low,medium,high,high,2,Medium,18.3,Low,calculated
+116,South African Malvapoeding (Marshmallow Pudding),10,405.0,3.8,14.1,66.5,48.8,173.7,84.6,low,low,low,high,high,2,Medium,22.6,Low,calculated
+117,Fufu,10,156.3,0.8,10.1,17.5,9.7,65.1,66.7,low,low,low,low,high,1,Medium,9.5,Low,calculated
+118,Tomato Bredie,6,761.4,48.6,51.9,23.4,11.6,1331.1,64.3,medium,high,high,low,low,2,Medium,59.4,High,calculated
+119,Homemade Peri Peri Chicken,4,37.1,0.6,0.3,9.3,3.3,207.4,57.1,low,low,low,low,high,1,Medium,9.6,Low,calculated
+120,Umm Ali,8,370.1,11.1,16.2,47.9,43.5,127.4,88.9,low,low,medium,high,medium,1,Medium,19.0,Low,calculated
+121,West African Peanut Soup,10,490.8,15.7,20.2,72.0,39.1,655.6,80.0,low,medium,medium,high,low,1,Medium,32.6,Medium,calculated
+122,South African Melktert (Milk Tart),8,341.4,5.6,11.6,54.1,47.7,195.2,63.6,low,low,low,high,high,2,Medium,21.5,Low,calculated
+123,Sweet and Nutty Moroccan Couscous,6,409.3,10.4,11.6,70.7,29.6,524.4,100.0,low,medium,low,high,medium,1,Medium,20.6,Low,calculated
+124,Middle Eastern White Beans,6,349.4,25.1,16.5,24.9,5.5,441.0,90.0,low,medium,medium,low,low,0,Low,3.5,Low,calculated
+125,Moroccan Harira Soup,6,1109.9,75.9,59.5,73.5,32.9,1662.2,72.0,high,high,high,high,low,4,High,79.7,Very High,calculated
+126,South African Yellow Rice,4,261.5,4.4,5.9,33.3,17.2,171.8,87.5,low,low,low,medium,high,1,Medium,12.1,Low,calculated
+127,Moroccan-style roasted veg,2,68.4,0.1,7.6,0.1,0.0,47.6,28.6,low,low,low,low,high,1,Medium,9.9,Low,calculated
+128,Akara black bean fritters with ata dindin,4,67.5,0.0,7.5,0.0,0.0,0.1,9.1,low,low,low,low,high,1,Medium,10.0,Low,calculated
+129,"Beef, black-eyed bean and plantain hotpot",4,92.6,3.4,1.1,17.3,1.6,214.2,21.4,low,low,low,low,high,1,Medium,7.9,Low,calculated
+130,South African bobotie,6,35.8,0.4,2.8,2.1,1.4,83.2,31.2,low,low,low,low,high,1,Medium,9.8,Low,calculated
+131,Cape Malay-style braised chicken curry,4,20.4,0.1,0.9,1.1,0.8,17.7,18.2,low,low,low,low,high,1,Medium,9.9,Low,calculated
+132,Chicken bastilla with orange salad,6,351.1,9.2,11.6,53.1,9.3,521.9,31.8,low,medium,low,low,medium,0,Low,10.2,Low,calculated
+133,Chicken yassa,4,11.6,0.3,0.3,0.6,0.2,82.8,22.2,low,low,low,low,high,1,Medium,9.8,Low,calculated
+134,"Ekuru, stewed greens and crispy cod cheeks",4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+135,Grilled pork chops with blatjang and radishes,4,0.8,0.0,0.0,0.1,0.1,2.7,33.3,low,low,low,low,high,1,Medium,10.0,Low,calculated
+136,Jollof Quorn pilau with salted cucumber,4,6.3,0.2,0.3,0.7,0.3,219.1,11.1,low,low,low,low,high,1,Medium,9.9,Low,calculated
+137,Jollof rice balls with Scotch bonnet sauce,4,114.7,0.3,12.2,0.9,0.5,52.9,25.0,low,low,low,low,high,1,Medium,9.8,Low,calculated
+138,Lamb and apricot Cape Malay curry,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+139,Malva pudding,8,2.7,0.1,0.0,0.4,0.4,0.2,22.2,low,low,low,low,high,1,Medium,9.9,Low,calculated
+140,Nigerian stew and cauliflower fried âriceâ,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+141,Piri-piri chicken and slaw,4,37.7,0.5,1.5,5.6,3.9,111.9,77.8,low,low,low,low,high,1,Medium,9.7,Low,calculated
+142,Pork with monkey gland sauce,4,28.0,0.1,1.4,3.7,2.7,151.5,23.1,low,low,low,low,high,1,Medium,9.9,Low,calculated
+143,Quraac,4,3.5,0.0,0.2,0.4,0.2,2.1,14.3,low,low,low,low,high,1,Medium,10.0,Low,calculated
+144,Red-red stew with spiced plantain,4,29.1,0.7,1.4,3.5,1.4,37.8,100.0,low,low,low,low,high,1,Medium,9.6,Low,calculated
+145,South African-inspired sausage rolls,4,5.1,0.0,0.2,0.5,0.3,2.5,18.2,low,low,low,low,high,1,Medium,10.0,Low,calculated
+146,Suya beef fillet burger,2,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+147,Sweet potato shakshuka with sriracha butter,4,105.4,0.1,11.6,0.3,0.1,6.1,33.3,low,low,low,low,high,1,Medium,9.9,Low,calculated
+148,Ugandan rolex,2,177.4,0.1,17.9,4.4,2.8,75.3,27.3,low,low,medium,low,high,1,Medium,12.8,Low,calculated
+149,Zoeâs jollof,6,70.7,2.9,1.4,11.7,0.8,139.8,33.3,low,low,low,low,high,1,Medium,8.2,Low,calculated
+150,Kicha,4,284.9,4.9,16.0,29.6,2.2,420.0,50.0,low,medium,medium,low,high,1,Medium,8.9,Low,calculated
+151,Zebhi Hamli,4,101.2,0.0,11.2,0.0,0.0,0.0,100.0,low,low,low,low,high,1,Medium,10.0,Low,calculated
+152,Shiro,4,30.8,0.2,1.5,4.2,3.2,26.9,100.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+153,Shahan Ful,4,79.3,0.2,8.4,0.9,0.2,17.7,75.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+154,Doro Wat,4,110.9,1.8,2.8,19.7,4.8,84.3,80.0,low,low,low,low,high,1,Medium,8.9,Low,calculated
+155,Buna,4,106.2,0.0,0.0,0.0,0.0,5.4,100.0,low,low,low,low,high,1,Medium,10.0,Low,calculated
+156,Sabaayad,8,573.6,17.6,18.8,86.3,8.7,570.0,83.3,medium,medium,medium,low,low,0,Low,15.4,Low,calculated
+157,Canjeero,12,771.6,17.1,15.2,142.3,6.2,1127.9,87.5,medium,high,medium,low,low,1,Medium,35.7,Medium,calculated
+158,Suugo Suqaar,4,148.8,0.3,13.5,6.6,4.9,53.5,60.0,low,low,low,low,high,1,Medium,9.8,Low,calculated
+159,Shaah Cadays,4,246.3,4.5,4.3,29.7,21.3,63.9,100.0,low,low,low,high,high,2,Medium,15.2,Low,calculated
+160,Kachumbari,4,38.2,0.0,0.0,0.9,0.2,2.0,66.7,low,low,low,low,high,1,Medium,10.0,Low,calculated
+161,Mukimo,6,17.2,0.4,0.2,3.6,0.0,12.6,50.0,low,low,low,low,high,1,Medium,9.8,Low,calculated
+162,Sukuma Wiki |,4,72.7,0.1,7.8,0.7,0.2,6.0,75.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+163,Basboosa,12,137.0,4.1,3.5,21.9,3.4,307.8,87.5,low,low,low,low,high,1,Medium,7.4,Low,calculated
+164,Ndizi Kaanga,4,41.2,0.9,0.5,8.5,0.2,28.3,100.0,low,low,low,low,high,1,Medium,9.4,Low,calculated
+165,Matoke with Steamed Spinach,4,101.2,0.0,11.2,0.0,0.0,0.0,50.0,low,low,low,low,high,1,Medium,10.0,Low,calculated
+166,Harees with Chicken,4,65.7,1.7,5.4,3.6,0.5,1.8,50.0,low,low,low,low,high,1,Medium,8.9,Low,calculated
+167,Coril de Peix com Coco,4,21.8,0.1,0.1,5.4,5.3,11.7,50.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+168,Xima,4,325.8,8.8,9.6,50.7,1.0,378.6,66.7,low,low,low,low,medium,0,Low,4.4,Low,calculated
+169,Prego Rolls,4,52.5,1.2,0.6,10.6,0.0,37.5,33.3,low,low,low,low,high,1,Medium,9.3,Low,calculated
+170,Bolo Polana,4,7.2,0.1,0.4,0.8,0.5,4.4,33.3,low,low,low,low,high,1,Medium,9.9,Low,calculated
+171,Denningvleis,4,83.3,0.6,4.6,10.2,10.1,10.1,60.0,low,low,low,low,high,1,Medium,9.6,Low,calculated
+172,Chakalaka and Cheddar Braaibroodjies,4,547.2,25.1,21.7,62.6,6.9,847.2,100.0,medium,high,medium,low,low,1,Medium,26.8,Medium,calculated
+173,Imifino,4,101.2,0.0,11.2,0.0,0.0,0.2,33.3,low,low,low,low,high,1,Medium,10.0,Low,calculated
+174,Lasary Legioma,4,0.0,0,0,0,0,0.1,50.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+175,Akoho Misy Sakamalao,4,67.2,0.0,7.4,0.1,0.0,0.3,50.0,low,low,low,low,high,1,Medium,10.0,Low,calculated
+176,Katilesy,4,494.4,11.8,9.9,90.3,3.5,758.4,33.3,low,high,low,low,medium,1,Medium,18.5,Low,calculated
+177,Kadaka Akondro,4,30.1,0.0,0.0,7.5,7.5,7.3,66.7,low,low,low,low,high,1,Medium,10.0,Low,calculated
+178,Mofo Akondro,4,163.8,1.4,1.9,35.5,12.3,87.8,75.0,low,low,low,medium,high,1,Medium,9.4,Low,calculated
+179,Ambrevades au Curry,6,79.1,0.2,7.9,1.8,1.6,18.2,100.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+180,Roti ya Houma Pampa,4,104.6,0.0,11.6,0.1,0.0,5.8,66.7,low,low,low,low,high,1,Medium,10.0,Low,calculated
+181,Roho,4,1010.3,0.2,60.3,119.9,120.0,4.5,100.0,high,low,high,high,high,4,High,60.7,High,calculated
+214,60+ Nigerian Recipes You Need To Try,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+226,Tammy’s Sesame Oil Chicken,4,123.2,0.5,11.3,5.2,2.2,40.9,45.5,low,low,low,low,high,1,Medium,9.7,Low,calculated
+227,Homemade Sweet Chilli Fish Fingers,4,196.5,5.4,2.9,40.8,21.0,657.6,63.6,low,medium,low,high,high,2,Medium,27.4,Medium,calculated
+228,Scrumptious Chicken Gizzards,4,145.9,1.6,11.7,8.5,1.3,75.9,50.0,low,low,low,low,high,1,Medium,9.0,Low,calculated
+229,Miri Piri Roasted Potato Wedges,4,539.5,19.3,6.8,100.8,7.9,1052.1,50.0,medium,high,low,low,low,1,Medium,24.2,Low,calculated
+230,DELICIOUS CHICKEN CURRY II,4,209.7,3.7,13.2,19.6,3.8,432.5,40.0,low,medium,low,low,high,1,Medium,9.3,Low,calculated
+231,Cheesy Mince & Mushroom Parcels,5,118.9,1.5,9.5,7.0,0.6,111.7,38.5,low,low,low,low,high,1,Medium,9.1,Low,calculated
+232,"Good old Mupotohayi (Chimodho, Cornmeal bread)",9,326.7,4.9,12.2,49.5,14.9,293.4,75.0,low,low,low,medium,high,1,Medium,9.7,Low,calculated
+233,Sesame Fried Pork & Penne Pasta,4,342.2,7.5,20.0,33.9,2.0,227.5,55.6,low,low,medium,low,high,1,Medium,10.3,Low,calculated
+234,Chisa Nyama Pork Chops,4,104.8,0.2,11.3,0.7,0.0,0.4,40.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+235,Smokey BBQ Mince & Sausage Stew,5,286.9,6.6,9.3,45.2,17.4,623.3,30.8,low,medium,low,medium,high,1,Medium,22.1,Low,calculated
+236,"Baked Lemon, Garlic ‘n Herb Kariba Bream",5,133.6,0.7,13.5,2.3,0.3,30.7,57.1,low,low,low,low,high,1,Medium,9.6,Low,calculated
+237,Baked BBQ Sauce Chicken Thighs,7,61.9,0.1,6.5,0.6,0.2,18.6,57.1,low,low,low,low,high,1,Medium,9.9,Low,calculated
+238,Vanilla Sorghum Muffins,12,408.6,7.6,19.6,49.9,9.2,549.4,88.9,low,medium,medium,low,high,1,Medium,17.3,Low,calculated
+239,Tasty Mild Spiced Rice,5,374.5,2.5,11.1,23.6,8.5,184.8,88.9,low,low,low,low,high,1,Medium,8.4,Low,calculated
+240,Egg-free Banana Cinnamon Loaf,7,824.6,11.1,53.2,75.3,12.4,904.0,80.0,high,high,high,medium,medium,3,High,55.4,High,calculated
+241,How to cook Sadza ReMhunga,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+242,Easy Mince & Vegetable Stew,5,372.5,5.9,20.3,42.5,17.6,515.7,60.0,low,medium,medium,medium,high,1,Medium,22.6,Low,calculated
+243,Sour Cream ‘n Chives Mashed Potatoes,4,400.6,6.8,13.6,64.0,7.0,517.7,57.1,low,medium,low,low,high,1,Medium,11.6,Low,calculated
+244,Delicious Porridge reMapfunde (Sorghum),4,70.8,2.1,0.6,14.1,0.1,100.8,25.0,low,low,low,low,high,1,Medium,8.7,Low,calculated
+245,Mild Curry Egg Fried Rice,4,626.3,18.3,36.3,56.6,24.5,945.0,66.7,medium,high,high,high,low,3,High,49.2,Medium,calculated
+246,Delish Roasted Potatoes,4,735.1,28.0,22.1,106.4,21.0,866.8,80.0,medium,high,medium,high,low,2,Medium,43.3,Medium,calculated
+247,Delicious Whole Wheat Mhunga Bread,8,399.7,8.4,15.0,57.0,8.8,682.0,57.1,low,medium,medium,low,medium,0,Low,18.8,Low,calculated
+248,Tasty Curried Rice,4,1373.7,87.3,83.1,31.0,20.2,1506.2,76.9,high,high,high,high,low,4,High,79.0,Very High,calculated
+249,How to Cook Mupunga (Traditional Brown Rice),4,232.2,4.8,0.5,50.4,0.1,451.8,66.7,low,medium,low,low,high,1,Medium,9.6,Low,calculated
+250,Mutakunanzva Kariba Bream Fish Stew,4,194.1,5.6,4.9,31.8,3.8,585.3,57.1,low,medium,low,low,high,1,Medium,15.8,Low,calculated
+251,Zviyo and Custard Rock Buns,20,1.2,0.0,0.1,0.2,0.1,1.0,10.0,low,low,low,low,high,1,Medium,10.0,Low,calculated
+252,Sticky BBQ T-Bone Steak,8,2.7,0.1,0.0,0.5,0.0,0.3,16.7,low,low,low,low,high,1,Medium,9.9,Low,calculated
+253,Delicious Mupunga (Brown Rice) Sadza,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+254,Simply Delicious Baked Pork Fillet,4,189.6,1.9,12.3,17.9,15.4,710.1,86.7,low,high,low,medium,high,2,Medium,27.2,Medium,calculated
+255,Roasted Portuguese Chicken Masala Thighs,4,107.7,0.3,11.3,1.4,0.1,0.7,50.0,low,low,low,low,high,1,Medium,9.8,Low,calculated
+256,Sadza reMhunga & BBQ Beef Short Ribs,4,69.1,0.1,7.6,0.2,0.1,54.8,33.3,low,low,low,low,high,1,Medium,9.9,Low,calculated
+257,Delectable Lemon ‘n Herb Roasts,8,113.7,2.3,6.3,12.4,2.5,90.9,54.5,low,low,low,low,high,1,Medium,8.6,Low,calculated
+258,Delicious Oyster Mushroom Stew,4,271.0,3.4,20.1,19.8,5.6,516.4,66.7,low,medium,medium,low,high,1,Medium,18.8,Low,calculated
+259,Mufushwa weMunyemba unedovi,4,188.1,3.2,12.5,16.3,3.2,407.1,42.9,low,medium,low,low,high,1,Medium,8.4,Low,calculated
+260,Delicious Fish Curry,5,137.5,0.8,12.9,4.7,3.3,48.3,42.9,low,low,low,low,high,1,Medium,9.5,Low,calculated
+261,Sticky BBQ Rack of Ribs,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+262,Lemon Poppy Seed Loaf,8,381.3,8.3,23.0,34.9,4.4,627.1,44.4,low,medium,medium,low,medium,0,Low,24.1,Low,calculated
+263,Beef Kidneys,6,68.7,0.7,6.4,1.4,0.2,298.0,50.0,low,low,low,low,high,1,Medium,9.6,Low,calculated
+264,Beef Offal,5,123.0,3.0,7.1,12.1,1.8,237.1,75.0,low,low,low,low,high,1,Medium,8.1,Low,calculated
+265,Beef Trotters,6,169.9,2.9,11.0,14.9,2.3,293.5,76.9,low,low,low,low,high,1,Medium,8.2,Low,calculated
+266,Bondwe with Okra,6,4.5,0.1,0.1,0.7,0.4,45.0,33.3,low,low,low,low,high,1,Medium,9.9,Low,calculated
+267,Bondwe,4,67.5,0.0,7.5,0.0,0.0,0.0,20.0,low,low,low,low,high,1,Medium,10.0,Low,calculated
+268,Fried Kapenta,4,188.3,3.8,10.7,19.5,2.7,274.5,75.0,low,low,low,low,high,1,Medium,7.6,Low,calculated
+269,Impwa (Garden Eggs),4,108.0,0.2,11.3,1.3,0.2,31.9,46.2,low,low,low,low,high,1,Medium,9.9,Low,calculated
+270,Kabulangeti Beans,4,140.0,0.2,15.0,1.0,0.1,9.7,37.5,low,low,medium,low,high,1,Medium,9.9,Low,calculated
+271,Kalembula (Sweet Potato leaves),5,137.5,2.1,9.7,10.6,1.2,159.7,60.0,low,low,low,low,high,1,Medium,8.7,Low,calculated
+272,Lumanda with pounded Groundnuts,6,353.4,14.6,29.8,12.8,2.9,3.9,28.6,low,low,high,low,medium,1,Medium,12.2,Low,calculated
+273,Lusaka Bean Curry,8,40.4,0.2,4.1,0.7,0.2,23.1,50.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+274,Nshima,4,348.3,11.7,7.6,45.3,0.4,418.5,66.7,low,medium,low,low,medium,0,Low,3.3,Low,calculated
+275,Okra Soup,4,1.5,0.0,0.0,0.0,0.0,4.0,33.3,low,low,low,low,high,1,Medium,10.0,Low,calculated
+276,Samp in Groundnut sauce,6,657.1,20.2,41.5,60.6,44.9,50.7,50.0,medium,low,high,high,low,2,Medium,38.1,Medium,calculated
+277,Sweet Potatoes in Groundnut Sauce,6,478.4,17.8,41.1,17.8,8.4,340.8,20.0,low,low,high,low,low,1,Medium,16.4,Low,calculated
+278,Wild Mushroom : Tente,6,119.0,2.8,6.0,13.6,2.1,337.0,77.8,low,low,low,low,high,1,Medium,8.2,Low,calculated
+182,African Fish Rolls,12,915.9,20.8,21.5,161.2,9.0,1356.7,50.0,high,high,medium,low,low,2,Medium,49.9,Medium,calculated
+183,African Masa Recipe,40,24.5,0.5,0.1,5.3,1.3,35.4,75.0,low,low,low,low,high,1,Medium,9.7,Low,calculated
+184,Nigerian Pancakes,6,417.9,10.9,8.5,75.0,16.8,549.6,66.7,low,medium,low,medium,medium,0,Low,14.9,Low,calculated
+185,African Spaghetti Sauce with Meatballs,15,183.9,10.1,10.3,12.3,2.7,240.1,59.3,low,low,low,low,medium,0,Low,3.5,Low,calculated
+186,Nigerian Beef Stew (African Stew Recipe),8,431.4,31.7,30.2,7.2,4.8,456.7,54.5,low,medium,high,low,low,1,Medium,14.9,Low,calculated
+187,Authentic Nigerian Coconut Rice,9,406.3,43.3,19.2,14.8,7.6,777.2,65.4,low,high,medium,low,low,1,Medium,20.9,Low,calculated
+188,Amala - Nigerian Food,4,367.2,9.8,9.6,59.3,4.5,847.2,66.7,low,high,low,low,medium,1,Medium,21.9,Low,calculated
+189,Basmati Jollof Rice recipe (The Party style with Beef),10,543.7,28.7,28.8,41.3,5.0,841.4,41.7,medium,high,high,low,low,2,Medium,31.4,Medium,calculated
+190,Ethiopian Berbere Spice,1,134.2,4.3,6.0,17.2,8.9,448.7,29.4,low,medium,low,low,high,1,Medium,9.7,Low,calculated
+191,One Pot Black Eyed Peas And Beef,9,386.8,27.9,18.6,26.4,8.0,489.3,52.9,low,medium,medium,low,low,0,Low,8.1,Low,calculated
+192,Chakalaka | South African Food,6,221.4,7.1,10.2,25.7,4.4,227.3,41.7,low,low,low,low,high,1,Medium,5.6,Low,calculated
+193,Chicken Samosas Recipe,15,323.7,12.8,15.7,34.5,3.1,410.7,68.4,low,medium,medium,low,medium,0,Low,2.8,Low,calculated
+194,Coconut Fried Rice With Extra veggies,8,1350.9,75.4,89.3,56.4,8.6,1969.4,71.4,high,high,high,low,low,3,High,71.1,High,calculated
+195,Creamy Fonio Breakfast Porridge (Acha Porridge),2,133.2,6.1,3.2,19.9,5.9,151.2,50.0,low,low,low,low,high,1,Medium,6.2,Low,calculated
+196,Simple and Creamy Polenta Recipe,4,130.7,5.8,5.7,13.8,0.1,277.1,60.0,low,low,low,low,high,1,Medium,6.4,Low,calculated
+197,Crispy Yuca Fries - Oven-baked or Deep fried,4,67.5,0.0,7.5,0.0,0.0,0.0,33.3,low,low,low,low,high,1,Medium,10.0,Low,calculated
+198,Delicious Homemade Sweet Potato Pie,8,144.2,0.7,5.6,23.5,23.4,43.1,66.7,low,low,low,high,high,2,Medium,18.3,Low,calculated
+199,Easy African Chicken Peanut Soup,6,891.7,32.8,77.0,14.7,9.0,159.3,42.1,high,low,high,low,low,2,Medium,33.9,Medium,calculated
+200,Eggless Nigerian Buns,4,1183.7,24.1,20.4,227.4,52.1,1549.0,50.0,high,high,medium,high,low,3,High,68.9,High,calculated
+201,Fried Plantains - Sweet and Savory Delicacy,6,720.0,0.0,80.0,0.0,0.0,0.0,33.3,medium,low,high,low,high,2,Medium,39.2,Medium,calculated
+202,Gbegiri Soup - Delicious West African Bean Soup,6,352.3,19.1,7.8,53.0,10.6,717.4,62.5,low,high,low,low,low,1,Medium,15.4,Low,calculated
+203,Easy Grilled Corn on the Cob Recipe,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+204,Grilled Plantains,4,0.0,0,0,0,0,0,0.0,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,insufficient_data
+205,Harissa Chicken Wings,24,178.9,7.7,15.3,2.2,2.1,178.8,71.4,low,low,medium,low,high,1,Medium,5.5,Low,calculated
+206,How To Cook a Super Juicy Turkey - Dry Brined,4,59.2,1.8,3.7,4.8,1.5,161.6,42.1,low,low,low,low,high,1,Medium,8.9,Low,calculated
+207,Eba - Nigerian Food,2,229.2,1.7,3.6,47.5,2.1,183.6,100.0,low,low,low,low,high,1,Medium,8.9,Low,calculated
+208,Ikokore - Water Yam Pottage,8,190.3,5.3,15.9,6.7,1.4,145.8,46.2,low,low,medium,low,high,1,Medium,7.6,Low,calculated
+209,Indulgent Homemade Pumpkin Pie,8,49.2,0.7,0.2,12.0,8.7,14.4,23.1,low,low,low,low,high,1,Medium,9.6,Low,calculated
+210,Jollof Spaghetti,6,183.2,2.4,12.6,15.5,9.5,279.0,55.6,low,low,low,low,high,1,Medium,8.5,Low,calculated
+211,Ewedu - Jute Leaves Soup,5,106.4,4.4,5.4,11.0,2.6,157.4,54.5,low,low,low,low,high,1,Medium,7.2,Low,calculated
+212,How to make Moin Moin/Moi Moi,5,802.7,26.2,37.0,93.7,13.1,868.9,45.5,high,high,high,medium,low,3,High,47.0,Medium,calculated
+213,Meat Floss (Beef Floss) - Dambu Nama,10,353.2,37.3,20.8,2.4,1.6,550.5,42.9,low,medium,medium,low,low,0,Low,13.3,Low,calculated
+215,Niter Kibbeh Ethiopian Spiced Clarified Butter,24,6.4,0.1,0.6,0.2,0.0,9.5,26.7,low,low,low,low,high,1,Medium,9.9,Low,calculated
+216,Nyama Choma,4,168.5,0.2,18.0,1.8,0.7,48.5,75.0,low,low,medium,low,high,1,Medium,12.9,Low,calculated
+217,Perfect Juicy Oven-Roasted Turkey Breast,10,30.5,0.1,3.1,0.6,0.2,44.0,50.0,low,low,low,low,high,1,Medium,9.9,Low,calculated
+218,Peri-Peri Chicken (Piri-Piri Chicken),4,686.2,24.2,54.1,28.1,11.5,1556.2,46.2,medium,high,high,low,low,2,Medium,57.8,High,calculated
+219,Easy Spicy Peri Peri Sauce,1,1168.0,2.0,120.8,15.5,4.5,679.5,41.7,high,medium,high,low,high,3,High,61.0,High,calculated
+220,Semolina Flour Masa,4,401.9,11.0,9.9,67.1,10.7,850.3,66.7,low,high,low,low,medium,1,Medium,21.1,Low,calculated
+221,Spicy Nigerian Stick Meat,6,493.6,42.6,32.9,5.0,2.9,598.6,50.0,low,medium,high,low,low,1,Medium,23.1,Low,calculated
+222,Suya - The Nigerian Kebab,22,132.5,15.1,8.0,0.1,0.0,243.1,66.7,low,low,low,low,low,0,Low,0.0,Low,calculated
+223,My To Go Sweet Potato Kale Salad,4,1003.9,22.5,38.9,144.3,37.7,1203.3,65.0,high,high,high,high,low,4,High,71.2,High,calculated
+224,Tropical Mango Pineapple Smoothie Recipe,2,426.0,15.8,11.7,68.1,54.3,381.9,85.7,low,low,low,high,low,1,Medium,15.0,Low,calculated
+225,Yam pottage/Yam Porridge (Asaro) Recipe,4,448.2,28.3,31.3,11.4,5.9,667.8,66.7,low,medium,high,low,low,1,Medium,25.9,Medium,calculated

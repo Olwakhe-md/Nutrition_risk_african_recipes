@@ -1,0 +1,837 @@
+recipe_id,ingredient_id,ingredient_index,ingredient_raw,grams_total,servings,grams_per_serving,extraction_method
+1,397,1,2 tbsp (30 ml) olive oil,30.0,5,6.0,bracketed_metric
+1,34,2,1 cup (211 g) basmati rice,211.0,5,42.2,bracketed_metric
+1,613,3,2 cups (480 ml) vegetable stock,480.0,5,96.0,bracketed_metric
+1,92,4,1 cup (201 g) brown lentils,201.0,5,40.2,bracketed_metric
+1,626,5,"2 cups (480 ml) water, plus more as needed",480.0,5,96.0,bracketed_metric
+1,251,6,1 clove garlic,4.0,5,0.8,count_estimate
+1,197,7,1 tsp ground cumin,5.0,5,1.0,volume_unit
+1,35,8,1 bay leaf,,5,,no_match
+1,522,9,2 tsp (10 g) salt,10.0,5,2.0,bracketed_metric
+1,215,10,2 cups (232 g) elbow macaroni,232.0,5,46.4,bracketed_metric
+1,399,12,"1 large onion, finely chopped",150.0,5,30.0,count_estimate
+1,251,13,"2 cloves garlic, minced",8.0,5,1.6,count_estimate
+1,597,14,1 (16-oz [448-g]) can diced tomatoes,448.0,5,89.6,bracketed_metric
+1,474,15,2 tsp (2 g) Ras El Hanout,2.0,5,0.4,bracketed_metric
+1,525,16,"Salt and black pepper, to taste",,5,,no_match
+1,501,17,¼ tsp crushed red pepper flakes,1.25,5,0.25,volume_unit
+1,504,18,1 tbsp (15 ml) red wine vinegar,15.0,5,3.0,bracketed_metric
+1,616,19,"Vegetable oil, as needed",,5,,no_match
+1,399,20,"2 large onions, thinly sliced",300.0,5,60.0,count_estimate
+1,150,21,"1 (15-oz [420-g]) can chickpeas, drained and rinsed",420.0,5,84.0,bracketed_metric
+2,514,1,"5 medium Roma tomatoes, roughly chopped",550.0,7,78.57,count_estimate
+2,489,2,"1 large red bell pepper, roughly chopped",150.0,7,21.43,count_estimate
+2,533,3,2 small Scotch bonnet chiles or habanero chiles,140.0,7,20.0,count_estimate
+2,277,4,¼ cup (60 ml) groundnut oil or vegetable oil,60.0,7,8.57,bracketed_metric
+2,399,5,"1 medium onion, roughly chopped",110.0,7,15.71,count_estimate
+2,598,6,3 tbsp (48 g) tomato paste,48.0,7,6.86,bracketed_metric
+2,134,7,2½ cups (600 ml) chicken stock,600.0,7,85.71,bracketed_metric
+2,522,8,1 tsp salt,5.0,7,0.71,volume_unit
+2,202,9,½ tsp curry powder,2.5,7,0.36,volume_unit
+2,591,10,½ tsp dried thyme,2.5,7,0.36,volume_unit
+2,15,11,1 tsp all-purpose seasoning,5.0,7,0.71,volume_unit
+2,44,12,"1 beef, chicken or vegetable bouillon cube",,7,,no_match
+2,507,13,"2 cups parboiled rice, rinsed",480.0,7,68.57,volume_unit
+2,36,14,3 bay leaves,,7,,no_match
+3,135,1,3 lb (1.4 kg) chicken (any cut),1400.0,9,155.56,bracketed_metric
+3,591,2,1 tbsp (3 g) dried thyme,3.0,9,0.33,bracketed_metric
+3,253,3,1 tsp garlic powder,5.0,9,0.56,volume_unit
+3,133,4,1 chicken bouillon cube,,9,,no_match
+3,526,5,"Salt and black pepper, as needed",,9,,no_match
+3,615,6,"1½ cups (360 ml) vegetable oil, divided",360.0,9,40.0,bracketed_metric
+3,514,7,"4 medium Roma tomatoes, roughly chopped",440.0,9,48.89,count_estimate
+3,438,8,"1 (28-oz [784-g]) can whole peeled plum tomatoes, drained",784.0,9,87.11,bracketed_metric
+3,489,9,"1 large red bell pepper, roughly chopped",150.0,9,16.67,count_estimate
+3,280,10,2 small habanero chiles,140.0,9,15.56,count_estimate
+3,399,11,"1 medium onion, thinly sliced",110.0,9,12.22,count_estimate
+3,598,12,2 tbsp (32 g) tomato paste,32.0,9,3.56,bracketed_metric
+3,134,13,1 cup (240 ml) chicken stock,240.0,9,26.67,bracketed_metric
+3,591,14,1½ tsp (2 g) dried thyme,2.0,9,0.22,bracketed_metric
+3,388,15,1 tbsp (8 g) Nigerian red pepper or cayenne pepper,8.0,9,0.89,bracketed_metric
+3,15,16,1 tsp all-purpose seasoning,5.0,9,0.56,volume_unit
+3,35,18,1 bay leaf,,9,,no_match
+4,140,1,"1½ lb (680 g) chicken breasts, cut into 2-inch (6-cm) pieces",680.0,7,97.14,bracketed_metric
+4,522,2,"1 tbsp (15 g) salt, plus more to taste",15.0,7,2.14,bracketed_metric
+4,63,3,"1 tsp black pepper, plus more to taste",5.0,7,0.71,volume_unit
+4,399,4,"1 small onion, thickly sliced",70.0,7,10.0,count_estimate
+4,625,5,3 cups (720 ml) water,720.0,7,102.86,bracketed_metric
+4,615,6,¼ cup (60 ml) vegetable oil,60.0,7,8.57,bracketed_metric
+4,597,7,"2 medium tomatoes, roughly chopped",220.0,7,31.43,count_estimate
+4,399,8,"1 medium onion, roughly chopped, divided",110.0,7,15.71,count_estimate
+4,254,9,"3 to 4 cloves garlic, whole",,7,,no_match
+4,414,10,2 to 3 tbsp (6 to 9 g) dried parsley,,7,,no_match
+4,411,11,1 tsp smoked paprika,5.0,7,0.71,volume_unit
+4,127,12,1 tbsp (8 g) cayenne pepper,8.0,7,1.14,bracketed_metric
+4,639,13,½ tsp white pepper,2.5,7,0.36,volume_unit
+4,519,14,"¾ lb (340 g) russet potatoes, roughly chopped",340.0,7,48.57,bracketed_metric
+4,120,15,"¼ lb (113 g) carrots, roughly chopped",113.0,7,16.14,bracketed_metric
+4,556,16,½ cup (90 g) smooth peanut butter,90.0,7,12.86,bracketed_metric
+4,280,17,"1 small habanero chile, diced",70.0,7,10.0,count_estimate
+5,49,1,1½ lb (680 g) beef stew meat,680.0,7,97.14,bracketed_metric
+5,526,2,"Salt and black pepper, as needed",,7,,no_match
+5,591,3,1 tbsp (3 g) dried thyme,3.0,7,0.43,bracketed_metric
+5,399,4,"1 small onion, roughly chopped",70.0,7,10.0,count_estimate
+5,625,5,1 cup (240 ml) water,240.0,7,34.29,bracketed_metric
+5,40,6,6 cups (1.4 L) beef stock,1400.0,7,200.0,bracketed_metric
+5,212,7,"4 cups (600 g) egusi melon seeds, ground",600.0,7,85.71,bracketed_metric
+5,399,8,"1 large onion, roughly chopped",150.0,7,21.43,count_estimate
+5,282,9,"2 small habanero chiles, stems removed",140.0,7,20.0,count_estimate
+5,409,10,¾ cup (180 ml) palm oil,180.0,7,25.71,bracketed_metric
+5,58,11,"4 tbsp (85 g) bitter leaf, washed",85.0,7,12.14,bracketed_metric
+5,562,12,6 cups (180 g) roughly chopped spinach,180.0,7,25.71,bracketed_metric
+5,191,13,3 tbsp (18 g) ground crayfish,18.0,7,2.57,bracketed_metric
+5,387,14,1 tbsp (8 g) Nigerian red pepper,8.0,7,1.14,bracketed_metric
+5,245,15,"Fufu , for serving",,7,,no_match
+6,85,1,"4 boneless, skinless chicken breasts",,6,,no_match
+6,142,2,4 chicken drumsticks,,6,,no_match
+6,399,3,4 cups (460 g) sliced onions,460.0,6,76.67,bracketed_metric
+6,333,4,⅓ cup (80 ml) fresh lemon juice,80.0,6,13.33,bracketed_metric
+6,522,5,1 tsp salt,5.0,6,0.83,volume_unit
+6,63,6,½ tsp black pepper,2.5,6,0.42,volume_unit
+6,281,7,"1 small habanero chile, seeded and minced",70.0,6,11.67,count_estimate
+6,423,8,1½ tbsp (23 ml) peanut oil,23.0,6,3.83,bracketed_metric
+6,134,9,1½ cups (360 g) chicken stock,360.0,6,60.0,bracketed_metric
+6,430,10,½ cup (75 g) pimento-stuffed olives,75.0,6,12.5,bracketed_metric
+6,625,11,½ cup (120 ml) water,120.0,6,20.0,bracketed_metric
+6,205,12,1 tbsp (16 g) Dijon mustard,16.0,6,2.67,bracketed_metric
+6,508,13,"Rice, for serving",,6,,no_match
+7,616,1,"Vegetable oil, as needed",,6,,no_match
+7,17,2,¼ cup (43 g) roasted almonds,43.0,6,7.17,bracketed_metric
+7,128,3,2 tbsp (16 g) cayenne pepper or Nigerian red pepper,16.0,6,2.67,bracketed_metric
+7,411,4,2 tsp (6 g) smoked paprika,6.0,6,1.0,bracketed_metric
+7,253,5,1 tbsp (8 g) garlic powder,8.0,6,1.33,bracketed_metric
+7,400,6,1 tbsp (8 g) onion powder,8.0,6,1.33,bracketed_metric
+7,639,7,1 tbsp (8 g) white pepper,8.0,6,1.33,bracketed_metric
+7,133,8,1 chicken bouillon cube,,6,,no_match
+7,522,9,"Salt, to taste",,6,,no_match
+7,551,10,2 lb (900 g) sirloin or chuck roast,900.0,6,150.0,bracketed_metric
+8,,1,"My dad loves beans. He can make a pot of beans like no other. I, on the other hand, have a love-hate relationship with beans. It seems like I’ve never been able to enjoy them on their own and always need something to accompany them. My solution to that conundrum is this recipe. Some of my favorite ingredients, like palm oil and plantain, are included here—having other ingredients in the pot of beans enhances the flavor and breaks up the monotony of only having beans. I love the texture the spinach and plantains add.",,6,,no_match
+8,71,2,"2 cups (303 g) dried black-eyed peas, soaked overnight",303.0,6,50.5,bracketed_metric
+8,625,3,4 cups (960 ml) water,960.0,6,160.0,bracketed_metric
+8,409,4,¾ cup (180 ml) palm oil,180.0,6,30.0,bracketed_metric
+8,191,5,3 tbsp (18 g) ground crayfish,18.0,6,3.0,bracketed_metric
+8,280,6,"1 small habanero chile, finely chopped",70.0,6,11.67,count_estimate
+8,42,7,1 beef or chicken bouillon cube,,6,,no_match
+8,512,8,"1 large ripe plantain, cut into ¼-inch (6-mm) thick rounds",150.0,6,25.0,count_estimate
+8,593,9,"2 cups (60 g) tightly packed spinach, roughly chopped",60.0,6,10.0,bracketed_metric
+8,522,10,"Salt, to taste",,6,,no_match
+9,511,1,2 large ripe plantains,300.0,4,75.0,count_estimate
+9,615,2,"¼ cup (60 ml) vegetable oil, divided",60.0,4,15.0,bracketed_metric
+9,399,3,"1 medium onion, diced",110.0,4,27.5,count_estimate
+9,280,4,"1 small habanero chile, diced",70.0,4,17.5,count_estimate
+9,51,5,"1 large bell pepper (any color), diced",150.0,4,37.5,count_estimate
+9,597,6,"1 small tomato, diced",70.0,4,17.5,count_estimate
+9,251,7,1 tsp minced garlic,5.0,4,1.25,volume_unit
+9,209,8,6 large eggs,900.0,4,225.0,count_estimate
+9,159,9,"¼ cup (10 g) fresh cilantro, roughly chopped",10.0,4,2.5,bracketed_metric
+9,364,10,2 tbsp (30 ml) milk,30.0,4,7.5,bracketed_metric
+9,412,11,1 tsp paprika,5.0,4,1.25,volume_unit
+9,591,12,1 tsp dried thyme,5.0,4,1.25,volume_unit
+10,615,1,2 tbsp (30 ml) vegetable oil,30.0,5,6.0,bracketed_metric
+10,399,2,"1 medium onion, roughly chopped",110.0,5,22.0,count_estimate
+10,280,3,"1 small habanero chile, minced",70.0,5,14.0,count_estimate
+10,514,4,"1 large Roma tomato, roughly chopped",150.0,5,30.0,count_estimate
+10,186,5,2 (12-oz [336-g]) cans corned beef,336.0,5,67.2,bracketed_metric
+10,562,6,2 lb (900 g) roughly chopped spinach,900.0,5,180.0,bracketed_metric
+10,387,7,1 tbsp (8 g) Nigerian red pepper,8.0,5,1.6,bracketed_metric
+10,253,8,2 tsp (6 g) garlic powder,6.0,5,1.2,bracketed_metric
+10,400,9,1 tsp onion powder,5.0,5,1.0,volume_unit
+10,133,10,1 chicken bouillon cube,,5,,no_match
+10,15,11,1 tbsp (8 g) all-purpose seasoning,8.0,5,1.6,bracketed_metric
+10,75,12,"Boiled yams, for serving, optional",,5,,no_match
+10,74,13,"Boiled or fried plantains, for serving, optional",,5,,no_match
+11,595,1,"4 whole tilapia, washed and cleaned thoroughly",,5,,no_match
+11,522,2,2 tsp (10 g) salt,10.0,5,2.0,bracketed_metric
+11,63,3,2 tsp (6 g) black pepper,6.0,5,1.2,bracketed_metric
+11,331,4,2 medium lemons,220.0,5,44.0,count_estimate
+11,5,5,2 tsp (6 g) ground African nutmeg (ehuru),6.0,5,1.2,bracketed_metric
+11,572,6,2 tsp (5 g) star anise seeds,5.0,5,1.0,bracketed_metric
+11,159,7,½ cup fresh cilantro,120.0,5,24.0,volume_unit
+11,260,8,"1 (1-inch [5-cm]) piece fresh ginger, peeled",,5,,no_match
+11,251,9,10 cloves garlic,40.0,5,8.0,count_estimate
+11,411,10,1 tsp smoked paprika,5.0,5,1.0,volume_unit
+11,133,11,1 chicken bouillon cube,,5,,no_match
+11,399,12,"1 medium onion, roughly chopped",110.0,5,22.0,count_estimate
+11,616,13,"Vegetable oil, as needed",,5,,no_match
+11,508,14,"Rice, for serving",,5,,no_match
+12,23,1,"1½ lb (680 g) assorted boneless meats (e.g., beef, goat, chicken), cut into bite-size pieces",680.0,5,136.0,bracketed_metric
+12,399,2,"1 large onion, roughly chopped",150.0,5,30.0,count_estimate
+12,260,3,"1 (½-inch [13-mm]) piece fresh ginger, peeled",,5,,no_match
+12,251,4,2 cloves garlic,8.0,5,1.6,count_estimate
+12,43,5,3 beef or chicken bouillon cubes,,5,,no_match
+12,523,6,"Salt, as needed",,5,,no_match
+12,625,7,6 cups (1.4 L) water,1400.0,5,280.0,bracketed_metric
+12,280,8,"4 small habanero chiles, thinly sliced",280.0,5,56.0,count_estimate
+12,127,9,1 tbsp (8 g) cayenne pepper,8.0,5,1.6,bracketed_metric
+12,639,10,1 tbsp (8 g) white pepper,8.0,5,1.6,bracketed_metric
+12,426,11,3 tbsp (24 g) pepper soup spice mix,24.0,5,4.8,bracketed_metric
+12,649,12,"Yams, plantains or rice, for serving",,5,,no_match
+13,49,1,½ lb (225 g) beef stew meat,225.0,6,37.5,bracketed_metric
+13,526,2,"Salt and black pepper, as needed",,6,,no_match
+13,399,3,"1 medium onion, roughly chopped, divided",110.0,6,18.33,count_estimate
+13,625,4,"2 cups (480 ml) water, divided",480.0,6,80.0,bracketed_metric
+13,82,5,"½ lb (225 g) bone-in chicken breast, cut into bite-size pieces",225.0,6,37.5,bracketed_metric
+13,392,6,1 lb (450 g) fresh okra,450.0,6,75.0,bracketed_metric
+13,191,7,1 tbsp (6 g) ground crayfish,6.0,6,1.0,bracketed_metric
+13,42,8,1 beef or chicken bouillon cube,,6,,no_match
+13,411,9,1 tbsp (8 g) smoked paprika,8.0,6,1.33,bracketed_metric
+13,127,10,1 tbsp (8 g) cayenne pepper,8.0,6,1.33,bracketed_metric
+13,593,11,"3 cups (90 g) tightly packed spinach, roughly chopped",90.0,6,15.0,bracketed_metric
+13,31,12,"Banku or Fufu , for serving",,6,,no_match
+14,397,1,2 tbsp (30 ml) olive oil,30.0,3,10.0,bracketed_metric
+14,591,2,½ tsp dried thyme,2.5,3,0.83,volume_unit
+14,202,3,1 tsp curry powder,5.0,3,1.67,volume_unit
+14,127,4,½ tsp cayenne pepper,2.5,3,0.83,volume_unit
+14,253,5,½ tsp garlic powder,2.5,3,0.83,volume_unit
+14,604,6,⅛ tsp ground turmeric,0.62,3,0.21,volume_unit
+14,197,7,⅛ tsp ground cumin,0.62,3,0.21,volume_unit
+14,280,8,"1 small habanero chile, minced",70.0,3,23.33,count_estimate
+14,505,9,"1 medium red or yellow bell pepper, diced",110.0,3,36.67,count_estimate
+14,399,10,"1 small onion, diced",70.0,3,23.33,count_estimate
+14,531,11,1 (4-oz [112-g]) can smoked sardines in olive oil,112.0,3,37.33,bracketed_metric
+14,33,12,¼ cup roughly chopped fresh basil,60.0,3,20.0,volume_unit
+14,209,13,4 large eggs,600.0,3,200.0,count_estimate
+14,522,14,Pinch of salt,,3,,no_match
+15,,1,"I love hot sauce. It’s something that I have with almost every meal. There are so many variations of hot sauce, and I’ve spent a lot of time testing the ones I love best. When it comes down to the nitty-gritty, it’s all about the choice of pepper. This sauce uses one of the hottest chiles known to humanity, the African bird’s eye chile. Dip your sweet fried plantains in this sauce and you’ve got the perfect “sweet and heat” snack.",,4,,no_match
+15,3,2,12 African bird’s eye chiles or 12 small habanero chiles,,4,,no_match
+15,655,3,"1 small yellow or red bell pepper, roughly chopped",70.0,4,17.5,count_estimate
+15,251,4,"2 cloves garlic, roughly chopped",8.0,4,2.0,count_estimate
+15,399,5,"1 small onion, roughly chopped",70.0,4,17.5,count_estimate
+15,597,6,"1 large tomato, roughly chopped",150.0,4,37.5,count_estimate
+15,397,7,¼ cup (60 ml) olive oil,60.0,4,15.0,bracketed_metric
+15,522,8,"Salt, to taste",,4,,no_match
+16,274,1,4 large green or ripe plantains,600.0,7,85.71,count_estimate
+16,411,2,1 tbsp (8 g) smoked paprika,8.0,7,1.14,bracketed_metric
+16,522,3,"2 pinches of salt, divided",,7,,no_match
+16,618,4,"Vegetable oil, for frying",,7,,no_match
+17,,1,"My mum would make us eat boxed macaroni and cheese with frozen fish sticks quite frequently while I was growing up. When I was a little kid, I actually used to love that meal—that quickly starting changing the older I got, though. I started to hate those frozen fish sticks and would secretly dread the entire meal. I started making my own fish sticks in the form of these Senegalese Fried Fish Balls. They’re the perfect way for me to enjoy fish sticks: never frozen and, of course, a spicy tomato sauce to go with them.",,5,,no_match
+17,171,2,"1 lb (450 g) frozen cod fillets, thawed",450.0,5,90.0,bracketed_metric
+17,625,3,2 tbsp (30 ml) water,30.0,5,6.0,bracketed_metric
+17,634,4,1 slice white bread,30.0,5,6.0,count_estimate
+17,522,5,1 tsp salt,5.0,5,1.0,volume_unit
+17,63,6,½ tsp black pepper,2.5,5,0.5,volume_unit
+17,209,7,2 large eggs,300.0,5,60.0,count_estimate
+17,251,8,4 cloves garlic,16.0,5,3.2,count_estimate
+17,532,9,"1 scallion, finely chopped",,5,,no_match
+17,308,10,"1 small jalapeño, finely chopped",70.0,5,14.0,count_estimate
+17,415,11,2 tbsp (6 g) chopped fresh parsley,6.0,5,1.2,bracketed_metric
+17,10,12,½ cup (63 g) all-purpose flour,63.0,5,12.6,bracketed_metric
+17,618,13,"Vegetable oil, for frying",,5,,no_match
+17,615,14,2 tbsp (30 ml) vegetable oil,30.0,5,6.0,bracketed_metric
+17,532,15,"2 scallions, minced",,5,,no_match
+17,597,16,"2 medium tomatoes, roughly chopped",220.0,5,44.0,count_estimate
+17,489,17,"1 medium red bell pepper, roughly chopped",110.0,5,22.0,count_estimate
+17,312,18,"1 small jalapeño, seeded and roughly chopped",70.0,5,14.0,count_estimate
+17,625,19,½ cup (120 ml) water,120.0,5,24.0,bracketed_metric
+17,522,20,"Salt, to taste",,5,,no_match
+17,416,21,"Fresh parsley, for garnish",,5,,no_match
+18,405,1,"4 large overly ripe plantains, peeled",600.0,5,120.0,count_estimate
+18,187,2,1 cup (170 g) cornmeal,170.0,5,34.0,bracketed_metric
+18,364,3,4 tbsp (60 ml) milk,60.0,5,12.0,bracketed_metric
+18,522,4,1 tsp salt,5.0,5,1.0,volume_unit
+18,253,5,1 tsp garlic powder,5.0,5,1.0,volume_unit
+18,260,6,1 tsp grated fresh ginger,5.0,5,1.0,volume_unit
+18,127,7,1 tsp cayenne pepper,5.0,5,1.0,volume_unit
+18,532,8,"2 scallions, roughly chopped",,5,,no_match
+18,109,9,3 tbsp (45 ml) canola oil,45.0,5,9.0,bracketed_metric
+19,10,1,3 cups (375 g) all-purpose flour,375.0,9,41.67,bracketed_metric
+19,26,2,1 tsp baking powder,5.0,9,0.56,volume_unit
+19,6,3,½ tsp African nutmeg (ehuru),2.5,9,0.28,volume_unit
+19,577,4,¾ cup (144 g) sugar,144.0,9,16.0,bracketed_metric
+19,354,5,"½ cup (115 g) margarine, cut into pieces",115.0,9,12.78,bracketed_metric
+19,364,6,⅓ cup (80 ml) milk,80.0,9,8.89,bracketed_metric
+19,616,7,"Vegetable oil, as needed",,9,,no_match
+20,615,1,2 tbsp (30 ml) vegetable oil,30.0,6,5.0,bracketed_metric
+20,399,2,"1 medium onion, diced",110.0,6,18.33,count_estimate
+20,39,3,1 lb (450 g) ground beef,450.0,6,75.0,bracketed_metric
+20,45,4,2 beef bouillon cubes,,6,,no_match
+20,591,5,1 tsp dried thyme,5.0,6,0.83,volume_unit
+20,625,6,"1⅓ cups (320 ml) water, divided",320.0,6,53.33,bracketed_metric
+20,520,7,"2 medium russet potatoes, chopped into bite-size pieces",220.0,6,36.67,count_estimate
+20,121,8,"2 medium carrots, chopped into bite-size pieces",220.0,6,36.67,count_estimate
+20,10,9,2 tbsp (16 g) all-purpose flour,16.0,6,2.67,bracketed_metric
+20,523,10,"Salt, as needed",,6,,no_match
+20,10,11,8 cups (1 kg) all-purpose flour,1000.0,6,166.67,bracketed_metric
+20,26,12,2 tsp (8 g) baking powder,8.0,6,1.33,bracketed_metric
+20,522,13,Pinch of salt,,6,,no_match
+20,172,14,"1 lb (450 g) cold margarine, cut into tiny pieces",450.0,6,75.0,bracketed_metric
+20,304,15,½ cup (120 ml) ice-cold water,120.0,6,20.0,bracketed_metric
+20,209,16,"1 large egg, beaten",150.0,6,25.0,count_estimate
+21,445,1,1 lb (450 g) ground pork sausage,450.0,4,112.5,bracketed_metric
+21,591,2,½ tsp dried thyme,2.5,4,0.62,volume_unit
+21,517,3,½ tsp dried rosemary,2.5,4,0.62,volume_unit
+21,127,4,½ tsp cayenne pepper,2.5,4,0.62,volume_unit
+21,63,5,½ tsp black pepper,2.5,4,0.62,volume_unit
+21,522,6,½ tsp salt,2.5,4,0.62,volume_unit
+21,38,7,1 beef bouillon cube,,4,,no_match
+21,10,8,⅓ cup (42 g) all-purpose flour,42.0,4,10.5,bracketed_metric
+21,410,9,½ cup (60 g) panko breadcrumbs,60.0,4,15.0,bracketed_metric
+21,209,10,"2 large eggs, beaten",300.0,4,75.0,count_estimate
+21,287,11,"8 medium hard-boiled eggs, peeled",880.0,4,220.0,count_estimate
+21,616,12,"Vegetable oil, as needed",,4,,no_match
+22,123,1,"2 large carrots, peeled and shredded",300.0,5,60.0,count_estimate
+22,291,2,"½ large head lettuce, shredded or finely chopped",75.0,5,15.0,count_estimate
+22,290,3,"½ large head green cabbage, shredded or finely chopped",75.0,5,15.0,count_estimate
+22,597,4,"1 large tomato, roughly chopped",150.0,5,30.0,count_estimate
+22,196,5,"1 medium cucumber, roughly chopped",110.0,5,22.0,count_estimate
+22,497,6,"1 large red onion, thinly sliced",150.0,5,30.0,count_estimate
+22,296,7,½ (14-oz [392-g]) can Heinz brand baked beans,392.0,5,78.4,bracketed_metric
+22,578,8,"½ (15-oz [420-g]) can sweet corn, drained",420.0,5,84.0,bracketed_metric
+22,287,9,"2 large hard-boiled eggs, peeled and sliced",300.0,5,60.0,count_estimate
+22,297,10,"Heinz Salad Cream, for serving",,5,,no_match
+23,69,1,1 cup (151 g) dried black-eyed peas,151.0,5,30.2,bracketed_metric
+23,625,2,¼ cup (60 ml) water,60.0,5,12.0,bracketed_metric
+23,489,3,"1 medium red bell pepper, roughly chopped",110.0,5,22.0,count_estimate
+23,282,4,"1 small habanero chile, stem removed",70.0,5,14.0,count_estimate
+23,399,5,"1 small onion, roughly chopped",70.0,5,14.0,count_estimate
+23,522,6,"Salt, to taste",,5,,no_match
+23,618,7,"Vegetable oil, for frying",,5,,no_match
+23,88,8,"Bread, for serving",,5,,no_match
+24,69,1,1 cup (151 g) dried black-eyed peas,151.0,5,30.2,bracketed_metric
+24,399,2,½ cup (76 g) roughly chopped onion,76.0,5,15.2,bracketed_metric
+24,489,3,½ large red bell pepper,75.0,5,15.0,count_estimate
+24,282,4,"1 small habanero chile, stem removed",70.0,5,14.0,count_estimate
+24,133,5,1 chicken bouillon cube,,5,,no_match
+24,522,6,2 tsp (10 g) salt,10.0,5,2.0,bracketed_metric
+24,409,7,2 tbsp (30 ml) palm oil,30.0,5,6.0,bracketed_metric
+24,615,8,¼ cup (60 ml) vegetable oil,60.0,5,12.0,bracketed_metric
+24,127,9,1 tsp cayenne pepper,5.0,5,1.0,volume_unit
+24,191,10,2 tbsp (12 g) ground crayfish,12.0,5,2.4,bracketed_metric
+24,287,11,"3 large hard-boiled eggs, peeled and halved",450.0,5,90.0,count_estimate
+24,185,12,1 cup (230 g) canned corned beef,230.0,5,46.0,bracketed_metric
+25,409,1,¾ cup (180 ml) palm oil,180.0,5,36.0,bracketed_metric
+25,184,2,4 cups (577 g) fresh corn kernels,577.0,5,115.4,bracketed_metric
+25,399,3,"½ large onion, finely chopped",75.0,5,15.0,count_estimate
+25,282,4,"1 small habanero chile, stem removed",70.0,5,14.0,count_estimate
+25,625,5,"¾ cup (180 ml) water, divided",180.0,5,36.0,bracketed_metric
+25,652,6,1 cup (170 g) yellow cornmeal,170.0,5,34.0,bracketed_metric
+25,522,7,2 tsp (10 g) salt,10.0,5,2.0,bracketed_metric
+25,147,8,1 chicken or vegetable bouillon cube,,5,,no_match
+25,344,9,"4 cups (120 g) loosely packed spinach, roughly chopped",120.0,5,24.0,bracketed_metric
+25,30,10,"6 large banana leaves, soaked in hot water to soften and rinsed thoroughly (see note)",900.0,5,180.0,count_estimate
+26,647,1,½ a medium yam,,4,,no_match
+26,10,2,2 tbsp (16 g) all-purpose flour,16.0,4,4.0,bracketed_metric
+26,625,3,2 tbsp (30 ml) water,30.0,4,7.5,bracketed_metric
+26,209,4,1 large egg,150.0,4,37.5,count_estimate
+26,523,5,"Salt, as needed",,4,,no_match
+26,616,6,"Vegetable oil, as needed",,4,,no_match
+26,428,7,"Pili Pili , for serving",,4,,no_match
+27,408,1,1 (¼-oz [7-g]) packet active dry yeast,7.0,5,1.4,bracketed_metric
+27,575,2,1 cup (192 g) granulated sugar,192.0,5,38.4,bracketed_metric
+27,611,3,1 tsp vanilla extract,5.0,5,1.0,volume_unit
+27,389,4,¼ tsp ground nutmeg,1.25,5,0.25,volume_unit
+27,522,5,1 tsp salt,5.0,5,1.0,volume_unit
+27,621,6,2 cups (480 ml) warm water,480.0,5,96.0,bracketed_metric
+27,10,7,3½ cups (438 g) all-purpose flour,438.0,5,87.6,bracketed_metric
+27,616,8,"Vegetable oil, as needed",,5,,no_match
+27,576,9,"Powdered sugar, optional",,5,,no_match
+28,475,1,8 oz (224 g) raw organic tigernuts,224.0,8,28.0,bracketed_metric
+28,162,2,1 (2- to 4-inch [6- to 10-cm]) cinnamon stick,,8,,no_match
+28,621,3,4 cups (960 ml) warm water,960.0,8,120.0,bracketed_metric
+28,118,4,3 cardamom pods,,8,,no_match
+28,404,5,½ cup (110 g) organic jaggery,110.0,8,13.75,bracketed_metric
+29,145,1,2½ lb (1.1 kg) chicken thighs,1100.0,5,220.0,bracketed_metric
+29,526,2,"Salt and black pepper, as needed",,5,,no_match
+29,99,3,3 tbsp (42 g) butter,42.0,5,8.4,bracketed_metric
+29,399,4,"2 medium onions, thinly sliced",220.0,5,44.0,count_estimate
+29,109,5,¼ cup (60 ml) canola oil,60.0,5,12.0,bracketed_metric
+29,251,6,1 tbsp (9 g) roughly chopped garlic,9.0,5,1.8,bracketed_metric
+29,260,7,1 tsp minced fresh ginger,5.0,5,1.0,volume_unit
+29,412,8,½ tbsp (4 g) paprika,4.0,5,0.8,bracketed_metric
+29,53,9,2 tbsp (16 g) Berbere Spice Mix,16.0,5,3.2,bracketed_metric
+29,625,10,3 cups (720 g) water,720.0,5,144.0,bracketed_metric
+29,598,11,1 tbsp (10 g) tomato paste,10.0,5,2.0,bracketed_metric
+29,559,12,"6 large soft-boiled eggs, peeled",900.0,5,180.0,count_estimate
+29,510,13,"Rice or Injera , for serving",,5,,no_match
+30,182,1,1 tsp coriander seeds,5.0,5,1.0,volume_unit
+30,119,2,1 tsp cardamom seeds,5.0,5,1.0,volume_unit
+30,225,3,1 tsp fenugreek seeds,5.0,5,1.0,volume_unit
+30,411,4,3 tbsp (24 g) smoked paprika,24.0,5,4.8,bracketed_metric
+30,127,5,1 tbsp (8 g) cayenne pepper,8.0,5,1.6,bracketed_metric
+30,197,6,2 tsp (6 g) ground cumin,6.0,5,1.2,bracketed_metric
+30,604,7,1 tsp ground turmeric,5.0,5,1.0,volume_unit
+30,65,8,1 tsp freshly ground black peppercorns,5.0,5,1.0,volume_unit
+30,,9,½ tsp ground cloves,2.5,5,0.5,volume_unit
+30,16,10,½ tsp ground allspice,2.5,5,0.5,volume_unit
+30,261,11,½ tsp ground ginger,2.5,5,0.5,volume_unit
+30,160,12,½ tsp ground cinnamon,2.5,5,0.5,volume_unit
+30,522,13,1 tsp salt,5.0,5,1.0,volume_unit
+30,397,14,2 tbsp (30 ml) olive oil,30.0,5,6.0,bracketed_metric
+30,399,15,"1 large onion, diced",150.0,5,30.0,count_estimate
+30,53,16,3 tbsp (24 g) Berbere Spice Mix,24.0,5,4.8,bracketed_metric
+30,597,17,"4 large tomatoes, diced",600.0,5,120.0,count_estimate
+30,598,18,1 tbsp (10 g) tomato paste,10.0,5,2.0,bracketed_metric
+30,260,19,½ tsp minced fresh ginger,2.5,5,0.5,volume_unit
+30,202,20,1 tsp curry powder,5.0,5,1.0,volume_unit
+30,496,22,"1½ cups (302 g) red lentils, washed and drained",302.0,5,60.4,bracketed_metric
+30,166,23,2 cups (480 ml) coconut milk,480.0,5,96.0,bracketed_metric
+30,525,24,"Salt and black pepper, to taste",,5,,no_match
+30,24,25,"Aunty Bernie’s Chapati or rice, for serving",,5,,no_match
+31,11,1,"4 cups (500 g) all-purpose flour, plus more as needed",500.0,5,100.0,bracketed_metric
+31,522,2,1 tsp salt,5.0,5,1.0,volume_unit
+31,616,3,"4 tbsp (60 ml) vegetable oil, plus more as needed",60.0,5,12.0,bracketed_metric
+31,621,4,1½ cups (360 ml) warm water,360.0,5,72.0,bracketed_metric
+31,39,5,1 lb (450 g) ground beef,450.0,5,90.0,bracketed_metric
+31,420,6,"1 cup (150 g) frozen peas, thawed",150.0,5,30.0,bracketed_metric
+31,638,7,"1 small white onion, finely chopped",70.0,5,14.0,count_estimate
+31,251,8,"5 cloves garlic, minced",20.0,5,4.0,count_estimate
+31,260,9,2 tsp (6 g) grated fresh ginger,6.0,5,1.2,bracketed_metric
+31,309,10,"1 medium jalapeño chile, minced",110.0,5,22.0,count_estimate
+31,604,11,1 tsp ground turmeric,5.0,5,1.0,volume_unit
+31,197,12,1 tsp ground cumin,5.0,5,1.0,volume_unit
+31,180,13,1 tsp ground coriander,5.0,5,1.0,volume_unit
+31,116,14,½ tsp ground cardamom,2.5,5,0.5,volume_unit
+31,160,15,½ tsp ground cinnamon,2.5,5,0.5,volume_unit
+31,526,16,"Salt and black pepper, as needed",,5,,no_match
+31,616,17,"Vegetable oil, as needed",,5,,no_match
+32,137,1,"2 lb (900 g) chicken (any cut), cut into bite-size pieces",900.0,5,180.0,bracketed_metric
+32,317,2,Juice of ½ lemon,,5,,no_match
+32,251,3,1 tsp minced garlic,5.0,5,1.0,volume_unit
+32,591,4,1 tsp dried thyme,5.0,5,1.0,volume_unit
+32,63,5,1 tsp black pepper,5.0,5,1.0,volume_unit
+32,411,6,"2 tsp (4 g) smoked paprika, divided",4.0,5,0.8,bracketed_metric
+32,523,7,"2 tsp (10 g) salt, plus more as needed",10.0,5,2.0,bracketed_metric
+32,133,8,1 chicken bouillon cube,,5,,no_match
+32,109,9,¼ cup (60 ml) canola oil,60.0,5,12.0,bracketed_metric
+32,409,10,¼ cup (60 ml) palm oil,60.0,5,12.0,bracketed_metric
+32,251,11,"4 cloves garlic, minced",16.0,5,3.2,count_estimate
+32,399,12,"2 medium onions, sliced",220.0,5,44.0,count_estimate
+32,282,13,"1 small habanero chile, stem removed",70.0,5,14.0,count_estimate
+32,597,14,"2 large tomatoes, diced",300.0,5,60.0,count_estimate
+32,134,15,2 cups (480 ml) chicken stock,480.0,5,96.0,bracketed_metric
+32,639,16,1 tsp white pepper,5.0,5,1.0,volume_unit
+32,106,17,¾ lb (338 g) cubed butternut squash,338.0,5,67.6,bracketed_metric
+32,625,18,½ cup (120 ml) water,120.0,5,24.0,bracketed_metric
+32,395,19,"20 pieces okra, sliced in half",2000.0,5,400.0,count_estimate
+32,508,20,"Rice, for serving",,5,,no_match
+33,615,1,1 cup (240 ml) vegetable oil,240.0,5,48.0,bracketed_metric
+33,399,2,"1 large onion, diced",150.0,5,30.0,count_estimate
+33,251,3,"4 cloves garlic, minced",16.0,5,3.2,count_estimate
+33,260,4,2 tsp (6 g) minced fresh ginger,6.0,5,1.2,bracketed_metric
+33,411,5,½ tsp smoked paprika,2.5,5,0.5,volume_unit
+33,197,6,1 tsp ground cumin,5.0,5,1.0,volume_unit
+33,116,7,½ tsp ground cardamom,2.5,5,0.5,volume_unit
+33,202,8,½ tsp curry powder,2.5,5,0.5,volume_unit
+33,597,9,"2 medium tomatoes, roughly chopped",220.0,5,44.0,count_estimate
+33,659,10,"4 medium Yukon gold potatoes, peeled and diced",440.0,5,88.0,count_estimate
+33,34,11,2 cups (422 g) basmati rice,422.0,5,84.4,bracketed_metric
+33,134,12,4 cups (960 ml) chicken stock,960.0,5,192.0,bracketed_metric
+33,162,13,1 (2- to 4-inch [6- to 10-cm]) cinnamon stick,,5,,no_match
+33,570,14,½ tsp ground star anise,2.5,5,0.5,volume_unit
+33,35,15,1 bay leaf,,5,,no_match
+33,525,16,"Salt and black pepper, to taste",,5,,no_match
+33,320,17,"Kachumbari , for serving",,5,,no_match
+34,285,1,"1 (1-lb [450-g]) halibut fillet, skin removed",450.0,5,90.0,bracketed_metric
+34,202,2,"1 tbsp (8 g) plus ¾ tsp curry powder, divided",8.0,5,1.6,bracketed_metric
+34,523,3,"1 tsp salt, plus more as needed",5.0,5,1.0,volume_unit
+34,64,4,"1 tsp black pepper, plus more as needed",5.0,5,1.0,volume_unit
+34,110,5,"1 tbsp (15 ml) canola oil, plus more as needed",15.0,5,3.0,bracketed_metric
+34,399,6,"1 medium onion, diced",110.0,5,22.0,count_estimate
+34,51,7,"2 medium bell peppers (any color), diced",220.0,5,44.0,count_estimate
+34,260,8,2 tsp (6 g) minced fresh ginger,6.0,5,1.2,bracketed_metric
+34,251,9,"3 cloves garlic, minced",12.0,5,2.4,count_estimate
+34,597,10,"2 large tomatoes, roughly chopped",300.0,5,60.0,count_estimate
+34,333,11,2 tbsp (30 ml) fresh lemon juice,30.0,5,6.0,bracketed_metric
+34,166,12,1 cup (240 ml) coconut milk,240.0,5,48.0,bracketed_metric
+34,97,13,"1 small bunch fresh cilantro, roughly chopped, for garnish",70.0,5,14.0,count_estimate
+34,337,14,"4 lemon wedges, for garnish",,5,,no_match
+35,615,1,2 tbsp (30 ml) vegetable oil,30.0,5,6.0,bracketed_metric
+35,399,2,"1 large onion, diced",150.0,5,30.0,count_estimate
+35,251,3,"4 cloves garlic, minced",16.0,5,3.2,count_estimate
+35,270,4,"1 large green bell pepper, diced",150.0,5,30.0,count_estimate
+35,120,5,"2 large carrots, diced",300.0,5,60.0,count_estimate
+35,597,6,"2 large tomatoes, diced",300.0,5,60.0,count_estimate
+35,659,7,"6 medium Yukon gold potatoes, cubed",660.0,5,132.0,count_estimate
+35,269,8,"1 large green banana, cubed",150.0,5,30.0,count_estimate
+35,166,9,1 (14-oz [420-ml]) can coconut milk,,5,,no_match
+35,625,10,4 cups (960 ml) water,960.0,5,192.0,bracketed_metric
+35,525,11,"Salt and black pepper, to taste",,5,,no_match
+35,25,12,"1 large avocado, pitted, peeled and sliced, for serving",150.0,5,30.0,count_estimate
+36,597,1,"2 large tomatoes, diced",300.0,5,60.0,count_estimate
+36,497,2,"½ large red onion, diced",75.0,5,15.0,count_estimate
+36,310,3,"2 large jalapeño chiles, seeded and diced",300.0,5,60.0,count_estimate
+36,196,4,"1 medium cucumber, diced",110.0,5,22.0,count_estimate
+36,251,5,"2 cloves garlic, minced",8.0,5,1.6,count_estimate
+36,318,6,Juice of 1 lime,,5,,no_match
+36,159,7,"½ cup (20 g) fresh cilantro, roughly chopped",20.0,5,4.0,bracketed_metric
+36,525,8,"Salt and black pepper, to taste",,5,,no_match
+37,239,1,½ cup (65 g) gram flour,65.0,4,16.25,bracketed_metric
+37,183,2,1 tbsp (11 g) corn flour,11.0,4,2.75,bracketed_metric
+37,260,3,1 tsp minced ginger,5.0,4,1.25,volume_unit
+37,197,4,2 tsp (6 g) ground cumin,6.0,4,1.5,bracketed_metric
+37,429,5,1 tsp Pili Pili or store-bought hot sauce,5.0,4,1.25,volume_unit
+37,522,6,"Salt, to taste",,4,,no_match
+37,159,7,½ cup (20 g) finely chopped fresh cilantro,20.0,4,5.0,bracketed_metric
+37,625,8,⅓ cup (80 ml) water,80.0,4,20.0,bracketed_metric
+37,519,9,2 large russet potatoes,300.0,4,75.0,count_estimate
+37,616,10,"Vegetable oil, as needed",,4,,no_match
+37,320,11,"Kachumbari , for serving",,4,,no_match
+38,522,1,1 tsp salt,5.0,5,1.0,volume_unit
+38,577,2,1 tsp sugar,5.0,5,1.0,volume_unit
+38,616,3,"2 tbsp (30 ml) vegetable oil, plus more as needed",30.0,5,6.0,bracketed_metric
+38,622,4,"1½ cups (360 ml) warm water, plus more as needed",360.0,5,72.0,bracketed_metric
+38,10,5,3 cups (375 g) all-purpose flour,375.0,5,75.0,bracketed_metric
+39,588,1,¼ cup (33 g) teff flour,33.0,5,6.6,bracketed_metric
+39,10,2,¾ cup (94 g) all-purpose flour,94.0,5,18.8,bracketed_metric
+39,625,3,1 cup (240 ml) water,240.0,5,48.0,bracketed_metric
+39,522,4,½ tsp salt,2.5,5,0.5,volume_unit
+39,616,5,"Vegetable oil, as needed",,5,,no_match
+40,223,1,"2 cups (165 g) roughly chopped, extremely ripe mango",165.0,8,20.62,bracketed_metric
+40,333,2,½ cup (120 ml) fresh lemon juice,120.0,8,15.0,bracketed_metric
+40,340,3,2 tbsp (30 ml) fresh lime juice,30.0,8,3.75,bracketed_metric
+40,550,4,¾ cup (180 ml) simple syrup,180.0,8,22.5,bracketed_metric
+40,625,5,"2 cups (480 ml) water, divided",480.0,8,60.0,bracketed_metric
+40,371,6,"½ cup (120 ml) moscato, optional",120.0,8,15.0,bracketed_metric
+40,369,7,"Fresh mint leaves, to taste",,8,,no_match
+40,303,8,"Ice cubes, as needed",,8,,no_match
+41,315,1,2 cups (422 g) jasmine rice,422.0,5,84.4,bracketed_metric
+41,165,2,1 cup (240 ml) canned coconut milk,240.0,5,48.0,bracketed_metric
+41,476,3,3 tbsp (14 g) raw unsweetened coconut flakes,14.0,5,2.8,bracketed_metric
+41,522,4,1 tsp salt,5.0,5,1.0,volume_unit
+41,170,5,1 cup (192 g) coconut sugar,192.0,5,38.4,bracketed_metric
+41,118,6,"1 tsp cardamom pods, crushed",5.0,5,1.0,volume_unit
+41,389,7,1 tsp ground nutmeg,5.0,5,1.0,volume_unit
+41,18,8,½ tsp almond extract,2.5,5,0.5,volume_unit
+41,1,9,1 tsp active dry yeast,5.0,5,1.0,volume_unit
+41,166,10,1 (14-oz [420-ml]) can coconut milk,,5,,no_match
+41,611,11,½ tsp vanilla extract,2.5,5,0.5,volume_unit
+41,95,12,¾ cup (108 g) brown sugar,108.0,5,21.6,bracketed_metric
+42,621,1,¼ cup (60 ml) warm water,60.0,5,12.0,bracketed_metric
+42,165,2,½ cup (120 ml) canned coconut milk,120.0,5,24.0,bracketed_metric
+42,577,3,¾ cup (144 g) sugar,144.0,5,28.8,bracketed_metric
+42,1,4,2 tsp (6 g) active dry yeast,6.0,5,1.2,bracketed_metric
+42,209,5,1 large egg,150.0,5,30.0,count_estimate
+42,10,6,3 cups (375 g) all-purpose flour,375.0,5,75.0,bracketed_metric
+42,522,7,1 tsp salt,5.0,5,1.0,volume_unit
+42,119,8,"1 tsp cardamom seeds, crushed",5.0,5,1.0,volume_unit
+42,389,9,½ tsp ground nutmeg,2.5,5,0.5,volume_unit
+42,160,10,½ tsp ground cinnamon,2.5,5,0.5,volume_unit
+42,169,11,4 tbsp (19 g) freshly grated coconut or raw unsweetened coconut flakes,19.0,5,3.8,bracketed_metric
+42,616,12,"Vegetable oil, as needed",,5,,no_match
+42,576,13,"Powdered sugar, optional",,5,,no_match
+43,314,1,2 large jarred or fresh roasted red bell peppers,300.0,7,42.86,count_estimate
+43,251,2,5 cloves garlic,20.0,7,2.86,count_estimate
+43,227,3,"1 (15-oz [420-g]) can fire-roasted tomatoes, drained",420.0,7,60.0,bracketed_metric
+43,411,4,2 tbsp (16 g) smoked paprika,16.0,7,2.29,bracketed_metric
+43,309,5,2 medium jalapeño chiles,220.0,7,31.43,count_estimate
+43,280,6,1 small habanero chile,70.0,7,10.0,count_estimate
+43,397,7,6 tbsp (90 ml) olive oil,90.0,7,12.86,bracketed_metric
+43,197,8,"Ground cumin, to taste",,7,,no_match
+43,180,9,"Ground coriander, to taste",,7,,no_match
+43,501,10,"Crushed red pepper flakes, to taste",,7,,no_match
+43,253,11,1 tbsp (8 g) garlic powder,8.0,7,1.14,bracketed_metric
+43,412,12,1 tbsp (8 g) paprika,8.0,7,1.14,bracketed_metric
+43,197,13,½ tbsp (4 g) ground cumin,4.0,7,0.57,bracketed_metric
+43,160,14,1 tsp ground cinnamon,5.0,7,0.71,volume_unit
+43,522,15,1½ tsp (8 g) salt,8.0,7,1.14,bracketed_metric
+43,63,16,1 tsp black pepper,5.0,7,0.71,volume_unit
+43,142,17,5 lb (2.3 kg) chicken drumsticks,2300.0,7,328.57,bracketed_metric
+43,288,18,10 oz (300 ml) Harissa Sauce,300.0,7,42.86,bracketed_metric
+44,220,1,3 tbsp (45 ml) extra-virgin olive oil,45.0,5,9.0,bracketed_metric
+44,399,2,"1 medium onion, thinly sliced",110.0,5,22.0,count_estimate
+44,489,3,"1 large red bell pepper, thinly sliced",150.0,5,30.0,count_estimate
+44,280,4,"1 small habanero chile, thinly sliced",70.0,5,14.0,count_estimate
+44,251,5,"3 cloves garlic, minced",12.0,5,2.4,count_estimate
+44,411,6,1½ tbsp (12 g) smoked paprika,12.0,5,2.4,bracketed_metric
+44,197,7,1 tbsp (8 g) ground cumin,8.0,5,1.6,bracketed_metric
+44,599,8,1 (28-oz [784-g]) can whole peeled tomatoes,784.0,5,156.8,bracketed_metric
+44,526,9,"Salt and black pepper, as needed",,5,,no_match
+44,96,10,"1 large bunch fresh cilantro, roughly chopped, divided",150.0,5,30.0,count_estimate
+44,415,11,"3 tbsp (10 g) fresh parsley, roughly chopped, divided",10.0,5,2.0,bracketed_metric
+44,209,12,6 large eggs,900.0,5,180.0,count_estimate
+44,88,13,"Bread, for serving",,5,,no_match
+45,39,1,1 lb (450 g) ground beef,450.0,5,90.0,bracketed_metric
+45,569,2,"2 slices stale white bread, crusts removed and torn into pieces",60.0,5,12.0,count_estimate
+45,209,3,1 large egg,150.0,5,30.0,count_estimate
+45,197,4,1 tsp ground cumin,5.0,5,1.0,volume_unit
+45,412,5,1 tsp paprika,5.0,5,1.0,volume_unit
+45,160,6,1 tsp ground cinnamon,5.0,5,1.0,volume_unit
+45,116,7,½ tsp ground cardamom,2.5,5,0.5,volume_unit
+45,180,8,1 tsp ground coriander,5.0,5,1.0,volume_unit
+45,522,9,1 tsp salt,5.0,5,1.0,volume_unit
+45,63,10,½ tsp black pepper,2.5,5,0.5,volume_unit
+45,398,11,"Olive oil, as needed",,5,,no_match
+45,397,12,2 tbsp (30 ml) olive oil,30.0,5,6.0,bracketed_metric
+45,251,13,"1 clove garlic, minced",4.0,5,0.8,count_estimate
+45,399,14,"1 large onion, roughly chopped",150.0,5,30.0,count_estimate
+45,263,15,2 tsp (6 g) minced fresh ginger 1 tsp ground cumin,6.0,5,1.2,bracketed_metric
+45,162,17,2 (2- to 4-inch [6- to 10-cm]) cinnamon sticks,,5,,no_match
+45,95,18,1 tsp brown sugar,5.0,5,1.0,volume_unit
+45,597,19,1 (14-oz [392-g]) can diced tomatoes,392.0,5,78.4,bracketed_metric
+45,201,20,2 tbsp (19 g) dried currants,19.0,5,3.8,bracketed_metric
+45,134,21,1 cup (240 ml) chicken stock,240.0,5,48.0,bracketed_metric
+45,526,22,"Salt and black pepper, as needed",,5,,no_match
+46,116,1,1 tsp ground cardamom,5.0,5,1.0,volume_unit
+46,197,2,1 tsp ground cumin,5.0,5,1.0,volume_unit
+46,261,3,½ tsp ground ginger,2.5,5,0.5,volume_unit
+46,160,4,½ tsp ground cinnamon,2.5,5,0.5,volume_unit
+46,63,5,¼ tsp black pepper,1.25,5,0.25,volume_unit
+46,522,6,1 tsp salt,5.0,5,1.0,volume_unit
+46,398,7,"Olive oil, as needed",,5,,no_match
+46,329,8,2 lb (900 g) lamb rib chops,900.0,5,180.0,bracketed_metric
+46,251,9,"3 cloves garlic, minced",12.0,5,2.4,count_estimate
+46,616,10,"Vegetable oil, as needed",,5,,no_match
+46,159,11,"½ cup fresh cilantro, roughly chopped",120.0,5,24.0,volume_unit
+46,189,12,"Couscous or rice, for serving",,5,,no_match
+47,397,1,4 tbsp (60 ml) olive oil,60.0,5,12.0,bracketed_metric
+47,638,2,"1 large white onion, diced",150.0,5,30.0,count_estimate
+47,199,3,3 tsp (8 g) cumin seeds,8.0,5,1.6,bracketed_metric
+47,411,4,2 tsp (6 g) smoked paprika,6.0,5,1.2,bracketed_metric
+47,501,5,2 tsp (2 g) crushed red pepper flakes,2.0,5,0.4,bracketed_metric
+47,159,6,"½ cup (20 g) fresh cilantro, roughly chopped",20.0,5,4.0,bracketed_metric
+47,251,7,"2 cloves garlic, minced",8.0,5,1.6,count_estimate
+47,597,8,1 cup (161 g) crushed tomatoes,161.0,5,32.2,bracketed_metric
+47,150,9,"3 (16-oz [448-g]) cans chickpeas, drained and rinsed",448.0,5,89.6,bracketed_metric
+47,626,10,"Water, as needed",,5,,no_match
+47,522,11,2 tbsp (30 g) salt,30.0,5,6.0,bracketed_metric
+47,7,12,"Aish Baladi , for serving",,5,,no_match
+47,288,13,"Harissa Sauce , for serving",,5,,no_match
+48,399,1,"1 large onion, roughly chopped",150.0,5,30.0,count_estimate
+48,120,2,"3 medium carrots, diced",330.0,5,66.0,count_estimate
+48,514,3,"2 large Roma tomatoes, roughly chopped",300.0,5,60.0,count_estimate
+48,251,4,"3 cloves garlic, minced",12.0,5,2.4,count_estimate
+48,136,5,"2½ lb (1 kg) chicken (any cut), cut into 1-inch (3-cm) pieces",1000.0,5,200.0,bracketed_metric
+48,202,6,1 tsp curry powder,5.0,5,1.0,volume_unit
+48,153,7,2 tbsp (16 g) chili powder,16.0,5,3.2,bracketed_metric
+48,180,8,1 tsp ground coriander,5.0,5,1.0,volume_unit
+48,415,9,3 tbsp (9 g) roughly chopped fresh parsley,9.0,5,1.8,bracketed_metric
+48,397,10,2 tbsp (30 ml) olive oil,30.0,5,6.0,bracketed_metric
+48,625,11,1 cup (240 ml) water,240.0,5,48.0,bracketed_metric
+48,661,12,"1 lb (450 g) Yukon gold potatoes, peeled and cut into ½-inch (6-mm) thick slices",450.0,5,90.0,bracketed_metric
+48,418,13,¼ cup (38 g) frozen peas,38.0,5,7.6,bracketed_metric
+49,555,1,"5 skin-on, bone-in chicken thighs",,5,,no_match
+49,333,2,2 tbsp (30 ml) fresh lemon juice,30.0,5,6.0,bracketed_metric
+49,604,3,2 tbsp (16 g) ground turmeric,16.0,5,3.2,bracketed_metric
+49,197,4,1 tbsp (8 g) ground cumin,8.0,5,1.6,bracketed_metric
+49,180,5,½ tbsp (4 g) ground coriander,4.0,5,0.8,bracketed_metric
+49,403,6,1 tbsp (3 g) dried oregano,3.0,5,0.6,bracketed_metric
+49,251,7,"4 cloves garlic, minced",16.0,5,3.2,count_estimate
+49,522,8,1 tsp salt,5.0,5,1.0,volume_unit
+49,63,9,1 tsp black pepper,5.0,5,1.0,volume_unit
+49,397,10,"2 tbsp (30 ml) olive oil, divided",30.0,5,6.0,bracketed_metric
+49,399,11,"1 small onion, finely chopped",70.0,5,14.0,count_estimate
+49,604,13,1 tbsp (8 g) ground turmeric,8.0,5,1.6,bracketed_metric
+49,197,14,1 tsp ground cumin,5.0,5,1.0,volume_unit
+49,251,15,"1 clove garlic, minced",4.0,5,0.8,count_estimate
+49,34,16,1½ cups (317 g) basmati rice,317.0,5,63.4,bracketed_metric
+49,134,17,1½ cups (360 ml) chicken stock,360.0,5,72.0,bracketed_metric
+49,625,18,1 cup (240 ml) water,240.0,5,48.0,bracketed_metric
+49,276,20,"Grilled lemon slices and fresh parsley, for garnishing",,5,,no_match
+50,397,1,2 tbsp (30 ml) olive oil,30.0,5,6.0,bracketed_metric
+50,497,2,"1 medium red onion, finely chopped",110.0,5,22.0,count_estimate
+50,651,3,"1 large yellow bell pepper, finely chopped",150.0,5,30.0,count_estimate
+50,402,4,"1 medium orange bell pepper, finely chopped",110.0,5,22.0,count_estimate
+50,671,5,"1 large zucchini, finely chopped",150.0,5,30.0,count_estimate
+50,251,6,"3 cloves garlic, minced",12.0,5,2.4,count_estimate
+50,148,7,1 cup (240 ml) chicken or vegetable stock,240.0,5,48.0,bracketed_metric
+50,418,8,2 cups (300 g) frozen peas,300.0,5,60.0,bracketed_metric
+50,412,9,1 tsp paprika,5.0,5,1.0,volume_unit
+50,197,10,1 tsp ground cumin,5.0,5,1.0,volume_unit
+50,180,11,1 tsp ground coriander,5.0,5,1.0,volume_unit
+50,604,12,½ tsp ground turmeric,2.5,5,0.5,volume_unit
+50,160,13,½ tsp ground cinnamon,2.5,5,0.5,volume_unit
+50,188,14,1½ cups (270 g) dry couscous,270.0,5,54.0,bracketed_metric
+50,150,15,"1 (16-oz [448-g]) can chickpeas, drained and rinsed",448.0,5,89.6,bracketed_metric
+50,190,16,½ cup (50 g) dried cranberries,50.0,5,10.0,bracketed_metric
+50,663,17,Zest and juice of 2 lemons,,5,,no_match
+50,431,18,"1 pint (161 g) cherry tomatoes, cut in half",161.0,5,32.2,bracketed_metric
+50,159,19,"2 tbsp (6 g) fresh cilantro, minced",6.0,5,1.2,bracketed_metric
+50,415,20,"2 tsp (2 g) fresh parsley, minced",2.0,5,0.4,bracketed_metric
+50,525,21,"Salt and black pepper, to taste",,5,,no_match
+51,662,1,"2 lb (900 g) Yukon gold potatoes, peeled and cut into large chunks",900.0,7,128.57,bracketed_metric
+51,526,2,"Salt and black pepper, as needed",,7,,no_match
+51,410,3,¼ cup (30 g) panko breadcrumbs,30.0,7,4.29,bracketed_metric
+51,253,4,1 tsp garlic powder,5.0,7,0.71,volume_unit
+51,604,5,1 tsp ground turmeric,5.0,7,0.71,volume_unit
+51,197,6,1 tsp ground cumin,5.0,7,0.71,volume_unit
+51,400,7,1 tsp onion powder,5.0,7,0.71,volume_unit
+51,415,8,"3 tbsp (9 g) fresh parsley, finely chopped",9.0,7,1.29,bracketed_metric
+51,209,9,"2 large eggs, beaten",300.0,7,42.86,count_estimate
+51,616,10,"Vegetable oil, as needed",,7,,no_match
+51,11,11,"All-purpose flour, as needed",,7,,no_match
+52,182,1,1½ tsp (4 g) coriander seeds,4.0,5,0.8,bracketed_metric
+52,199,2,1 tsp cumin seeds,5.0,5,1.0,volume_unit
+52,501,3,1 tsp crushed red pepper flakes,5.0,5,1.0,volume_unit
+52,412,4,1 tsp paprika,5.0,5,1.0,volume_unit
+52,160,5,1 tsp ground cinnamon,5.0,5,1.0,volume_unit
+52,116,6,½ tsp ground cardamom,2.5,5,0.5,volume_unit
+52,261,7,½ tsp ground ginger,2.5,5,0.5,volume_unit
+52,604,8,½ tsp ground turmeric,2.5,5,0.5,volume_unit
+52,660,9,"2 lb (900 g) Yukon gold potatoes, peeled and cut into 1-inch (3-cm) cubes",900.0,5,180.0,bracketed_metric
+52,523,10,"Salt, as needed",,5,,no_match
+52,397,11,3 tbsp (45 ml) olive oil,45.0,5,9.0,bracketed_metric
+52,474,12,1½ tbsp (12 g) Ras el Hanout,12.0,5,2.4,bracketed_metric
+52,268,13,¾ cup (184 g) Greek yogurt,184.0,5,36.8,bracketed_metric
+52,547,14,2 tbsp (30 ml) sherry vinegar,30.0,5,6.0,bracketed_metric
+52,368,15,"½ cup (20 g) fresh mint, roughly chopped",20.0,5,4.0,bracketed_metric
+52,415,16,"½ cup (20 g) fresh parsley, roughly chopped",20.0,5,4.0,bracketed_metric
+52,663,17,Zest and juice of 1 lemon,,5,,no_match
+53,10,1,2 cups (250 g) all-purpose flour,250.0,5,50.0,bracketed_metric
+53,522,2,1 tsp salt,5.0,5,1.0,volume_unit
+53,364,3,¾ cup (180 ml) milk,180.0,5,36.0,bracketed_metric
+53,397,4,1 tbsp (15 ml) olive oil,15.0,5,3.0,bracketed_metric
+54,251,1,"2 cloves garlic, minced",8.0,4,2.0,count_estimate
+54,197,2,2 tsp (6 g) ground cumin,6.0,4,1.5,bracketed_metric
+54,180,3,2 tsp (6 g) ground coriander,6.0,4,1.5,bracketed_metric
+54,160,4,¾ tsp ground cinnamon,3.75,4,0.94,volume_unit
+54,501,5,1 tsp crushed red pepper flakes,5.0,4,1.25,volume_unit
+54,411,6,1 tsp smoked paprika,5.0,4,1.25,volume_unit
+54,397,7,¼ cup (60 ml) olive oil,60.0,4,15.0,bracketed_metric
+54,522,8,2 tsp (10 g) salt,10.0,4,2.5,bracketed_metric
+54,211,9,2 medium eggplants,220.0,4,55.0,count_estimate
+54,509,10,"Rice or couscous, for serving",,4,,no_match
+55,490,1,"2 large red bell peppers, chargrilled",300.0,7,42.86,count_estimate
+55,499,2,"1 large red onion, char-grilled",150.0,7,21.43,count_estimate
+55,4,3,1 cup (170 g) African bird’s eye chiles or 8 red Thai chiles and 2 small habanero chiles,170.0,7,24.29,bracketed_metric
+55,251,4,4 cloves garlic,16.0,7,2.29,count_estimate
+55,333,5,"¾ cup (180 ml) fresh lemon juice, divided",180.0,7,25.71,bracketed_metric
+55,19,6,"½ cup (120 ml) apple cider vinegar, divided",120.0,7,17.14,bracketed_metric
+55,664,7,"Zest of 2 lemons, divided",,7,,no_match
+55,411,8,1 tbsp (8 g) smoked paprika,8.0,7,1.14,bracketed_metric
+55,403,9,1½ tsp (2 g) dried oregano,2.0,7,0.29,bracketed_metric
+55,36,10,2 bay leaves,,7,,no_match
+55,525,11,"Salt and black pepper, to taste",,7,,no_match
+55,220,12,½ cup (120 ml) extra-virgin olive oil,120.0,7,17.14,bracketed_metric
+55,81,13,2½ to 3 lb (1.1 to 1.4 kg) bone-in or boneless chicken (any cut),,7,,no_match
+55,522,14,2 tsp (10 g) salt,10.0,7,1.43,bracketed_metric
+55,63,15,2 tsp (6 g) black pepper,6.0,7,0.86,bracketed_metric
+55,253,16,2 tsp (6 g) garlic powder,6.0,7,0.86,bracketed_metric
+55,427,17,1 to 2 cups (240 to 480 ml) Peri Peri Sauce,,7,,no_match
+56,3,1,8 African bird’s eye chiles or 8 small habanero chiles,,7,,no_match
+56,615,2,1½ cups (360 ml) vegetable oil,360.0,7,51.43,bracketed_metric
+56,333,3,4 tbsp (60 ml) fresh lemon juice,60.0,7,8.57,bracketed_metric
+56,251,4,2 tbsp (18 g) crushed garlic,18.0,7,2.57,bracketed_metric
+56,522,5,1 tsp salt,5.0,7,0.71,volume_unit
+56,411,6,1 tsp smoked paprika,5.0,7,0.71,volume_unit
+56,460,7,4 lb (1.8 kg) large prawns or shrimp,1800.0,7,257.14,bracketed_metric
+57,606,1,3 tbsp (42 g) unsalted butter,42.0,7,6.0,bracketed_metric
+57,95,2,1 tbsp (9 g) brown sugar,9.0,7,1.29,bracketed_metric
+57,604,3,1½ tsp (5 g) ground turmeric,5.0,7,0.71,bracketed_metric
+57,299,4,½ tsp hot curry powder,2.5,7,0.36,volume_unit
+57,315,5,2 cups (422 g) jasmine rice,422.0,7,60.29,bracketed_metric
+57,134,6,4 cups (960 ml) chicken stock,960.0,7,137.14,bracketed_metric
+57,473,7,½ cup (76 g) raisins,76.0,7,10.86,bracketed_metric
+58,397,1,1 tsp olive oil,5.0,2,2.5,volume_unit
+58,78,2,4 slices bologna,120.0,2,60.0,count_estimate
+58,324,3,"Ketchup, to taste",,2,,no_match
+58,427,4,"Peri Peri Sauce , to taste",,2,,no_match
+58,195,5,"1 crusty hoagie roll, split in half and lightly toasted",,2,,no_match
+58,175,6,"Freshly cooked French fries, as needed",,2,,no_match
+58,549,7,½ cup (40 g) shredded lettuce,40.0,2,20.0,bracketed_metric
+59,109,1,½ cup (120 ml) canola oil,120.0,5,24.0,bracketed_metric
+59,399,2,"1 medium onion, diced",110.0,5,22.0,count_estimate
+59,251,3,2 tsp (6 g) minced garlic,6.0,5,1.2,bracketed_metric
+59,260,4,1 tsp minced fresh ginger,5.0,5,1.0,volume_unit
+59,162,5,1 (2- to 4-inch [6- to 10-cm]) cinnamon stick,,5,,no_match
+59,412,6,1 tsp paprika,5.0,5,1.0,volume_unit
+59,118,7,2 cardamom pods,,5,,no_match
+59,202,8,3 tbsp (24 g) curry powder,24.0,5,4.8,bracketed_metric
+59,523,9,"Salt, as needed",,5,,no_match
+59,597,10,"2 medium tomatoes, diced",220.0,5,44.0,count_estimate
+59,86,11,"1 lb (450 g) boneless, skinless chicken breast, cut into bite-size pieces",450.0,5,90.0,bracketed_metric
+59,134,12,1½ cups (360 ml) chicken stock,360.0,5,72.0,bracketed_metric
+59,660,13,"2 medium Yukon gold potatoes, peeled and cut into ½- to 1-inch (13-mm to 3-cm]) cubes",220.0,5,44.0,count_estimate
+59,150,14,"1 (15-oz [420-g]) can chickpeas, drained and rinsed",420.0,5,84.0,bracketed_metric
+59,89,15,"4 to 6 bread bowls, for serving",,5,,no_match
+60,284,1,"1 lb (450 g) halibut, cut into 2-inch (6-cm) pieces",450.0,5,90.0,bracketed_metric
+60,333,2,2 tbsp (30 ml) fresh lemon juice,30.0,5,6.0,bracketed_metric
+60,251,3,"3 cloves garlic, minced",12.0,5,2.4,count_estimate
+60,522,4,1 tsp salt,5.0,5,1.0,volume_unit
+60,63,5,1 tsp black pepper,5.0,5,1.0,volume_unit
+60,615,6,1 tbsp (15 ml) vegetable oil,15.0,5,3.0,bracketed_metric
+60,638,7,"2 medium white onions, diced",220.0,5,44.0,count_estimate
+60,597,8,"4 medium tomatoes, diced",440.0,5,88.0,count_estimate
+60,311,9,"2 medium jalapeño chiles or serrano chiles, diced",220.0,5,44.0,count_estimate
+60,396,10,"¾ cup (75 g) okra, trimmed and cut into ¼-inch (6-mm) rounds",75.0,5,15.0,bracketed_metric
+60,36,11,2 bay leaves,,5,,no_match
+60,409,12,¼ cup (60 ml) palm oil,60.0,5,12.0,bracketed_metric
+60,613,13,1½ cups (360 ml) vegetable stock,360.0,5,72.0,bracketed_metric
+60,593,14,"1 cup (30 g) tightly packed spinach, roughly chopped",30.0,5,6.0,bracketed_metric
+61,397,1,2 tbsp (30 ml) olive oil,30.0,5,6.0,bracketed_metric
+61,399,2,"2 medium onions, roughly chopped",220.0,5,44.0,count_estimate
+61,543,3,"2 medium serrano chiles, diced",220.0,5,44.0,count_estimate
+61,251,4,"4 cloves garlic, minced",16.0,5,3.2,count_estimate
+61,613,5,"4 cups (960 ml) vegetable stock, divided",960.0,5,192.0,bracketed_metric
+61,427,6,3 tbsp (45 ml) Peri Peri Sauce,45.0,5,9.0,bracketed_metric
+61,422,7,1½ cups (270 g) peanut butter,270.0,5,54.0,bracketed_metric
+61,598,8,2 tbsp (20 g) tomato paste,20.0,5,4.0,bracketed_metric
+61,127,9,1 tsp cayenne pepper,5.0,5,1.0,volume_unit
+61,120,10,"2 medium carrots, roughly chopped",220.0,5,44.0,count_estimate
+61,394,11,"1 cup (99 g) okra, whole",99.0,5,19.8,bracketed_metric
+61,593,12,2 cups (60 g) tightly packed spinach,60.0,5,12.0,bracketed_metric
+61,522,13,"Salt, to taste",,5,,no_match
+62,615,1,2 tbsp (30 ml) vegetable oil,30.0,7,4.29,bracketed_metric
+62,399,2,"1 large onion, diced",150.0,7,21.43,count_estimate
+62,251,3,"2 cloves garlic, minced",8.0,7,1.14,count_estimate
+62,261,4,1 tsp ground ginger,5.0,7,0.71,volume_unit
+62,202,5,1 tbsp (8 g) curry powder,8.0,7,1.14,bracketed_metric
+62,412,6,1 tsp paprika,5.0,7,0.71,volume_unit
+62,597,7,"2 medium tomatoes, finely chopped",220.0,7,31.43,count_estimate
+62,659,8,2 cups (450 g) diced Yukon gold potatoes,450.0,7,64.29,bracketed_metric
+62,39,9,1 lb (450 g) ground beef,450.0,7,64.29,bracketed_metric
+62,523,10,"Salt, as needed",,7,,no_match
+62,419,11,"1 cup (150 g) frozen peas and carrots, thawed",150.0,7,21.43,bracketed_metric
+62,522,12,1 tsp salt,5.0,7,0.71,volume_unit
+62,577,13,3 tbsp (36 g) sugar,36.0,7,5.14,bracketed_metric
+62,346,14,2 cups (480 ml) lukewarm water,480.0,7,68.57,bracketed_metric
+62,408,15,1 (¼-oz [7-g]) packet active dry yeast,7.0,7,1.0,bracketed_metric
+62,108,16,4 cups (360 g) cake flour,360.0,7,51.43,bracketed_metric
+62,616,17,"Vegetable oil, as needed",,7,,no_match
+63,634,1,3 slices white bread,90.0,7,12.86,count_estimate
+63,364,2,"1½ cups (360 ml) milk, divided",360.0,7,51.43,bracketed_metric
+63,397,3,2 tbsp (30 ml) olive oil,30.0,7,4.29,bracketed_metric
+63,399,4,"2 large onions, roughly chopped",300.0,7,42.86,count_estimate
+63,202,5,1 tbsp (8 g) curry powder,8.0,7,1.14,bracketed_metric
+63,403,6,1 tsp dried oregano,5.0,7,0.71,volume_unit
+63,197,7,1 tsp ground cumin,5.0,7,0.71,volume_unit
+63,604,8,1 tsp ground turmeric,5.0,7,0.71,volume_unit
+63,251,9,"2 cloves garlic, minced",8.0,7,1.14,count_estimate
+63,39,10,1 lb (450 g) ground beef,450.0,7,64.29,bracketed_metric
+63,352,11,¼ cup (80 g) mango chutney,80.0,7,11.43,bracketed_metric
+63,22,12,1 tbsp (20 g) apricot jam,20.0,7,2.86,bracketed_metric
+63,663,13,Zest and juice of 1 lemon,,7,,no_match
+63,598,14,1 tsp tomato paste,5.0,7,0.71,volume_unit
+63,526,15,"Salt and black pepper, as needed",,7,,no_match
+63,209,16,2 large eggs,300.0,7,42.86,count_estimate
+63,36,17,2 bay leaves,,7,,no_match
+64,615,1,1 to 2 tbsp (15 to 30 ml) vegetable oil,,5,,no_match
+64,399,2,"3 medium onions, thinly sliced",330.0,5,66.0,count_estimate
+64,597,3,"4 large tomatoes, thinly sliced",600.0,5,120.0,count_estimate
+64,251,4,½ tsp minced garlic,2.5,5,0.5,volume_unit
+64,525,5,"Salt and black pepper, to taste",,5,,no_match
+64,100,6,"Butter, as needed",,5,,no_match
+64,634,7,8 slices white bread,240.0,5,48.0,count_estimate
+64,278,8,8 slices Gruyère cheese,240.0,5,48.0,count_estimate
+64,313,9,1 (12-oz [336-g]) jar mango chutney,336.0,5,67.2,bracketed_metric
+65,10,1,2 cups (250 g) all-purpose flour,250.0,3,83.33,bracketed_metric
+65,523,2,"½ tsp salt, plus more as needed",2.5,3,0.83,volume_unit
+65,625,3,½ cup (120 ml) water,120.0,3,40.0,bracketed_metric
+65,616,4,"1 cup (240 ml) vegetable oil, plus more as needed",240.0,3,80.0,bracketed_metric
+65,39,5,1 lb (450 g) ground beef,450.0,3,150.0,bracketed_metric
+65,64,6,"Black pepper, as needed",,3,,no_match
+65,251,7,"2 cloves garlic, minced",8.0,3,2.67,count_estimate
+65,260,8,½ tsp finely chopped fresh ginger,2.5,3,0.83,volume_unit
+65,543,9,"3 small serrano chiles, diced",210.0,3,70.0,count_estimate
+65,497,10,"½ medium red onion, finely chopped",55.0,3,18.33,count_estimate
+65,209,11,6 large eggs,900.0,3,300.0,count_estimate
+66,580,1,"1 lb (450 g) sweet potatoes, peeled",450.0,7,64.29,bracketed_metric
+66,77,2,"Boiling water, as needed",,7,,no_match
+66,10,3,1 cup (125 g) all-purpose flour,125.0,7,17.86,bracketed_metric
+66,209,4,1 large egg,150.0,7,21.43,count_estimate
+66,99,5,"¼ cup (58 g) butter, melted",58.0,7,8.29,bracketed_metric
+66,522,6,Pinch of salt,,7,,no_match
+66,616,7,"Vegetable oil, as needed",,7,,no_match
+67,10,1,1 cup (125 g) all-purpose flour,125.0,5,25.0,bracketed_metric
+67,29,2,1 tsp baking soda,5.0,5,1.0,volume_unit
+67,522,3,½ tsp salt,2.5,5,0.5,volume_unit
+67,209,4,2 large eggs,300.0,5,60.0,count_estimate
+67,665,5,Zest from 1 orange,,5,,no_match
+67,575,6,¾ cup (144 g) granulated sugar,144.0,5,28.8,bracketed_metric
+67,516,7,1 tbsp (14 g) room-temperature unsalted butter,14.0,5,2.8,bracketed_metric
+67,22,8,4 tbsp (80 g) apricot jam,80.0,5,16.0,bracketed_metric
+67,206,9,1 tsp distilled white vinegar,5.0,5,1.0,volume_unit
+67,364,10,¾ cup (180 ml) milk,180.0,5,36.0,bracketed_metric
+67,217,11,1 cup (240 ml) evaporated milk,240.0,5,48.0,bracketed_metric
+67,99,12,8 tbsp (112 g) butter,112.0,5,22.4,bracketed_metric
+67,95,13,¼ cup (36 g) brown sugar,36.0,5,7.2,bracketed_metric
+67,611,14,1½ tsp (8 ml) vanilla extract,8.0,5,1.6,bracketed_metric
