@@ -40,6 +40,27 @@ NUTRIENT_COLOURS = {
     "high"   : "#e74c3c",
 }
 
+# ── Per-nutrient thresholds (mirrors scoring script) ──────────────────────────
+_THRESH = {
+    'energy_kcal': dict(medium=500,  high=800),
+    'sodium_mg'  : dict(medium=400,  high=700),
+    'fat_g'      : dict(medium=15,   high=25),
+    'sugars_g'   : dict(medium=12,   high=20),
+    'protein_g'  : dict(medium=15,   high=8),   # inverted
+}
+
+def _nutrient_risk_score(nutrient, value):
+    """0.0 = no risk → 1.0 = maximum risk (same logic as scoring script)."""
+    t = _THRESH[nutrient]
+    if nutrient == 'protein_g':
+        if value >= t['medium']:  return 0.0
+        elif value >= t['high']:  return 0.5 * (t['medium'] - value) / (t['medium'] - t['high'])
+        else:                     return min(0.5 + 0.5 * (t['high'] - value) / max(t['high'], 1e-9), 1.0)
+    else:
+        if value <= t['medium']:  return 0.0
+        elif value <= t['high']:  return 0.5 * (value - t['medium']) / (t['high'] - t['medium'])
+        else:                     return min(0.5 + 0.5 * (value - t['high']) / max(t['high'], 1e-9), 1.0)
+
 # ── Data loading ──────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
@@ -306,8 +327,9 @@ st.divider()
 
 # ── Row 7: Recipe explorer ────────────────────────────────────────────────────
 st.subheader("Recipe Explorer")
+st.caption("Search for any recipe to see its full nutritional risk profile, then browse all matching results below.")
 
-search = st.text_input("Search recipe name", placeholder="e.g. jollof, tagine, stew…")
+search = st.text_input("Search recipe name", placeholder="e.g. jollof, tagine, egusi, stew…")
 
 if show_insuf:
     display_df = df_all.copy()
@@ -315,11 +337,154 @@ else:
     display_df = df_f.copy()
 
 if search:
-    display_df = display_df[
+    matches = display_df[
         display_df['recipe_name'].str.contains(search, case=False, na=False)
-    ]
+    ].copy()
+else:
+    matches = display_df.copy()
 
-# Columns to show in table
+# ── Risk card (only shown when search is active) ──────────────────────────────
+if search and len(matches) > 0:
+    st.markdown(f"**{len(matches)}** recipe(s) match **'{search}'**")
+
+    selected_name = st.selectbox(
+        "Select a recipe to inspect:",
+        options=matches['recipe_name'].tolist(),
+        format_func=lambda x: x.title(),
+    )
+    row = matches[matches['recipe_name'] == selected_name].iloc[0]
+    is_scored = row['data_status'] == 'calculated'
+
+    risk_level  = str(row['weighted_risk_level']) if is_scored else 'insufficient_data'
+    risk_colour = RISK_COLOURS.get(risk_level, '#95a5a6')
+
+    # Hex → rgb for semi-transparent fill in radar
+    def hex_to_rgb(h):
+        h = h.lstrip('#')
+        return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+    r_rgb = hex_to_rgb(risk_colour)
+
+    # ── Card header ───────────────────────────────────────────────────────────
+    badge = (f'<span style="background:{risk_colour};color:white;padding:5px 14px;'
+             f'border-radius:14px;font-weight:700;font-size:0.9rem">{risk_level.upper()}</span>')
+    st.markdown(
+        f"<h3 style='margin-bottom:4px'>{selected_name.title()} &nbsp; {badge}</h3>",
+        unsafe_allow_html=True,
+    )
+
+    cov = row['ingredient_coverage_pct']
+    serv = row['servings']
+    url  = str(row.get('recipe_url', ''))
+    meta = [f"Servings: **{serv}**", f"Ingredient coverage: **{float(cov):.0f}%**"]
+    if url and url != 'nan':
+        meta.append(f"[View source]({url})")
+    st.markdown("  ·  ".join(meta))
+
+    if not is_scored:
+        st.warning("Insufficient ingredient-to-USDA matches to calculate nutrition for this recipe.")
+    else:
+        # ── Macros row ────────────────────────────────────────────────────────
+        mc = st.columns(6)
+        nutrient_meta = [
+            ('energy_kcal',    'energy_risk',  'Energy',  '{:.0f} kcal'),
+            ('protein_g',      'protein_risk', 'Protein', '{:.1f} g'),
+            ('fat_g',          'fat_risk',     'Fat',     '{:.1f} g'),
+            ('carbohydrate_g', None,           'Carbs',   '{:.1f} g'),
+            ('sugars_g',       'sugar_risk',   'Sugars',  '{:.1f} g'),
+            ('sodium_mg',      'sodium_risk',  'Sodium',  '{:.0f} mg'),
+        ]
+        for i, (col, risk_col, label, fmt) in enumerate(nutrient_meta):
+            val   = float(row[col])
+            delta = str(row[risk_col]).capitalize() if risk_col else None
+            mc[i].metric(label, fmt.format(val), delta=delta, delta_color="off")
+
+        st.markdown("")
+
+        # ── Risk radar + weighted score gauge ─────────────────────────────────
+        left, right = st.columns([3, 2])
+
+        with left:
+            # Radar: 5 nutrient risk scores (0→1)
+            rad_nutrients = ['energy_kcal', 'sodium_mg', 'fat_g', 'sugars_g', 'protein_g']
+            rad_labels    = ['Energy', 'Sodium', 'Fat', 'Sugars', 'Protein']
+            scores = [_nutrient_risk_score(n, float(row[n])) for n in rad_nutrients]
+            # Close the polygon
+            scores_c = scores + [scores[0]]
+            labels_c = rad_labels + [rad_labels[0]]
+
+            fig_radar = go.Figure()
+            # Threshold ring at 0.5
+            fig_radar.add_trace(go.Scatterpolar(
+                r=[0.5]*6, theta=labels_c,
+                mode='lines',
+                line=dict(color='#e74c3c', width=1.5, dash='dash'),
+                name='High-risk threshold',
+            ))
+            # Recipe profile
+            fig_radar.add_trace(go.Scatterpolar(
+                r=scores_c, theta=labels_c,
+                fill='toself',
+                fillcolor=f"rgba({r_rgb[0]},{r_rgb[1]},{r_rgb[2]},0.25)",
+                line=dict(color=risk_colour, width=2),
+                name='Risk profile',
+            ))
+            fig_radar.update_layout(
+                polar=dict(
+                    radialaxis=dict(visible=True, range=[0, 1], tickvals=[0, 0.25, 0.5, 0.75, 1.0],
+                                    ticktext=['0','','High','','Max'], gridcolor='#ddd'),
+                    angularaxis=dict(gridcolor='#ddd'),
+                    bgcolor='rgba(0,0,0,0)',
+                ),
+                showlegend=False,
+                height=300,
+                margin=dict(t=30, b=10, l=40, r=40),
+                title=dict(text='Nutrient Risk Profile (dashed = high-risk boundary)', font_size=12),
+            )
+            st.plotly_chart(fig_radar, use_container_width=True)
+
+        with right:
+            # Weighted score gauge
+            w_score = float(row['weighted_risk_score'])
+            fig_gauge = go.Figure(go.Indicator(
+                mode='gauge+number',
+                value=w_score,
+                number={'suffix': ' / 100', 'font': {'size': 26}},
+                gauge={
+                    'axis': {'range': [0, 100], 'tickwidth': 1},
+                    'bar':  {'color': risk_colour, 'thickness': 0.25},
+                    'steps': [
+                        {'range': [0,  25], 'color': RISK_COLOURS['Low']},
+                        {'range': [25, 50], 'color': RISK_COLOURS['Medium']},
+                        {'range': [50, 75], 'color': RISK_COLOURS['High']},
+                        {'range': [75, 100],'color': RISK_COLOURS['Very High']},
+                    ],
+                },
+                title={'text': f'Weighted Risk Score<br><b>{risk_level}</b>', 'font': {'size': 14}},
+            ))
+            fig_gauge.update_layout(height=250, margin=dict(t=60, b=10, l=20, r=20))
+            st.plotly_chart(fig_gauge, use_container_width=True)
+
+            flag_count = int(row['flag_count'])
+            flag_level = str(row['flag_risk_level'])
+            flag_col   = RISK_COLOURS.get(flag_level, '#95a5a6')
+            flag_badge = (f'<span style="background:{flag_col};color:white;padding:3px 10px;'
+                          f'border-radius:10px;font-weight:600">{flag_level}</span>')
+            st.markdown(
+                f"**Flag count:** {flag_count} high-risk nutrient(s)  \n"
+                f"**Flag risk level:** {flag_badge}",
+                unsafe_allow_html=True,
+            )
+
+    st.divider()
+
+elif search and len(matches) == 0:
+    st.info(f"No recipes found matching **'{search}'**. Try a shorter term like 'jollof', 'egusi' or 'tagine'.")
+    st.divider()
+
+# ── Results table ─────────────────────────────────────────────────────────────
+table_label = f"All matches for '{search}'" if search else "All Recipes"
+st.markdown(f"**{table_label}** — {len(matches)} recipe(s)")
+
 table_cols = [
     'recipe_id','recipe_name','servings',
     'energy_kcal','protein_g','fat_g','carbohydrate_g','sugars_g','sodium_mg',
@@ -336,7 +501,7 @@ sort_col = st.selectbox(
     index=0,
 )
 
-display_df_sorted = display_df[table_cols].copy()
+display_df_sorted = matches[table_cols].copy()
 numeric_sort = pd.to_numeric(display_df_sorted[sort_col], errors='coerce')
 display_df_sorted = display_df_sorted.loc[numeric_sort.sort_values(ascending=False).index]
 
@@ -345,24 +510,24 @@ st.dataframe(
     use_container_width=True,
     height=420,
     column_config={
-        'recipe_id'              : st.column_config.NumberColumn('ID',    width='small'),
-        'recipe_name'            : st.column_config.TextColumn('Recipe',  width='large'),
-        'servings'               : st.column_config.NumberColumn('Serv',  width='small'),
-        'energy_kcal'            : st.column_config.NumberColumn('kcal',  format='%.1f'),
-        'protein_g'              : st.column_config.NumberColumn('Protein g', format='%.1f'),
-        'fat_g'                  : st.column_config.NumberColumn('Fat g',  format='%.1f'),
-        'carbohydrate_g'         : st.column_config.NumberColumn('Carbs g', format='%.1f'),
-        'sugars_g'               : st.column_config.NumberColumn('Sugar g', format='%.1f'),
-        'sodium_mg'              : st.column_config.NumberColumn('Na mg',  format='%.0f'),
+        'recipe_id'              : st.column_config.NumberColumn('ID',       width='small'),
+        'recipe_name'            : st.column_config.TextColumn('Recipe',     width='large'),
+        'servings'               : st.column_config.NumberColumn('Serv',     width='small'),
+        'energy_kcal'            : st.column_config.NumberColumn('kcal',     format='%.1f'),
+        'protein_g'              : st.column_config.NumberColumn('Protein g',format='%.1f'),
+        'fat_g'                  : st.column_config.NumberColumn('Fat g',    format='%.1f'),
+        'carbohydrate_g'         : st.column_config.NumberColumn('Carbs g',  format='%.1f'),
+        'sugars_g'               : st.column_config.NumberColumn('Sugar g',  format='%.1f'),
+        'sodium_mg'              : st.column_config.NumberColumn('Na mg',    format='%.0f'),
         'ingredient_coverage_pct': st.column_config.ProgressColumn('Coverage', min_value=0, max_value=100, format='%.0f%%'),
-        'flag_count'             : st.column_config.NumberColumn('Flags', width='small'),
+        'flag_count'             : st.column_config.NumberColumn('Flags',    width='small'),
         'weighted_risk_score'    : st.column_config.ProgressColumn('W.Score', min_value=0, max_value=100, format='%.1f'),
-        'data_status'            : st.column_config.TextColumn('Status', width='medium'),
+        'data_status'            : st.column_config.TextColumn('Status',     width='medium'),
     },
 )
 
-st.caption(f"Showing {len(display_df_sorted)} of {len(df_all)} recipes  ·  "
-           f"Filtered: {len(df_f)} match current sidebar filters")
+st.caption(f"Showing {len(display_df_sorted)} of {len(df_all)} total recipes  ·  "
+           f"Active sidebar filters match {len(df_f)} recipes")
 
 st.divider()
 
