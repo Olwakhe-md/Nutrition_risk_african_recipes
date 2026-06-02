@@ -65,6 +65,109 @@ def _nutrient_risk_score(nutrient, value):
         elif value <= t['high']:  return 0.5 * (value - t['medium']) / (t['high'] - t['medium'])
         else:                     return min(0.5 + 0.5 * (value - t['high']) / max(t['high'], 1e-9), 1.0)
 
+
+def _render_nutrition_label(nutrition, risk, servings):
+    """
+    Return an HTML string styled as an FDA 2020 Nutrition Facts panel.
+
+    Each nutrient row gets a traffic-light dot (green / amber / red) driven
+    by the same _nutrient_risk_score() thresholds used everywhere else in the
+    dashboard — so the colours are always consistent.
+    """
+    # FDA 2020 daily reference values for a 2 000 kcal diet
+    DV = {
+        'energy_kcal':   2000.0,
+        'fat_g':           78.0,
+        'carbohydrate_g': 275.0,
+        'sugars_g':        50.0,
+        'protein_g':       50.0,
+        'sodium_mg':     2300.0,
+    }
+
+    def _dot(key, val):
+        """Coloured circle indicating low / moderate / high risk for one nutrient."""
+        if key not in _THRESH:
+            return ""
+        score = _nutrient_risk_score(key, val)
+        colour = "#27ae60" if score < 0.25 else "#f39c12" if score < 0.5 else "#e74c3c"
+        return (
+            f'<span style="display:inline-block;width:9px;height:9px;border-radius:50%;'
+            f'background:{colour};margin-right:5px;vertical-align:middle;"></span>'
+        )
+
+    def _pct(key, val):
+        return f"{round(val / DV[key] * 100)}%" if DV.get(key) else ""
+
+    kcal = float(nutrition['energy_kcal'])
+    fat  = float(nutrition['fat_g'])
+    carb = float(nutrition['carbohydrate_g'])
+    sug  = float(nutrition['sugars_g'])
+    prot = float(nutrition['protein_g'])
+    sod  = float(nutrition['sodium_mg'])
+
+    # Each tuple: (display name, raw value, threshold key, formatted amount, % DV, is-indented)
+    nutrient_rows = [
+        ("Total Fat",       fat,  "fat_g",          f"{fat:.1f} g",   _pct("fat_g",  fat),           False),
+        ("Sodium",          sod,  "sodium_mg",       f"{sod:.0f} mg",  _pct("sodium_mg",       sod),  False),
+        ("Carbohydrate",    carb, "carbohydrate_g",  f"{carb:.1f} g",  _pct("carbohydrate_g",  carb), False),
+        ("Total Sugars",    sug,  "sugars_g",        f"{sug:.1f} g",   "",                            True),
+        ("Protein",         prot, "protein_g",       f"{prot:.1f} g",  _pct("protein_g",       prot), False),
+    ]
+
+    rows_html = ""
+    for name, val, key, amt, dv_pct, indented in nutrient_rows:
+        dot  = _dot(key, val)
+        bold = "" if indented else "font-weight:700;"
+        pad  = "padding-left:14px;" if indented else ""
+        rows_html += (
+            f'<tr style="border-top:1px solid #000;">'
+            f'<td style="padding:3px 2px;font-size:13px;{bold}{pad}">{dot}{name}</td>'
+            f'<td style="padding:3px 2px;font-size:13px;white-space:nowrap;text-align:right;">{amt}</td>'
+            f'<td style="padding:3px 2px;font-size:13px;font-weight:700;white-space:nowrap;text-align:right;">{dv_pct}</td>'
+            f'</tr>'
+        )
+
+    legend_dot = lambda c: (
+        f'<span style="display:inline-block;width:9px;height:9px;'
+        f'border-radius:50%;background:{c};margin-right:4px;vertical-align:middle;"></span>'
+    )
+
+    return f"""
+<div style="border:3px solid #000;padding:10px 12px;width:100%;box-sizing:border-box;
+            font-family:Arial,Helvetica,sans-serif;background:#fff;color:#000;border-radius:2px;">
+  <div style="font-size:24px;font-weight:900;line-height:1.05;">Nutrition Facts</div>
+  <div style="font-size:12px;margin-top:3px;">{servings} serving(s) per recipe</div>
+  <table style="width:100%;border-collapse:collapse;margin-top:2px;">
+    <tr>
+      <td style="font-size:12px;font-weight:700;">Serving size</td>
+      <td style="font-size:12px;font-weight:700;text-align:right;">1 serving</td>
+    </tr>
+  </table>
+  <div style="border-top:8px solid #000;margin:5px 0 3px 0;"></div>
+  <div style="font-size:11px;font-weight:700;margin-bottom:1px;">Amount per serving</div>
+  <table style="width:100%;border-collapse:collapse;">
+    <tr>
+      <td style="font-size:26px;font-weight:900;line-height:1.1;padding:0 2px;">Calories</td>
+      <td style="font-size:38px;font-weight:900;line-height:1.1;text-align:right;padding:0 2px;">{kcal:.0f}</td>
+    </tr>
+  </table>
+  <div style="border-top:4px solid #000;margin:4px 0 2px 0;"></div>
+  <div style="text-align:right;font-size:11px;font-weight:700;">% Daily Value*</div>
+  <table style="width:100%;border-collapse:collapse;">{rows_html}</table>
+  <div style="border-top:6px solid #000;margin:5px 0 4px 0;"></div>
+  <div style="font-size:10px;line-height:1.6;">
+    * % Daily Values based on a 2,000 calorie diet.<br>
+    Na 2,300 mg &middot; Fat 78 g &middot; Carbs 275 g &middot; Sugars 50 g &middot; Protein 50 g
+  </div>
+  <div style="margin-top:6px;font-size:11px;">
+    {legend_dot("#27ae60")}Low &nbsp;
+    {legend_dot("#f39c12")}Moderate &nbsp;
+    {legend_dot("#e74c3c")}High risk
+  </div>
+</div>
+"""
+
+
 # ── Data loading ──────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
@@ -698,10 +801,10 @@ with tab2:
 
             st.markdown("")
 
-            # ── Radar chart + weighted score gauge ────────────────────────────
-            left, right = st.columns([3, 2])
+            # ── Radar chart | Nutrition label | Weighted score gauge ─────────
+            col_radar, col_label, col_gauge = st.columns([3, 3, 2])
 
-            with left:
+            with col_radar:
                 rad_nutrients = ["energy_kcal", "sodium_mg", "fat_g", "sugars_g", "protein_g"]
                 rad_labels    = ["Energy",      "Sodium",    "Fat",   "Sugars",   "Protein"]
                 scores   = [_nutrient_risk_score(n, float(nutrition[n])) for n in rad_nutrients]
@@ -743,7 +846,13 @@ with tab2:
                 )
                 st.plotly_chart(fig_radar, use_container_width=True)
 
-            with right:
+            with col_label:
+                st.markdown(
+                    _render_nutrition_label(nutrition, risk, int(servings_input)),
+                    unsafe_allow_html=True,
+                )
+
+            with col_gauge:
                 w_score = float(risk["weighted_risk_score"])
                 fig_gauge = go.Figure(go.Indicator(
                     mode="gauge+number",
