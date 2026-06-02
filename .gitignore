@@ -20,5 +20,8 @@ african_recipes_nutrition/data/raw/food_nutrient.csv
 # Streamlit debug/temp
 african_recipes_nutrition/streamlit_log.txt
 
+# Scraper development sample pages (raw downloaded HTML, not source code)
+african_recipes_nutrition/*.html
+
 # IDE
 .vscode/
