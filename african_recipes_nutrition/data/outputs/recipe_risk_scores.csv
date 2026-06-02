@@ -1186,3 +1186,4 @@ recipe_id,recipe_name,servings,energy_kcal,protein_g,fat_g,carbohydrate_g,sugars
 1298,YOKOHAMA STYLE SHUMAI DUMPLING,35,3.6,0.4,0.1,0.3,0.3,51.6,22.2,low,low,low,low,high,1,Medium,9.8,Low,calculated
 1299,"YUMMY, MORE SIMPLE JOLLOF RICE!",8,270.4,0.0,30.0,0.1,0.0,0.5,30.0,low,low,high,low,high,2,Medium,22.0,Low,calculated
 1300,ZUCCHINI COUSCOUS,4,681.8,14.1,31.4,78.0,38.8,705.3,100.0,medium,high,high,high,medium,3,High,50.4,High,calculated
+1301,SHAKSHUKA,4,431.8,30.6,27.3,17.3,10.0,339.0,91.7,low,low,high,low,low,1,Medium,10.9,Low,calculated
