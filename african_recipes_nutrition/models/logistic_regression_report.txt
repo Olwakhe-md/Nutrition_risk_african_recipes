@@ -1,0 +1,130 @@
+LOGISTIC REGRESSION — NUTRITIONAL RISK CLASSIFIER
+Generated : 2026-06-04 15:10
+Dataset   : African Recipes Nutritional Risk (1 179 scored recipes)
+
+=================================================================
+  DATASET SUMMARY
+=================================================================
+Total scored recipes : 1179
+Train set            : 943
+Test set             : 236
+
+Class distribution:
+  Low            879  ( 74.6%)  █████████████████████████████
+  Medium         168  ( 14.2%)  █████
+  High           100  (  8.5%)  ███
+  Very High       32  (  2.7%)  █
+
+=================================================================
+  MODEL CONFIGURATION
+=================================================================
+Algorithm         : Logistic Regression (multinomial, lbfgs solver)
+class_weight      : balanced  (minority classes penalised more)
+max_iter          : 1 000
+Feature scaling   : StandardScaler (fit on training data only)
+
+Features used:
+  energy_kcal                     mean=  375.77  std= 568.90
+  protein_g                       mean=   12.70  std=  20.68
+  fat_g                           mean=   21.69  std=  36.39
+  carbohydrate_g                  mean=   32.79  std=  69.08
+  sugars_g                        mean=   12.87  std=  42.37
+  sodium_mg                       mean=  410.87  std= 578.28
+  ingredient_coverage_pct         mean=   48.36  std=  19.62
+
+=================================================================
+  EVALUATION RESULTS  (held-out test set)
+=================================================================
+Primary metric  —  Macro-F1 : 0.797
+(Macro-F1 = average F1 across all 4 classes equally.
+ Accuracy is NOT reported as primary metric due to class imbalance.)
+
+Per-class breakdown:
+              precision    recall  f1-score   support
+
+         Low       0.99      0.91      0.95       176
+      Medium       0.62      0.88      0.73        34
+        High       0.82      0.70      0.76        20
+   Very High       0.60      1.00      0.75         6
+
+    accuracy                           0.89       236
+   macro avg       0.76      0.87      0.80       236
+weighted avg       0.92      0.89      0.90       236
+
+Confusion matrix (rows = actual, columns = predicted):
+Actual \ Predicted        Low   Medium     High   Very H
+  Low                     160       16        0        0
+  Medium                    1       30        3        0
+  High                      0        2       14        4
+  Very High                 0        0        0        6
+
+=================================================================
+  COEFFICIENTS — SCIENTIFIC FINDINGS
+=================================================================
+Each coefficient shows how strongly a 1-std-deviation increase in that
+feature pushes the prediction towards (+) or away from (-) that class.
+After scaling, coefficients are directly comparable across features.
+
+  High risk:
+    energy_kcal                      +1.726  ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+    sodium_mg                        +1.538  ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+    fat_g                            +1.318  ▶▶▶▶▶▶▶▶▶▶▶▶▶
+    sugars_g                         +0.513  ▶▶▶▶▶
+    protein_g                        -0.410  ◀◀◀◀
+    carbohydrate_g                   +0.063  
+    ingredient_coverage_pct          -0.030  
+
+  Very High risk:
+    sodium_mg                        +3.233  ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+    fat_g                            +3.162  ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+    sugars_g                         +2.709  ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+    energy_kcal                      +1.521  ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶
+    protein_g                        +0.708  ▶▶▶▶▶▶▶
+    ingredient_coverage_pct          +0.519  ▶▶▶▶▶
+    carbohydrate_g                   +0.117  ▶
+
+  Medium risk:
+    sodium_mg                        -1.089  ◀◀◀◀◀◀◀◀◀◀
+    energy_kcal                      -0.845  ◀◀◀◀◀◀◀◀
+    sugars_g                         -0.605  ◀◀◀◀◀◀
+    protein_g                        -0.372  ◀◀◀
+    fat_g                            -0.248  ◀◀
+    ingredient_coverage_pct          -0.115  ◀
+    carbohydrate_g                   +0.008  
+
+  Low risk:
+    fat_g                            -4.232  ◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀
+    sodium_mg                        -3.683  ◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀
+    sugars_g                         -2.618  ◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀
+    energy_kcal                      -2.402  ◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀◀
+    ingredient_coverage_pct          -0.375  ◀◀◀
+    carbohydrate_g                   -0.188  ◀
+    protein_g                        +0.074  
+
+
+=================================================================
+  KEY FINDINGS
+=================================================================
+1. Energy is the strongest driver of HIGH risk — stronger than sodium.
+   Our rule-based scorer weighted sodium #1, but the data disagrees at
+   the High level. Energy (calories) is the primary trigger.
+
+2. Sodium and fat are nearly equal for VERY HIGH risk (3.23 vs 3.16).
+   The sodium-first weighting is validated at the extreme end of the scale.
+
+3. Carbohydrate is the weakest predictor across all classes.
+   Despite African cuisine being carbohydrate-heavy, carbs alone do not
+   drive nutritional risk.
+
+4. Protein has a negative coefficient for High risk (protective effect).
+   Confirms the inverted protein threshold in the rule-based scorer.
+
+5. Baseline Macro-F1 = 0.797 suggests the data is mostly linearly
+   separable. The rule-based thresholds capture the right structure.
+
+=================================================================
+  FILES SAVED
+=================================================================
+Model  : models/logistic_regression.pkl
+Scaler : models/feature_scaler.pkl
+Report : models/logistic_regression_report.txt  (this file)
