@@ -33,6 +33,7 @@ BASE             = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAPPING_REF_FILE = os.path.join(BASE, 'data', 'raw',  'ingredient_mapping_original.csv')
 NUTRIENT_FILE    = os.path.join(BASE, 'data', 'raw',  'food_nutrient.csv')
 FOOD_CSV         = os.path.join(BASE, 'data', 'raw',  'food.csv')
+WAFCT_CSV        = os.path.join(BASE, 'data', 'raw',  'wafct_foods.csv')
 
 # ── USDA nutrient IDs we care about ──────────────────────────────────────────
 # The food_nutrient.csv file has hundreds of nutrient types.
@@ -439,6 +440,151 @@ class USDAFoodIndex:
         return fdc_id, desc
 
 
+class WAFCTFoodIndex:
+    """
+    Loads wafct_foods.csv (1 028 West African foods from FAO/INFOODS WAFCT 2019)
+    and provides fuzzy food-name search.
+
+    WHY A SEPARATE CLASS?
+    The USDA database is strong on globally common foods but almost entirely
+    lacks traditional African ingredients: fufu, pounded yam, egusi, fonio,
+    dawadawa, African leafy vegetables, etc.  WAFCT fills exactly that gap.
+
+    This class is Layer 3 in the matching pipeline:
+      Layer 1: MANUAL_MAPPINGS (curated overrides)
+      Layer 2: USDAFoodIndex   (5 432 USDA foods)
+      Layer 3: WAFCTFoodIndex  (1 028 West African foods)  ← this class
+
+    Both English and French food names are indexed, because many West
+    African ingredients are better known by their French names (Francophone
+    countries make up the majority of the WAFCT coverage).
+
+    NOTE on sugars: WAFCT does not include total sugars data.  Sugars are
+    set to 0.0 for all WAFCT-matched ingredients.  This means WAFCT-matched
+    foods will not trigger the sugar risk flag — an honest limitation.
+    """
+
+    def __init__(self, wafct_csv_path: str, threshold: int = 55) -> None:
+        self._threshold = threshold
+        # Each entry: (code, name_en, name_fr, nutrients_dict)
+        self._foods: list[tuple] = []
+        # Inverted word index: token → set of indices in _foods
+        self._index: dict[str, set[int]] = {}
+
+        if not os.path.exists(wafct_csv_path):
+            return  # graceful degradation — wafct CSV not yet generated
+
+        with open(wafct_csv_path, encoding='utf-8', newline='') as f:
+            for row in csv.DictReader(f):
+                name_en = row.get('food_name_en', '').strip()
+                name_fr = row.get('food_name_fr', '').strip()
+                if not name_en:
+                    continue
+
+                try:
+                    nutrients = {
+                        'energy_kcal':    float(row.get('energy_kcal')    or 0),
+                        'protein_g':      float(row.get('protein_g')      or 0),
+                        'fat_g':          float(row.get('fat_g')          or 0),
+                        'carbohydrate_g': float(row.get('carbohydrate_g') or 0),
+                        'sugars_g':       0.0,   # not measured in WAFCT
+                        'sodium_mg':      float(row.get('sodium_mg')      or 0),
+                    }
+                except ValueError:
+                    continue
+
+                idx = len(self._foods)
+                self._foods.append((row['code'], name_en, name_fr, nutrients))
+
+                # Index both English and French names
+                for name in [name_en, name_fr]:
+                    for token in re.split(r'[\s,;/()\-]+', name.lower()):
+                        token = token.strip("'.:*[]")
+                        if len(token) > 2:
+                            self._index.setdefault(token, set()).add(idx)
+                            if token.endswith('s') and len(token) > 3:
+                                self._index.setdefault(token[:-1], set()).add(idx)
+
+    def search(self, query_name: str) -> tuple[str, str, dict] | None:
+        """
+        Find the best WAFCT food match for a cleaned ingredient name.
+
+        Returns (wafct_code, food_name_en, nutrients_dict) or None.
+
+        WHY partial_ratio instead of token_sort_ratio?
+        WAFCT food names are long and descriptive:
+          "Cocoyam, tuber, white, raw"
+          "Maize, white, refined flour (special), unfortified"
+        token_sort_ratio("cocoyam", "cocoyam raw tuber white") ≈ 45 — too low.
+        partial_ratio finds the best matching WINDOW inside the longer string,
+        so "cocoyam" against "Cocoyam, tuber, white, raw" scores ~100.
+
+        Scoring:
+          base  = max(partial_ratio_en, partial_ratio_fr)
+          bonus = +15 if ALL query words appear in the candidate name
+          bonus = +10 for basic preparations (raw, dried, flour, fresh)
+          No length penalty — WAFCT names are intentionally verbose.
+        """
+        if not query_name or not self._foods:
+            return None
+
+        query = query_name.lower().strip()
+        query_words = [w for w in re.split(r'\s+', query) if len(w) > 2]
+
+        # Gather candidates via inverted word index
+        candidates: set[int] = set()
+        for word in query_words:
+            for idx in self._index.get(word, set()):
+                candidates.add(idx)
+            if word.endswith('s') and len(word) > 3:
+                for idx in self._index.get(word[:-1], set()):
+                    candidates.add(idx)
+
+        if not candidates:
+            return None
+
+        best_score = -999
+        best_idx   = -1
+
+        for idx in candidates:
+            code, name_en, name_fr, nutrients = self._foods[idx]
+            en_l = name_en.lower()
+            fr_l = name_fr.lower()
+
+            # partial_ratio: score of best substring match — handles long names
+            score_en = float(_rf_fuzz.partial_ratio(query, en_l))
+            score_fr = float(_rf_fuzz.partial_ratio(query, fr_l)) if fr_l else 0.0
+            base     = max(score_en, score_fr)
+
+            if base < self._threshold:
+                continue
+
+            score = base
+
+            # Bonus: all query words present in candidate (strong signal)
+            if all(w in en_l or w in fr_l for w in query_words):
+                score += 15
+
+            # Prefer basic / raw preparations over compound dishes
+            if any(w in en_l for w in ('raw', 'dried', 'flour', 'fresh', 'boiled')):
+                score += 10
+
+            # Light penalty for very long names that are complex dishes
+            # (not as aggressive as USDA — long names are normal in WAFCT)
+            if len(name_en) > 60:
+                score -= 5
+
+            if score > best_score:
+                best_score = score
+                best_idx   = idx
+
+        if best_idx < 0:
+            return None
+
+        code, name_en, name_fr, nutrients = self._foods[best_idx]
+        return code, name_en, nutrients
+
+
 class LiveAnalyser:
     """
     Loads reference data once; analyses ad-hoc recipes on demand.
@@ -463,6 +609,10 @@ class LiveAnalyser:
         # Layer 2: USDAFoodIndex — searches all 5 432 foods in food.csv
         # automatically.  Used when MANUAL_MAPPINGS has no entry.
         self._usda_index = USDAFoodIndex(food_csv)
+
+        # Layer 3: WAFCTFoodIndex — 1 028 West African foods from FAO/INFOODS.
+        # Used when USDA has no match (African staples, local varieties).
+        self._wafct_index = WAFCTFoodIndex(WAFCT_CSV)
 
         # Nutrient lookup table: {fdc_id: {nutrient_id: amount_per_100g}}
         self._food_nutrients = self._load_nutrients(nutrient_file)
@@ -543,19 +693,38 @@ class LiveAnalyser:
             # brand names, etc. and handles African ingredient proxies.
             cleaned, tag, display = clean_ingredient(parsed["name_raw"])
 
-            # ── Match to USDA — two layers ────────────────────────────────────
+            # ── Match to USDA/WAFCT — three layers ───────────────────────────
             # Layer 1: MANUAL_MAPPINGS + fuzzy pool (Matcher)
             food_name, fdc_id, match_type = self._matcher.match(cleaned)
 
             # Layer 2: if still no match, search food.csv directly.
-            # This finds any ingredient that exists in the USDA database
-            # without needing it in MANUAL_MAPPINGS.
             if fdc_id is None:
                 query_words = set(cleaned.lower().split())
                 usda_hit = self._usda_index.search(cleaned, query_words)
                 if usda_hit:
                     fdc_id, food_name = usda_hit
                     match_type = "usda_search"
+
+            # Layer 3: if USDA still has nothing, try the West African
+            # Food Composition Table (FAO/INFOODS WAFCT 2019).
+            # This covers African staples absent from USDA: fufu, pounded yam,
+            # egusi, fonio, dawadawa, African leafy vegetables, etc.
+            #
+            # WHY we also try name_raw:
+            # The cleaner substitutes some African ingredients with USDA proxies
+            # (e.g. fonio → millet) to improve USDA matching.  For WAFCT we want
+            # the ORIGINAL name because WAFCT actually has the African ingredient.
+            wafct_nutrients = None
+            if fdc_id is None:
+                wafct_hit = self._wafct_index.search(cleaned)
+                # If cleaned was proxy-substituted (e.g. fonio→millet), also try
+                # the original raw name against WAFCT
+                if wafct_hit is None and parsed["name_raw"].lower() != cleaned.lower():
+                    wafct_hit = self._wafct_index.search(parsed["name_raw"])
+                if wafct_hit:
+                    wafct_code, food_name, wafct_nutrients = wafct_hit
+                    fdc_id     = wafct_code
+                    match_type = "wafct"
 
             detail = {
                 "raw":          line.strip(),
@@ -582,23 +751,36 @@ class LiveAnalyser:
                 ingredients_detail.append(detail)
                 continue
 
-            food_data = self._food_nutrients.get(int(fdc_id))
-            if food_data is None:
-                detail["status"] = "no_usda_data"
-                ingredients_detail.append(detail)
-                continue
+            # ── Nutrient lookup — USDA path or WAFCT path ────────────────────
+            #
+            # USDA stores nutrients by numeric ID (e.g. 208 = energy_kcal).
+            # WAFCT returns a dict already keyed by our column names.
+            # We resolve both paths to a common {col_name: value} dict.
+            if wafct_nutrients is not None:
+                # WAFCT match — nutrients already in our column-name format
+                resolved_nutrients = wafct_nutrients
+            else:
+                # USDA match — look up by integer fdc_id, then map nutrient IDs
+                try:
+                    usda_data = self._food_nutrients.get(int(fdc_id))
+                except (ValueError, TypeError):
+                    usda_data = None
+                if usda_data is None:
+                    detail["status"] = "no_usda_data"
+                    ingredients_detail.append(detail)
+                    continue
+                resolved_nutrients = {col: usda_data.get(nid, 0.0)
+                                      for nid, col in NUTRIENT_IDS.items()}
 
             # ── Calculate nutrient contribution ───────────────────────────────
-            # Formula:  contribution = (grams / 100) × nutrient_per_100g
-            # We work in whole-recipe grams first, then divide by servings.
             grams_per_serving = parsed["grams"] / servings
             scale             = grams_per_serving / 100.0
 
             contrib: dict[str, float] = {}
-            for nid, col in NUTRIENT_IDS.items():
-                value           = scale * food_data.get(nid, 0.0)
-                contrib[col]    = round(value, 2)
-                totals[col]    += value
+            for col in NUTRIENT_IDS.values():
+                value        = scale * resolved_nutrients.get(col, 0.0)
+                contrib[col] = round(value, 2)
+                totals[col] += value
 
             detail["status"]    = "matched"
             detail["nutrition"] = contrib

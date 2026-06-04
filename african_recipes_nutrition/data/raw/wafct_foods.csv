@@ -1,0 +1,1037 @@
+code,food_name_en,food_name_fr,energy_kcal,protein_g,fat_g,carbohydrate_g,sodium_mg
+01_172,"Baling béinré (northern Burkina Faso)*: sorghum porridge with monkey bread, tamarind, water, milk and sugar","Baling béinré (nord du Burkina Faso)*: bouillie de sorgho avec pain de singe, tamarin, eau, lait et sucre",78.0,2.5,0.2,16.1,23.0
+01_173,"Baling ni zièm béinré (Burkina Faso)*: porridge of degermed sorghum with potash, water and sugar","Baling ni zièm béinré (Burkina Faso)*: bouillie de sorgho dégermé avec potasse, eau et sucre",65.0,0.9,0.2,14.8,49.0
+01_168,Beenkida (Burkina Faso)*: maize porridge with maize granules,Beenkida (Burkina Faso)*: bouillie de maïs avec grumaux de maïs,100.0,2.1,0.4,21.7,3.0
+01_188,"Biscuit, sweet, plain, unfortified","Biscuit, sucré, nature, non enrichi",479.0,6.2,21.2,64.9,390.0
+01_177,Boalboal (Burkina Faso)*: millet balls with fried fish and vegetables,Boalboal (Burkina Faso)*: boulettes de mil avec poisson frit et légumes,252.0,5.4,17.0,18.0,227.0
+01_047,"Bread, wheat, white for toasting, unfortified","Pain, blé, blanc à griller, non enrichi",246.0,8.8,2.2,46.4,451.0
+01_046,"Bread, wheat, white, unfortified","Pain, blé, blanc, non enrichi",249.0,7.5,1.3,50.5,676.0
+01_048,"Bread, wheat, wholemeal, unfortified","Pain, blé, complet, non enrichi",232.0,11.1,2.8,37.6,438.0
+01_045,"Bread/rolls, white, unfortified","Pain/petit pain, blanc, non enrichi",271.0,9.5,2.7,51.0,456.0
+01_187,"Cake, plain, unfortified","Gâteau, nature, non enrichi",363.0,6.1,14.5,51.4,383.0
+01_160,Cantonese rice with fish and noodles (Burkina Faso)*,Riz cantonnais avec poisson et vermicelles (Burkina Faso)*,259.0,5.5,11.9,31.7,273.0
+01_182,"Cornflakes (breakfast cereal), unfortified","Cornflakes (céréales pour petit-déjeuner), non enrichis",383.0,6.3,2.9,80.6,270.0
+01_189,"Croissant, plain, unfortified","Croissant, nature, non enrichi",373.0,8.3,19.4,39.7,392.0
+01_002,"Fonio, black, whole grains, raw","Fonio, noir, grains entiers, cru",332.0,8.3,3.0,59.8,8.0
+01_124,"Fonio, black, whole grains, boiled* (as part of a recipe)","Fonio, noir, grains entiers, bouilli* (ingrédient de recette)",138.0,3.5,1.3,24.9,3.0
+01_049,"Fonio, black, whole grains, boiled* (without salt), drained","Fonio, noir, grains entiers, bouilli* (sans sel), égoutté",138.0,3.5,1.3,24.9,3.0
+01_050,"Fonio, decorticated grains (bran removed), dry, raw","Fonio, grains décortiqués (sans son), sec, cru",356.0,7.1,1.7,76.9,5.0
+01_126,"Fonio, decorticated grains (bran removed), boiled* (as part of a recipe)","Fonio, grains décortiqués (sans son), bouilli* (ingrédient de recette)",148.0,3.0,0.7,32.0,2.0
+01_051,"Fonio, decorticated grains (bran removed), boiled* (without salt), drained","Fonio, grains décortiqués (sans son), bouilli* (sans sel), égoutté",148.0,3.0,0.7,32.0,1.0
+01_078,"Fonio, decorticated grains (bran removed), washed (mid wet), raw","Fonio, grains décortiqués (sans son), lavé (humide), cru",241.0,4.4,1.2,52.8,4.0
+01_128,"Fonio, decorticated grains (bran removed), washed (mid wet), boiled* (as part of a recipe)","Fonio, grains décortiqués (sans son), lavé (humide), bouilli* (ingrédient de recette)",151.0,2.7,0.7,33.0,2.0
+01_127,"Fonio, decorticated grains (bran removed), washed (mid wet), boiled* (without salt), drained","Fonio, grains décortiqués (sans son), lavé (humide), bouilli* (sans sel), égoutté",151.0,2.7,0.7,33.0,1.0
+01_001,"Fonio, white, whole grains, raw","Fonio, blanc, grains entiers, cru",334.0,7.1,3.8,59.7,8.0
+01_125,"Fonio, white, whole grains, boiled* (as part of a recipe)","Fonio, blanc, grains entiers, bouilli* (ingrédient de recette)",139.0,2.9,1.6,24.9,3.0
+01_003,"Fonio, white, whole grains, boiled* (without salt), drained","Fonio, blanc, grains entiers, bouilli* (sans sel), égoutté",139.0,2.9,1.6,24.9,3.0
+01_176,"Fura saamdin (Burkina Faso)*: fermented pearl millet porridge with milk, water and sugar","Fura saamdin (Burkina Faso)*: bouillie de mil à chandelle fermentée avec lait, eau et sucre",108.0,2.6,2.0,19.4,17.0
+01_174,Gappal (Burkina Faso)*: pearl millet porridge with milk and sugar,Gappal (Burkina Faso)*: bouillie de mil à chandelle avec lait et sucre,129.0,3.4,3.0,21.4,363.0
+01_180,"Gnon (Burkina Faso)*: steamed balls of cowpea leaves with groundnut flour, potash and pearl millet","Gnon (Burkina Faso)*: boules de feuilles de niébé cuites à la vapeur, avec farine d’arachide, potasse et mil à chandelle",266.0,6.6,14.7,24.6,654.0
+01_077,"Instant noodles (Indomie), made from wheat flour, previously fried and dried, without flavouring, unprepared","Nouilles instantanées (Indomie), de farine de blé, préalablement frites et séchées, sans aromatisants, non préparées",457.0,12.7,18.8,57.7,494.0
+01_103,"Instant noodles (Indomie), made from wheat flour, previously fried and dried, without flavouring, boiled and drained*","Nouilles instantanées (Indomie), de farine de blé, préalablement frites et séchées, sans aromatisants, bouillies et égouttées*",200.0,5.6,8.3,25.3,108.0
+01_164,Jollof fonio (Burkina Faso)*: fonio with fish and vegetables,Fonio Jollof (Burkina Faso)*: fonio avec poisson et légumes,143.0,3.3,6.0,18.6,308.0
+01_156,Jollof macaroni (Burkina Faso)*: macaroni in tomato sauce with mutton,Macaroni Jollof (Burkina Faso)*: macaroni sauce tomate avec mouton,201.0,5.1,10.6,20.5,297.0
+01_157,Jollof spaghetti (Burkina Faso)*: spaghetti in vegetable sauce,Spaghetti Jollof (Burkina Faso)*: spaghetti sauce légumes,210.0,4.3,10.4,23.8,388.0
+01_165,Kaman péêlég sagabo (Burkina Faso)*: stiff porridge from white degermed maize flour,Kaman péêlég sagabo (Burkina Faso)*: bouillie épaisse de farine de maïs blanc dégermé,71.0,1.8,0.3,14.8,3.0
+01_167,Ki béinré (northern Burkina Faso)*: pearl millet porridge with water and sugar,Ki béinré (nord du Burkina Faso)*: bouillie de mil à chandelle avec eau et sucre,62.0,1.2,0.6,12.6,4.0
+01_171,Ki saagbo né zièm (Burkina Faso)*: tô (porridge) from pearl millet and potash,Ki saagbo né zièm (Burkina Faso)*: tô (bouillie) de mil à chandelle et potasse,56.0,1.1,0.5,11.4,120.0
+01_181,"Kiou gonré (Burkina Faso)*: steamed balls of fonio, cowpea leaves, groundnut flour and potash","Kiou gonré (Burkina Faso)*: boules de fornio cuites à la vapeur, feuilles de niébé, farine d´arachide et potasse",133.0,4.0,0.7,26.4,604.0
+01_170,Kiou saagbo né zièm (Burkina Faso)*: tô (porridge) from fonio with potash and maize flour,Kiou saagbo né zièm (Burkina Faso)*: tô (bouillie) de fonio avec potasse et farine de maïs,71.0,1.6,0.3,15.1,192.0
+01_178,Kôrôkôrô-dôrô (Burkina Faso)*: tô (porridge) from white sorghum and maize flour,Kôrôkôrô-dôrô (Burkina Faso)*: tô (bouillie) de sorgho blanc et farine de maïs,81.0,2.2,0.6,15.7,3.0
+01_052,"Macaroni, dry, unfortified","Macaroni, séché, non enrichi",358.0,12.3,1.5,72.2,4.0
+01_053,"Macaroni, boiled* (without salt), drained","Macaroni, bouilli* (sans sel), égoutté",124.0,4.3,0.5,24.9,1.0
+01_099,"Maize dough, fermented (kenkey), from whole white maize with salt added, cooked","Maïs, pâte, fermentée (kenkey) de maïs blanc complet, salée, cuite",139.0,3.7,2.1,25.2,270.0
+01_098,"Maize dough, fermented (tô), from decorticated white maize only, cooked","Maïs, pâte, fermentée (tô), pure, de maïs blanc décortiqué, cuite",76.0,2.1,1.0,13.4,1.0
+01_100,"Maize porridge, fermented (ogi), from decorticated white maize only, cooked","Maïs, bouillie, fermentée (ogi), pure, de maïs blanc décortiqué, cuite",52.0,1.1,1.0,8.8,15.0
+01_008,"Maize, Gougba variety, whole kernel, dry, raw (Benin), n=1","Maïs, variété Gougba, grain entier, sec, cru (Bénin), n=1",333.0,8.7,2.5,63.2,15.0
+01_009,"Maize, Gbaévè variety, whole kernel, dry, raw (Benin), n=1","Maïs, variété Gbaévè, grain entier, sec, cru (Bénin), n=1",335.0,8.1,3.0,63.2,15.0
+01_010,"Maize, DMR-ESR-W variety, whole kernel, dry, raw (Benin), n=1","Maïs, variété DMR-ESR-W, grain entier, sec, cru (Bénin), n=1",340.0,8.8,3.9,61.6,15.0
+01_011,"Maize, POZA - RICA 7843 - SR  variety, whole kernel, dry, raw (Benin), n=1","Maïs, variété POZA - RICA 7843 - SR, grain entier, sec, cru (Bénin), n=1",333.0,9.0,2.6,62.5,15.0
+01_012,"Maize, TZPB-SR variety, whole kernel, dry, raw (Benin), n=1","Maïs, variété TZPB-SR, grain entier, sec, cru (Bénin), n=1",339.0,8.8,4.5,60.1,15.0
+01_013,"Maize, Gnonli variety, whole kernel, dry, raw (Benin), n=1","Maïs, variété Gnonli, grain entier, sec, cru (Bénin), n=1",330.0,7.6,2.4,63.8,15.0
+01_014,"Maize, combined varieties, whole kernel, dry, raw (Benin)","Maïs, mélange de variétés, grain entier, sec, cru (Bénin)",335.0,8.4,3.2,62.4,15.0
+01_123,"Maize, combined varieties, whole kernel (Benin), boiled* (as part of a recipe)","Maïs, mélange de variétés, grain entier (Bénin), bouilli* (ingrédient de recette)",108.0,2.7,1.0,20.1,5.0
+01_062,"Maize, combined varieties, whole kernel (Benin), boiled* (without salt), drained","Maïs, mélange de variétés, grain entier (Bénin), bouilli* (sans sel), égoutté",108.0,2.7,1.0,20.1,4.0
+01_060,"Maize, white, grit, degermed, raw","Maïs, blanc, gruau, dégermé, cru",346.0,8.1,0.8,73.7,4.0
+01_080,"Maize, white, meal, sifted, unfortified","Maïs, blanc, farine tamisée, non enrichi",353.0,8.7,3.3,68.6,4.0
+01_091,"Maize, white, meal, sifted, fortified with vitamin A (Nigeria)","Maïs, blanc, farine tamisée, enrichi en vitamine A (Nigéria)",353.0,8.7,3.3,68.6,4.0
+01_057,"Maize, white, meal, whole grains","Maïs, blanc, farine complète",346.0,9.7,3.8,62.6,15.0
+01_058,"Maize, white, refined flour (special), unfortified","Maïs, blanc, farine raffinée (spécial), non enrichi",350.0,6.2,2.9,72.2,8.0
+01_092,"Maize, white, refined flour (special), fortified with vitamin A (Nigeria)","Maïs, blanc, farine raffinée (spécial), enrichi en vitamine A (Nigéria)",350.0,6.2,2.9,72.2,8.0
+01_081,"Maize, white, refined flour (super), unfortified","Maïs, blanc, farine raffinée (super), non enrichie",358.0,9.0,1.5,74.9,3.0
+01_093,"Maize, white, refined flour (super), fortified with vitamin A (Nigeria)","Maïs, blanc, farine raffinée (super), enrichie en vitamine A (Nigéria)",358.0,9.0,1.5,74.9,3.0
+01_004,"Maize, white, whole kernel, dry, raw","Maïs, blanc, grain entier, sec, cru",346.0,9.7,3.8,62.6,15.0
+01_104,"Maize, white, whole kernel, boiled* (as part of a recipe)","Maïs, blanc, grain entier, bouilli* (ingrédient de recette)",112.0,3.1,1.2,20.2,5.0
+01_005,"Maize, white, whole kernel, boiled* (without salt), drained","Maïs, blanc, grain entier, bouilli* (sans sel), égoutté",112.0,3.1,1.2,20.2,4.0
+01_094,"Maize, white, whole kernel, dry, decorticated, raw","Maïs, blanc, grain entier, sec, décortiqué, cru",340.0,8.1,0.7,72.9,0.0
+01_119,"Maize, white, whole kernel, decorticated, boiled* (as part of a recipe)","Maïs, blanc, grain entier, décortiqué, bouilli* (ingrédient de recette)",110.0,2.6,0.2,23.5,0.0
+01_118,"Maize, white, whole kernel, decorticated, boiled* (without salt), drained","Maïs, blanc, grain entier, décortiqué, bouilli* (sans sel), égoutté",110.0,2.6,0.2,23.5,0.0
+01_055,"Maize, yellow, grit, degermed, raw","Maïs, jaune, gruau, dégermé, cru",346.0,7.8,0.7,74.0,4.0
+01_054,"Maize, yellow, meal, whole grains, unfortified","Maïs, jaune, farine complète, non enrichie",350.0,9.4,3.7,65.2,23.0
+01_006,"Maize, yellow, whole kernel, dry, raw","Maïs, jaune, grain entier, sec, cru",350.0,9.4,3.7,65.2,23.0
+01_120,"Maize, yellow, whole kernel, boiled* (as part of a recipe)","Maïs, jaune, grain entier, bouilli* (ingrédient de recette)",113.0,3.0,1.2,21.0,7.0
+01_007,"Maize, yellow, whole kernel, boiled* (without salt), drained","Maïs, jaune, grain entier, bouilli* (sans sel), égoutté",113.0,3.0,1.2,21.0,6.0
+01_097,"Millet dough (tchobal/fura), from decorticated millet only, cooked","Mil, pâte (tchobal/fura), pure, de mil décortiqué, cuite",175.0,3.8,2.3,33.2,2.0
+01_153,"Millet dough (tô), from whole millet only, cooked","Mil, pâte (tô), pure, de mil complet, cuite",93.0,1.8,1.5,16.7,1.0
+01_102,"Millet porridge, fermented (hausa koko/ben saalga), from whole millet grains only, cooked","Mil, bouillie, fermentée (hausa koko/ben saalga), pure, de mil complet, cuite",69.0,0.9,0.8,8.9,0.0
+01_161,"Moui béinré (Burkina Faso)*: rice porridge with water, milk and sugar","Moui béinré (Burkina Faso)*: bouillie de riz avec eau, lait et sucre",75.0,1.2,0.3,16.9,6.0
+01_158,Moui naagdme (Burkina Faso)*: rice with fish and vegetables,Moui naagdme (Burkina Faso)*: riz avec poisson et légumes,157.0,3.9,5.6,22.0,220.0
+01_159,"Moui nin kalogo (Burkina Faso)*: rice with fish, onion and fermented African locust beans","Moui nin kalogo (Burkina Faso)*: riz avec poisson, oignon et néré fermenté",170.0,4.1,6.8,22.8,260.0
+01_101,"Oats, rolled, raw","Avoine, flocons, cru",377.0,11.9,7.8,59.7,12.0
+01_133,"Oats, porridge* (without salt)","Avoine, bouillie* (sans sel)",65.0,2.1,1.4,10.3,2.0
+01_018,"Pearl millet, IKMV 8201 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMV 8201, grain entier, cru (Burkina Faso), n=1",375.0,9.5,6.8,64.8,12.0
+01_019,"Pearl millet, IKMP 1 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 1, grain entier, cru (Burkina Faso), n=1",367.0,8.6,6.2,65.7,12.0
+01_020,"Pearl millet, IKMP 2 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 2, grain entier, cru (Burkina Faso), n=1",370.0,8.2,6.4,65.7,12.0
+01_021,"Pearl millet, IKMP 3 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 3, grain entier, cru (Burkina Faso), n=1",382.0,13.5,8.4,57.8,12.0
+01_022,"Pearl millet, IKMP 4 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 4, grain entier, cru (Burkina Faso), n=1",375.0,12.2,8.2,58.6,12.0
+01_023,"Pearl millet, IKMP 5 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 5, grain entier, cru (Burkina Faso), n=1",391.0,13.3,9.6,56.9,12.0
+01_024,"Pearl millet, IKMP 6 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 6, grain entier, cru (Burkina Faso), n=1",371.0,14.5,6.3,60.1,12.0
+01_025,"Pearl millet, IKMP 7 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 7, grain entier, cru (Burkina Faso), n=1",376.0,10.9,6.4,64.5,12.0
+01_026,"Pearl millet, IKMP 8 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 8, grain entier, cru (Burkina Faso), n=1",382.0,7.9,6.8,68.3,12.0
+01_027,"Pearl millet, IKMP 9 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 9, grain entier, cru (Burkina Faso), n=1",386.0,9.9,7.9,64.0,12.0
+01_028,"Pearl millet, IKMP 10 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 10, grain entier, cru (Burkina Faso), n=1",366.0,7.8,7.0,63.6,12.0
+01_029,"Pearl millet, IKMP 11 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 11, grain entier, cru (Burkina Faso), n=1",369.0,7.4,7.0,64.7,12.0
+01_030,"Pearl millet, IKMP 12 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 12, grain entier, cru (Burkina Faso), n=1",382.0,9.8,6.9,65.7,12.0
+01_031,"Pearl millet, IKMP 13 variety, whole grains, raw (Burkina Faso), n=1","Mil à chandelle, variété IKMP 13, grain entier, cru (Burkina Faso), n=1",384.0,9.5,7.1,66.2,12.0
+01_032,"Pearl millet, combined varieties, whole grains, raw (Burkina Faso)","Mil à chandelle, mélange de variétés, grains entiers, cru (Burkina Faso)",377.0,10.2,7.2,63.3,12.0
+01_132,"Pearl millet, combined varieties, whole grains (Burkina Faso), boiled* (as part of a recipe)","Mil à chandelle, mélange de variétés, grains entiers, (Burkina Faso), bouilli* (ingrédient de recette)",157.0,4.3,3.0,26.4,5.0
+01_064,"Pearl millet, combined varieties, whole grains (Burkina Faso), boiled* (without salt), drained","Mil à chandelle, mélange de variétés, grains entiers, (Burkina Faso), bouilli* (sans sel), égoutté",157.0,4.3,3.0,26.4,3.0
+01_095,"Pearl millet, decorticated, raw","Mil à chandelle, décortiqué, cru",370.0,8.3,4.8,70.8,12.0
+01_131,"Pearl millet, decorticated, boiled* (as part of a recipe)","Mil à chandelle, décortiqué, bouilli* (ingrédient de recette)",154.0,3.5,2.0,29.5,5.0
+01_130,"Pearl millet, decorticated, boiled* (without salt), drained","Mil à chandelle, décortiqué, bouilli* (sans sel), égoutté",154.0,3.5,2.0,29.5,3.0
+01_063,"Pearl millet, flour (bran removed)","Mil à chandelle, farine (sans son)",367.0,7.3,3.2,75.0,12.0
+01_017,"Pearl millet, whole grains (with bran), raw","Mil à chandelle, grain entier (avec son), cru",365.0,9.3,5.9,64.2,12.0
+01_129,"Pearl millet, whole grains, boiled* (as part of a recipe)","Mil à chandelle, grain entier, bouilli* (ingrédient de recette)",152.0,3.9,2.5,26.8,5.0
+01_033,"Pearl millet, whole grains, boiled* (without salt), drained","Mil à chandelle, grain entier, bouilli* (sans sel), égoutté",152.0,3.9,2.5,26.8,4.0
+01_175,Pigri (Burkina Faso)*: steamed pearl millet balls,Pigri (Burkina Faso)*: boules de mil à chandelle cuites à la vapeur,190.0,4.8,3.1,33.4,126.0
+01_061,"Porridge, soft, from degermed white maize grit* (without salt)","Bouillie, liquide, de gruau de maïs blanc dégermé* (sans sel)",47.0,1.1,0.1,10.1,1.0
+01_056,"Porridge, soft, from degermed yellow maize grit* (without salt)","Bouillie, liquide, de gruau de maïs jaune dégermé* (sans sel)",47.0,1.1,0.1,10.1,1.0
+01_154,"Porridge, soft, from refined (special) white maize flour fortified with vitamin A (Nigeria)* (without salt)","Bouillie, liquide, de farine de maïs blanc raffinée (spécial), enrichie en vitamine A (Nigéria)* (sans sel)",48.0,0.9,0.4,9.9,1.0
+01_112,"Porridge, soft, from refined (special) white maize flour, unfortified* (without salt)","Bouillie, liquide, de farine de maïs blanc raffinée (spécial), non enrichie* (sans sel)",48.0,0.9,0.4,9.9,1.0
+01_117,"Porridge, soft, from refined (super) white maize flour fortified with vitamin A (Nigeria)* (without salt)","Bouillie, liquide, de farine de maïs blanc raffinée (super), enrichie en vitamine A (Nigéria)* (sans sel)",49.0,1.2,0.2,10.3,0.0
+01_115,"Porridge, soft, from refined (super) white maize flour, unfortified* (without salt)","Bouillie, liquide, de farine de maïs blanc raffinée (super), non enrichie* (sans sel)",49.0,1.2,0.2,10.3,0.0
+01_110,"Porridge, soft, from sifted white maize meal fortified with vitamin A (Nigeria)* (without salt)","Bouillie, liquide, de farine de maïs blanc tamisée, enrichie en vitamine A (Nigéria)* (sans sel)",48.0,1.2,0.4,9.4,0.0
+01_108,"Porridge, soft, from sifted white maize meal, unfortified* (without salt)","Bouillie, liquide, de farine de maïs blanc tamisée, non enrichie* (sans sel)",48.0,1.2,0.4,9.4,0.0
+01_106,"Porridge, soft, from wholegrain white maize meal* (without salt)","Bouillie, liquide, de farine de maïs blanc complète* (sans sel)",48.0,1.3,0.5,8.6,2.0
+01_122,"Porridge, soft, from wholegrain yellow maize meal* (without salt)","Bouillie, liquide, de farine de maïs jaune complète* (sans sel)",48.0,1.3,0.5,8.9,3.0
+01_076,"Porridge, stiff, from degermed white maize grit* (without salt)","Bouillie, épaisse, de gruau de maïs blanc dégermé* (sans sel)",128.0,3.0,0.3,27.3,1.0
+01_075,"Porridge, stiff, from degermed yellow maize grit* (without salt)","Bouillie, épaisse, de gruau de maïs jaune dégermé* (sans sel)",128.0,2.9,0.3,27.4,1.0
+01_113,"Porridge, stiff, from refined (special) white maize flour fortified with vitamin A (Nigeria)* (without salt)","Bouillie, épaisse, de farine de maïs blanc raffinée (spécial), enrichie en vitamine A (Nigéria)* (sans sel)",130.0,2.3,1.1,26.8,3.0
+01_111,"Porridge, stiff, from refined (special) white maize flour, unfortified* (without salt)","Bouillie, épaisse, de farine de maïs blanc raffinée (spécial), non enrichie* (sans sel)",130.0,2.3,1.1,26.8,3.0
+01_116,"Porridge, stiff, from refined (super) white maize flour fortified with vitamin A (Nigeria)* (without salt)","Bouillie, épaisse, de farine de maïs blanc raffinée (super), enrichie en vitamine A (Nigéria)* (sans sel)",133.0,3.3,0.5,27.7,1.0
+01_114,"Porridge, stiff, from refined (super) white maize flour, unfortified* (without salt)","Bouillie, épaisse, de farine de maïs blanc raffinée (super), non enrichie* (sans sel)",133.0,3.3,0.5,27.7,1.0
+01_109,"Porridge, stiff, from sifted white maize meal fortified with vitamin A (Nigeria)* (without salt)","Bouillie, épaisse, de farine de maïs blanc raffinée tamisée, enrichie en vitamine A (Nigéria)* (sans sel)",131.0,3.2,1.2,25.4,1.0
+01_107,"Porridge, stiff, from sifted white maize meal, unfortified* (without salt)","Bouillie, épaisse, de farine de maïs blanc tamisée, non enrichie* (sans sel)",131.0,3.2,1.2,25.4,1.0
+01_105,"Porridge, stiff, from wholegrain white maize meal* (without salt)","Bouillie, épaisse, de farine de maïs blanc complète* (sans sel)",128.0,3.6,1.4,23.2,6.0
+01_121,"Porridge, stiff, from wholegrain yellow maize meal* (without salt)","Bouillie, épaisse, de farine de maïs jaune complète* (sans sel)",130.0,3.5,1.4,24.2,8.0
+01_150,"Porridge, tô, from degermed white maize grit* (without salt)","Bouillie, tô, de gruau de maïs blanc dégermé* (sans sel)",69.0,1.6,0.2,14.7,1.0
+01_155,"Porridge, tô, from degermed yellow maize grit* (without salt)","Bouillie, tô, de gruau de maïs jaune dégermé* (sans sel)",69.0,1.6,0.1,14.8,1.0
+01_166,"Porridge, tô, from maize and cassava flour (Burkina Faso)*","Bouillie, tô, de farine de maïs et de manioc (Burkina Faso)*",90.0,1.6,0.3,19.6,4.0
+01_147,"Porridge, tô, from refined (special) white maize flour fortified with vitamin A (Nigeria)* (without salt)","Bouillie, tô, de farine de maïs blanc raffinée (spécial), enrichie en vitamine A (Nigéria)* (sans sel)",70.0,1.2,0.6,14.4,2.0
+01_146,"Porridge, tô, from refined (special) white maize flour, unfortified* (without salt)","Bouillie, tô, de farine de maïs blanc raffinée (spécial), non enrichie* (sans sel)",70.0,1.2,0.6,14.4,2.0
+01_149,"Porridge, tô, from refined (super) white maize flour fortified with vitamin A (Nigeria)* (without salt)","Bouillie, tô, de farine de maïs blanc raffinée (super), enrichie en vitamine A (Nigéria)* (sans sel)",72.0,1.8,0.3,15.0,1.0
+01_148,"Porridge, tô, from refined (super) white maize flour, unfortified* (without salt)","Bouillie, tô, de farine de maïs blanc raffinée (super), non enrichie* (sans sel)",72.0,1.8,0.3,15.0,1.0
+01_144,"Porridge, tô, from sifted white maize meal fortified with vitamin A (Nigeria)* (without salt)","Bouillie, tô, de farine de maïs blanc tamisée, enrichie en vitamine A (Nigéria)* (sans sel)",71.0,1.7,0.7,13.7,1.0
+01_145,"Porridge, tô, from sifted white maize meal, unfortified* (without salt)","Bouillie, tô, de farine de maïs blanc tamisée, non enrichie* (sans sel)",71.0,1.7,0.7,13.7,1.0
+01_143,"Porridge, tô, from wholegrain white maize meal* (without salt)","Bouillie, tô, de farine de maïs blanc complète* (sans sel)",69.0,2.0,0.8,12.5,3.0
+01_151,"Porridge, tô, from wholegrain yellow maize meal* (without salt)","Bouillie, tô, de farine de maïs jaune complète* (sans sel)",70.0,1.9,0.7,13.0,5.0
+01_163,"Rice cakes, fried in unfortified vegetable oil*","Galettes de riz, frites dans l’huile végétale non enrichie*",303.0,3.2,7.6,54.8,1.0
+01_079,"Rice flour, white","Riz, farine, blanche",352.0,6.0,1.4,77.7,0.0
+01_162,Rice with fish and vegetable curry (Burkina Faso)*,Riz au curry avec poisson et légumes (Burkina Faso)*,173.0,3.8,6.2,24.8,318.0
+01_034,"Rice, brown, raw","Riz, brun, cru",345.0,7.7,1.6,72.9,4.0
+01_152,"Rice, brown, boiled* (as part of a recipe)","Riz, brun, bouilli* (ingrédient de recette)",138.0,3.1,0.6,29.1,1.0
+01_035,"Rice, brown, boiled* (without salt), drained","Riz, brun, bouilli* (sans sel), égoutté",138.0,3.1,0.6,29.1,1.0
+01_065,"Rice, red native, hulled, raw","Riz, rouge, indigène, décortiqué, cru",352.0,7.4,2.2,73.6,2.0
+01_136,"Rice, red native, hulled, boiled* (as part of a recipe)","Riz, rouge, indigène, décortiqué, bouilli* (ingrédient de recette)",141.0,3.0,0.9,29.4,1.0
+01_066,"Rice, red native, hulled, boiled* (without salt), drained","Riz, rouge, indigène, décortiqué, bouilli* (sans sel), égoutté",141.0,3.0,0.9,29.4,1.0
+01_067,"Rice, red native, milled, raw","Riz, rouge, indigène, blanchi, cru",349.0,6.3,0.3,78.8,2.0
+01_137,"Rice, red native, milled, boiled* (as part of a recipe)","Riz, rouge, indigène, blanchi, bouilli* (ingrédient de recette)",117.0,2.1,0.1,26.4,1.0
+01_068,"Rice, red native, milled, boiled* (without salt), drained","Riz, rouge, indigène, blanchi, bouilli* (sans sel), égoutté",117.0,2.1,0.1,26.4,0.0
+01_036,"Rice, white, polished, raw","Riz, blanc, poli, cru",351.0,6.8,0.6,78.6,6.0
+01_134,"Rice, white, polished, boiled* (as part of a recipe)","Riz, blanc, poli, bouilli* (ingrédient de recette)",118.0,2.3,0.2,26.4,2.0
+01_069,"Rice, white, polished, boiled* (without salt), drained","Riz, blanc, poli, bouilli* (sans sel), égoutté",118.0,2.3,0.2,26.4,1.0
+01_037,"Rice, white, raw","Riz, blanc, cru",344.0,7.0,0.6,75.9,3.0
+01_135,"Rice, white, boiled* (as part of a recipe)","Riz, blanc, bouilli* (ingrédient de recette)",115.0,2.3,0.2,25.5,1.0
+01_038,"Rice, white, boiled* (without salt), drained","Riz, blanc, bouilli* (sans sel), égoutté",115.0,2.3,0.2,25.5,1.0
+01_072,"Sorghum, flour, degermed","Sorgho, farine, dégermé",351.0,10.4,1.7,71.2,1.0
+01_039,"Sorghum, whole grains, raw","Sorgho, grains entiers, cru",345.0,11.5,3.5,61.1,9.0
+01_138,"Sorghum, whole grains, boiled* (as part of a recipe)","Sorgho, grains entiers, bouilli* (ingrédient de recette)",144.0,4.8,1.5,25.5,4.0
+01_042,"Sorghum, whole grains, boiled* (without salt), drained","Sorgho, grains entiers, bouilli* (sans sel), égoutté",144.0,4.8,1.5,25.5,3.0
+01_041,"Sorghum, whole grains, red, raw","Sorgho, grains entiers, rouge, cru",344.0,10.1,3.6,61.9,9.0
+01_139,"Sorghum, whole grains, red, boiled* (as part of a recipe)","Sorgho, grains entiers, rouge, bouilli* (ingrédient de recette)",143.0,4.2,1.5,25.8,4.0
+01_070,"Sorghum, whole grains, red, boiled* (without salt), drained","Sorgho, grains entiers, rouge, bouilli* (sans sel), égoutté",143.0,4.2,1.5,25.8,3.0
+01_040,"Sorghum, whole grains, white, raw","Sorgho, grains entiers, blanc, cru",344.0,10.1,3.4,62.4,6.0
+01_140,"Sorghum, whole grains, white, boiled* (as part of a recipe)","Sorgho, grains entiers, blanc, bouilli* (ingrédient de recette)",144.0,4.2,1.4,26.0,3.0
+01_071,"Sorghum, whole grains, white, boiled* (without salt), drained","Sorgho, grains entiers, blanc, bouilli* (sans sel), égoutté",144.0,4.2,1.4,26.0,2.0
+01_184,"Teff, whole grains, raw","Teff, grains entiers, cru",351.0,13.3,2.4,65.1,12.0
+01_186,"Teff, whole grains, boiled* (as part of a recipe)","Teff, grains entiers, bouilli* (ingrédient de recette)",197.0,7.5,1.3,36.6,7.0
+01_185,"Teff, whole grains, boiled* (without salt), drained","Teff, grains entiers, bouilli* (sans sel), égoutté",197.0,7.5,1.3,36.6,5.0
+01_183,"Weet-Bix (breakfast cereal), unfortified","Weet-Bix (céréale de petit déjeuner), non enrichi",354.0,6.3,1.4,73.6,290.0
+01_169,Wèsln né souma (Burkina Faso)*: couscous from yellow maize with bambara groundnuts,Wèsln né souma (Burkina Faso)*: couscous de maïs jaune avec pois bambara,116.0,5.2,1.3,17.4,100.0
+01_043,"Wheat flour, white, unfortified","Farine de blé, blanche, non enrichie",352.0,10.4,1.8,72.2,4.0
+01_083,"Wheat flour, white, fortified with iron, zinc, folic acid and vitamins B1, B2, B3, B6, B12 (Benin)","Farine de blé, blanche, enrichie en fer, zinc, acide folique et vitamines B1, B2, B3, B6, B12 (Bénin)",352.0,10.4,1.8,72.2,4.0
+01_084,"Wheat flour, white, fortified with iron, zinc, folic acid and vitamin B12 (Burkina Faso, Togo)","Farine de blé, blanche, enrichie en fer, zinc, acide folique et vitamine B12 (Burkina Faso, Togo)",352.0,10.4,1.8,72.2,4.0
+01_085,"Wheat flour, white, fortified with iron and folic acid (Cabo Verde)","Farine de blé, blanche, enrichie en fer et acide folique (Cabo Verde)",352.0,10.4,1.8,72.2,4.0
+01_087,"Wheat flour, white, fortified with iron, zinc, folic acid and vitamins A, B1, B2, B3, B12 (Ghana, Sierra Leone)","Farine de blé, blanche, enrichie en fer, zinc, acide folique et vitamines A, B1, B2, B3, B12 (Ghana, Sierra Leone)",352.0,10.4,1.8,72.2,4.0
+01_090,"Wheat flour, white, fortified with iron, zinc, folic acid and vitamins B1, B2, B3, B12 (Guinea)","Farine de blé, blanche, enrichie en fer, zinc, acide folique et vitamines B1, B2, B3, B12 (Guinée)",352.0,10.4,1.8,72.2,4.0
+01_086,"Wheat flour, white, fortified with iron, zinc, folic acid and vitamins B1, B2, B3, B12 (Côte d’Ivoire, Mali, Niger, Senegal)","Farine de blé, blanche, enrichie en fer, zinc, acide folique et vitamines B1, B2, B3, B12 (Côte d’Ivoire, Mali, Niger, Sénégal)",352.0,10.4,1.8,72.2,4.0
+01_088,"Wheat flour, white, fortified with iron, zinc, folic acid and vitamins B1, B2, B3, B12 (Liberia)","Farine de blé, blanche, enrichie en fer, zinc, acide folique et vitamines B1, B2, B3, B12 (Libéria)",352.0,10.4,1.8,72.2,4.0
+01_089,"Wheat flour, white, fortified with iron and vitamins A, B1, B2, B3 (Nigeria)","Farine de blé, blanche, enrichie en fer, et vitamines A, B1, B2, B3 (Nigéria)",352.0,10.4,1.8,72.2,4.0
+01_082,"Wheat flour, wholemeal, unfortified","Farine de blé, complète, non enrichie",354.0,12.0,2.2,65.3,5.0
+01_073,"Wheat, bran, raw","Blé, son, cru",279.0,15.1,4.6,23.3,4.0
+01_074,"Wheat, whole grains, raw","Blé, grains entiers, cru",329.0,12.0,2.2,59.1,5.0
+01_142,"Wheat, whole grains, boiled* (as part of a recipe)","Blé, grains entiers, bouilli* (ingrédient de recette)",185.0,6.7,1.3,33.2,3.0
+01_141,"Wheat, whole grains, boiled* (without salt), drained","Blé, grains entiers, bouilli* (sans sel), égoutté",185.0,6.7,1.3,33.2,2.0
+02_093,Banakou né barâand kanss saagbo (Burkina Faso)*: foutou of cassava and unripe plantain,Banakou né barâand kanss saagbo (Burkina Faso)*: foutou de manioc et banane plantain verte,116.0,1.2,0.5,25.0,13.0
+02_091,Banakou né barâand moomd saagbo (Burkina Faso)*: foutou of cassava and ripe plantain,Banakou né barâand moomd saagbo (Burkina Faso)*: foutou de manioc et banane plantain mûre,115.0,1.1,0.2,25.9,4.0
+02_092,Banakou né kou saagbo (Burkina Faso)*: foutou of yam and cassava,Banakou né kou saagbo (Burkina Faso)*: foutou d’igname et manioc,102.0,1.5,0.3,21.5,6.0
+02_021,"Cassava, sweet, tuber, white flesh, dried","Manioc, doux, tubercule, chair blanche, séché",348.0,1.3,0.5,80.0,5.0
+02_041,"Cassava, fermented paste from white cassava flour (wet fufu)","Manioc, pâte fermentée de farine blanche de manioc (foufou humide)",165.0,1.0,0.4,38.7,4.0
+02_038,"Cassava, flour, from fermented white cassava (alibo/elubo/lafun)","Manioc, farine, de manioc blanc fermenté (alibo/elubo/lafun)",344.0,1.5,0.6,81.2,1.0
+02_040,"Cassava, flour, from fermented white cassava (dry fufu)","Manioc, farine, de manioc blanc fermenté (foufou sec)",346.0,2.1,0.7,80.9,7.0
+02_004,"Cassava, flour, from white cassava","Manioc, farine, de manioc blanc",341.0,1.6,0.7,79.9,3.0
+02_039,"Cassava, grated, from fermented white cassava, toasted without oil (white gari)","Manioc, rapé, de manioc blanc fermenté, grillé sans huile (gari blanc)",351.0,1.2,0.5,82.9,2.0
+02_001,"Cassava, tuber, white flesh, raw","Manioc, tubercule, chair blanche, cru",142.0,1.3,0.3,31.6,2.0
+02_051,"Cassava, tuber, white flesh, boiled* (as part of a recipe)","Manioc, tubercule, chair blanche, bouilli* (ingrédient de recette)",121.0,1.1,0.3,27.0,2.0
+02_003,"Cassava, tuber, white flesh, boiled* (without salt), drained","Manioc, tubercule, chair blanche, bouilli* (sans sel), égoutté",121.0,1.1,0.3,27.0,1.0
+02_002,"Cassava, tuber, white flesh, dried","Manioc, tubercule, chair blanche, séché",344.0,1.7,0.9,79.3,5.0
+02_037,"Cassava, tuber, yellow flesh, raw","Manioc, tubercule, chair jaune, cru",77.0,0.7,0.2,16.6,1.0
+02_053,"Cassava, tuber, yellow flesh, boiled* (as part of a recipe)","Manioc, tubercule, chair jaune, bouilli* (ingrédient de recette)",66.0,0.6,0.1,14.2,1.0
+02_052,"Cassava, tuber, yellow flesh, boiled* (without salt), drained","Manioc, tubercule, chair jaune, bouilli* (sans sel), égoutté",66.0,0.6,0.1,14.2,1.0
+02_005,"Cocoyam, tuber, white, raw","Chou caraïbe, tubercule, blanc, cru",136.0,3.3,0.3,28.9,9.0
+02_054,"Cocoyam, tuber, white, boiled* (as part of a recipe)","Chou caraïbe, tubercule, blanc, bouilli* (ingrédient de recette)",143.0,3.4,0.3,30.4,10.0
+02_006,"Cocoyam, tuber, white, boiled* (without salt), drained","Chou caraïbe, tubercule, blanc, bouilli* (sans sel), égoutté",143.0,3.4,0.3,30.4,8.0
+02_043,"Cocoyam, tuber, yellow, raw","Chou caraïbe, tubercule, jaune, cru",112.0,3.3,0.2,23.2,9.0
+02_056,"Cocoyam, tuber, yellow, boiled* (as part of a recipe)","Chou caraïbe, tubercule, jaune, bouilli* (ingrédient de recette)",118.0,3.4,0.2,24.4,10.0
+02_055,"Cocoyam, tuber, yellow, boiled* (without salt), drained","Chou caraïbe, tubercule, jaune, bouilli* (sans sel), égoutté",118.0,3.4,0.2,24.4,8.0
+02_086,Cou nin zindo (Burkina Faso)*: yam and vegetable stew,Cou nin zindo (Burkina Faso)*: ragoût d’igname et légumes,149.0,1.8,7.6,16.5,308.0
+02_081,"French fries, deep fried in unfortified vegetable oil*","Pommes de terre, frites dans l’huile végétale non enrichie*",241.0,2.6,11.5,30.3,182.0
+02_089,Fufu of ripe and unripe plantain with red palm oil (Burkina Faso)*,Foufou de bananes plantain mûres et vertes avec huile de palme rouge (Burkina Faso)*,323.0,1.3,23.0,26.0,278.0
+02_088,Fufu of ripe plantain with red palm oil (Burkina Faso)*,Foufou de bananes plantain mûres avec huile de palme rouge (Burkina Faso)*,181.0,1.2,6.4,28.7,494.0
+02_096,Fufu of unripe plantain with red palm oil (Burkina Faso)*,Foufou de bananes plantain vertes avec huile de palme rouge (Burkina Faso)*,185.0,1.5,7.5,25.2,540.0
+02_099,Fufu of unripe plantain with shea butter (Burkina Faso)*,Foufou de bananes plantain vertes avec beurre de karité (Burkina Faso)*,188.0,1.3,9.3,22.6,467.0
+02_094,Kou né barâand kanss saagbo (Burkina Faso)*: foutou of yam and unripe plantain,Kou né barâand kanss saagbo (Burkina Faso)*: foutou d´igname et banane plantain verte,102.0,1.6,0.4,20.6,13.0
+02_098,Kou né barâand moomd saagbo (Burkina Faso)*: foutou of yam with ripe plantain,Kou né barâand moomd saagbo (Burkina Faso)*: foutou d´igname avec banane plantain mûre,115.0,1.9,0.3,23.9,7.0
+02_090,Kou né kamoag fufu (Burkina Faso)*: fufu of yam with shea butter,Kou né kamoag foufou (Burkina Faso)*: foufou d´igname au beurre de karité,152.0,1.6,7.3,18.0,169.0
+02_087,Kou né téhi kaam fufu (Burkina Faso)*: fufu of yam and red palm oil,Kou né téhi kaam foufou (Burkina Faso)*: foufou d´igname avec huile de palme rouge,185.0,2.0,9.0,21.8,132.0
+02_097,Kou saagbo (Burkina Faso)*: foutou of yam,Kou saagbo (Burkina Faso)*: foutou d’igname,97.0,1.8,0.3,19.6,156.0
+02_084,"Plantain, deep fried in unfortified vegetable oil*","Banane plantain, frite dans l’huile végétale non enrichie*",375.0,2.1,16.9,51.7,325.0
+02_042,"Plantain, ripe, ivory flesh, raw","Banane plantain, mûre, chair ivoire, crue",143.0,1.4,0.2,32.9,4.0
+02_058,"Plantain, ripe, ivory flesh, boiled* (as part of a recipe)","Banane plantain, mûre, chair ivoire, bouillie* (ingrédient de recette)",137.0,1.3,0.2,31.3,4.0
+02_057,"Plantain, ripe, ivory flesh, boiled* (without salt), drained","Banane plantain, mûre, chair ivoire, bouillie* (sans sel), égouttée",151.0,1.4,0.2,34.6,3.0
+02_044,"Plantain, ripe, orange flesh, raw","Banane plantain, mûre, chair orange, crue",134.0,1.2,0.3,30.4,4.0
+02_060,"Plantain, ripe, orange flesh, boiled* (as part of a recipe)","Banane plantain, mûre, chair orange, bouillie* (ingrédient de recette)",127.0,1.1,0.3,28.9,4.0
+02_059,"Plantain, ripe, orange flesh, boiled* (without salt), drained","Banane plantain, mûre, chair orange, bouillie* (sans sel), égouttée",127.0,1.1,0.3,28.9,3.0
+02_046,"Plantain, unripe, ivory flesh, raw","Banane plantain, verte, chair ivoire, crue",158.0,1.9,1.1,31.9,34.0
+02_065,"Plantain, unripe, ivory flesh, boiled* (as part of a recipe)","Banane plantain, verte, chair ivoire, bouillie* (ingrédient de recette)",151.0,1.8,1.1,30.3,32.0
+02_064,"Plantain, unripe, ivory flesh, boiled* (without salt), drained","Banane plantain, verte, chair ivoire, bouillie* (sans sel), égouttée",151.0,1.8,1.1,30.3,26.0
+02_047,"Plantain, unripe, orange flesh, raw","Banane plantain, verte, chair orange, crue",158.0,1.9,1.1,31.9,34.0
+02_067,"Plantain, unripe, orange flesh, boiled* (as part of a recipe)","Banane plantain, verte, chair orange, bouillie* (ingrédient de recette)",151.0,1.8,1.1,30.3,32.0
+02_066,"Plantain, unripe, orange flesh, boiled* (without salt), drained","Banane plantain, verte, chair orange, bouillie* (sans sel), égouttée",151.0,1.8,1.1,30.3,26.0
+02_045,"Plantain, unripe, pale flesh, raw","Banane plantain, verte, chair claire, crue",158.0,1.9,1.1,31.9,34.0
+02_063,"Plantain, unripe, pale flesh, boiled* (as part of a recipe)","Banane plantain, verte, chair claire, bouillie* (ingrédient de recette)",151.0,1.8,1.1,30.3,32.0
+02_062,"Plantain, unripe, pale flesh, boiled* (without salt), drained","Banane plantain, verte, chair claire, bouillie* (sans sel), égouttée",151.0,1.8,1.1,30.3,26.0
+02_048,"Plantain, unripe, pale flesh, flour","Banane plantain, verte, chair claire, farine",329.0,4.2,3.0,64.7,68.0
+02_095,"Porridge, tô, from gari and tomato paste (Burkina Faso)*","Bouillie, tô, de gari et concentré de tomate (Burkina Faso)*",134.0,0.7,0.2,31.3,240.0
+02_085,Potato nin zindo (Burkina Faso)*: potato and vegetable stew,Pomme de terre nin zindo (Burkina Faso)*: ragoût de pommes de terre et légumes,186.0,1.5,13.7,13.5,347.0
+02_009,"Potato, raw","Pomme de terre, crue",79.0,1.5,0.1,17.4,8.0
+02_068,"Potato, boiled* (as part of a recipe)","Pomme de terre, bouillie* (ingrédient de recette)",79.0,1.5,0.1,17.4,8.0
+02_010,"Potato, boiled* (without salt), drained","Pomme de terre, bouillie* (sans sel), égouttée",79.0,1.5,0.1,17.4,6.0
+02_011,"Sweet potato, deep yellow flesh, raw","Patate douce, chair jaune foncé, crue",116.0,1.6,0.2,25.5,31.0
+02_070,"Sweet potato, deep yellow flesh, boiled* (as part of a recipe)","Patate douce, chair jaune foncé, bouillie* (ingrédient de recette)",116.0,1.6,0.2,25.5,31.0
+02_012,"Sweet potato, deep yellow flesh, boiled* (without salt), drained","Patate douce, chair jaune foncé, bouillie* (sans sel), égouttée",116.0,1.6,0.2,25.5,25.0
+02_049,"Sweet potato, orange flesh, raw","Patate douce, chair orange, crue",91.0,1.0,0.2,19.8,20.0
+02_073,"Sweet potato, orange flesh, boiled* (as part of a recipe)","Patate douce, chair orange, bouillie* (ingrédient de recette)",91.0,1.0,0.2,19.8,20.0
+02_072,"Sweet potato, orange flesh, boiled* (without salt), drained","Patate douce, chair orange, bouillie* (sans sel), égouttée",91.0,1.0,0.2,19.8,16.0
+02_022,"Sweet potato, pale flesh (white/cream/pale yellow), raw","Patate douce, chair claire (blanche/crème/jaune pâle), crue",96.0,1.5,0.2,20.5,31.0
+02_069,"Sweet potato, pale flesh (white/cream/pale yellow), boiled* (as part of a recipe)","Patate douce, chair claire (blanche/crème/jaune pâle), bouillie* (ingrédient de recette)",96.0,1.5,0.2,20.5,31.0
+02_023,"Sweet potato, pale flesh (white/cream/pale yellow), boiled* (without salt), drained","Patate douce, chair claire (blanche/crème/jaune pâle), bouillie* (sans sel), égouttée",96.0,1.5,0.2,20.5,25.0
+02_013,"Sweet potato, yellow flesh, raw","Patate douce, chair jaune, crue",116.0,1.5,0.2,25.5,20.0
+02_071,"Sweet potato, yellow flesh, boiled* (as part of a recipe)","Patate douce, chair jaune, bouillie* (ingrédient de recette)",116.0,1.5,0.2,25.5,20.0
+02_014,"Sweet potato, yellow flesh, boiled* (without salt), drained","Patate douce, chair jaune, bouillie* (sans sel), égouttée",116.0,1.5,0.2,25.5,16.0
+02_083,"Sweet potato, deep fried in unfortified vegetable oil*","Patate douce, frite dans de l’huile végétale non enrichie*",324.0,3.1,9.9,52.6,295.0
+02_015,"Taro, tuber, white, raw","Taro, tubercule, blanc, cru",127.0,2.7,0.8,25.2,17.0
+02_074,"Taro, tuber, white, boiled* (as part of a recipe)","Taro, tubercule, blanc, bouilli* (ingrédient de recette)",125.0,2.6,0.8,24.9,16.0
+02_016,"Taro, tuber, white, boiled* (without salt), drained","Taro, tubercule, blanc, bouilli* (sans sel), égoutté",125.0,2.6,0.8,24.9,13.0
+02_026,"Tiger nut, tuber, dried","Souchet comestible (« noix tigrée »), tubercule, séché",467.0,4.8,25.6,48.5,26.0
+02_024,"Tiger nut, tuber, raw","Souchet comestible (« noix tigrée »), tubercule, cru",344.0,4.4,20.2,32.1,11.0
+02_075,"Tiger nut, tuber, boiled* (as part of a recipe)","Souchet comestible (« noix tigrée »), tubercule, bouilli* (ingrédient de recette)",362.0,4.6,21.2,33.8,12.0
+02_025,"Tiger nut, tuber, boiled* (without salt), drained","Souchet comestible (« noix tigrée »), tubercule, bouilli* (sans sel), égoutté",362.0,4.6,21.2,33.8,9.0
+02_017,"Water yam, tuber, raw","Grande igname, tubercule, crue",117.0,2.4,0.1,21.6,6.0
+02_076,"Water yam, tuber, boiled* (as part of a recipe)","Grande igname, tubercule, bouillie* (ingrédient de recette)",123.0,2.5,0.1,22.7,6.0
+02_018,"Water yam, tuber, boiled* (without salt), drained","Grande igname, tubercule, bouillie* (sans sel), égouttée",123.0,2.5,0.1,22.7,5.0
+02_082,"Yam, tuber, deep fried in unfortified vegetable oil*","Igname, tubercule, frit dans l’huile végétale non enrichie*",262.0,3.6,8.0,39.6,162.0
+02_036,"Yam, tuber, flour, from white yam tuber","Igname, tubercule, blanc, farine",327.0,6.8,0.6,66.3,19.0
+02_019,"Yam, tuber, pale, raw","Igname, tubercule, chair pâle, cru",126.0,2.3,0.4,25.5,7.0
+02_077,"Yam, tuber, pale, boiled* (as part of a recipe)","Igname, tubercule, chair pâle, bouilli* (ingrédient de recette)",132.0,2.4,0.4,26.8,8.0
+02_020,"Yam, tuber, pale, boiled* (without salt), drained","Igname, tubercule, chair pâle, bouilli* (sans sel), égoutté",132.0,2.4,0.4,26.8,6.0
+02_027,"Yam, tuber, Isu akoko, raw (Nigeria), n=1","Igname, tubercule, Isu akoko, cru (Nigéria), n=1",139.0,2.0,0.2,29.3,5.0
+02_028,"Yam, tuber, Isu oko, raw (Nigeria), n=1","Igname, tubercule, Isu oko, cru (Nigéria), n=1",114.0,1.6,0.1,24.1,5.0
+02_029,"Yam, tuber, Amara, raw (Nigeria), n=1","Igname, tubercule, Amara, cru (Nigéria), n=1",145.0,1.9,0.2,30.7,4.0
+02_030,"Yam, tuber, Chika, kundu, raw (Nigeria), n=1","Igname, tubercule, Chika, kundu, cru (Nigéria), n=1",126.0,1.6,0.1,27.0,6.0
+02_033,"Yam, tuber, Giwa, raw (Nigeria), n=1","Igname, tubercule, Giwa, cru (Nigéria), n=1",133.0,1.9,0.2,28.1,5.0
+02_031,"Yam, tuber, Isu Abuja, raw (Nigeria), n=1","Igname, tubercule, Isu Abuja, cru (Nigéria), n=1",107.0,1.6,0.1,22.5,3.0
+02_032,"Yam, tuber, Pepa, raw (Nigeria), n=1","Igname, tubercule, Pepa, cru (Nigéria), n=1",138.0,2.0,0.2,29.0,5.0
+02_034,"Yam, tuber, combined cultivars, raw (Nigeria)","Igname, tubercule, cultivars combinés, cru (Nigéria)",129.0,1.8,0.1,27.2,5.0
+02_078,"Yam, tuber, combined cultivars (Nigeria), boiled* (as part of a recipe)","Igname, tubercule, cultivars combinés (Nigéria), bouilli* (ingrédient de recette)",136.0,1.9,0.2,28.7,5.0
+02_035,"Yam, tuber, combined cultivars (Nigeria), boiled* (without salt), drained","Igname, tubercule, cultivars combinés (Nigéria), bouilli* (sans sel), égoutté",136.0,1.9,0.2,28.7,4.0
+02_050,"Yam, tuber, three-leaved, pale, raw","Igname, tubercule, à trois feuilles, chair pâle, cru",114.0,1.8,0.2,23.8,5.0
+02_080,"Yam, tuber, three-leaved, pale, boiled* (as part of a recipe)","Igname, tubercule, à trois feuilles, chair pâle, bouilli* (ingrédient de recette)",120.0,1.9,0.2,25.1,5.0
+02_079,"Yam, tuber, three-leaved, pale, boiled* (without salt, drained)","Igname, tubercule, à trois feuilles, chair pâle, bouilli* (sans sel), égoutté",120.0,1.9,0.2,25.1,4.0
+03_009,"African locust bean, dry, raw","Néré, sec, cru",406.0,29.0,13.8,37.8,49.0
+03_042,"African locust bean, fermented (soumbala)","Néré, fermenté (soumbala)",375.0,33.1,15.6,18.4,45.0
+03_063,"African locust bean, not soaked, boiled* (without salt), drained","Néré, non trempé, bouilli* (sans sel), égoutté",155.0,11.1,5.3,14.5,14.0
+03_064,"African locust bean, not soaked, boiled* (without salt), with cooking liquid","Néré, non trempé, bouilli* (sans sel), avec liquide de cuisson",98.0,7.0,3.3,9.2,12.0
+03_065,"African locust bean, soaked, boiled in different water* (without salt), drained","Néré, trempé, bouilli dans différentes eaux* (sans sel), égoutté",176.0,12.6,6.0,16.4,16.0
+03_066,"African locust bean, soaked, boiled in different water* (without salt), with cooking liquid","Néré, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",127.0,9.1,4.3,11.8,15.0
+03_010,"African yam bean, dry, raw","Haricot igname, sec, cru",316.0,20.5,1.5,46.7,2.0
+03_011,"African yam bean, not soaked, boiled* (without salt), drained","Haricot igname, non trempé, bouilli* (sans sel), égoutté",121.0,7.9,0.6,17.8,1.0
+03_060,"African yam bean, not soaked, boiled* (without salt), with cooking liquid","Haricot igname, non trempé, bouilli* (sans sel), avec liquide de cuisson",76.0,5.0,0.4,11.3,1.0
+03_061,"African yam bean, soaked, boiled in different water* (without salt), drained","Haricot igname, trempé, bouilli dans différentes eaux* (sans sel), égoutté",137.0,9.0,0.7,20.2,1.0
+03_062,"African yam bean, soaked, boiled in different water* (without salt), with cooking liquid","Haricot igname, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",99.0,6.5,0.5,14.5,1.0
+03_044,"Afzelia africana, shelled, roasted, milled","Afzelia africana, égréné, grillé, moulu",392.0,18.0,25.1,7.5,0.0
+03_001,"Bambara groundnut, dry, raw","Pois bambara, sec, cru",323.0,19.5,5.9,33.6,2.0
+03_012,"Bambara groundnut, not soaked, boiled* (without salt), drained","Pois bambara, non trempé, bouilli* (sans sel), égoutté",161.0,9.8,2.9,16.8,1.0
+03_068,"Bambara groundnut, soaked, boiled in different water* (without salt), drained","Pois bambara, trempé, bouilli dans différentes eaux* (sans sel), égoutté",161.0,9.8,2.9,16.8,1.0
+03_013,"Bambara groundnut, black white-eye, dry, raw (Ghana), n=1","Pois bambara, œil noir et blanc, sec, cru (Ghana), n=1",312.0,24.5,4.3,29.5,2.0
+03_014,"Bambara groundnut, brown white-eye, dry, raw (Ghana), n=1","Pois bambara, œil brun et blanc, sec, cru (Ghana), n=1",318.0,20.6,5.8,31.4,2.0
+03_015,"Bambara groundnut, cream black-eye, dry, raw (Ghana), n=1","Pois bambara, œil crème et noir, sec, cru (Ghana), n=1",325.0,17.6,6.1,35.4,2.0
+03_016,"Bambara groundnut, cream pink-eye, dry, raw (Ghana), n=1","Pois bambara, œil crème et rose, sec, cru (Ghana), n=1",317.0,23.2,4.7,30.8,2.0
+03_017,"Bambara groundnut, maroon white-eye, dry, raw (Ghana), n=1","Pois bambara, œil bordeaux et blanc, sec, cru (Ghana), n=1",321.0,18.1,6.3,33.4,2.0
+03_018,"Bambara groundnut, combined varieties, dry, raw (Ghana)","Pois bambara, mélange de variétés, sec, cru (Ghana)",319.0,20.8,5.5,32.1,2.0
+03_019,"Bambara groundnut, combined varieties (Ghana), not soaked, boiled* (without salt), drained","Pois bambara, mélange de variétés (Ghana), non trempé, bouilli* (sans sel), égoutté",159.0,10.4,2.7,16.0,1.0
+03_071,"Bambara groundnut, combined varieties (Ghana), soaked, boiled in different water* (without salt), drained","Pois bambara, mélange de variétés (Ghana), trempé, bouilli dans différentes eaux* (sans sel), égoutté",159.0,10.4,2.7,16.0,1.0
+03_002,"Bambara groundnut, red, dry, raw","Pois bambara, rouge, sec, cru",317.0,18.4,6.0,30.4,2.0
+03_020,"Bambara groundnut, red, not soaked, boiled* (without salt), drained","Pois bambara, rouge, non trempé, bouilli* (sans sel), égoutté",158.0,9.2,3.0,15.2,1.0
+03_074,"Bambara groundnut, red, soaked, boiled in different water* (without salt), drained","Pois bambara, rouge, trempé, bouilli dans différentes eaux* (sans sel), égoutté",158.0,9.2,3.0,15.2,1.0
+03_003,"Bambara groundnut, white, dry, raw","Pois bambara, blanc, sec, cru",335.0,20.0,6.5,35.7,2.0
+03_021,"Bambara groundnut, white, not soaked, boiled* (without salt), drained","Pois bambara, blanc, non trempé, bouilli* (sans sel), égoutté",167.0,10.0,3.3,17.9,1.0
+03_077,"Bambara groundnut, white, soaked, boiled in different water* (without salt), drained","Pois bambara, blanc, trempé, bouilli dans différentes eaux* (sans sel), égoutté",167.0,10.0,3.3,17.9,1.0
+03_022,"Bean, white, dry, raw","Haricot blanc, sec, cru",320.0,21.3,2.3,44.2,33.0
+03_023,"Bean, white, not soaked, boiled* (without salt), drained","Haricot blanc, non trempé, bouilli* (sans sel), égoutté",123.0,8.2,0.9,17.0,9.0
+03_079,"Bean, white, not soaked, boiled* (without salt), with cooking liquid","Haricot blanc, non trempé, bouilli* (sans sel), avec liquide de cuisson",74.0,4.9,0.5,10.2,8.0
+03_081,"Bean, white, soaked, boiled in different water* (without salt), drained","Haricot blanc, trempé, bouilli dans différentes eaux* (sans sel), égoutté",123.0,8.2,0.9,17.0,9.0
+03_082,"Bean, white, soaked, boiled in different water* (without salt), with cooking liquid","Haricot blanc, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",74.0,4.9,0.5,10.2,8.0
+03_144,"Beng rougougdga (Burkina Faso)*: cowpeas and vegetables, boiled","Beng rougougdga (Burkina Faso)*: niébé et légumes, bouilli",177.0,7.2,8.2,16.7,182.0
+03_148,Beng rougougdga né ki wesla (Burkina Faso)*: cowpeas with pearl millet couscous,Beng rougougdga né ki wesla (Burkina Faso)*: niébé avec couscous de mil à chandelle,177.0,7.2,3.1,28.0,236.0
+03_149,"Beng rougougdga né kmaan (Burkina Faso)*: cowpeas and degermed white maize, boiled","Beng rougougdga né kmaan (Burkina Faso)*: niébé et maïs blanc dégermé, bouilli",139.0,6.5,0.5,25.2,167.0
+03_150,"Beng rougougdga né kui wesla (Burkina Faso)*: cowpeas and fonio, boiled","Beng rougougdga né kui wesla (Burkina Faso)*: niébé et fonio, bouilli",207.0,8.2,5.7,28.6,505.0
+03_151,Beng saagbo (Burkina Faso)*: tô (porridge) from cowpeas with maize flour and potash,Beng saagbo (Burkina Faso)*: tô (bouillie) de niébé avec farine de maïs et potasse,163.0,6.7,6.2,18.3,217.0
+03_154,Boussan touba (Burkina Faso)*: fried cowpea pancakes,Boussan touba (Burkina Faso)*: crêpes de niébé frites,253.0,12.6,8.9,27.7,699.0
+03_024,"Broad bean, dry, raw","Fève, sèche, crue",327.0,25.2,2.2,40.7,26.0
+03_025,"Broad bean, not soaked, boiled* (without salt), drained","Fève, non trempée, bouillie* (sans sel), égouttée",117.0,9.0,0.8,14.5,7.0
+03_083,"Broad bean, not soaked, boiled* (without salt), with cooking liquid","Fève, non trempée, bouillie* (sans sel), avec liquide de cuisson",71.0,5.5,0.5,8.8,6.0
+03_084,"Broad bean, soaked, boiled in different water* (without salt), drained","Fève, trempée, bouillie dans différentes eaux* (sans sel), égouttée",117.0,9.0,0.8,14.5,7.0
+03_085,"Broad bean, soaked, boiled in different water* (without salt), with cooking liquid","Fève, trempée, bouillie dans différentes eaux* (sans sel), avec liquide de cuisson",71.0,5.5,0.5,8.8,6.0
+03_004,"Cowpea, dry, raw","Niébé, sec, cru",325.0,22.6,1.5,49.0,22.0
+03_007,"Cowpea, not soaked, boiled* (without salt), drained","Niébé, non trempé, bouilli* (sans sel), égoutté",122.0,8.5,0.5,18.3,6.0
+03_089,"Cowpea, not soaked, boiled* (without salt), with cooking liquid","Niébé, non trempé, bouilli* (sans sel), avec liquide de cuisson",73.0,5.1,0.3,11.1,5.0
+03_090,"Cowpea, soaked, boiled in different water* (without salt), drained","Niébé, trempé, bouilli dans différentes eaux* (sans sel), égoutté",122.0,8.5,0.5,18.3,6.0
+03_091,"Cowpea, soaked, boiled in different water* (without salt), with cooking liquid","Niébé, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",73.0,5.1,0.3,11.1,5.0
+03_005,"Cowpea, black, dry, raw","Niébé, noir, sec, cru",301.0,20.5,1.6,40.8,22.0
+03_026,"Cowpea, black, not soaked, boiled* (without salt), drained","Niébé, noir, non trempé, bouilli* (sans sel), égoutté",113.0,8.2,0.6,14.8,6.0
+03_092,"Cowpea, black, not soaked, boiled* (without salt), with cooking liquid","Niébé, noir, non trempé, bouilli* (sans sel), avec liquide de cuisson",68.0,4.9,0.4,8.9,5.0
+03_093,"Cowpea, black, soaked, boiled in different water* (without salt), drained","Niébé, noir, trempé, bouilli dans différentes eaux* (sans sel), égoutté",113.0,8.2,0.6,14.8,6.0
+03_094,"Cowpea, black, soaked, boiled in different water* (without salt), with cooking liquid","Niébé, noir, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",68.0,4.9,0.4,8.9,5.0
+03_027,"Cowpea, brown, dry, raw","Niébé, brun, sec, cru",326.0,23.6,1.9,47.1,23.0
+03_028,"Cowpea, brown, not soaked, boiled* (without salt), drained","Niébé, brun, non trempé, bouilli* (sans sel), égoutté",122.0,8.9,0.7,17.6,7.0
+03_095,"Cowpea, brown, not soaked, boiled* (without salt), with cooking liquid","Niébé, brun, non trempé, bouilli* (sans sel), avec liquide de cuisson",74.0,5.3,0.4,10.7,5.0
+03_096,"Cowpea, brown, soaked, boiled in different water* (without salt), drained","Niébé, brun, trempé, bouilli dans différentes eaux* (sans sel), égoutté",122.0,8.9,0.7,17.6,7.0
+03_097,"Cowpea, brown, soaked, boiled in different water* (without salt), with cooking liquid","Niébé, brun, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",74.0,5.3,0.4,10.7,5.0
+03_006,"Cowpea, white, dry, raw","Niébé, blanc, sec, cru",331.0,23.0,1.8,50.3,24.0
+03_029,"Cowpea, white, not soaked, boiled* (without salt), drained","Niébé, blanc, non trempé, bouilli* (sans sel), égoutté",124.0,8.6,0.7,18.8,7.0
+03_098,"Cowpea, white, not soaked, boiled* (without salt), with cooking liquid","Niébé, blanc, non trempé, bouilli* (sans sel), avec liquide de cuisson",75.0,5.2,0.4,11.4,5.0
+03_099,"Cowpea, white, soaked, boiled in different water* (without salt), drained","Niébé, blanc, trempé, bouilli dans différentes eaux* (sans sel), égoutté",124.0,8.6,0.7,18.8,7.0
+03_100,"Cowpea, white, soaked, boiled in different water* (without salt), with cooking liquid","Niébé, blanc, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",75.0,5.2,0.4,11.4,5.0
+03_045,"Cowpea, dehulled, raw","Niébé, décortiqué, cru",334.0,23.1,1.4,50.6,10.0
+03_101,"Cowpea, dehulled, not soaked, boiled* (without salt), drained","Niébé, décortiqué, non trempé, bouilli* (sans sel), égoutté",125.0,8.6,0.5,19.0,3.0
+03_102,"Cowpea, dehulled, not soaked, boiled* (without salt), with cooking liquid","Niébé, décortiqué, non trempé, bouilli* (sans sel), avec liquide de cuisson",76.0,5.2,0.3,11.5,2.0
+03_103,"Cowpea, dehulled, soaked, boiled in different water* (without salt), drained","Niébé, décortiqué, trempé, bouilli dans différentes eaux* (sans sel), égoutté",125.0,8.6,0.5,19.0,3.0
+03_104,"Cowpea, dehulled, soaked, boiled in different water* (without salt), with cooking liquid","Niébé, décortiqué, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",76.0,5.2,0.3,11.5,2.0
+03_143,"Cowpeas and rice, boiled (Burkina Faso)*","Niébé et riz, bouillis (Burkina Faso)*",125.0,6.2,0.4,22.5,166.0
+03_146,"Faro with eggs, cowpea, potash and vegetables (Burkina Faso)*","Faro avec œufs, niébé, potasse et légumes (Burkina Faso)*",149.0,8.7,5.5,14.2,252.0
+03_147,Haricot bambara (Burkina Faso)*: fried paste of cowpea and okra powder with egg and onion,"Haricot bambara (Burkina Faso)*: pâte frite de niébé et gombo en poudre, avec œuf et oignon",186.0,10.1,8.0,16.1,616.0
+03_152,Gonré-1 (Burkina Faso)*: steamed paste of dehulled cowpea and potash,"Gonré-1 (Burkina Faso)*: pâte de niebé décortiqué et potasse, cuite à la vapeur",146.0,10.1,0.6,22.2,114.0
+03_153,Gonré-2 (Burkina Faso)*: steamed paste of non-dehulled cowpea and potash,"Gonré-2 (Burkina Faso)*: pâte de niebé non décortiqué et potasse, cuite à la vapeur",108.0,7.7,0.6,16.0,310.0
+03_057,"Ground bean, dry, raw","Haricot de terre, sec, cru",322.0,23.8,2.0,43.2,9.0
+03_113,"Ground bean, not soaked, boiled* (without salt), drained","Haricot de terre, non trempé, bouilli* (sans sel), égoutté",123.0,9.1,0.8,16.5,3.0
+03_114,"Ground bean, not soaked, boiled* (without salt), with cooking liquid","Haricot de terre, non trempé, bouilli* (sans sel), avec liquide de cuisson",78.0,5.8,0.5,10.5,2.0
+03_115,"Ground bean, soaked, boiled in different water* (without salt), drained","Haricot de terre, trempé, bouilli dans différentes eaux* (sans sel), égoutté",123.0,9.1,0.8,16.5,3.0
+03_116,"Ground bean, soaked, boiled in different water* (without salt), with cooking liquid","Haricot de terre, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",78.0,5.8,0.5,10.5,2.0
+03_052,"Jack bean, whole, dry, raw","Haricot-sabre, entier, sec, cru",335.0,24.1,4.2,42.4,6.0
+03_109,"Jack bean, not soaked, boiled* (without salt), drained","Haricot-sabre, non trempé, bouilli* (sans sel), égoutté",128.0,9.2,1.6,16.3,2.0
+03_110,"Jack bean, not soaked, boiled* (without salt), with cooking liquid","Haricot-sabre, non trempé, bouilli* (sans sel), avec liquide de cuisson",81.0,5.8,1.0,10.3,2.0
+03_111,"Jack bean, soaked, boiled in different water* (without salt), drained","Haricot-sabre, trempé, bouilli dans différentes eaux* (sans sel), égoutté",128.0,9.2,1.6,16.3,2.0
+03_112,"Jack bean, soaked, boiled in different water* (without salt), with cooking liquid","Haricot-sabre, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",81.0,5.8,1.0,10.3,2.0
+03_030,"Lentil, dry, raw","Lentille, sèche, crue",328.0,23.6,1.7,46.3,50.0
+03_031,"Lentil, not soaked, boiled* (without salt), drained","Lentille, non trempée, bouillie* (sans sel), égouttée",124.0,8.9,0.6,17.5,14.0
+03_086,"Lentil, not soaked, boiled* (without salt), with cooking liquid","Lentille, non trempée, bouillie* (sans sel), avec liquide de cuisson",77.0,5.6,0.4,10.9,12.0
+03_087,"Lentil, soaked, boiled in different water* (without salt), drained","Lentille, trempée, bouillie dans différentes eaux* (sans sel), égouttée",124.0,8.9,0.6,17.5,14.0
+03_088,"Lentil, soaked, boiled in different water* (without salt), with cooking liquid","Lentille, trempée, bouillie dans différentes eaux* (sans sel), avec liquide de cuisson",77.0,5.6,0.4,10.9,12.0
+03_058,"Lima bean, dry, raw","Haricot de Lima, sec, cru",315.0,21.6,1.5,44.8,5.0
+03_117,"Lima bean, not soaked, boiled* (without salt), drained","Haricot de Lima, non trempé, bouilli* (sans sel), égoutté",126.0,8.6,0.6,17.9,2.0
+03_118,"Lima bean, not soaked, boiled* (without salt), with cooking liquid","Haricot de Lima, non trempé, bouilli* (sans sel), avec liquide de cuisson",73.0,5.0,0.3,10.3,1.0
+03_119,"Lima bean, soaked, boiled in different water* (without salt), drained","Haricot de Lima, trempé, bouilli dans différentes eaux* (sans sel), égoutté",126.0,8.6,0.6,17.9,2.0
+03_120,"Lima bean, soaked, boiled in different water* (without salt), with cooking liquid","Haricot de Lima, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",73.0,5.0,0.3,10.3,1.0
+03_032,"Pigeon pea, dry, raw","Pois d’Angole, sec, cru",310.0,20.8,2.1,41.6,3.0
+03_033,"Pigeon pea, not soaked, boiled* (without salt), drained","Pois d’Angole, non trempé, bouilli* (sans sel), égoutté",135.0,9.0,0.9,18.1,1.0
+03_121,"Pigeon pea, not soaked, boiled* (without salt), with cooking liquid","Pois d’Angole, non trempé, bouilli* (sans sel), avec liquide de cuisson",97.0,6.5,0.6,13.0,1.0
+03_122,"Pigeon pea, soaked, boiled in different water* (without salt), drained","Pois d’Angole, trempé, bouilli dans différentes eaux* (sans sel), égoutté",135.0,9.0,0.9,18.1,1.0
+03_123,"Pigeon pea, soaked, boiled in different water* (without salt), with cooking liquid","Pois d’Angole, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",97.0,6.5,0.6,13.0,1.0
+03_055,"Pigeon pea, brown, dry, raw","Pois d’Angole, brun, sec, cru",309.0,20.6,2.0,41.8,2.0
+03_132,"Pigeon pea, brown, not soaked, boiled* (without salt), drained","Pois d’Angole, brun, non trempé, bouilli* (sans sel), égoutté",134.0,9.0,0.9,18.2,1.0
+03_133,"Pigeon pea, brown, not soaked, boiled* (without salt), with cooking liquid","Pois d’Angole, brun, non trempé, bouilli* (sans sel), avec liquide de cuisson",97.0,6.5,0.6,13.1,1.0
+03_134,"Pigeon pea, brown, soaked, boiled in different water* (without salt), drained","Pois d’Angole, brun, trempé, bouilli dans différentes eaux* (sans sel), égoutté",134.0,9.0,0.9,18.2,1.0
+03_135,"Pigeon pea, brown, soaked, boiled in different water* (without salt), with cooking liquid","Pois d’Angole, brun, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",97.0,6.5,0.6,13.1,1.0
+03_054,"Pigeon pea, cream, dry, raw","Pois d’Angole, crème, sec, cru",303.0,18.4,2.0,42.7,2.0
+03_128,"Pigeon pea, cream, not soaked, boiled* (without salt), drained","Pois d’Angole, crème, non trempé, bouilli* (sans sel), égoutté",132.0,8.0,0.9,18.6,1.0
+03_129,"Pigeon pea, cream, not soaked, boiled* (without salt), with cooking liquid","Pois d’Angole, crème, non trempé, bouilli* (sans sel), avec liquide de cuisson",95.0,5.8,0.6,13.3,1.0
+03_130,"Pigeon pea, cream, soaked, boiled in different water* (without salt), drained","Pois d’Angole, crème, trempé, bouilli dans différentes eaux* (sans sel), égoutté",132.0,8.0,0.9,18.6,1.0
+03_131,"Pigeon pea, cream, soaked, boiled in different water* (without salt), with cooking liquid","Pois d’Angole, crème, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",95.0,5.8,0.6,13.3,1.0
+03_053,"Pigeon pea, white, dry, raw","Pois d’Angole, blanc, sec, cru",310.0,16.6,3.7,42.4,3.0
+03_124,"Pigeon pea, white, not soaked, boiled* (without salt), drained","Pois d’Angole, blanc, non trempé, bouilli* (sans sel), égoutté",135.0,7.2,1.6,18.4,1.0
+03_125,"Pigeon pea, white, not soaked, boiled* (without salt), with cooking liquid","Pois d’Angole, blanc, non trempé, bouilli* (sans sel), avec liquide de cuisson",97.0,5.2,1.1,13.2,1.0
+03_126,"Pigeon pea, white, soaked, boiled in different water* (without salt), drained","Pois d’Angole, blanc, trempé, bouilli dans différentes eaux* (sans sel), égoutté",135.0,7.2,1.6,18.4,1.0
+03_127,"Pigeon pea, white, soaked, boiled in different water* (without salt), with cooking liquid","Pois d’Angole, blanc, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",97.0,5.2,1.1,13.2,1.0
+03_142,"Porridge of cowpeas, yam and potash (Burkina Faso)*","Bouillie de niébé, igname et potasse (Burkina Faso)*",121.0,6.5,0.6,20.3,394.0
+03_145,Soumma (Burkina Faso)*: bambara groundnuts boiled with potash,Soumma (Burkina Faso)*: pois bambara bouilli avec potasse,163.0,9.7,2.9,17.2,239.0
+03_008,"Soya bean, dry, raw","Soja, sec, cru",381.0,31.3,17.0,14.2,5.0
+03_034,"Soya bean, not soaked, boiled* (without salt), drained","Soja, non trempé, bouilli* (sans sel), égoutté",157.0,12.9,7.0,5.8,2.0
+03_136,"Soya bean, soaked, boiled in different water* (without salt), drained","Soja, trempé, bouilli dans différentes eaux* (sans sel), égoutté",157.0,12.9,7.0,5.8,2.0
+03_036,"Soya bean, Anidaso variety, dry, raw (Ghana), n=1","Soja, variété Anidaso, sec, cru (Ghana), n=1",382.0,35.9,15.8,12.1,5.0
+03_038,"Soya bean, Jenguma variety, dry, raw (Ghana), n=1","Soja, variété Jenguma, sec, cru (Ghana), n=1",395.0,31.9,18.6,13.2,5.0
+03_037,"Soya bean, Quarshie variety, dry, raw (Ghana), n=1","Soja, variété Quarshie, sec, cru (Ghana), n=1",379.0,35.4,13.1,17.9,5.0
+03_035,"Soya bean, Salintuya-1 variety, dry, raw (Ghana), n=1","Soja, variété Salintuya-1, sec, cru (Ghana), n=1",383.0,35.5,16.1,12.2,5.0
+03_039,"Soya bean, combined varieties, dry, raw (Ghana)","Soja, mélange de variétés, sec, cru (Ghana)",385.0,34.7,15.9,13.8,5.0
+03_040,"Soya bean, combined varieties (Ghana), not soaked, boiled* (without salt), drained","Soja, mélange de variétés (Ghana), non trempé, bouilli* (sans sel), égoutté",158.0,14.3,6.5,5.7,2.0
+03_137,"Soya bean, combined varieties (Ghana), soaked, boiled in different water* (without salt), drained","Soja, mélange de variétés (Ghana), trempé, bouilli dans différentes eaux* (sans sel), égoutté",158.0,14.3,6.5,5.7,2.0
+03_051,"Sweet dattock, whole, raw","Détar sucré, entier, cru",372.0,10.6,17.2,33.9,120.0
+03_105,"Sweet dattock, not soaked, boiled* (without salt), drained","Détar sucré, non trempé, bouilli* (sans sel), égoutté",143.0,4.1,6.6,13.0,35.0
+03_106,"Sweet dattock, not soaked, boiled* (without salt), with cooking liquid","Détar sucré, non trempé, bouilli* (sans sel), avec liquide de cuisson",90.0,2.6,4.2,8.2,29.0
+03_107,"Sweet dattock, soaked, boiled in different water* (without salt), drained","Détar sucré, trempé, bouilli dans différentes eaux* (sans sel), égoutté",143.0,4.1,6.6,13.0,35.0
+03_108,"Sweet dattock, soaked, boiled in different water* (without salt), with cooking liquid","Détar sucré, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",90.0,2.6,4.2,8.2,29.0
+03_059,"Velvet bean, dry, raw","Haricot velouté, sec, cru",334.0,28.8,4.7,33.9,0.0
+03_138,"Velvet bean, not soaked, boiled* (without salt), drained","Haricot velouté, non trempé, bouilli* (sans sel), égoutté",128.0,11.0,1.8,13.0,0.0
+03_139,"Velvet bean, not soaked, boiled* (without salt), with cooking liquid","Haricot velouté, non trempé, bouilli* (sans sel), avec liquide de cuisson",81.0,7.0,1.1,8.2,0.0
+03_140,"Velvet bean, soaked, boiled in different water* (without salt), drained","Haricot velouté, trempé, bouilli dans différentes eaux* (sans sel), égoutté",128.0,11.0,1.8,13.0,0.0
+03_141,"Velvet bean, soaked, boiled in different water* (without salt), with cooking liquid","Haricot velouté, trempé, bouilli dans différentes eaux* (sans sel), avec liquide de cuisson",81.0,7.0,1.1,8.2,0.0
+04_023,"Amaranth, leaves, fresh, raw","Amaranthe, feuilles, fraîches, crues",40.0,4.1,0.4,3.0,7.0
+04_086,"Amaranth, leaves, fresh, boiled* (as part of a recipe)","Amaranthe, feuilles, fraîches, bouillies* (ingrédient de recette)",42.0,4.4,0.5,3.2,7.0
+04_024,"Amaranth, leaves, fresh, boiled* (without salt), drained","Amaranthe, feuilles, fraîches, bouillies* (sans sel), égouttées",41.0,4.2,0.4,3.1,5.0
+04_002,"Baobab, leaves, dried","Baobab, feuilles, séchées",241.0,13.7,2.3,19.8,166.0
+04_001,"Baobab, leaves, fresh, raw","Baobab, feuilles, fraîches, crues",62.0,3.9,0.4,5.4,42.0
+04_087,"Baobab, leaves, fresh, boiled* (as part of a recipe)","Baobab, feuilles, fraîches, bouillies* (ingrédient de recette)",66.0,4.2,0.4,5.7,44.0
+04_025,"Baobab, leaves, fresh, boiled* (without salt), drained","Baobab, feuilles, fraîches, bouillies* (sans sel), égouttées",64.0,4.0,0.4,5.5,32.0
+04_081,"Bay, leaves, dried","Laurier, feuilles, séchées",353.0,7.6,8.4,48.7,23.0
+04_003,"Bean, green, raw","Haricot vert, cru",40.0,2.0,0.3,5.2,2.0
+04_088,"Bean, green, boiled* (as part of a recipe)","Haricot vert, bouilli* (ingrédient de recette)",43.0,2.1,0.3,5.6,2.0
+04_026,"Bean, green, boiled* (without salt), drained","Haricot vert, bouilli* (sans sel), égoutté",44.0,2.2,0.3,5.8,2.0
+04_005,"Cabbage, white, raw","Chou, blanc, cru",26.0,1.6,0.1,3.6,13.0
+04_090,"Cabbage, white, boiled* (as part of a recipe)","Chou, blanc, bouilli* (ingrédient de recette)",28.0,1.8,0.1,3.9,14.0
+04_089,"Cabbage, white, boiled* (without salt), drained","Chou, blanc, bouilli* (sans sel), égoutté",27.0,1.7,0.1,3.7,10.0
+04_006,"Carrot, raw","Carotte, crue",34.0,0.9,0.2,5.5,35.0
+04_091,"Carrot, boiled* (as part of a recipe)","Carotte, bouillie* (ingrédient de recette)",35.0,1.0,0.2,5.8,36.0
+04_007,"Carrot, boiled* (without salt), drained","Carotte, bouillie* (sans sel), égouttée",36.0,1.0,0.2,5.9,20.0
+04_008,"Cassava, leaves, fresh, raw","Manioc, feuilles, fraîches, crues",93.0,7.6,1.1,9.1,6.0
+04_092,"Cassava, leaves, fresh, boiled* (as part of a recipe)","Manioc, feuilles, fraîches, bouillies* (ingrédient de recette)",99.0,8.0,1.2,9.7,6.0
+04_028,"Cassava, leaves, fresh, boiled* (without salt), drained","Manioc, feuilles, fraîches, bouillies* (sans sel), égouttées",95.0,7.7,1.2,9.3,4.0
+04_009,"Cocoyam, leaves, fresh, raw","Chou caraïbe, feuilles, fraîches, crues",39.0,3.5,0.7,2.4,2.0
+04_097,"Cocoyam, leaves, fresh, boiled* (as part of a recipe)","Chou caraïbe, feuilles, fraîches, bouillies* (ingrédient de recette)",41.0,3.7,0.7,2.5,2.0
+04_029,"Cocoyam, leaves, fresh, boiled* (without salt), drained","Chou caraïbe, feuilles, fraîches, bouillies* (sans sel), égouttées",39.0,3.6,0.7,2.4,2.0
+04_031,"Cowpea, leaves, dried","Niébé, feuilles, séchées",262.0,24.4,1.8,19.9,290.0
+04_010,"Cowpea, leaves, fresh, raw","Niébé, feuilles, fraîches, crues",37.0,4.4,0.3,1.7,32.0
+04_098,"Cowpea, leaves, fresh, boiled* (as part of a recipe)","Niébé, feuilles, fraîches, bouillies* (ingrédient de recette)",39.0,4.6,0.3,1.8,34.0
+04_030,"Cowpea, leaves, fresh, boiled* (without salt), drained","Niébé, feuilles, fraîches, bouillies* (sans sel), égouttées",37.0,4.5,0.3,1.8,24.0
+04_032,"Cucumber, unpeeled, raw","Concombre, non pelé, cru",12.0,0.7,0.1,0.9,10.0
+04_012,"Eggplant, fruit, raw","Aubergine, fruit, cru",31.0,1.1,0.3,4.0,4.0
+04_102,"Eggplant, fruit, boiled* (as part of a recipe)","Aubergine, fruit, bouilli* (ingrédient de recette)",39.0,1.4,0.4,4.9,5.0
+04_034,"Eggplant, fruit, boiled* (without salt), drained","Aubergine, fruit, bouilli* (sans sel), égoutté",33.0,1.2,0.3,4.3,3.0
+04_013,"Eggplant, leaves, fresh, raw","Aubergine, feuilles, fraîches, crues",48.0,4.4,0.8,3.7,26.0
+04_105,"Eggplant, leaves, fresh, boiled* (as part of a recipe)","Aubergine, feuilles, fraîches, bouillies* (ingrédient de recette)",51.0,4.7,0.9,3.9,28.0
+04_035,"Eggplant, leaves, fresh, boiled* (without salt), drained","Aubergine, feuilles, fraîches, bouillies* (sans sel), égouttées",49.0,4.5,0.8,3.7,20.0
+04_014,"False sesame, leaves, dried","Faux sésame, feuilles, séchées",269.0,17.7,3.6,29.1,155.0
+04_036,"False sesame, leaves, fresh, raw","Faux sésame, feuilles, fraîches, crues",61.0,5.3,0.8,5.4,35.0
+04_106,"False sesame, leaves, fresh, boiled* (as part of a recipe)","Faux sésame, feuilles, fraîches, bouillies* (ingrédient de recette)",65.0,5.6,0.8,5.8,37.0
+04_037,"False sesame, leaves, fresh, boiled* (without salt), drained","Faux sésame, feuilles, fraîches, bouillies* (sans sel), égouttées",62.0,5.4,0.8,5.5,27.0
+04_015,"Garlic, flesh, raw","Ail, chair, cru",126.0,6.5,0.3,21.6,10.0
+04_082,"Ginger, root, raw","Gingembre, racine, crue",63.0,2.2,0.9,9.0,10.0
+04_131,"Green leafy vegetable, average, fresh, raw","Légumes-feuilles verts, non spécifiés, frais, crus",43.0,3.3,0.7,4.1,25.0
+04_133,"Green leafy vegetable, average, fresh, boiled* (as part of a recipe)","Légumes-feuilles verts, non spécifiés, frais, bouillis* (ingrédient de recette)",46.0,3.6,0.7,4.3,26.0
+04_132,"Green leafy vegetable, average, fresh, boiled* (without salt), drained","Légumes-feuilles verts, non spécifiés, frais, bouillis* (sans sel), égouttés",44.0,3.4,0.7,4.2,19.0
+04_073,"Hibiscus cannabinus, leaves, fresh, raw","Hibiscus cannabinus, feuilles, fraîches, crues",47.0,2.8,0.6,5.2,12.0
+04_100,"Hibiscus cannabinus, leaves, fresh, boiled* (as part of a recipe)","Hibiscus cannabinus, feuilles, fraîches, bouillies* (ingrédient de recette)",50.0,3.0,0.6,5.5,13.0
+04_099,"Hibiscus cannabinus, leaves, fresh, boiled* (without salt), drained","Hibiscus cannabinus, feuilles, fraîches, bouillies* (sans sel), égouttées",48.0,2.9,0.6,5.3,9.0
+04_016,"Hibiscus, leaves, fresh, raw","Oseille de Guinée, feuilles, fraîches, crues",40.0,2.7,0.3,4.5,13.0
+04_117,"Hibiscus, leaves, fresh, boiled* (as part of a recipe)","Oseille de Guinée, feuilles, fraîches, bouillies* (ingrédient de recette)",42.0,2.9,0.3,4.8,14.0
+04_056,"Hibiscus, leaves, fresh, boiled* (without salt), drained","Oseille de Guinée, feuilles, fraîches, bouillies* (sans sel), égouttées",41.0,2.8,0.3,4.6,10.0
+04_075,"Jute mallow (bush-okra), leaves, dried","Corète potagère, feuilles, séchées",264.0,22.4,2.5,20.7,63.0
+04_038,"Jute mallow (bush-okra), leaves, fresh, raw","Corète potagère, feuilles, fraîches, crues",48.0,4.2,0.3,3.2,12.0
+04_107,"Jute mallow (bush-okra), leaves, fresh, boiled* (as part of a recipe)","Corète potagère, feuilles, fraîches, bouillies* (ingrédient de recette)",53.0,4.6,0.4,3.4,12.0
+04_039,"Jute mallow (bush-okra), leaves, fresh, boiled* (without salt), drained","Corète potagère, feuilles, fraîches, bouillies* (sans sel), égouttées",50.0,4.4,0.3,3.2,9.0
+04_040,"Lettuce, raw","Laitue, crue",17.0,1.0,0.3,1.7,12.0
+04_076,"Maize, seeds, fresh, raw","Maïs, grains, frais, cru",178.0,5.8,3.4,23.8,2.0
+04_109,"Maize, seeds, fresh, boiled* (as part of a recipe)","Maïs, grains, frais, bouilli* (ingrédient de recette)",189.0,6.0,3.6,24.8,2.0
+04_108,"Maize, seeds, fresh, boiled* (without salt), drained","Maïs, grains, frais, bouilli* (sans sel), égoutté",189.0,6.0,3.6,24.8,2.0
+04_085,"Mint, leaves, raw","Menthe, feuilles, crues",46.0,4.7,0.7,2.3,17.0
+04_011,"Moringa (drumstick), leaves, fresh, raw","Moringa (ben oléifère), feuilles, fraîches, crues",81.0,8.4,1.4,4.5,9.0
+04_101,"Moringa (drumstick), leaves, fresh, boiled* (as part of a recipe)","Moringa (ben oléifère), feuilles, fraîches, bouillies* (ingrédient de recette)",86.0,8.9,1.5,4.8,10.0
+04_033,"Moringa (drumstick), leaves, fresh, boiled* (without salt), drained","Moringa (ben oléifère), feuilles, fraîches, bouillies* (sans sel), égouttées",82.0,8.5,1.5,4.6,7.0
+04_074,"Native eggplant, fruit, raw","Aubergine indigène, fruit, cru",32.0,1.3,0.4,3.9,4.0
+04_104,"Native eggplant, fruit, boiled* (as part of a recipe)","Aubergine indigène, fruit, bouilli* (ingrédient de recette)",40.0,1.7,0.5,4.8,4.0
+04_103,"Native eggplant, fruit, boiled* (without salt), drained","Aubergine indigène, fruit, bouilli* (sans sel), égoutté",35.0,1.4,0.4,4.2,3.0
+04_004,"Okra, leaves, fresh, raw","Gombo, feuilles, fraîches, crues",45.0,2.5,0.6,5.1,6.0
+04_110,"Okra, leaves, fresh, boiled* (as part of a recipe)","Gombo, feuilles, fraîches, bouillies* (ingrédient de recette)",48.0,2.6,0.6,5.4,6.0
+04_041,"Okra, leaves, fresh, boiled* (without salt), drained","Gombo, feuilles, fraîches, bouillies* (sans sel), égouttées",46.0,2.5,0.6,5.2,4.0
+04_077,"Okra, fruit, dried","Gombo, fruit, séché",245.0,12.8,1.7,21.8,77.0
+04_017,"Okra, fruit, fresh, raw","Gombo, fruit, frais, cru",34.0,1.7,0.2,4.2,11.0
+04_111,"Okra, fruit, fresh, boiled* (as part of a recipe)","Gombo, fruit, frais, bouilli* (ingrédient de recette)",34.0,1.7,0.2,4.2,11.0
+04_042,"Okra, fruit, fresh, boiled* (without salt), drained","Gombo, fruit, frais, bouilli* (sans sel), égoutté",31.0,1.5,0.2,3.8,8.0
+04_044,"Onion, dried","Oignon, séché",354.0,9.6,1.1,71.1,21.0
+04_018,"Onion, fresh, raw","Oignon, frais, cru",37.0,1.1,0.1,7.1,10.0
+04_112,"Onion, fresh, boiled* (as part of a recipe)","Oignon, frais, bouilli* (ingrédient de recette)",46.0,1.4,0.1,8.7,12.0
+04_043,"Onion, fresh, boiled* (without salt), drained","Oignon, frais, bouilli* (sans sel), égoutté",46.0,1.4,0.1,8.7,6.0
+04_045,"Parsley, fresh, raw","Persil, frais, cru",42.0,3.5,0.3,3.9,53.0
+04_049,"Pepper, sweet, green, fresh, raw","Poivron vert, frais, cru",34.0,0.9,0.4,5.6,10.0
+04_114,"Pepper, sweet, green, fresh, boiled* (as part of a recipe)","Poivron vert, frais, bouilli* (ingrédient de recette)",39.0,1.0,0.5,6.4,11.0
+04_050,"Pepper, sweet, green, fresh, boiled* (without salt), drained","Poivron vert, frais, bouilli* (sans sel), égoutté",39.0,1.0,0.5,6.4,9.0
+04_047,"Pepper, sweet, red, fresh, raw","Poivron rouge, frais, cru",48.0,2.0,0.8,7.1,10.0
+04_113,"Pepper, sweet, red, fresh, boiled* (as part of a recipe)","Poivron rouge, frais, bouilli* (ingrédient de recette)",56.0,2.3,0.9,8.1,11.0
+04_048,"Pepper, sweet, red, fresh, boiled* (without salt), drained","Poivron rouge, frais, bouilli* (sans sel), égoutté",56.0,2.3,0.9,8.1,9.0
+04_046,"Pepper, chilli, fresh, raw","Piment, frais, cru",47.0,1.8,0.3,7.5,2.0
+04_055,"Pumpkin, leaves, dried","Citrouille, feuilles, séchées",286.0,38.3,2.7,18.3,87.0
+04_053,"Pumpkin, leaves, fresh, raw","Citrouille, feuilles, fraîches, crues",32.0,4.1,0.2,2.4,11.0
+04_116,"Pumpkin, leaves, fresh, boiled* (as part of a recipe)","Citrouille, feuilles, fraîches, bouillies* (ingrédient de recette)",34.0,4.3,0.2,2.5,12.0
+04_054,"Pumpkin, leaves, fresh, boiled* (without salt), drained","Citrouille, feuilles, fraîches, bouillies* (sans sel), égouttées",32.0,4.0,0.2,2.4,8.0
+04_051,"Pumpkin, squash, light orange flesh, raw","Courge, chair orange clair, crue",34.0,1.0,0.1,6.0,0.0
+04_115,"Pumpkin, squash, light orange flesh, boiled* (as part of a recipe)","Courge, chair orange clair, bouillie* (ingrédient de recette)",30.0,0.9,0.1,5.3,0.0
+04_052,"Pumpkin, squash, light orange flesh, boiled* (without salt), drained","Courge, chair orange clair, bouillie* (sans sel), égouttée",37.0,1.1,0.1,6.6,0.0
+04_071,"Sicklepod, leaves, dried","Casse fétide, feuilles, séchées",286.0,21.4,0.9,37.8,166.0
+04_084,"Sicklepod, leaves, fresh, raw","Casse fétide, feuilles, fraîches, crues",95.0,5.9,0.2,13.9,57.0
+04_094,"Sicklepod, leaves, fresh, boiled* (as part of a recipe)","Casse fétide, feuilles, fraîches, bouillies* (ingrédient de recette)",101.0,6.3,0.2,14.8,61.0
+04_093,"Sicklepod, leaves, fresh, boiled* (without salt), drained","Casse fétide, feuilles, fraîches, bouillies* (sans sel), égouttées",97.0,6.1,0.2,14.2,44.0
+04_072,"Spider plant, leaves, fresh, raw","Plante-araignée, feuilles, fraîches, crues",44.0,4.8,0.9,1.9,19.0
+04_096,"Spider plant, leaves, fresh, boiled* (as part of a recipe)","Plante-araignée, feuilles, fraîches, bouillies* (ingrédient de recette)",46.0,5.1,1.0,2.0,21.0
+04_095,"Spider plant, leaves, fresh, boiled* (without salt), drained","Plante-araignée, feuilles, fraîches, bouillies* (sans sel), égouttées",44.0,4.9,0.9,2.0,15.0
+04_057,"Spinach, leaves, fresh, raw","Épinard, feuilles, fraîches, crues",23.0,2.9,0.4,0.7,79.0
+04_118,"Spinach, leaves, fresh, boiled* (as part of a recipe)","Épinard, feuilles, fraîches, bouillies* (ingrédient de recette)",28.0,3.4,0.5,0.9,94.0
+04_058,"Spinach, leaves, fresh, boiled* (without salt), drained","Épinard, feuilles, fraîches, bouillies* (sans sel), égouttées",25.0,3.0,0.4,0.8,62.0
+04_059,"Sweet potato, leaves, fresh, raw","Patate douce, feuilles, fraîches, crues",50.0,4.6,0.2,4.9,6.0
+04_121,"Sweet potato, leaves, fresh, boiled* (as part of a recipe)","Patate douce, feuilles, fraîches, bouillies* (ingrédient de recette)",54.0,4.9,0.2,5.2,6.0
+04_060,"Sweet potato, leaves, fresh, boiled* (without salt), drained","Patate douce, feuilles, fraîches, bouillies* (sans sel), égouttées",53.0,4.8,0.2,5.1,5.0
+04_062,"Tamarind, leaves, dried","Tamarin, feuilles, séchées",286.0,14.0,3.5,26.4,14.0
+04_019,"Tamarind, leaves, fresh, raw","Tamarin, feuilles, fraîches, crues",64.0,3.1,0.8,5.8,13.0
+04_122,"Tamarind, leaves, fresh, boiled* (as part of a recipe)","Tamarin, feuilles, fraîches, bouillies* (ingrédient de recette)",68.0,3.3,0.9,6.2,14.0
+04_061,"Tamarind, leaves, fresh, boiled* (without salt), drained","Tamarin, feuilles, fraîches, bouillies* (sans sel), égouttées",66.0,3.2,0.8,5.9,10.0
+04_020,"Taro, leaves, fresh, raw","Taro, feuilles, fraîches, crues",39.0,2.5,0.8,2.7,12.0
+04_123,"Taro, leaves, fresh, boiled* (as part of a recipe)","Taro, feuilles, fraîches, bouillies* (ingrédient de recette)",42.0,2.7,0.9,2.8,13.0
+04_063,"Taro, leaves, fresh, boiled* (without salt), drained","Taro, feuilles, fraîches, bouillies* (sans sel), égouttées",40.0,2.6,0.8,2.7,9.0
+04_083,"Thyme, dried","Thym, séché",298.0,9.1,7.4,30.2,24.0
+04_065,"Tomato, canned, packed in juice","Tomate, en conserve avec jus",18.0,1.0,0.2,2.0,99.0
+04_066,"Tomato, paste, concentrated, without salt","Concentré de tomate, sans sel",80.0,3.2,0.5,13.6,31.0
+04_067,"Tomato, powder","Tomate, en poudre",321.0,12.9,0.4,58.2,134.0
+04_021,"Tomato, red, ripe, raw","Tomate, rouge, mûre, crue",22.0,1.1,0.2,3.4,13.0
+04_124,"Tomato, red, ripe, boiled* (as part of a recipe)","Tomate, rouge, mûre, bouillie* (ingrédient de recette)",28.0,1.4,0.2,4.4,16.0
+04_064,"Tomato, red, ripe, boiled* (without salt), drained","Tomate, rouge, mûre, bouillie* (sans sel), égouttée",28.0,1.4,0.2,4.4,12.0
+04_068,"Turnip, raw","Navet, cru",28.0,1.0,0.2,4.4,44.0
+04_125,"Turnip, boiled* (as part of a recipe)","Navet, bouilli* (ingrédient de recette)",31.0,1.1,0.2,4.8,49.0
+04_069,"Turnip, boiled* (without salt), drained","Navet, bouilli* (sans sel), égoutté",31.0,1.1,0.2,4.8,27.0
+04_022,"Vernonia, leaves, bitter, fresh, raw","Vernonie, feuilles, amères, fraîches, crues",65.0,5.0,0.9,6.7,11.0
+04_126,"Vernonia, leaves, bitter, fresh, boiled* (as part of a recipe)","Vernonie, feuilles, amères, fraîches, bouillies* (ingrédient de recette)",69.0,5.3,1.0,7.1,12.0
+04_070,"Vernonia, leaves, bitter, fresh, boiled* (without salt), drained","Vernonie, feuilles, amères, fraîches, bouillies* (sans sel), égouttées",66.0,5.1,0.9,6.8,9.0
+04_079,"Vernonia, leaves, sweet, fresh, raw","Vernonie, feuilles, douces, fraîches, crues",56.0,2.5,0.4,8.9,30.0
+04_128,"Vernonia, leaves, sweet, fresh, boiled* (as part of a recipe)","Vernonie, feuilles, douces, fraîches, bouillies* (ingrédient de recette)",59.0,2.6,0.4,9.5,32.0
+04_127,"Vernonia, leaves, sweet, fresh, boiled* (without salt), drained","Vernonie, feuilles, douces, fraîches, bouillies* (sans sel), égouttées",57.0,2.5,0.4,9.1,23.0
+04_078,"Waterleaf, leaves, fresh, raw","Feuille d’eau, feuilles, fraîches, crues",40.0,2.3,0.7,4.3,38.0
+04_120,"Waterleaf, leaves, fresh, boiled* (as part of a recipe)","Feuille d’eau, feuilles, fraîches, bouillies* (ingrédient de recette)",43.0,2.5,0.7,4.6,40.0
+04_119,"Waterleaf, leaves, fresh, boiled* (without salt), drained","Feuille d’eau, feuilles, fraîches, bouillies* (sans sel), égouttées",41.0,2.4,0.7,4.4,29.0
+04_080,"Wild spinach, leaves, fresh, raw","Épinard sauvage, feuilles, fraîches, crues",45.0,5.1,0.7,2.5,27.0
+04_130,"Wild spinach, leaves, fresh, boiled* (as part of a recipe)","Épinard sauvage, feuilles, fraîches, bouillies* (ingrédient de recette)",47.0,5.4,0.7,2.6,29.0
+04_129,"Wild spinach, leaves, fresh, boiled* (without salt), drained","Épinard sauvage, feuilles, fraîches, bouillies* (sans sel), égouttées",45.0,5.2,0.7,2.5,21.0
+05_055,"African black plum/chocolate berry, ripe, raw","Prune noire africaine, mûre, crue",112.0,0.4,0.2,26.4,8.0
+05_023,"African fan palm, fruit, raw","Fruit du palmier rônier, cru",43.0,0.5,0.1,8.8,1.0
+05_024,"African locust bean, flour from fruit","Néré, farine du fruit",299.0,4.6,1.3,52.2,6.0
+05_001,"African locust bean, fruit, raw","Néré, fruit, cru",285.0,3.3,1.8,49.8,6.0
+05_053,"African star apple, fruit, raw","Pomme-étoile africaine, fruit, cru",132.0,3.4,5.2,16.4,3.0
+05_025,"Akee, fruit, raw","Akée, fruit, cru",208.0,4.4,18.8,4.7,0.0
+05_046,"Apple, green, with skin, raw","Pomme, verte, non épluchée, crue",59.0,0.2,0.5,12.1,5.0
+05_047,"Apple, red, with skin, raw","Pomme, rouge, non épluchée, crue",62.0,0.2,0.6,12.7,1.0
+05_026,"Apple, with skin, raw","Pomme, non épluchée, crue",59.0,0.3,0.4,12.2,4.0
+05_027,"Apple, without skin, raw","Pomme, épluchée, crue",59.0,0.2,0.2,13.2,0.0
+05_002,"Avocado, fruit, raw","Avocat, fruit, cru",156.0,1.6,14.8,2.1,4.0
+05_048,"Banana, sweet, flesh, unripe (green), raw","Banane, chair, sucrée, non mûre (verte), crue",115.0,1.0,0.5,24.9,0.0
+05_003,"Banana, white flesh, ripe, raw","Banane, chair blanche, mûre, crue",121.0,1.3,0.2,27.7,2.0
+05_028,"Banana, yellow flesh, ripe, raw","Banane, chair jaune, mûre, crue",89.0,1.3,0.2,19.2,2.0
+05_004,"Baobab, fruit/monkey bread, raw","Baobab, fruit/pain de singe, cru",305.0,2.1,0.3,70.0,23.0
+05_005,"Breadfruit, fruit, raw","Arbre à pain, fruit, cru",96.0,1.4,0.3,17.9,2.0
+05_050,"Carambola (star fruit), raw","Carambole (fruit-étoile), cru",30.0,0.8,0.3,4.6,2.0
+05_006,"Cashew apple, fruit, raw","Pomme de cajou, fruit, cru",55.0,1.0,0.4,10.9,3.0
+05_029,"Clementine, raw","Clémentine, crue",49.0,0.9,0.2,10.3,1.0
+05_031,"Date, dried, raw","Date, séchée, crue",282.0,2.2,0.1,64.1,8.0
+05_030,"Date, soft, raw","Date, molle, crue",202.0,1.6,0.1,45.8,5.0
+05_008,"Dattock, fruit, dried","Détar, fruit, séché",322.0,3.4,1.0,71.2,5.0
+05_007,"Dattock, fruit, raw","Détar, fruit, cru",125.0,1.9,0.4,27.3,2.0
+05_033,"Fig, dried","Figue, sèche",266.0,3.1,1.2,56.0,11.0
+05_032,"Fig, raw","Figue, crue",74.0,1.0,0.6,13.9,4.0
+05_009,"Fig, sycomorus, raw","Figue, sycomore, crue",67.0,1.4,0.9,12.4,6.0
+05_034,"Fruit cocktail, canned in syrup, undrained","Cocktail de fruits au sirop, en conserve, non égoutté",73.0,0.4,0.1,17.2,6.0
+05_035,"Grapefruit, white, raw","Pamplemousse, blanc, cru",32.0,0.7,0.1,6.2,4.0
+05_051,"Grapes, raw","Raisins, crus",71.0,0.6,0.3,16.0,2.0
+05_010,"Guava, fruit, raw","Goyave, fruit, crue",68.0,1.0,0.4,12.3,3.0
+05_011,"Gumvine, fruit, raw","Liane goïne, fruit, cru",75.0,0.6,0.2,17.0,0.0
+05_012,"Jujube, raw","Jujube, cru",29.0,0.7,0.1,4.6,6.0
+05_013,"Landolphia, fruit, raw","Liane à caoutchouc, fruit, crue",86.0,0.7,0.2,19.8,5.0
+05_014,"Lemon, raw","Citron, cru",36.0,0.7,0.6,5.8,4.0
+05_036,"Mango, deep orange flesh, raw","Mangue, chair orange foncé, crue",77.0,0.4,0.2,17.7,2.0
+05_015,"Mango, orange flesh, ripe, raw","Mangue, chair orange, mûre, crue",70.0,0.6,0.2,15.3,3.0
+05_037,"Mango, pale flesh, raw","Mangue, chair pâle, crue",52.0,0.9,0.2,10.7,0.0
+05_039,"Melon, cantaloupe, orange flesh, raw","Melon, cantaloup, chair orange, cru",38.0,0.8,0.1,8.0,17.0
+05_038,"Melon, honeydew, pale green flesh, raw","Melon, miellat, chair vert pâle, cru",43.0,0.7,0.2,9.0,11.0
+05_052,"Mombin/hog-plum, fruit, raw","Mombin/prune, fruit, cru",63.0,1.6,0.3,12.6,16.0
+05_040,"Oil palm, fruit, raw","Noix de palme, crue",540.0,1.9,52.6,12.9,16.0
+05_016,"Orange, raw","Orange, crue",44.0,0.7,0.4,8.7,2.0
+05_017,"Papaya, fruit, ripe, raw","Papaye, fruit, mûr, cru",59.0,0.4,0.1,13.0,4.0
+05_018,"Pineapple, fruit, raw","Ananas, fruit, cru",53.0,0.4,0.2,11.4,2.0
+05_041,"Pomegranate, fruit, raw","Grenade, fruit, crue",76.0,1.3,0.3,14.9,4.0
+05_044,"Shea, fruit, raw","Noix de karité, crue",101.0,1.5,0.9,19.8,6.0
+05_019,"Soapberry, fruit, raw","Pomme de savon, fruit, crue",110.0,1.6,0.1,25.5,0.0
+05_054,"Soursop, fruit, raw","Corossol, fruit, cru",77.0,1.2,0.8,13.9,7.0
+05_045,"Sweet apple, fruit, raw","Pomme-cannelle, fruit, crue",93.0,1.5,0.2,18.8,9.0
+05_056,Sweet baobab paste (Burkina Faso)*,Pâte de baobab sucrée (Burkina Faso)*,95.0,0.4,0.1,22.4,7.0
+05_020,"Tamarind, immature fruit, raw","Tamarin, fruit, non mûr, cru",59.0,2.0,0.2,8.2,3.0
+05_021,"Tamarind, fruit, ripe, raw","Tamarin, fruit, mûr, cru",278.0,3.7,0.9,61.3,6.0
+05_022,"Watermelon, fruit, raw","Pastèque, fruit, cru",25.0,0.5,0.1,5.0,4.0
+06_031,"African breadfruit, seed without hull, dried","Fruit de l’arbre à pain africain, graine sans coque, séchée",351.0,13.3,1.1,70.9,4.0
+06_039,"Benniseed, dried, raw","Graine de sésame, séchée, crue",530.0,17.4,40.5,17.1,228.0
+06_033,"Bitter cola, seeds, dried, raw","Petit cola (amer), graines, séché, cru",373.0,5.2,4.4,76.3,9.0
+06_032,"Bitter cola, seeds, fresh, raw","Petit cola (amer), graines, frais, cru",183.0,2.6,2.1,37.3,4.0
+06_001,"Cashew nut, raw","Noix de cajou, crue",591.0,16.1,45.4,27.8,95.0
+06_005,"Coconut, kernel, dried, raw","Noix de coco, amande, séchée, crue",579.0,7.3,51.3,14.2,35.0
+06_004,"Coconut, immature kernel, fresh, raw","Noix de coco, amande, non mûre, fraîche, crue",147.0,1.5,12.2,6.1,8.0
+06_002,"Coconut, mature kernel, fresh, raw","Noix de coco, amande, mûre, fraîche, crue",383.0,3.3,36.8,5.0,20.0
+06_006,"Coconut milk, fresh or canned","Noix de coco, lait, frais ou en conserve",201.0,0.1,20.3,3.9,16.0
+06_019,"Cola nut, dried, raw","Noix de cola, séchée, crue",282.0,7.0,2.1,40.9,5.0
+06_018,"Cola nut, fresh, raw","Noix de cola, fraîche, crue",135.0,2.8,1.0,20.2,3.0
+06_008,"Dikanut, kernel, dried, raw","Noix dika, amande, séchée, crue",650.0,7.6,62.6,5.5,2.0
+06_009,"False sesame seeds, dried, raw","Graines de faux sésame, séchées, crues",454.0,15.4,29.3,20.4,28.0
+06_028,"Groundnut flour, partially defatted","Farine d’arachide, partiellement dégraissée",381.0,42.5,9.9,22.6,91.0
+06_027,"Groundnut flour, with fat","Farine d’arachide, non dégraissée",579.0,25.9,46.4,9.6,18.0
+06_026,"Groundnut paste, from groundnuts only","Arachide, pâte pure",605.0,23.9,49.9,11.0,6.0
+06_023,"Groundnut, Chinese, shelled, dried, raw (Ghana), n=1","Arachide, Chinoise, décortiquée, séchée, crue (Ghana), n=1",562.0,20.5,41.1,23.2,6.0
+06_025,"Groundnut, combined varieties, shelled, dried, raw (Ghana)","Arachide, mélange de variétés, décortiquées, séchées, crues (Ghana)",566.0,22.4,44.5,14.7,6.0
+06_021,"Groundnut, F-mix variety, shelled, dried, raw (Ghana), n=1","Arachide, variété F-mix, décortiquée, séchée, crue (Ghana), n=1",575.0,22.3,47.6,10.4,6.0
+06_022,"Groundnut, JL 24 variety, shelled, dried, raw (Ghana), n=1","Arachide, variété JL 24, décortiquée, séchée, crue (Ghana), n=1",531.0,25.2,38.1,17.6,6.0
+06_024,"Groundnut, Manipintar variety, shelled, dried, raw (Ghana), n=1","Arachide, variété Manipintar, décortiquée, séchée, crue (Ghana), n=1",577.0,23.3,46.7,11.7,6.0
+06_012,"Groundnut, red, shelled, dried, raw (Benin)","Arachide, rouge, décortiquée, séchée, crue (Bénin)",577.0,21.7,45.1,16.5,6.0
+06_011,"Groundnut, rose, shelled, dried, raw (Benin)","Arachide, rose, décortiquée, séchée, crue (Bénin)",567.0,20.4,43.2,20.3,6.0
+06_010,"Groundnut, shelled, dried, raw","Arachide, décortiquée, séchée, crue",574.0,22.4,44.2,17.4,6.0
+06_020,"Groundnut, Sinkarzie variety, shelled, dried, raw (Ghana), n=1","Arachide, variété Sinkarzie, décortiquée, séchée, crue (Ghana), n=1",585.0,20.6,48.8,11.7,6.0
+06_030,"Hibiscus seed, red, dried, raw","Graines d’oseille de Guinée (datou), rouges, séchées, crues",417.0,0.6,17.8,58.1,28.0
+06_035,"Melon seed (citrullus spp.), kernel only, dried, raw","Graines de pastèque (citrullus spp.), séchées, crues",565.0,19.5,44.4,19.0,233.0
+06_013,"Melon seed, kernel only, dried, raw","Graines d’égousi/pistache africaine, séchées, crues",574.0,27.6,45.0,11.6,37.0
+06_036,"Melon seed, small, elongated, kernel only, dried, raw","Graines de pastèque, petites et allongées, séchées, crues",566.0,15.1,41.9,29.0,233.0
+06_037,"Melon seed, small, flat, kernel only, dried, raw","Graines d’égousi/pistache africaine, petites et plates, séchées, crues",587.0,23.3,47.9,12.6,99.0
+06_029,"Oil palm, nut (kernel), shelled, raw","Noix de palme (amande), décortiquée, crue",558.0,6.2,45.8,28.1,68.0
+06_038,"Pumpkin seed, kernel only, dried, raw","Graines de courge, séchées, crues",567.0,27.7,45.4,9.0,5.0
+06_015,"Sesame seed, whole, dried, raw","Sésame, graines complètes, séchées, crues",601.0,16.6,54.1,4.9,45.0
+06_016,"Shea nut, kernel, dried, raw","Karité, noix, séchée, crue",567.0,6.8,43.5,34.1,28.0
+07_008,"Ant, flying, dried","Fourmi, volante, séchée",514.0,42.2,31.9,11.2,176.0
+07_026,"Bamboo caterpillar, deep fried, salted","Chenille de bambou, frite, salée",644.0,25.5,55.3,11.0,609.0
+07_019,"Beef kidney, raw","Rognon de bœuf, cru",98.0,16.4,3.6,0.0,179.0
+07_090,"Beef kidney, boiled* (without salt), drained","Rognon de bœuf, bouilli* (sans sel), égoutté",156.0,26.0,5.8,0.1,170.0
+07_091,"Beef kidney, grilled* (without salt or fat)","Rognon de bœuf, grillé* (sans sel ni graisse)",154.0,25.6,5.7,0.1,238.0
+07_020,"Beef kidney, stewed* (as part of a recipe)","Rognon de bœuf, mijoté* (ingrédient de recette)",156.0,26.0,5.8,0.1,284.0
+07_001,"Beef liver, raw","Foie de bœuf, cru",128.0,19.3,4.2,3.4,75.0
+07_018,"Beef liver, boiled* (without salt), drained","Foie de bœuf, bouilli* (sans sel), égoutté",194.0,29.2,6.3,5.2,68.0
+07_088,"Beef liver, grilled* (without salt or fat)","Foie de bœuf, grillé* (sans sel ni graisse)",158.0,23.8,5.2,4.2,79.0
+07_089,"Beef liver, stewed* (as part of a recipe)","Foie de bœuf, mijoté* (ingrédient de recette)",171.0,25.7,5.6,4.5,100.0
+07_014,"Beef meat, fatty, ca. 30% fat, raw","Viande de bœuf, grasse, environ 30% de matière grasse, crue",321.0,17.5,27.9,0.0,91.0
+07_015,"Beef meat, fatty, ca. 30% fat, boiled* (without salt), drained","Viande de bœuf, grasse, environ 30% de matière grasse, bouillie* (sans sel), égouttée",456.0,29.1,37.8,0.0,69.0
+07_016,"Beef meat, fatty, ca. 30% fat, grilled* (without salt or fat)","Viande de bœuf, grasse, environ 30% de matière grasse, grillée* (sans sel ni graisse)",400.0,24.3,33.7,0.0,108.0
+07_087,"Beef meat, fatty, ca. 30% fat, stewed* (as part of a recipe)","Viande de bœuf, grasse, environ 30% de matière grasse, mijotée* (ingrédient de recette)",452.0,24.6,39.3,0.0,129.0
+07_023,"Beef meat, ground, ca. 10% fat, raw","Viande de bœuf, hachée, environ 10% de matière grasse, crue",174.0,20.3,10.3,0.0,95.0
+07_024,"Beef meat, ground, ca. 10% fat, grilled* (without salt or fat)","Viande de bœuf, hachée, environ 10% de matière grasse, grillée* (sans sel ni graisse)",217.0,28.1,11.6,0.0,112.0
+07_134,"Beef meat, ground, ca. 10% fat, stewed* (as part of a recipe)","Viande de bœuf, hachée, environ 10% de matière grasse, mijotée* (ingrédient de recette)",242.0,28.1,14.3,0.0,131.0
+07_009,"Beef meat, lean, ca. 5% fat, raw","Viande de bœuf, maigre, environ 5% de matière grasse, crue",131.0,22.5,4.6,0.0,99.0
+07_010,"Beef meat, lean, ca. 5% fat, boiled* (without salt), drained","Viande de bœuf, maigre, environ 5% de matière grasse, bouillie* (sans sel), égouttée",219.0,37.5,7.6,0.0,75.0
+07_011,"Beef meat, lean, ca. 5% fat, grilled* (without salt or fat)","Viande de bœuf, maigre, environ 5% de matière grasse, grillée* (sans sel ni graisse)",182.0,31.3,6.3,0.0,117.0
+07_085,"Beef meat, lean, ca. 5% fat, stewed* (as part of a recipe)","Viande de bœuf, maigre, environ 5% de matière grasse, mijotée* (ingrédient de recette)",185.0,31.7,6.4,0.0,140.0
+07_017,"Beef meat, lean, cured, dried","Viande de bœuf, maigre, fumée, séchée",142.0,31.1,1.9,0.0,2790.0
+07_002,"Beef meat, moderately fat, ca. 20% fat, raw","Viande de bœuf, teneur modérée en matière grasse (env. 20%), crue",239.0,18.6,18.2,0.0,91.0
+07_012,"Beef meat, moderately fat, ca. 20% fat, boiled* (without salt), drained","Viande de bœuf, teneur modérée en matière grasse (env. 20%), bouillie* (sans sel), égouttée",320.0,31.0,21.7,0.0,68.0
+07_013,"Beef meat, moderately fat, ca. 20% fat, grilled* (without salt or fat)","Viande de bœuf, teneur modérée en matière grasse (env. 20%), grillée* (sans sel ni graisse)",286.0,25.9,20.3,0.0,107.0
+07_086,"Beef meat, moderately fat, ca. 20% fat, stewed* (as part of a recipe)","Viande de bœuf, teneur modérée en matière grasse (env. 20%), mijotée* (ingrédient de recette)",336.0,26.2,25.7,0.0,128.0
+07_021,"Beef tripe, raw","Tripes de bœuf, crues",84.0,12.0,4.0,0.0,46.0
+07_022,"Beef tripe, boiled* (without salt), drained","Tripes de bœuf, bouillies* (sans sel), égouttées",118.0,16.8,5.6,0.0,39.0
+07_133,"Beef tripe, grilled* (without salt or fat)","Tripes de bœuf, grillées* (sans sel ni graisse)",118.0,16.8,5.6,0.0,55.0
+07_092,"Beef tripe, stewed* (as part of a recipe)","Tripes de bœuf, mijotées* (ingrédient de recette)",118.0,16.8,5.6,0.0,65.0
+07_025,"Beef, corned beef, canned","Bœuf, corned beef, en conserve",208.0,17.2,13.8,3.6,750.0
+07_064,"Camel meat, raw","Viande de chameau, crue",149.0,19.9,7.7,0.0,70.0
+07_093,"Camel meat, boiled* (without salt), drained","Viande de chameau, bouillie* (sans sel), égouttée",206.0,33.1,8.2,0.0,70.0
+07_094,"Camel meat, grilled* (without salt or fat)","Viande de chameau, grillée* (sans sel ni graisse)",182.0,27.6,8.0,0.0,83.0
+07_095,"Camel meat, stewed* (as part of a recipe)","Viande de chameau, mijotée* (ingrédient de recette)",210.0,28.0,10.8,0.0,99.0
+07_039,"Chicken giblets, raw","Poulet, abats, crus",134.0,17.6,6.6,1.0,80.0
+07_106,"Chicken giblets, boiled* (without salt), drained","Poulet, abats, bouillis* (sans sel), égouttés",167.0,25.9,6.4,1.5,70.0
+07_107,"Chicken giblets, grilled* (without salt or fat)","Poulet, abats, grillés* (sans sel ni graisse)",166.0,25.5,6.5,1.4,98.0
+07_040,"Chicken giblets, stewed* (as part of a recipe)","Poulet, abats, mijotés* (ingrédient de recette)",194.0,25.5,9.6,1.4,115.0
+07_041,"Chicken liver, raw","Foie de poulet, cru",114.0,18.3,4.0,1.3,69.0
+07_108,"Chicken liver, boiled* (without salt), drained","Foie de poulet, bouilli* (sans sel), égoutté",173.0,27.7,6.1,2.0,62.0
+07_109,"Chicken liver, grilled* (without salt or fat)","Foie de poulet, grillé* (sans sel ni graisse)",141.0,22.6,4.9,1.6,72.0
+07_042,"Chicken liver, stewed* (as part of a recipe)","Foie de poulet, mijoté* (ingrédient de recette)",152.0,24.4,5.3,1.7,92.0
+07_030,"Chicken, dark meat with skin, raw","Poulet, chair brune avec la peau, crue",232.0,16.7,18.3,0.0,73.0
+07_031,"Chicken, dark meat with skin, boiled* (without salt), drained","Poulet, chair brune avec la peau, bouillie* (sans sel), égoutté",268.0,22.0,20.0,0.0,38.0
+07_032,"Chicken, dark meat with skin, grilled* (without salt or fat)","Poulet, chair brune avec la peau, grillée* (sans sel ni graisse)",264.0,21.4,19.8,0.0,75.0
+07_103,"Chicken, dark meat with skin, stewed* (as part of a recipe)","Poulet, chair brune avec la peau, mijotée* (ingrédient de recette)",331.0,23.8,26.2,0.0,104.0
+07_003,"Chicken, dark meat without skin, raw","Poulet, chair brune sans la peau, crue",146.0,19.4,7.6,0.0,85.0
+07_028,"Chicken, dark meat without skin, boiled* (without salt), drained","Poulet, chair brune sans la peau, bouillie* (sans sel), égoutté",172.0,25.5,7.8,0.0,45.0
+07_029,"Chicken, dark meat without skin, grilled* (without salt or fat)","Poulet, chair brune sans la peau, grillée* (sans sel ni graisse)",169.0,24.8,7.8,0.0,87.0
+07_102,"Chicken, dark meat without skin, stewed* (as part of a recipe)","Poulet, chair brune sans la peau, mijotée* (ingrédient de recette)",209.0,27.7,10.9,0.0,121.0
+07_036,"Chicken, light meat with skin, raw","Poulet, blanc avec la peau, cru",165.0,20.1,9.4,0.0,39.0
+07_037,"Chicken, light meat with skin, boiled* (without salt), drained","Poulet, blanc avec la peau, bouilli* (sans sel), égoutté",197.0,26.4,10.2,0.0,21.0
+07_038,"Chicken, light meat with skin, grilled* (without salt or fat)","Poulet, blanc avec la peau, grillé* (sans sel ni graisse)",194.0,25.8,10.1,0.0,40.0
+07_104,"Chicken, light meat with skin, stewed* (as part of a recipe)","Poulet, blanc avec la peau, mijoté* (ingrédient de recette)",236.0,28.7,13.4,0.0,56.0
+07_033,"Chicken, light meat without skin, raw","Poulet, blanc sans la peau, cru",116.0,23.0,2.7,0.0,43.0
+07_034,"Chicken, light meat without skin, boiled* (without salt), drained","Poulet, blanc sans la peau, bouilli* (sans sel), égoutté",153.0,30.3,3.6,0.0,23.0
+07_035,"Chicken, light meat without skin, grilled* (without salt or fat)","Poulet, blanc sans la peau, grillé* (sans sel ni graisse)",149.0,29.5,3.5,0.0,44.0
+07_105,"Chicken, light meat without skin, stewed* (as part of a recipe)","Poulet, blanc sans la peau, mijoté* (ingrédient de recette)",166.0,32.9,3.9,0.0,61.0
+07_075,"Cricket, dried, raw","Sauterelle, séchée, crue",435.0,54.5,21.2,1.5,326.0
+07_074,"Cricket, fresh, raw","Sauterelle, frais, crue",151.0,19.0,7.4,0.4,114.0
+07_076,"Cricket, bush (katydid), raw","Sauterelle (katydid), crue",189.0,13.6,14.3,0.9,93.0
+07_044,"Crocodile meat, raw","Viande de crocodile, crue",121.0,19.4,4.8,0.0,61.0
+07_045,"Crocodile meat, boiled* (without salt), drained","Viande de crocodile, bouillie* (sans sel), égouttée",209.0,33.5,8.3,0.0,42.0
+07_110,"Crocodile meat, grilled* (without salt or fat)","Viande de crocodile, grillée* (sans sel ni graisse)",209.0,33.5,8.3,0.0,83.0
+07_111,"Crocodile meat, stewed* (as part of a recipe)","Viande de crocodile, mijotée* (ingrédient de recette)",209.0,33.5,8.3,0.0,104.0
+07_136,Fried mopane worms with vegetables (Burkina Faso)*,Chenille du mopane frite avec légumes (Burkina Faso)*,175.0,9.2,12.7,4.7,949.0
+07_027,"Game meat, dried, salted","Viande de gibier, séchée, salée",330.0,66.7,7.0,0.0,2210.0
+07_069,"Goat meat, lean, raw","Viande de chèvre, maigre, crue",115.0,19.2,4.3,0.0,156.0
+07_113,"Goat meat, lean, boiled* (without salt), drained","Viande de chèvre, maigre, bouillie* (sans sel), égouttée",172.0,28.6,6.4,0.0,139.0
+07_114,"Goat meat, lean, grilled* (without salt or fat)","Viande de chèvre, maigre, grillée* (sans sel ni graisse)",167.0,27.8,6.2,0.0,192.0
+07_115,"Goat meat, lean, stewed* (as part of a recipe)","Viande de chèvre, maigre, mijotée* (ingrédient de recette)",202.0,33.6,7.5,0.0,273.0
+07_046,"Goat meat, moderately fat, ca. 10% fat, raw","Viande de chèvre, teneur modérée en matière grasse (env. 10%), crue",160.0,17.6,10.0,0.0,101.0
+07_047,"Goat meat, moderately fat, ca. 10% fat, boiled* (without salt), drained","Viande de chèvre, teneur modérée en matière grasse (env. 10%), bouillie* (sans sel), égouttée",208.0,26.3,11.4,0.0,91.0
+07_048,"Goat meat, moderately fat, ca. 10% fat, grilled* (without salt or fat)","Viande de chèvre, teneur modérée en matière grasse (env. 10%), grillée* (sans sel ni graisse)",204.0,25.6,11.3,0.0,125.0
+07_112,"Goat meat, moderately fat, ca. 10% fat, stewed* (as part of a recipe)","Viande de chèvre, teneur modérée en matière grasse (env. 10%), mijotée* (ingrédient de recette)",281.0,31.0,17.5,0.0,178.0
+07_070,"Guinea fowl meat, raw","Viande de pintade, crue",106.0,21.5,2.2,0.0,17.0
+07_116,"Guinea fowl meat, boiled* (without salt), drained","Viande de pintade, bouillie* (sans sel), égouttée",140.0,28.3,2.9,0.0,9.0
+07_117,"Guinea fowl meat, grilled* (without salt or fat)","Viande de pintade, grillée* (sans sel ni graisse)",136.0,27.6,2.9,0.0,22.0
+07_118,"Guinea fowl meat, stewed* (as part of a recipe)","Viande de pintade, mijotée* (ingrédient de recette)",152.0,30.7,3.2,0.0,25.0
+07_135,Kédjénou (Burkina Faso)*: chicken stew with vegetables,Kédjénou (Burkina Faso)*: poulet mijoté avec légumes,48.0,4.9,2.2,2.0,490.0
+07_051,"Lamb brain, raw","Cervelle d’agneau, crue",118.0,13.1,7.3,0.1,122.0
+07_129,"Lamb brain, boiled* (without salt), drained","Cervelle d’agneau, bouillie* (sans sel), égouttée",132.0,16.3,7.4,0.1,92.0
+07_130,"Lamb brain, grilled* (without salt or fat)","Cervelle d’agneau, grillée* (sans sel ni graisse)",132.0,16.3,7.4,0.1,130.0
+07_052,"Lamb brain, stewed* (as part of a recipe)","Cervelle d’agneau, mijotée* (ingrédient de recette)",148.0,16.3,9.1,0.1,153.0
+07_053,"Lamb liver, raw","Foie d’agneau, cru",165.0,19.5,6.6,7.0,65.0
+07_054,"Lamb liver, boiled* (without salt), drained","Foie d’agneau, bouilli* (sans sel), égoutté",218.0,29.5,6.4,10.6,59.0
+07_131,"Lamb liver, grilled* (without salt or fat)","Foie d’agneau, grillé* (sans sel ni graisse)",189.0,24.0,6.5,8.6,68.0
+07_132,"Lamb liver, stewed* (as part of a recipe)","Foie d’agneau, mijoté* (ingrédient de recette)",220.0,26.0,8.8,9.3,87.0
+07_072,"Lamb/mutton meat, lean, ca. 10% fat, raw","Viande d’agneau/mouton, maigre, environ 10% de matière grasse, crue",139.0,19.3,6.9,0.0,83.0
+07_126,"Lamb/mutton meat, lean, ca. 10% fat, boiled* (without salt), drained","Viande d’agneau/mouton, maigre, environ 10% de matière grasse, bouillie* (sans sel), égouttée",177.0,28.7,6.9,0.0,75.0
+07_127,"Lamb/mutton meat, lean, ca. 10% fat, grilled* (without salt or fat)","Viande d’agneau/mouton, maigre, environ 10% de matière grasse, grillée* (sans sel ni graisse)",174.0,27.9,6.9,0.0,102.0
+07_128,"Lamb/mutton meat, lean, ca. 10% fat, stewed* (as part of a recipe)","Viande d’agneau/mouton, maigre, environ 10% de matière grasse, mijotée* (ingrédient de recette)",221.0,30.6,11.0,0.0,132.0
+07_004,"Lamb/mutton meat, moderately fat, ca. 20% fat, raw","Viande d’agneau/mouton, teneur modérée en matière grasse (env. 20%), crue",255.0,16.3,21.1,0.0,61.0
+07_049,"Lamb/mutton meat, moderately fat, ca. 20% fat, boiled* (without salt), drained","Viande d’agneau/mouton, teneur modérée en matière grasse (env. 20%), bouillie* (sans sel), égouttée",324.0,24.3,25.1,0.0,55.0
+07_050,"Lamb/mutton meat, moderately fat, ca. 20% fat, grilled* (without salt or fat)","Viande d’agneau/mouton, teneur modérée en matière grasse (env. 20%), grillée* (sans sel ni graisse)",318.0,23.6,24.8,0.0,75.0
+07_125,"Lamb/mutton meat, moderately fat, ca. 20% fat, stewed* (as part of a recipe)","Viande d’agneau/mouton, teneur modérée en matière grasse (env. 20%), mijotée* (ingrédient de recette)",405.0,25.9,33.5,0.0,97.0
+07_079,"Larvae, fresh, raw","Larves, fraîches, crues",190.0,15.2,12.6,2.8,69.0
+07_056,"Mopane worm, canned","Chenille du mopane, en conserve",97.0,14.1,3.6,0.7,234.0
+07_067,"Ostrich meat, raw","Viande d’autruche, crue",105.0,21.0,2.4,0.0,84.0
+07_099,"Ostrich meat, boiled* (without salt), drained","Viande d’autruche, bouillie* (sans sel), égouttée",139.0,27.6,3.1,0.0,44.0
+07_100,"Ostrich meat, grilled* (without salt or fat)","Viande d’autruche, grillée* (sans sel ni graisse)",135.0,26.9,3.0,0.0,108.0
+07_101,"Ostrich meat, stewed* (as part of a recipe)","Viande d’autruche, mijotée* (ingrédient de recette)",150.0,30.0,3.4,0.0,120.0
+07_005,"Pork meat, fatty, ca. 40% fat, raw","Viande de porc, grasse, environ 40% de matière grasse, crue",392.0,12.5,38.0,0.0,42.0
+07_059,"Pork meat, fatty, ca. 40% fat, boiled* (without salt), drained","Viande de porc, grasse, environ 40% de matière grasse, bouillie* (sans sel), égouttée",540.0,19.2,51.5,0.0,29.0
+07_060,"Pork meat, fatty, ca. 40% fat, grilled* (without salt or fat)","Viande de porc, grasse, environ 40% de matière grasse, grillée* (sans sel ni graisse)",510.0,17.9,48.7,0.0,54.0
+07_123,"Pork meat, fatty, ca. 40% fat, stewed* (as part of a recipe)","Viande de porc, grasse, environ 40% de matière grasse, mijotée* (ingrédient de recette)",603.0,19.2,58.5,0.0,65.0
+07_071,"Pork meat, lean, ca. 10% fat, raw","Viande de porc, maigre, environ 10% de matière grasse, crue",152.0,18.6,8.6,0.0,83.0
+07_119,"Pork meat, lean, ca. 10% fat, boiled* (without salt), drained","Viande de porc, maigre, environ 10% de matière grasse, bouillie* (sans sel), égouttée",199.0,28.5,9.5,0.0,58.0
+07_120,"Pork meat, lean, ca. 10% fat, grilled* (without salt or fat)","Viande de porc, maigre, environ 10% de matière grasse, grillée* (sans sel ni graisse)",190.0,26.5,9.3,0.0,107.0
+07_121,"Pork meat, lean, ca. 10% fat, stewed* (as part of a recipe)","Viande de porc, maigre, environ 10% de matière grasse, mijotée* (ingrédient de recette)",202.0,24.7,11.5,0.0,111.0
+07_006,"Pork meat, moderately fat, ca. 20% fat, raw","Viande de porc, teneur modérée en matière grasse (env. 20%), crue",277.0,16.3,23.5,0.0,55.0
+07_057,"Pork meat, moderately fat, ca. 20% fat, boiled* (without salt), drained","Viande de porc, teneur modérée en matière grasse (env. 20%), bouillie* (sans sel), égouttée",362.0,25.0,29.2,0.0,38.0
+07_058,"Pork meat, moderately fat, ca. 20% fat, grilled* (without salt or fat)","Viande de porc, teneur modérée en matière grasse (env. 20%), grillée* (sans sel ni graisse)",345.0,23.2,28.0,0.0,71.0
+07_122,"Pork meat, moderately fat, ca. 20% fat, stewed* (as part of a recipe)","Viande de porc, teneur modérée en matière grasse (env. 20%), mijotée* (ingrédient de recette)",425.0,25.0,36.2,0.0,85.0
+07_007,"Rabbit meat, raw","Viande de lapin, crue",142.0,21.3,6.3,0.0,52.0
+07_124,"Rabbit meat, boiled* (without salt), drained","Viande de lapin, bouillie* (sans sel), égouttée",177.0,30.9,6.0,0.0,30.0
+07_062,"Rabbit meat, grilled* (without salt or fat)","Viande de lapin, grillée* (sans sel ni graisse)",177.0,30.9,6.0,0.0,60.0
+07_061,"Rabbit meat, stewed* (as part of a recipe)","Viande de lapin, mijotée* (ingrédient de recette)",205.0,30.9,9.1,0.0,75.0
+07_063,"Sausage, wiener (beef, pork, chicken) canned","Saucisse viennoise (bœuf, porc, poulet) en conserve",234.0,12.4,19.9,1.2,879.0
+07_083,"Snail, raw","Escargot, cru",88.0,14.6,1.7,3.6,138.0
+07_084,"Snail, cooked","Escargot, cuit",138.0,25.2,0.5,8.3,55.0
+07_066,"Springbok meat, raw","Viande de springbok, crue",111.0,23.1,2.0,0.0,51.0
+07_096,"Springbok meat, boiled* (without salt), drained","Viande de springbok, bouillie* (sans sel), égouttée",185.0,38.5,3.4,0.0,51.0
+07_097,"Springbok meat, grilled* (without salt or fat)","Viande de springbok, grillée* (sans sel ni graisse)",154.0,32.1,2.8,0.0,60.0
+07_098,"Springbok meat, stewed* (as part of a recipe)","Viande de springbok, mijotée* (ingrédient de recette)",156.0,32.6,2.9,0.0,72.0
+07_082,"Termite, dried, raw","Termite, séchée, crue",518.0,34.1,37.7,8.7,73.0
+07_081,"Termite, fresh, raw","Termite, fraîche, crue",153.0,11.9,9.7,3.2,50.0
+08_005,"Egg, chicken, local breed, raw","Œuf, poule, race locale, cru",148.0,12.7,10.4,0.8,165.0
+08_010,"Egg, chicken, local breed, boiled* (without salt)","Œuf, poule, race locale, bouilli* (sans sel)",147.6,12.7,10.4,0.8,157.0
+08_001,"Egg, chicken, raw","Œuf, poule, cru",150.0,13.5,10.6,0.2,165.0
+08_002,"Egg, chicken, boiled* (without salt)","Œuf, poule, bouilli* (sans sel)",150.2,13.5,10.6,0.2,157.0
+08_003,"Egg, chicken, fried in oil","Œuf, poule, frit dans l’huile",197.0,13.6,14.9,2.0,162.0
+08_009,"Egg, duck, raw","Œuf, canne, cru",179.0,11.8,13.6,2.4,113.0
+08_014,"Egg, duck, boiled* (without salt)","Œuf, canne, bouilli* (sans sel)",179.2,11.8,13.6,2.4,107.0
+08_008,"Egg, guinea fowl, raw","Œuf, pintade, cru",184.0,12.9,13.8,2.2,250.0
+08_013,"Egg, guinea fowl, boiled* (without salt)","Œuf, pintade, bouilli* (sans sel)",184.60000000000002,12.9,13.8,2.2,238.0
+08_006,"Egg, quail, raw","Œuf, caille, cru",180.0,15.6,11.9,2.7,179.0
+08_011,"Egg, quail, boiled* (without salt)","Œuf, caille, bouilli* (sans sel)",180.3,15.6,11.9,2.7,170.0
+08_007,"Egg, turkey, raw","Œuf, dinde, cru",184.0,11.5,13.0,5.1,203.0
+08_012,"Egg, turkey, boiled* (without salt)","Œuf, dinde, bouilli* (sans sel)",183.4,11.5,13.0,5.1,193.0
+08_004,"Omelette, from chicken egg","Omelette, d’œufs de poule",150.0,10.6,11.7,0.6,155.0
+09_007,"African carp, fillet, raw","Carpe d’Afrique, filet, cru",90.0,18.2,1.9,0.0,51.0
+09_061,"African carp, fillet, boiled* (as part of a recipe)","Carpe d’Afrique, filet, bouilli* (ingrédient de recette)",108.7,22.0,2.3,0.0,62.0
+09_009,"African carp, fillet, grilled* (without salt or fat)","Carpe d’Afrique, filet, grillé* (sans sel ni graisse)",129.9,26.4,2.7,0.0,63.0
+09_008,"African carp, fillet, steamed* (without salt)","Carpe d’Afrique, filet, cuit à la vapeur* (sans sel)",108.7,22.0,2.3,0.0,52.0
+09_012,"Anchovy, canned in oil, drained","Anchois à l’huile, en conserve, égoutté",203.0,28.9,9.7,0.0,3668.0
+09_001,"Anchovy, fillet, raw","Anchois, filet, cru",116.0,18.9,4.4,0.0,158.0
+09_062,"Anchovy, fillet, boiled* (as part of a recipe)","Anchois, filet, bouilli* (ingrédient de recette)",138.9,22.8,5.3,0.0,190.0
+09_011,"Anchovy, fillet, grilled* (without salt or fat)","Anchois, filet, grillé* (sans sel ni graisse)",167.2,27.4,6.4,0.0,195.0
+09_010,"Anchovy, fillet, steamed* (without salt)","Anchois, filet, cuit à la vapeur* (sans sel)",138.9,22.8,5.3,0.0,162.0
+09_048,"Atlantic cod (Northeast Atlantic), fillet, raw","Morue de l’Atlantique Nord-Est, filet, cru",80.0,18.6,0.6,0.0,80.0
+09_068,"Atlantic cod (Northeast Atlantic), fillet, boiled* (as part of a recipe)","Morue de l’Atlantique Nord-Est, filet, bouilli* (ingrédient de recette)",98.0,22.7,0.8,0.0,98.0
+09_067,"Atlantic cod (Northeast Atlantic), fillet, grilled* (without salt or fat)","Morue de l’Atlantique Nord-Est, filet, grillé* (sans sel ni graisse)",106.4,24.8,0.8,0.0,91.0
+09_066,"Atlantic cod (Northeast Atlantic), fillet, steamed* (without salt)","Morue de l’Atlantique Nord-Est, filet, cuit à la vapeur* (sans sel)",98.0,22.7,0.8,0.0,83.0
+09_049,"Atlantic horse mackerel, wild, fillet without skin, raw","Chinchard atlantique, sauvage, filet sans peau, cru",123.0,18.6,5.4,0.0,65.0
+09_072,"Atlantic horse mackerel, wild, fillet without skin, boiled* (as part of a recipe)","Chinchard atlantique, sauvage, filet sans peau, bouilli* (ingrédient de recette)",175.7,26.6,7.7,0.0,92.0
+09_071,"Atlantic horse mackerel, wild, fillet without skin, grilled* (without salt or fat)","Chinchard atlantique, sauvage, filet sans peau, grillé* (sans sel ni graisse)",138.2,23.3,5.0,0.0,69.0
+09_070,"Atlantic horse mackerel, wild, fillet without skin, steamed* (without salt)","Chinchard atlantique, sauvage, filet sans peau, cuit à la vapeur* (sans sel)",148.70000000000002,26.6,4.7,0.0,78.0
+09_002,"Barracuda, fillet, raw","Barracuda, filet, cru",84.0,19.0,0.9,0.0,39.0
+09_063,"Barracuda, fillet, boiled* (as part of a recipe)","Barracuda, filet, bouilli* (ingrédient de recette)",100.6,22.9,1.0,0.0,47.0
+09_014,"Barracuda, fillet, grilled* (without salt or fat)","Barracuda, filet, grillé* (sans sel ni graisse)",120.8,27.5,1.2,0.0,48.0
+09_013,"Barracuda, fillet, steamed* (without salt)","Barracuda, filet, cuit à la vapeur* (sans sel)",100.6,22.9,1.0,0.0,40.0
+09_015,"Bayad, fillet, raw","Bayad, filet, cru",79.0,17.1,1.2,0.0,51.0
+09_064,"Bayad, fillet, boiled* (as part of a recipe)","Bayad, filet, bouilli* (ingrédient de recette)",95.0,20.6,1.4,0.0,61.0
+09_017,"Bayad, fillet, grilled* (without salt or fat)","Bayad, filet, grillé* (sans sel ni graisse)",114.5,24.8,1.7,0.0,63.0
+09_016,"Bayad, fillet, steamed* (without salt)","Bayad, filet, cuit à la vapeur* (sans sel)",95.0,20.6,1.4,0.0,52.0
+09_021,"Carp, fillet, raw","Carpe, filet, cru",117.0,17.6,5.2,0.0,24.0
+09_065,"Carp, fillet, boiled* (as part of a recipe)","Carpe, filet, bouilli* (ingrédient de recette)",141.5,21.2,6.3,0.0,29.0
+09_023,"Carp, fillet, grilled* (without salt or fat)","Carpe, filet, grillé* (sans sel ni graisse)",141.6,25.5,4.4,0.0,29.0
+09_022,"Carp, fillet, steamed* (without salt)","Carpe, filet, cuit à la vapeur* (sans sel)",128.9,21.2,4.9,0.0,24.0
+09_018,"Catfish, fillet, raw","Poisson-chat, filet, cru",101.0,16.5,3.8,0.0,48.0
+09_108,"Catfish, fillet, boiled* (as part of a recipe)","Poisson-chat, filet, bouilli* (ingrédient de recette)",121.0,19.9,4.6,0.0,58.0
+09_020,"Catfish, fillet, grilled* (without salt or fat)","Poisson-chat, filet, grillé* (sans sel ni graisse)",145.5,24.0,5.5,0.0,59.0
+09_019,"Catfish, fillet, steamed* (without salt)","Poisson-chat, filet, cuit à la vapeur* (sans sel)",121.0,19.9,4.6,0.0,49.0
+09_055,"Crab, flesh (body and claw), raw","Crabe, chair (corps et pinces), cru",93.0,16.0,1.3,4.4,293.0
+09_098,"Crab, flesh (body and claw), boiled* (as part of a recipe)","Crabe, chair (corps et pinces), bouilli* (ingrédient de recette)",106.7,18.3,1.5,5.0,337.0
+09_097,"Crab, flesh (body and claw), grilled* (without salt or fat)","Crabe, chair (corps et pinces), grillé* (sans sel ni graisse)",108.30000000000001,18.6,1.5,5.1,290.0
+09_096,"Crab, flesh (body and claw), steamed* (without salt)","Crabe, chair (corps et pinces), cuit à la vapeur* (sans sel)",106.7,18.3,1.5,5.0,286.0
+09_053,"Fish, whole, dried","Poisson, entier, séché",316.0,60.4,8.2,0.0,147.0
+09_003,"Mackerel, fillet, raw","Maquereau, filet, cru",120.0,19.6,4.6,0.0,130.0
+09_069,"Mackerel, fillet, boiled* (as part of a recipe)","Maquereau, filet, bouilli* (ingrédient de recette)",171.4,28.0,6.6,0.0,186.0
+09_025,"Mackerel, fillet, grilled* (without salt or fat)","Maquereau, filet, grillé* (sans sel ni graisse)",150.2,24.5,5.8,0.0,138.0
+09_024,"Mackerel, fillet, steamed* (without salt)","Maquereau, filet, cuit à la vapeur* (sans sel)",171.4,28.0,6.6,0.0,158.0
+09_109,"Mackerel, jack, canned in oil, drained","Chinchard à l’huile, en conserve, égoutté",149.0,23.2,6.3,0.0,379.0
+09_050,"Mahi mahi, fillet, raw","Mahi mahi, filet, cru",100.0,22.1,1.3,0.0,36.0
+09_075,"Mahi mahi, fillet, boiled* (as part of a recipe)","Mahi mahi, filet, bouilli* (ingrédient de recette)",120.80000000000001,26.6,1.6,0.0,44.0
+09_074,"Mahi mahi, fillet, grilled* (without salt or fat)","Mahi mahi, filet, grillé* (sans sel ni graisse)",145.1,32.0,1.9,0.0,45.0
+09_073,"Mahi mahi, fillet, steamed* (without salt)","Mahi mahi, filet, cuit à la vapeur* (sans sel)",120.80000000000001,26.6,1.6,0.0,37.0
+09_051,"Mola carplet, small whole fish, viscera, fins and scales removed, raw","Mola carplet, petit poisson entier, vidé et écaillé, cru",105.0,16.0,4.6,0.0,35.0
+09_078,"Mola carplet, small whole fish, viscera, fins and scales removed, boiled* (as part of a recipe)","Mola carplet, petit poisson entier, vidé et écaillé, bouilli* (ingrédient de recette)",126.7,19.3,5.5,0.0,42.0
+09_077,"Mola carplet, small whole fish, viscera, fins and scales removed, grilled* (without salt or fat)","Mola carplet, petit poisson entier, vidé et écaillé, grillé* (sans sel ni graisse)",152.2,23.2,6.6,0.0,43.0
+09_076,"Mola carplet, small whole fish, viscera, fins and scales removed, steamed* (without salt)","Mola carplet, petit poisson entier, vidé et écaillé, cuit à la vapeur* (sans sel)",126.7,19.3,5.5,0.0,36.0
+09_026,"Mormyrid, fillet, raw","Mormiridé, filet, cru",84.0,18.2,1.3,0.0,41.0
+09_079,"Mormyrid, fillet, boiled* (as part of a recipe)","Mormiridé, filet, bouilli* (ingrédient de recette)",102.0,21.9,1.6,0.0,49.0
+09_028,"Mormyrid, fillet, grilled* (without salt or fat)","Mormiridé, filet, grillé* (sans sel ni graisse)",122.3,26.3,1.9,0.0,50.0
+09_027,"Mormyrid, fillet, steamed* (without salt)","Mormiridé, filet, cuit à la vapeur* (sans sel)",102.0,21.9,1.6,0.0,41.0
+09_052,"Mullet, fillet, raw","Mulet, filet, cru",94.0,20.5,1.3,0.0,66.0
+09_085,"Mullet, fillet, boiled* (as part of a recipe)","Mulet, filet, bouilli* (ingrédient de recette)",113.2,24.7,1.6,0.0,80.0
+09_084,"Mullet, fillet, grilled* (without salt or fat)","Mulet, filet, grillé* (sans sel ni graisse)",135.9,29.7,1.9,0.0,81.0
+09_083,"Mullet, fillet, steamed* (without salt)","Mulet, filet, cuit à la vapeur* (sans sel)",113.2,24.7,1.6,0.0,68.0
+09_060,"North African catfish, fillet, raw","Poisson-chat d’Afrique du Nord, filet, cru",103.0,17.8,3.5,0.0,41.0
+09_082,"North African catfish, fillet, boiled* (as part of a recipe)","Poisson-chat d’Afrique du Nord, filet, bouilli* (ingrédient de recette)",123.80000000000001,21.5,4.2,0.0,49.0
+09_081,"North African catfish, fillet, grilled* (without salt or fat)","Poisson-chat d’Afrique du Nord, filet, grillé* (sans sel ni graisse)",149.1,25.8,5.1,0.0,51.0
+09_080,"North African catfish, fillet, steamed* (without salt)","Poisson-chat d’Afrique du Nord, filet, cuit à la vapeur* (sans sel)",123.80000000000001,21.5,4.2,0.0,42.0
+09_032,"Perch, Nile, fillet, raw","Perche du Nil, filet, cru",93.0,20.5,1.2,0.0,97.0
+09_086,"Perch, Nile, fillet, boiled* (as part of a recipe)","Perche du Nil, filet, bouilli* (ingrédient de recette)",111.39999999999999,24.7,1.4,0.0,117.0
+09_034,"Perch, Nile, fillet, grilled* (without salt or fat)","Perche du Nil, filet, grillé* (sans sel ni graisse)",134.1,29.7,1.7,0.0,119.0
+09_033,"Perch, Nile, fillet, steamed* (without salt)","Perche du Nil, filet, cuit à la vapeur* (sans sel)",111.39999999999999,24.7,1.4,0.0,99.0
+09_037,"Sardine, canned in oil, drained, with bones","Sardines à l’huile, en conserve, égouttées, avec arêtes",239.0,24.8,15.5,0.0,438.0
+09_004,"Sardine, fillet, raw","Sardine, filet, cru",106.0,19.8,3.0,0.0,54.0
+09_087,"Sardine, fillet, boiled* (as part of a recipe)","Sardine, filet, bouilli* (ingrédient de recette)",127.6,23.8,3.6,0.0,65.0
+09_036,"Sardine, fillet, grilled* (without salt or fat)","Sardine, filet, grillé* (sans sel ni graisse)",154.4,28.7,4.4,0.0,66.0
+09_035,"Sardine, fillet, steamed* (without salt)","Sardine, filet, cuit à la vapeur* (sans sel)",127.6,23.8,3.6,0.0,55.0
+09_056,"Sea snail/whelk, flesh, raw","Escargot de mer/bulot, cru",130.0,23.8,0.4,7.8,206.0
+09_101,"Sea snail/whelk, boiled* (as part of a recipe)","Escargot de mer/bulot, bouilli* (ingrédient de recette)",156.5,28.7,0.5,9.3,248.0
+09_100,"Sea snail/whelk, grilled* (without salt or fat)","Escargot de mer/bulot, grillé* (sans sel ni graisse)",188.60000000000002,34.6,0.6,11.2,254.0
+09_099,"Sea snail/whelk, steamed* (without salt)","Escargot de mer/bulot, cuit à la vapeur* (sans sel)",156.5,28.7,0.5,9.3,211.0
+09_038,"Shiny-nose, fillet, raw","Capitaine de mer, filet, cru",94.0,21.1,1.1,0.0,52.0
+09_088,"Shiny-nose, fillet, boiled* (as part of a recipe)","Capitaine de mer, filet, bouilli* (ingrédient de recette)",113.7,25.5,1.3,0.0,63.0
+09_040,"Shiny-nose, fillet, grilled* (without salt or fat)","Capitaine de mer, filet, grillé* (sans sel ni graisse)",137.2,30.7,1.6,0.0,64.0
+09_039,"Shiny-nose, fillet, steamed* (without salt)","Capitaine de mer, filet, cuit à la vapeur* (sans sel)",113.7,25.5,1.3,0.0,54.0
+09_057,"Shrimp (crayfish), whole, dried","Crevette, entière, séchée",322.0,63.1,4.2,7.9,1298.0
+09_058,"Shrimp, palaemonid, flesh, raw","Crevette, palaemonidae, chair, crue",103.0,22.2,1.4,0.3,158.0
+09_104,"Shrimp, palaemonid, flesh, boiled* (as part of a recipe)","Crevette, palaemonidae, chair, bouillie* (ingrédient de recette)",123.3,26.7,1.7,0.3,191.0
+09_103,"Shrimp, palaemonid, flesh, grilled* (without salt or fat)","Crevette, palaemonidae, chair, grillée* (sans sel ni graisse)",118.80000000000001,25.8,1.6,0.3,156.0
+09_102,"Shrimp, palaemonid, flesh, steamed* (without salt)","Crevette, palaemonidae, chair, cuite à la vapeur* (sans sel)",123.3,26.7,1.7,0.3,162.0
+09_059,"Shrimp, penaeid, flesh, raw","Crevette, penaeidae, chair, crue",98.0,21.6,0.9,1.0,126.0
+09_107,"Shrimp, penaeid, flesh, boiled* (as part of a recipe)","Crevette, penaeidae, chair, bouillie* (ingrédient de recette)",118.2,26.0,1.0,1.3,152.0
+09_106,"Shrimp, penaeid, flesh, grilled* (without salt or fat)","Crevette, penaeidae, chair, grillée* (sans sel ni graisse)",114.2,25.1,1.0,1.2,125.0
+09_105,"Shrimp, penaeid, flesh, steamed* (without salt)","Crevette, penaeidae, chair, cuite à la vapeur* (sans sel)",118.2,26.0,1.0,1.3,129.0
+09_041,"Tilapia, fillet, raw","Tilapia, filet, cru",88.0,18.6,1.5,0.0,64.0
+09_089,"Tilapia, fillet, boiled* (as part of a recipe)","Tilapia, filet, bouilli* (ingrédient de recette)",100.89999999999999,21.4,1.7,0.0,74.0
+09_043,"Tilapia, fillet, grilled* (without salt or fat)","Tilapia, filet, grillé* (sans sel ni graisse)",111.5,23.6,1.9,0.0,69.0
+09_042,"Tilapia, fillet, steamed* (without salt)","Tilapia, filet, cuit à la vapeur* (sans sel)",100.89999999999999,21.4,1.7,0.0,63.0
+09_110,"Tuna, canned in water, drained","Thon au naturel, en conserve, égoutté",119.0,24.9,2.2,0.0,302.0
+09_111,"Tuna, canned in oil, drained","Thon à l’huile, en conserve, égoutté",186.0,25.4,9.4,0.0,402.0
+09_005,"Tuna, fillet, raw","Thon, filet, cru",118.0,23.6,2.6,0.0,50.0
+09_092,"Tuna, fillet, boiled* (as part of a recipe)","Thon, filet, bouilli* (ingrédient de recette)",147.7,29.5,3.3,0.0,62.0
+09_091,"Tuna, fillet, grilled* (without salt or fat)","Thon, filet, grillé* (sans sel ni graisse)",159.1,31.9,3.5,0.0,57.0
+09_090,"Tuna, fillet, steamed* (without salt)","Thon, filet, cuit à la vapeur* (sans sel)",147.7,29.5,3.3,0.0,53.0
+09_054,"Venus clams, flesh, raw","Palourde vénus, chair, crue",61.0,9.2,1.2,3.5,510.0
+09_095,"Venus clams, flesh, boiled* (as part of a recipe)","Palourde vénus, chair, bouillie* (ingrédient de recette)",97.5,14.6,1.9,5.5,809.0
+09_094,"Venus clams, flesh, steamed* (without salt)","Palourde vénus, chair, cuite à la vapeur* (sans sel)",97.5,14.6,1.9,5.5,688.0
+09_006,"White grouper, fillet, raw","Mérou blanc, filet, cru",96.0,19.4,2.1,0.0,51.0
+09_093,"White grouper, fillet, boiled* (as part of a recipe)","Mérou blanc, filet, bouilli* (ingrédient de recette)",115.7,23.3,2.5,0.0,61.0
+09_047,"White grouper, fillet, grilled* (without salt or fat)","Mérou blanc, filet, grillé* (sans sel ni graisse)",139.0,28.0,3.0,0.0,63.0
+09_046,"White grouper, fillet, steamed* (without salt)","Mérou blanc, filet, cuit à la vapeur* (sans sel)",115.7,23.3,2.5,0.0,52.0
+10_019,"Breastmilk, colostrum","Lait maternel, colostrum",59.0,1.9,2.6,7.1,47.0
+10_004,"Breastmilk, mature",Lait maternel,70.0,1.1,3.5,8.4,6.0
+10_006,"Cheese, cheddar, from cow’s milk","Fromage, cheddar, de lait de vache",397.0,24.7,32.3,1.8,487.0
+10_028,"Cheese, fresh curd, from cow’s milk","Fromage, blanc, frais, de lait de vache",219.0,15.5,15.7,3.8,31.0
+10_008,"Cheese, Gouda, from cow’s milk","Fromage, Gouda, de lait de vache",380.0,23.9,31.5,0.3,511.0
+10_007,"Cheese, hard type, from goat’s milk","Fromage, de chèvre, à pâte dure",447.0,30.5,35.6,1.2,423.0
+10_027,"Cheese, processed, spreadable, shelf-stable (e.g. Laughing Cow)","Fromage, fondu à tartiner, longue conservation (ex. vache-qui-rit)",271.0,14.8,20.4,7.0,1000.0
+10_009,"Cream, from cow’s milk, ca. 38% fat","Crème, de lait de vache, env. 38% de mat. grasse",351.0,2.1,36.6,3.5,39.0
+10_010,"Cream, from cow’s milk, reduced fat, ca. 18% fat","Crème, de lait de vache, faible teneur en matière grasse (env. 18%)",183.0,2.7,17.3,4.0,49.0
+10_011,"Infant formula, powder, for 3 months, fortified","Lait infantile en poudre, 1er âge (3 mois), enrichi",519.0,12.1,27.7,55.4,140.0
+10_012,"Infant formula, powder, for 6 months, fortified","Lait infantile en poudre, 2e âge (6 mois), enrichi",475.0,18.0,19.7,56.6,225.0
+10_018,"Milk, camel, fresh","Lait, de chamelle, frais",58.0,3.0,4.0,2.4,61.0
+10_015,"Milk, cow, canned, condensed, sweetened","Address/resolve point #21 in Editorial Notes for 04 NV:
+AS: Ordering of foods / grouping (Banakou…)
+I did not check for ordering of each row / entry in the Food names. For the most part, these seemed to follow a consistent approach (alphabetical order, with some exceptions relating to food prep, for example “raw” before “boiled”, etc.). However, I noticed (in passing), at least one place that seemed inconsistent (under Starchy roots, tubers and their products):
+- Banakou né barâand kanss saagbo (Burkina Faso)*: Foutou of cassava and unripe plantain 
+- Banakou né kou saagbo (Burkina Faso)*: Foutou of yam and cassava
+- Banakou né barâand moomd saagbo (Burkina Faso)*: Foutou of cassava and ripe plantain 
+RC: Agree. Change order.
+VPdQ: We think it can just be done by sorting the items by alphabetical order again, right?
+AJV: The short answer is no, sorry! The order of foods in Excel is: 1, By food group; 2, By food name, BUT raw foods come before their cooked counterparts (e.g. Plantain, unripe, pale flesh, raw comes before Plantain, unripe, pale flesh, boiled).",329.0,7.5,8.5,55.6,325.0
+10_016,"Milk, cow, canned, evaporated","Lait, de vache, en conserve, concentré",157.0,7.4,8.6,12.6,106.0
+10_017,"Milk, cow, powder, skimmed, unfortified","Lait, de vache, en poudre, écrémé, non enrichi",356.0,36.4,1.0,50.4,468.0
+10_002,"Milk, cow, powder, whole, unfortified","Lait, de vache, en poudre, entier, non enrichi",493.0,25.8,26.8,37.3,380.0
+10_013,"Milk, cow, reduced fat, 1.5–2% fat","Lait, de vache, partiellement écrémé, 1.5–2% de mat. grasse",48.0,3.4,1.8,4.6,50.0
+10_014,"Milk, cow, skimmed, 0.5% fat","Lait, de vache, écrémé, 0.5% de mat. grasse",37.0,3.5,0.6,4.6,63.0
+10_022,"Milk, cow, whole, fermented","Lait, de vache, entier, fermenté",62.0,3.3,3.6,4.0,43.0
+10_001,"Milk, cow, whole, pasteurized or UHT, 3.5% fat","Lait, de vache, entier, pasteurisé ou stérilisé UHT, 3.5% de mat. grasse",64.0,3.3,3.4,5.1,45.0
+10_029,"Milk, cow, whole, raw, 4.5% fat","Lait, de vache, entier, cru, 4.5% de mat. grasse",78.0,3.1,5.0,5.0,45.0
+10_003,"Milk, goat, fresh","Lait, de chèvre, frais",83.0,3.9,5.3,4.9,55.0
+10_024,"Milk, sheep or goat, fermented","Lait, de brebis ou de chèvre, fermenté",85.0,4.8,4.5,6.4,48.0
+10_023,"Milk, sheep, fresh","Lait, de brebis, frais",100.0,5.9,6.4,4.7,40.0
+10_026,"Yoghurt, from reduced fat/skimmed cow’s milk, sweetened/with fruit","Yaourt, de lait de vache partiellement écrémé, sucré/avec fruits",83.0,3.5,1.4,14.0,64.0
+10_025,"Yoghurt, plain, from reduced fat/skimmed cow’s milk","Yaourt, de lait de vache partiellement écrémé, nature",58.0,3.8,1.4,7.5,66.0
+10_005,"Yoghurt, plain, from whole cow’s milk","Yaourt, de lait de vache entier, nature",82.0,2.9,4.7,7.1,29.0
+11_011,"Butter, from cow’s milk, salted","Beurre, de lait de vache, salé",739.0,1.0,81.5,0.2,716.0
+11_001,"Butter, from cow’s milk, unsalted","Beurre, de lait de vache, doux",743.0,1.0,81.5,1.2,22.0
+11_002,"Coconut oil, unfortified","Huile de coco, non enrichie",900.0,0.0,100.0,0.0,1.0
+11_018,"Coconut oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile de coco, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,1.0
+11_017,"Coconut oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile de coco, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,1.0
+11_013,"Corn (maize) oil, unfortified","Huile de maïs, non enrichie",899.0,0.0,99.9,0.0,0.0
+11_033,"Corn (maize) oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile de maïs, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",899.0,0.0,99.9,0.0,0.0
+11_032,"Corn (maize) oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile de maïs, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",899.0,0.0,99.9,0.0,0.0
+11_005,"Cottonseed oil, yellow brown, unfortified","Huile de graine de coton, jaune brun, non enrichie",900.0,0.0,100.0,0.0,0.0
+11_020,"Cottonseed oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile de graine de coton, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,0.0
+11_019,"Cottonseed oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile de graine de coton, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,0.0
+11_003,"Groundnut oil, unfortified","Huile d’arachide, non enrichie",900.0,0.0,100.0,0.0,0.0
+11_021,"Groundnut oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile d’arachide, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,0.0
+11_022,"Groundnut oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile d’arachide, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,0.0
+11_029,"Margarine, fortified with vitamin A and D (Nigeria)","Margarine, enrichie en vitamines A et D (Nigéria)",728.0,0.4,80.4,0.8,941.0
+11_006,"Margarine, fortified with vitamin A","Margarine, enrichie en vitamine A",728.0,0.4,80.4,0.8,941.0
+11_012,"Palm kernel oil, unfortified","Huile de noix de palme, non enrichie",900.0,0.0,100.0,0.0,37.0
+11_026,"Palm kernel oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile de noix de palme, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,37.0
+11_025,"Palm kernel oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile de noix de palme, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,37.0
+11_004,"Palm oil, red","Huile de palme, rouge",898.0,0.0,99.8,0.0,0.0
+11_007,"Palm oil, refined and decoloured, unfortified","Huile de palme, raffinée et décolorée, non enrichie",900.0,0.0,100.0,0.0,0.0
+11_024,"Palm oil, refined and decoloured, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile de palme, raffinée et décolorée, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,0.0
+11_023,"Palm oil, refined and decoloured, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile de palme, raffinée et décolorée, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,0.0
+11_008,"Shea butter, white","Beurre de karité, blanc",900.0,0.0,100.0,0.0,11.0
+11_009,"Soya oil, unfortified","Huile de soja, non enrichie",900.0,0.0,100.0,0.0,0.0
+11_027,"Soya oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile de soja, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,0.0
+11_028,"Soya oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile de soja, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,0.0
+11_016,"Sunflower oil, unfortified","Huile de tournesol, non enrichie",900.0,0.0,100.0,0.0,0.0
+11_035,"Sunflower oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile de tournesol, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,0.0
+11_034,"Sunflower oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile de tournesol, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,0.0
+11_015,"Oil, from cow’s milk butter (ghee)","Beurre clarifié, de vache (ghee)",892.0,0.2,99.0,0.0,2.0
+11_014,Olive oil,Huile d’olive,900.0,0.0,100.0,0.0,1.0
+11_010,"Vegetable oil, unfortified","Huile végétale, non enrichie",900.0,0.0,100.0,0.0,0.0
+11_031,"Vegetable oil, fortified with vitamin A, 600–1000 mcg/100g (Ghana, Nigeria, Sierra Leone)","Huile végétale, enrichie en vitamine A, 600–1000 mcg/100g (Ghana, Nigéria, Sierra Leone)",900.0,0.0,100.0,0.0,0.0
+11_030,"Vegetable oil, fortified with vitamin A, 1100–2400 mcg/100g (Benin, Burkina Faso, Côte d’Ivoire, Guinea, Guinea-Bissau, Liberia, Mali, Niger, Senegal, Togo)","Huile végétale, enrichie en vitamine A, 1100–2400 mcg/100g (Bénin, Burkina Faso, Côte d’Ivoire, Guinée, Guinée-Bissau, Libéria, Mali, Niger, Sénégal, Togo)",900.0,0.0,100.0,0.0,0.0
+12_001,"Beer, European (4.6% v/v alcohol)","Bière, européenne (4.6% d’alcool)",41.0,0.3,0.0,3.7,10.0
+12_020,"Beer, European (>6% v/v alcohol)","Bière, européenne (>6% d’alcool)",61.0,0.2,0.0,4.9,1.0
+12_002,"Beer, maize (ca. 3% v/v alcohol)","Bière, de maïs (env. 3% d’alcool)",33.0,0.6,0.0,3.3,3.0
+12_003,"Beer, millet (ca. 3% v/v alcohol)","Bière, de mil (env. 3% d’alcool)",43.0,0.7,0.0,5.7,3.0
+12_004,"Beer, sorghum (ca. 3% v/v alcohol)","Bière, de sorgho (env. 3% d’alcool)",27.0,0.4,0.0,1.9,3.0
+12_024,"Carbonated drink (e.g. Coca-Cola, Sprite)","Boissons gazeuses (ex : coca-cola, sprite)",40.0,0.0,0.1,9.9,9.0
+12_023,Coconut water,Eau de coco,22.0,0.2,0.5,4.2,41.0
+12_005,"Coffee, instant, powder","Café, instantané, en poudre",343.0,17.5,0.5,64.8,60.0
+12_009,"Coffee, liquid","Café, liquide",2.0,0.1,0.0,0.4,4.0
+12_012,"Juice, canned or bottled, sweetened (e.g. apple)","Jus, en boîte ou en bouteille, sucre ajouté (ex: de pomme)",48.0,0.1,0.1,11.5,10.0
+12_013,"Juice, canned or bottled, unsweetened (e.g. grapefruit)","Jus, en boîte ou en bouteille, sans sucre ajouté (ex: de pamplemousse)",34.0,0.3,0.1,7.9,14.0
+12_010,"Juice, lemon, fresh, unsweetened","Jus de citron, frais, sans sucre ajouté",36.0,0.4,0.1,8.3,1.0
+12_011,"Juice, orange, fresh, unsweetened","Jus d’orange, frais, sans sucre ajouté",42.0,0.7,0.2,9.3,1.0
+12_016,"Ovaltine beverage with reduced fat milk, without sugar, fortified*","Ovaltine, boisson au lait partiellement écrémé, sans sucre, enrichie*",84.0,3.9,1.8,12.9,58.0
+12_017,"Ovaltine beverage with skimmed milk, without sugar, fortified*","Ovaltine, boisson au lait écrémé, sans sucre, enrichie*",75.0,3.9,0.7,13.0,69.0
+12_015,"Ovaltine beverage with whole milk, without sugar, fortified*","Ovaltine, boisson au lait entier, sans sucre, enrichie*",108.0,3.6,4.4,13.4,53.0
+12_014,"Nectar, mango, canned","Nectar de mangue, en conserve",53.0,0.1,0.1,12.8,5.0
+12_006,Palm wine (ca. 3.8% v/v alcohol),Vin de palme (env. 3.8% d’alcool),34.0,0.4,0.1,2.5,2.0
+12_007,"Sap, palm, fresh (0.3% v/v alcohol)","Sève de palmier, fraiche (0.3% d’alcool)",47.0,0.3,0.0,10.8,2.0
+12_025,"Soybean milk, fluid, from soybeans only, unfortified","Lait de soja, liquide, uniquement à base de graines de soja, non enrichi",45.0,3.0,1.8,3.9,24.0
+12_008,"Tea, infusion","Thé, infusion",0.0,0.1,0.0,0.0,1.0
+12_019,"Water, tap",Eau du robinet,0.0,0.0,0.0,0.0,2.0
+12_021,"Water with fresh lemon juice, unsweetened*","Eau avec jus de citron frais, sans sucre ajouté*",5.0,0.1,0.0,1.3,2.0
+12_022,"Water with fresh lemon juice, sweetened*","Eau avec jus de citron frais, avec sucre ajouté*",45.0,0.1,0.0,11.1,2.0
+13_016,"Allspice, ground","Piment de la Jamaïque, moulu",348.0,6.1,8.7,50.5,77.0
+13_004,Anis seed,"Anis, graine",384.0,17.6,15.9,35.4,16.0
+13_019,Baking soda (sodium bicarbonate),Bicarbonate de soude,0.0,0.0,0.0,0.0,27400.0
+13_020,"Calabash nutmeg, seed, dried","Noix de muscade calebasse, graine, séchée",352.0,9.7,9.9,47.0,131.0
+13_006,"Chilli pepper, dried","Piment rouge, séché",347.0,15.0,15.5,21.2,20.0
+13_007,"Cinnamon, ground","Cannelle, moulue",243.0,4.0,1.2,27.5,10.0
+13_008,"Cube, beef, dry","Bouillon-cube, bœuf, sec",190.0,15.5,7.4,15.5,19000.0
+13_009,"Cumin, seed","Cumin, grains",385.0,13.9,22.3,17.0,125.0
+13_022,Curry powder,"Curry, en poudre",293.0,11.9,12.4,6.8,251.0
+13_011,"Ginger, root, dried","Gingembre, racine, séchée",329.0,7.6,3.8,59.1,31.0
+13_001,Honey,Miel,326.0,0.4,0.0,81.0,4.0
+13_023,Jam or marmalade,Confiture ou marmelade,281.0,0.4,0.0,69.4,15.0
+13_013,"Mustard, prepared, yellow","Moutarde, préparée, jaune",60.0,3.7,3.3,1.8,1100.0
+13_012,"Mustard, powder","Moutarde, en poudre",518.0,26.1,36.2,15.9,13.0
+13_014,"Pepper, black","Poivre, noir",276.0,10.1,2.7,36.2,24.0
+13_024,"Potash, solid","Potasse, solide",0.0,0.0,0.0,0.0,18400.0
+13_015,Salt,Sel,0.0,0.0,0.0,0.0,38800.0
+13_002,"Sugar, white","Sucre, blanc",400.0,0.0,0.0,100.0,1.0
+13_027,"Sugar, white, fortified with vitamin A (Nigeria)","Sucre, blanc, enrichi en vitamine A (Nigéria)",400.0,0.0,0.0,100.0,1.0
+13_021,"Sweets, chocolate, milk",Bonbons au chocolat au lait,532.0,4.4,31.1,55.1,24.0
+13_028,"Ovaltine powder, fortified","Ovaltine en poudre, enrichie",375.0,7.3,1.9,80.1,120.0
+13_026,"Uda (Ethiopian pepper), fruit/seed, dried","Poivre de Guinée, fruit/graine, séché",361.0,9.4,10.6,43.9,91.0
+13_003,Vinegar,Vinaigre,19.0,0.1,0.0,4.7,4.0
+13_017,"Yeast, dried","Levure, séchée",342.0,38.4,6.3,21.2,111.0
+13_018,"Yeast extract, Marmite","Extrait de levure, Marmite",155.0,27.5,0.4,8.7,3600.0
+14_021,"Babenda-1 (Burkina Faso)*: sauce from green leaves (amaranth, tchénébdo and hibiscus), groundnut powder, rice and onion","Babenda-1 (Burkina Faso)*: sauce de feuilles vertes (amaranthe, tchénébdo et oseille de Guinée), poudre d’arachide, riz et oignon",69.0,3.2,3.0,6.4,262.0
+14_030,"Babenda-2 (Burkina Faso)*: sauce from green leaves (amaranth, hibiscus and spider plant), rice and groundnut powder","Babenda-2 (Burkina Faso)*: sauce de feuilles vertes (amaranthe, oseille de Guinée et plante-araignée), riz et poudre d’arachide",66.0,3.0,2.6,6.7,7.0
+14_025,"Banakou vand zéédo (Burkina Faso)*: cassava leaf sauce with fish, vegetables and red palm oil","Banakou vand zéédo (Burkina Faso)*: sauce de feuilles de manioc avec poisson, légumes et huile de palme rouge",264.0,6.4,23.7,4.6,432.0
+14_029,"Bengedo (Burkina Faso)*: cowpea leaf sauce with fish, vegetables, groundnut paste and fermented African locust beans","Bengedo (Burkina Faso)*: sauce de feuilles de niébé avec poisson, légumes, pâte d’arachide et néré fermenté (soumbala)",156.0,7.5,12.2,2.9,369.0
+14_014,"Bite zindo (Burkina Faso)*: hibiscus leaf sauce with fish, fermented African locust beans and tomatoes","Bite zindo (Burkina Faso)*: sauce de feuilles d’oseille de Guinée avec poisson, néré fermenté (soumbala) et tomates",104.0,3.5,7.9,3.6,332.0
+14_015,"Blouvank koèég zéédo (Burkina Faso)*: jute mallow leaf sauce with lamb, vegetables, fermented African locust beans and red palm oil","Blouvank koèég zéédo (Burkina Faso)*: sauce de feuilles de corète potagère avec agneau, légumes, néré fermenté et huile de palme rouge",85.0,3.4,7.0,1.6,524.0
+14_016,"Blouvank zéédo (Burkina Faso)*: jute mallow leaf sauce with fish, vegetables and red palm oil","Blouvank zéédo (Burkina Faso)*: sauce de feuilles de corète potagère avec poisson, légumes et huile de palme rouge",75.0,3.1,5.5,2.5,419.0
+14_012,"Clear sauce with fish, red palm oil and vegetables (Burkina Faso)*","Sauce claire avec poisson, huile de palme rouge et légumes (Burkina Faso)*",81.0,5.4,5.4,2.1,615.0
+14_027,Curry sauce with beef meat and vegetables (Burkina Faso)*,Sauce au curry avec viande de bœuf et légumes (Burkina Faso)*,110.0,4.2,8.4,3.8,355.0
+14_003,"Éindo tomate ne ziim zéindo (Burkina Faso)*: sauce with fish, tomato and fermented African locust beans","Éindo tomate ne ziim zéindo (Burkina Faso)*: sauce avec poisson, tomate et néré fermenté (soumbala)",195.0,7.2,16.2,4.2,533.0
+14_004,Epinard zéédo (Burkina Faso)*: spinach sauce with fish and vegetables,Epinard zéédo (Burkina Faso)*: sauce épinards avec poisson et légumes,168.0,6.7,13.6,3.5,814.0
+14_001,Fish and vegetable soup for children (Burkina Faso)*,Soupe de poisson aux légumes pour enfants (Burkina Faso)*,64.0,6.5,1.4,5.8,270.0
+14_008,Groundnut sauce with fish and vegetables (Burkina Faso)*,Sauce d’arachide aux légumes et poisson (Burkina Faso)*,166.0,6.6,12.5,5.3,297.0
+14_026,Intro sauce with fish and vegetables (Burkina Faso)*,Sauce intro avec poisson et légumes (Burkina Faso)*,69.0,2.8,4.6,2.4,505.0
+14_031,"Katre nagouri vând koèng zéindo (Burkina Faso)*: dried sicklepod leaf sauce with vegetables, shea butter, groundnut paste and fermented African locust beans","Katre nagouri vând koèng zéindo (Burkina Faso)*: sauce de feuilles sèches de casse fétide avec légumes, beurre de karité, pâte d’arachide et néré fermenté (soumbala)",228.0,4.6,20.5,4.9,507.0
+14_032,"Katre nagouri vând maasse zéindo (Burkina Faso)*: fresh sicklepod leaf sauce with vegetables, shea butter, groundnut paste and fermented African locust beans","Katre nagouri vând maasse zéindo (Burkina Faso)*: sauce de feuilles de casse fétide fraîches avec légumes, beurre de karité, pâte d’arachide et néré fermenté (soumbala)",153.0,4.1,11.6,6.5,266.0
+14_013,Koum péèleg zindo (Burkina Faso)*: white eggplant sauce with lamb and vegetables,Koum péèleg zindo (Burkina Faso)*: sauce aubergine blanche avec agneau et légumes,134.0,4.0,11.0,3.7,286.0
+14_011,Koum vând zéédo (Burkina Faso)*: wild eggplant leaf sauce with fish and vegetables,Koum vând zéédo (Burkina Faso)*: sauce de feuilles d’aubergine sauvage avec poisson et légumes,206.0,4.0,18.5,4.8,428.0
+14_007,Koum zindo (Burkina Faso)*: eggplant sauce with fish and vegetables,Koum zindo (Burkina Faso)*: sauce aubergine avec poisson et légumes,161.0,4.1,13.3,4.8,343.0
+14_018,"Maân koèg zéindo-1 (Burkina Faso)*: djoumblé (dried okra) sauce with beef, vegetables and red palm oil","Maân koèg zéindo-1 (Burkina Faso)*: sauce djoumblé (gombo séché) avec bœuf, légumes et huile de palme rouge",144.0,6.0,11.7,2.4,348.0
+14_017,"Maân koèg zéindo-2 (Burkina Faso)*: dried okra sauce with lamb, vegetables and fermented African locust beans","Maân koèg zéindo-2 (Burkina Faso)*: sauce gombo séché avec agneau, légumes et néré fermenté (soumbala)",145.0,4.7,12.4,2.2,415.0
+14_019,"Maân mâass zéindo (Burkina Faso)*: fresh okra sauce with fish, vegetables, red palm oil and fermented African locust beans","Maân mâass zéindo (Burkina Faso)*: sauce gombo frais avec poisson, légumes, huile de palme rouge et néré fermenté (soumbala)",74.0,3.4,5.2,2.6,508.0
+14_009,"Nayoungn vand zindo (Burkina Faso)*: sweet potato leaf sauce, fish, red palm oil and vegetables","Nayoungn vand zindo (Burkina Faso)*: sauce de feuilles de patate douce avec poisson, huile de palme rouge et légumes",156.0,5.0,12.6,4.3,413.0
+14_002,"Pésgo né tomate zéindo (Burkina Faso)*: sauce with lamb, tomato and vegetables","Pésgo né tomate zéindo (Burkina Faso)*: sauce avec agneau, tomate et légumes",188.0,5.9,15.9,4.4,514.0
+14_006,"Siikam zéédo (Burkina Faso)*: groundnut sauce with vegetables, fish and fermented African locust beans","Siikam zéédo (Burkina Faso)*: sauce d’arachide avec poisson, légumes et néré fermenté (soumbala)",135.0,5.7,10.4,3.3,208.0
+14_028,Siné zindo (Burkina Faso)*: sesame sauce with fish and vegetables,Siné zindo (Burkina Faso)*: sauce sésame avec poisson et légumes,203.0,6.3,17.7,3.1,349.0
+14_033,"Soup from chicken, beer yeast, vegetables and fermented African locust beans (Burkina Faso)*","Soupe de poulet, levure de bière, légumes et néré fermenté (soumbala) (Burkina Faso)*",81.0,5.4,5.4,2.1,478.0
+14_034,Soup with cabbage and vegetables (Burkina Faso)*,Soupe aux choux et légumes (Burkina Faso)*,21.0,1.1,0.1,3.2,533.0
+14_005,Téi kam zéédo (Burkina Faso)*: red palm oil sauce with fish and vegetables,Téi kam zéédo (Burkina Faso)*: sauce à l’huile de palme rouge avec poisson et légumes,127.0,5.7,9.5,3.8,490.0
+14_024,"Téi né maane zéindo (Burkina Faso)*: oil palm fruit sauce with okra powder, fish and vegetables","Téi né maane zéindo (Burkina Faso)*: noix de palme en sauce avec poudre de gombo, poisson et légumes",96.0,2.7,8.0,2.8,312.0
+14_023,Téi zéindo (Burkina Faso)*: simple oil palm fruit sauce with fish and vegetables,Téi zéindo (Burkina Faso)*: sauce simple de noix de palme avec poisson et légumes,199.0,1.7,18.8,5.1,305.0
+14_020,"Toeg koing zéédo (Burkina Faso)*: dried baobab leaf sauce with fish, vegetables and fermented African locust beans","Toeg koing zéédo (Burkina Faso)*: sauce de feuilles de baobab séchées avec poisson, légumes et néré fermenté (soumbala)",44.0,2.8,2.5,1.7,389.0
+14_022,"Toeg maas zéédo (Burkina Faso)*: fresh baobab leaf sauce with fish, vegetables and fermented African locust beans","Toeg maas zéédo (Burkina Faso)*: sauce de feuilles de baobab fraîches avec poisson, légumes et néré fermenté (soumbala)",60.0,3.1,4.1,1.9,416.0
+14_010,"Yassa sauce with lamb, onion and mustard (Burkina Faso)*","Sauce yassa avec agneau, oignon et moutarde (Burkina Faso)*",226.0,4.3,20.5,5.1,759.0
