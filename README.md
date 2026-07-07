@@ -5,6 +5,8 @@ maps their ingredients to USDA and West African nutritional databases, calculate
 nutrition, scores each recipe for nutritional risk against WHO dietary guidelines, trains ML
 classifiers to identify risk drivers, and presents everything in an interactive Streamlit dashboard.
 
+**Live app:** [olwakhe-nutrition-risk.streamlit.app](https://olwakhe-nutrition-risk.streamlit.app/)
+
 ---
 
 ## Key Results
@@ -319,6 +321,10 @@ each model as `*_report.txt`.
 ---
 
 ## Setup & Running
+
+The dashboard is deployed live on Streamlit Community Cloud at
+**[olwakhe-nutrition-risk.streamlit.app](https://olwakhe-nutrition-risk.streamlit.app/)** —
+no installation needed to explore it. To run it locally instead:
 
 ### 1. Install dependencies
 ```bash
