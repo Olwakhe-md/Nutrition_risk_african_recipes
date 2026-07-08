@@ -1,4 +1,4 @@
-# Nutritional Risk Analysis of African Recipes
+# African Recipes — Nutritional Risk Analyser & Explorer
 
 A full end-to-end data science project that collects African recipes from multiple sources,
 maps their ingredients to USDA and West African nutritional databases, calculates per-serving

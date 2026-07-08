@@ -19,7 +19,7 @@ import streamlit as st
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title  = "African Recipes — Nutritional Risk",
+    page_title  = "African Recipes — Nutritional Risk Analyser & Explorer",
     page_icon   = "🍲",
     layout      = "wide",
     initial_sidebar_state = "expanded",
@@ -231,7 +231,7 @@ df_f = df[
 ]
 
 # ── Header ────────────────────────────────────────────────────────────────────
-st.title("🍲 African Recipes — Nutritional Risk Dashboard")
+st.title("🍲 African Recipes — Nutritional Risk Analyser & Explorer")
 st.caption("Per-serving risk scoring against WHO dietary guidelines · "
            "Two methods: Flag Count and Weighted Score (sodium-prioritised)")
 
