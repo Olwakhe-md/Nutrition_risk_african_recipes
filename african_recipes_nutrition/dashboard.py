@@ -844,21 +844,30 @@ def explore_recipes():
     else:
         CARDS_PER_ROW = 4
         MAX_CARDS = 48
-        # Recipes with a real photo first, so the grid isn't dominated by the
-        # ~90 hand-entered recipes that never had a source URL to fetch one from.
-        has_photo = matches['recipe_id'].astype(str).isin(photo_map)
-        ordered = pd.concat([matches[has_photo], matches[~has_photo]])
-        shown = ordered.head(MAX_CARDS)
-        for i in range(0, len(shown), CARDS_PER_ROW):
-            cols = st.columns(CARDS_PER_ROW)
-            chunk = shown.iloc[i:i + CARDS_PER_ROW]
-            for col, (_, row) in zip(cols, chunk.iterrows()):
-                _render_recipe_card(col, row, photo_map)
-        if len(matches) > MAX_CARDS:
-            st.caption(
-                f"Showing the first {MAX_CARDS} of {len(matches)} matches — "
-                "narrow your search or switch to Table view to see the rest."
-            )
+        # Only ever show recipes with a real photo in the grid — the ~90
+        # hand-entered recipes with no source URL never had one to fetch,
+        # so they're skipped here in favour of photographed recipes further
+        # down the list (they're still visible in Table view).
+        photographed = matches[matches['recipe_id'].astype(str).isin(photo_map)]
+        shown = photographed.head(MAX_CARDS)
+
+        if len(shown) == 0:
+            st.info("None of these matches have a photo yet — switch to Table view to see them.")
+        else:
+            for i in range(0, len(shown), CARDS_PER_ROW):
+                cols = st.columns(CARDS_PER_ROW)
+                chunk = shown.iloc[i:i + CARDS_PER_ROW]
+                for col, (_, row) in zip(cols, chunk.iterrows()):
+                    _render_recipe_card(col, row, photo_map)
+            n_unphotographed = len(matches) - len(photographed)
+            skip_note = f" ({n_unphotographed} without a photo were skipped)" if n_unphotographed else ""
+            if len(photographed) > MAX_CARDS:
+                st.caption(
+                    f"Showing the first {MAX_CARDS} of {len(photographed)} photographed matches{skip_note} — "
+                    "narrow your search or switch to Table view to see the rest."
+                )
+            elif n_unphotographed:
+                st.caption(f"Showing all {len(photographed)} photographed matches{skip_note}.")
 
     st.divider()
 
