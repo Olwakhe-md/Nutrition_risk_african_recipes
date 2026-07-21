@@ -1,0 +1,1190 @@
+recipe_id,recipe_name,local_path,source_url,status
+1,KOSHARI,,,no_url
+2,PARTY JOLLOF RICE,,,no_url
+3,NIGERIAN RED STEW,,,no_url
+4,MAAFE,,,no_url
+5,EGUSI SOUP,,,no_url
+6,YASSA,,,no_url
+7,SUYA,,,no_url
+8,EWA OLOYIN,,,no_url
+9,PLANTAIN FRITTATA,,,no_url
+10,MUM’S CORNED BEEF AND SPINACH STEW,,,no_url
+11,GRILLED TILAPIA WITH GINGER-PEPPER MARINADE,,,no_url
+12,GOOD-FOR-THE-SOUL NIGERIAN PEPPER SOUP,,,no_url
+13,BUCHI’S OKRA SOUP,,,no_url
+14,SPICY NIGERIAN OMELET,,,no_url
+15,PILI PILI,,,no_url
+16,PLANTAIN CHIPS,,,no_url
+17,BOULETTES DE POISSON,,,no_url
+18,TATALE,,,no_url
+19,CHIN CHIN,,,no_url
+20,ERAN PAII,,,no_url
+21,"SCOTCH EGG, NIGERIAN-STYLE",,,no_url
+22,NIGERIAN SALAD,,,no_url
+23,AKARA,,,no_url
+24,MUM’S MOIN MOIN,,,no_url
+25,KOKI,,,no_url
+26,AFRICAN YAM FRIES,,,no_url
+27,PUFF PUFF,,,no_url
+28,KUNNU AYA,,,no_url
+29,DORO WOT,,,no_url
+30,TSEBHI BIRSEN,,,no_url
+31,BEEF SAMOSAS,,,no_url
+32,MUAMBA DE GALINHA,,,no_url
+33,PILAU,,,no_url
+34,MTUZI WA SAMAKI,,,no_url
+35,SUPU VIAZI,,,no_url
+37,BHAJIAS,,,no_url
+38,AUNTY BERNIE’S CHAPATI,,,no_url
+40,SUMMERTIME MANGO LEMONADE,,,no_url
+41,VITUMBUA,,,no_url
+42,MANDAZI,,,no_url
+43,HARISSA GRILLED CHICKEN,,,no_url
+44,SHAKSHUKA,,,no_url
+45,NORTH AFRICAN MEATBALLS,,,no_url
+46,MOROCCAN-SPICED LAMB CHOPS,,,no_url
+47,LEBLEBI,,,no_url
+49,ONE-POT NORTH AFRICAN CHICKEN AND RICE,,,no_url
+50,MOROCCAN-SPICED VEGGIE COUSCOUS,,,no_url
+51,MAAQUODA,,,no_url
+52,NORTH AFRICAN POTATO SALAD WITH RAS EL HANOUT,,,no_url
+53,AISH BALADI,,,no_url
+54,CHARMOULA EGGPLANT,,,no_url
+55,CHICKEN WITH FIERY PERI PERI SAUCE,,,no_url
+56,PRAWN NACIONAL,,,no_url
+58,THE GATSBY,,,no_url
+59,KOTA,,,no_url
+60,CALULU DE PEIXE,,,no_url
+61,DOVI,,,no_url
+64,BRAAIBROODJIE,,,no_url
+65,ZANZIBAR PIZZA,,,no_url
+66,SWEET POTATO FRITTERS,,,no_url
+127,Moroccan-style roasted veg,assets/photos/127.jpg,https://www.bbc.co.uk/food/recipes/5-ingredient_33925,ok
+128,Akara black bean fritters with ata dindin,assets/photos/128.jpg,https://www.bbc.co.uk/food/recipes/akara_black_bean_08114,ok
+129,"Beef, black-eyed bean and plantain hotpot",assets/photos/129.jpg,https://www.bbc.co.uk/food/recipes/beef_black-eyed-bean_and_85011,ok
+131,Cape Malay-style braised chicken curry,assets/photos/131.jpg,https://www.bbc.co.uk/food/recipes/cape_malay-style_braised_02015,ok
+132,Chicken bastilla with orange salad,assets/photos/132.jpg,https://www.bbc.co.uk/food/recipes/chicken_bastilla_with_27181,ok
+133,Chicken yassa,assets/photos/133.jpg,https://www.bbc.co.uk/food/recipes/chicken_yassa_20973,ok
+134,"Ekuru, stewed greens and crispy cod cheeks",assets/photos/134.jpg,https://www.bbc.co.uk/food/recipes/ekuru_stewed_greens_and_67084,ok
+135,Grilled pork chops with blatjang and radishes,assets/photos/135.jpg,https://www.bbc.co.uk/food/recipes/grilled_pork_chops_with_74983,ok
+136,Jollof Quorn pilau with salted cucumber,assets/photos/136.jpg,https://www.bbc.co.uk/food/recipes/jollof_quorn_pilau_with_33526,ok
+137,Jollof rice balls with Scotch bonnet sauce,assets/photos/137.jpg,https://www.bbc.co.uk/food/recipes/jollof_rice_balls_with_03838,ok
+138,Lamb and apricot Cape Malay curry,assets/photos/138.jpg,https://www.bbc.co.uk/food/recipes/lamb_and_apricot_cape_72967,ok
+140,Nigerian stew and cauliflower fried âriceâ,assets/photos/140.jpg,https://www.bbc.co.uk/food/recipes/nigerian_stew_and_13543,ok
+141,Piri-piri chicken and slaw,assets/photos/141.jpg,https://www.bbc.co.uk/food/recipes/piri-piri_chicken_and_21433,ok
+142,Pork with monkey gland sauce,assets/photos/142.jpg,https://www.bbc.co.uk/food/recipes/pork_monkey_gland_sauce_52929,ok
+143,Quraac,assets/photos/143.jpg,https://www.bbc.co.uk/food/recipes/quraac_78934,ok
+144,Red-red stew with spiced plantain,assets/photos/144.jpg,https://www.bbc.co.uk/food/recipes/red-red_stew_with_spiced_28798,ok
+145,South African-inspired sausage rolls,,https://www.bbc.co.uk/food/recipes/sausage_rolls_97331,error: 404 Client Error: Not Found for url: https://www.bbc.co.uk/food/recipes/sausage_rolls_97331
+146,Suya beef fillet burger,assets/photos/146.jpg,https://www.bbc.co.uk/food/recipes/suya_fillet_burger_with_59824,ok
+147,Sweet potato shakshuka with sriracha butter,assets/photos/147.jpg,https://www.bbc.co.uk/food/recipes/sweet_potato_shakshuka_33464,ok
+148,Ugandan rolex,assets/photos/148.jpg,https://www.bbc.co.uk/food/recipes/ugandan_rolex_11861,ok
+149,Zoeâs jollof,assets/photos/149.jpg,https://www.bbc.co.uk/food/recipes/zoes_jollof_43216,ok
+150,Kicha,,,no_url
+151,Zebhi Hamli,,,no_url
+152,Shiro,,,no_url
+153,Shahan Ful,,,no_url
+154,Doro Wat,,,no_url
+155,Buna,,,no_url
+156,Sabaayad,,,no_url
+157,Canjeero,,,no_url
+158,Suugo Suqaar,,,no_url
+159,Shaah Cadays,,,no_url
+161,Mukimo,,,no_url
+163,Basboosa,,,no_url
+164,Ndizi Kaanga,,,no_url
+165,Matoke with Steamed Spinach,,,no_url
+166,Harees with Chicken,,,no_url
+167,Coril de Peix com Coco,,,no_url
+168,Xima,,,no_url
+169,Prego Rolls,,,no_url
+170,Bolo Polana,,,no_url
+171,Denningvleis,,,no_url
+172,Chakalaka and Cheddar Braaibroodjies,,,no_url
+173,Imifino,,,no_url
+174,Lasary Legioma,,,no_url
+175,Akoho Misy Sakamalao,,,no_url
+176,Katilesy,,,no_url
+177,Kadaka Akondro,,,no_url
+178,Mofo Akondro,,,no_url
+179,Ambrevades au Curry,,,no_url
+180,Roti ya Houma Pampa,,,no_url
+181,Roho,,,no_url
+182,African Fish Rolls,assets/photos/182.jpg,https://cheflolaskitchen.com/african-fish-pastry/,ok
+183,African Masa Recipe,assets/photos/183.jpg,https://cheflolaskitchen.com/african-masa-recipe-hausa-masa/,ok
+184,Nigerian Pancakes,assets/photos/184.jpg,https://cheflolaskitchen.com/african-pancakes/,ok
+185,African Spaghetti Sauce with Meatballs,assets/photos/185.jpg,https://cheflolaskitchen.com/african-spaghetti-sauce-with-meatballs/,ok
+186,Nigerian Beef Stew (African Stew Recipe),assets/photos/186.jpg,https://cheflolaskitchen.com/african-stew/,ok
+187,Authentic Nigerian Coconut Rice,assets/photos/187.jpg,https://cheflolaskitchen.com/african-style-coconut-rice/,ok
+188,Amala - Nigerian Food,assets/photos/188.jpg,https://cheflolaskitchen.com/amala-recipe/,ok
+189,Basmati Jollof Rice recipe (The Party style with Beef),assets/photos/189.jpg,https://cheflolaskitchen.com/basmati-jollof-rice-recipe/,ok
+190,Ethiopian Berbere Spice,assets/photos/190.jpg,https://cheflolaskitchen.com/berbere-spice/,ok
+191,One Pot Black Eyed Peas And Beef,assets/photos/191.jpg,https://cheflolaskitchen.com/black-eyed-peas-and-beef/,ok
+192,Chakalaka | South African Food,assets/photos/192.jpg,https://cheflolaskitchen.com/chakalaka/,ok
+193,Chicken Samosas Recipe,assets/photos/193.jpg,https://cheflolaskitchen.com/chicken-samosa/,ok
+194,Coconut Fried Rice With Extra veggies,assets/photos/194.jpg,https://cheflolaskitchen.com/coconut-fried-rice/,ok
+195,Creamy Fonio Breakfast Porridge (Acha Porridge),assets/photos/195.jpg,https://cheflolaskitchen.com/creamy-fonio-porridge/,ok
+196,Simple and Creamy Polenta Recipe,assets/photos/196.jpg,https://cheflolaskitchen.com/creamy-polenta-recipe/,ok
+197,Crispy Yuca Fries - Oven-baked or Deep fried,assets/photos/197.jpg,https://cheflolaskitchen.com/crispy-yuca-fries/,ok
+198,Delicious Homemade Sweet Potato Pie,assets/photos/198.jpg,https://cheflolaskitchen.com/delicious-homemade-sweet-potato-pie/,ok
+199,Easy African Chicken Peanut Soup,assets/photos/199.jpg,https://cheflolaskitchen.com/easy-chicken-peanut-soup/,ok
+200,Eggless Nigerian Buns,assets/photos/200.jpg,https://cheflolaskitchen.com/eggless-nigerian-buns/,ok
+201,Fried Plantains - Sweet and Savory Delicacy,assets/photos/201.jpg,https://cheflolaskitchen.com/fried-plantains/,ok
+202,Gbegiri Soup - Delicious West African Bean Soup,assets/photos/202.jpg,https://cheflolaskitchen.com/gbegiri-soup/,ok
+203,Easy Grilled Corn on the Cob Recipe,assets/photos/203.jpg,https://cheflolaskitchen.com/grilled-corn-on-the-cob/,ok
+205,Harissa Chicken Wings,assets/photos/205.jpg,https://cheflolaskitchen.com/harissa-chicken/,ok
+206,How To Cook a Super Juicy Turkey - Dry Brined,assets/photos/206.jpg,https://cheflolaskitchen.com/how-to-cook-a-super-juicy-turkey/,ok
+207,Eba - Nigerian Food,assets/photos/207.jpg,https://cheflolaskitchen.com/how-to-make-eba/,ok
+208,Ikokore - Water Yam Pottage,assets/photos/208.jpg,https://cheflolaskitchen.com/ikokore/,ok
+209,Indulgent Homemade Pumpkin Pie,assets/photos/209.jpg,https://cheflolaskitchen.com/indulgent-homemade-pumpkin-pie/,ok
+210,Jollof Spaghetti,assets/photos/210.jpg,https://cheflolaskitchen.com/jollof-spaghetti-recipe/,ok
+211,Ewedu - Jute Leaves Soup,assets/photos/211.jpg,https://cheflolaskitchen.com/jute-leaves-soup-ewedu-mulukhiyah-or-molokhia/,ok
+212,How to make Moin Moin/Moi Moi,assets/photos/212.jpg,https://cheflolaskitchen.com/make-moin-moin-moi-moi/,ok
+213,Meat Floss (Beef Floss) - Dambu Nama,assets/photos/213.jpg,https://cheflolaskitchen.com/meat-floss/,ok
+214,60+ Nigerian Recipes You Need To Try,assets/photos/214.jpg,https://cheflolaskitchen.com/nigerian-recipes-you-need-to-try/,ok
+215,Niter Kibbeh Ethiopian Spiced Clarified Butter,assets/photos/215.jpg,https://cheflolaskitchen.com/niter-kibbeh-ethiopian-clarified-butter/,ok
+216,Nyama Choma,assets/photos/216.jpg,https://cheflolaskitchen.com/nyama-choma/,ok
+217,Perfect Juicy Oven-Roasted Turkey Breast,assets/photos/217.jpg,https://cheflolaskitchen.com/oven-roasted-turkey-breast/,ok
+218,Peri-Peri Chicken (Piri-Piri Chicken),assets/photos/218.jpg,https://cheflolaskitchen.com/peri-peri-chicken/,ok
+219,Easy Spicy Peri Peri Sauce,assets/photos/219.jpg,https://cheflolaskitchen.com/peri-peri-sauce/,ok
+220,Semolina Flour Masa,assets/photos/220.jpg,https://cheflolaskitchen.com/semolina-flour-masa/,ok
+221,Spicy Nigerian Stick Meat,assets/photos/221.jpg,https://cheflolaskitchen.com/stick-meat/,ok
+222,Suya - The Nigerian Kebab,assets/photos/222.jpg,https://cheflolaskitchen.com/suya/,ok
+223,My To Go Sweet Potato Kale Salad,assets/photos/223.jpg,https://cheflolaskitchen.com/sweet-potato-kale-salad/,ok
+224,Tropical Mango Pineapple Smoothie Recipe,assets/photos/224.jpg,https://cheflolaskitchen.com/tropical-mango-pineapple-smoothie/,ok
+225,Yam pottage/Yam Porridge (Asaro) Recipe,assets/photos/225.jpg,https://cheflolaskitchen.com/yam-porridge-pottage/,ok
+226,Tammy’s Sesame Oil Chicken,assets/photos/226.jpg,https://www.zimbokitchen.com/tammys-sesame-oil-chicken/,ok
+227,Homemade Sweet Chilli Fish Fingers,assets/photos/227.jpg,https://www.zimbokitchen.com/homemade-sweet-chilli-fish-fingers/,ok
+228,Scrumptious Chicken Gizzards,assets/photos/228.jpg,https://www.zimbokitchen.com/scrumptious-chicken-gizzards-2/,ok
+229,Miri Piri Roasted Potato Wedges,assets/photos/229.jpg,https://www.zimbokitchen.com/miri-piri-roasted-potato-wedges/,ok
+230,DELICIOUS CHICKEN CURRY II,assets/photos/230.jpg,https://www.zimbokitchen.com/delicious-chicken-curry-ii/,ok
+231,Cheesy Mince & Mushroom Parcels,assets/photos/231.jpg,https://www.zimbokitchen.com/cheesy-mince-mushroom-parcels/,ok
+232,"Good old Mupotohayi (Chimodho, Cornmeal bread)",assets/photos/232.jpg,https://www.zimbokitchen.com/good-old-mupotohayi-chimodho-cornmeal-bread/,ok
+233,Sesame Fried Pork & Penne Pasta,assets/photos/233.jpg,https://www.zimbokitchen.com/sesame-fried-pork-penne-pasta/,ok
+234,Chisa Nyama Pork Chops,assets/photos/234.jpg,https://www.zimbokitchen.com/chisa-nyama-pork-chops/,ok
+235,Smokey BBQ Mince & Sausage Stew,assets/photos/235.jpg,https://www.zimbokitchen.com/smokey-bbq-mince-sausage-stew/,ok
+236,"Baked Lemon, Garlic ‘n Herb Kariba Bream",assets/photos/236.jpg,https://www.zimbokitchen.com/baked-lemon-garlic-n-herb-kariba-bream/,ok
+237,Baked BBQ Sauce Chicken Thighs,assets/photos/237.jpg,https://www.zimbokitchen.com/baked-bbq-sauce-chicken-thighs/,ok
+238,Vanilla Sorghum Muffins,assets/photos/238.jpg,https://www.zimbokitchen.com/vanilla-sorghum-muffins/,ok
+239,Tasty Mild Spiced Rice,assets/photos/239.jpg,https://www.zimbokitchen.com/tasty-mild-spiced-rice/,ok
+240,Egg-free Banana Cinnamon Loaf,assets/photos/240.jpg,https://www.zimbokitchen.com/egg-free-banana-cinnamon-loaf/,ok
+241,How to cook Sadza ReMhunga,assets/photos/241.jpg,https://www.zimbokitchen.com/how-to-cook-sadza-remhunga/,ok
+242,Easy Mince & Vegetable Stew,assets/photos/242.jpg,https://www.zimbokitchen.com/easy-mince-vegetable-stew/,ok
+243,Sour Cream ‘n Chives Mashed Potatoes,,https://www.zimbokitchen.com/sour-cream-n-chives-mashed-potatoes/,"error: HTTPSConnectionPool(host='www.zimbokitchen.com', port=443): Read timed out."
+244,Delicious Porridge reMapfunde (Sorghum),assets/photos/244.jpg,https://www.zimbokitchen.com/delicious-porridge-remapfunde-sorghum/,ok
+245,Mild Curry Egg Fried Rice,assets/photos/245.jpg,https://www.zimbokitchen.com/mild-curry-egg-fried-rice/,ok
+246,Delish Roasted Potatoes,assets/photos/246.jpg,https://www.zimbokitchen.com/delish-roasted-potatoes/,ok
+247,Delicious Whole Wheat Mhunga Bread,,https://www.zimbokitchen.com/delicious-whole-wheat-mhunga-bread/,"error: HTTPSConnectionPool(host='www.zimbokitchen.com', port=443): Read timed out. (read timeout=15)"
+248,Tasty Curried Rice,,https://www.zimbokitchen.com/tasty-curried-rice/,"error: HTTPSConnectionPool(host='www.zimbokitchen.com', port=443): Max retries exceeded with url: /tasty-curried-rice/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zimbokitchen.com', port"
+249,How to Cook Mupunga (Traditional Brown Rice),assets/photos/249.jpg,https://www.zimbokitchen.com/how-to-cook-mupunga-traditional-brown-rice/,ok
+250,Mutakunanzva Kariba Bream Fish Stew,assets/photos/250.jpg,https://www.zimbokitchen.com/mutakunanzva-kariba-bream-fish-stew/,ok
+251,Zviyo and Custard Rock Buns,assets/photos/251.jpg,https://www.zimbokitchen.com/zviyo-and-custard-rock-buns/,ok
+252,Sticky BBQ T-Bone Steak,assets/photos/252.jpg,https://www.zimbokitchen.com/sticky-bbq-t-bone-steak/,ok
+253,Delicious Mupunga (Brown Rice) Sadza,assets/photos/253.jpg,https://www.zimbokitchen.com/delicious-mupunga-brown-rice-sadza/,ok
+254,Simply Delicious Baked Pork Fillet,assets/photos/254.jpg,https://www.zimbokitchen.com/simply-delicious-baked-pork-fillet/,ok
+255,Roasted Portuguese Chicken Masala Thighs,assets/photos/255.jpg,https://www.zimbokitchen.com/roasted-portuguese-chicken-masala-thighs/,ok
+256,Sadza reMhunga & BBQ Beef Short Ribs,assets/photos/256.jpg,https://www.zimbokitchen.com/sadza-remhunga-bbq-beef-short-ribs/,ok
+257,Delectable Lemon ‘n Herb Roasts,assets/photos/257.jpg,https://www.zimbokitchen.com/delectable-lemon-n-herb-roasts/,ok
+258,Delicious Oyster Mushroom Stew,assets/photos/258.jpg,https://www.zimbokitchen.com/delicious-oyster-mushroom-stew/,ok
+259,Mufushwa weMunyemba unedovi,assets/photos/259.jpg,https://www.zimbokitchen.com/mufushwa-wemunyemba-unedovi/,ok
+260,Delicious Fish Curry,assets/photos/260.jpg,https://www.zimbokitchen.com/delicious-fish-curry/,ok
+261,Sticky BBQ Rack of Ribs,assets/photos/261.jpg,https://www.zimbokitchen.com/sticky-bbq-rack-of-ribs/,ok
+262,Lemon Poppy Seed Loaf,assets/photos/262.jpg,https://www.zimbokitchen.com/lemon-poppy-seed-loaf/,ok
+263,Beef Kidneys,assets/photos/263.jpg,https://www.lubzonline.com/beef-kidneys/,ok
+264,Beef Offal,assets/photos/264.jpg,https://www.lubzonline.com/beef-offals-a-k-a-entrails/,ok
+265,Beef Trotters,assets/photos/265.jpg,https://www.lubzonline.com/beef-trotters/,ok
+266,Bondwe with Okra,assets/photos/266.jpg,https://www.lubzonline.com/bondwe-with-okra/,ok
+267,Bondwe,assets/photos/267.jpg,https://www.lubzonline.com/bondwe/,ok
+268,Fried Kapenta,assets/photos/268.jpg,https://www.lubzonline.com/fried-kapenta/,ok
+269,Impwa (Garden Eggs),assets/photos/269.jpg,https://www.lubzonline.com/impwa-garden-eggs/,ok
+270,Kabulangeti Beans,assets/photos/270.jpg,https://www.lubzonline.com/kabulangeti-beans/,ok
+271,Kalembula (Sweet Potato leaves),assets/photos/271.jpg,https://www.lubzonline.com/kalembula/,ok
+272,Lumanda with pounded Groundnuts,assets/photos/272.jpg,https://www.lubzonline.com/lumanda-with-pounded-groundnuts/,ok
+273,Lusaka Bean Curry,,https://www.lubzonline.com/lusaka-bean-curry/,"error: HTTPSConnectionPool(host='www.lubzonline.com', port=443): Max retries exceeded with url: /lusaka-bean-curry/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lubzonline.com', port=443)"
+274,Nshima,,https://www.lubzonline.com/nshima/,"error: HTTPSConnectionPool(host='www.lubzonline.com', port=443): Max retries exceeded with url: /nshima/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lubzonline.com', port=443) at 0x224a1"
+276,Samp in Groundnut sauce,assets/photos/276.jpg,https://www.lubzonline.com/samp-in-groundnut-sauce/,ok
+277,Sweet Potatoes in Groundnut Sauce,assets/photos/277.jpg,https://www.lubzonline.com/sweet-potatoes-in-groundnut-sauce/,ok
+278,Wild Mushroom : Tente,assets/photos/278.jpg,https://www.lubzonline.com/wild-mushroom-tente/,ok
+279,CAPE MALAY PICKLED FISH,assets/photos/279.jpg,https://www.allrecipes.com/recipe/104444/cape-malay-pickled-fish/,ok
+280,LAMB TAGINE,assets/photos/280.jpg,https://www.allrecipes.com/recipe/105044/lamb-tagine/,ok
+281,MOROCCAN COUSCOUS,assets/photos/281.jpg,https://www.allrecipes.com/recipe/105045/moroccan-couscous/,ok
+282,MOROCCAN LENTIL SOUP,assets/photos/282.jpg,https://www.allrecipes.com/recipe/12960/moroccan-lentil-soup/,ok
+284,AFRICAN-STYLE OXTAIL STEW,assets/photos/284.jpg,https://www.allrecipes.com/recipe/137967/african-style-oxtail-stew/,ok
+285,MARRAKESH VEGETABLE CURRY,assets/photos/285.jpg,https://www.allrecipes.com/recipe/13988/marrakesh-vegetable-curry/,ok
+287,ETHIOPIAN CABBAGE DISH,assets/photos/287.jpg,https://www.allrecipes.com/recipe/152937/ethiopian-cabbage-dish/,ok
+288,BEST BOBOTIE,assets/photos/288.jpg,https://www.allrecipes.com/recipe/157881/best-bobotie/,ok
+290,EGYPTIAN KOSHARY,assets/photos/290.jpg,https://www.allrecipes.com/recipe/173422/egyptian-koshary/,ok
+291,MOROCCAN CHICKEN,assets/photos/291.jpg,https://www.allrecipes.com/recipe/18182/moroccan-chicken/,ok
+292,OM ALI,assets/photos/292.jpg,https://www.allrecipes.com/recipe/19898/om-ali/,ok
+293,BEGHRIR (MOROCCAN PANCAKES),assets/photos/293.jpg,https://www.allrecipes.com/recipe/206740/beghrir-moroccan-pancakes/,ok
+294,MOROCCAN SHABBAT FISH,assets/photos/294.jpg,https://www.allrecipes.com/recipe/213243/moroccan-shabbat-fish/,ok
+296,SOUTH AFRICAN BROWN PUDDING,assets/photos/296.jpg,https://www.allrecipes.com/recipe/214766/south-african-brown-pudding/,ok
+297,MAKE-AHEAD VEGETARIAN MOROCCAN STEW,assets/photos/297.jpg,https://www.allrecipes.com/recipe/217109/make-ahead-vegetarian-moroccan-stew/,ok
+298,MOROCCAN CHICKPEA STEW,assets/photos/298.jpg,https://www.allrecipes.com/recipe/217947/moroccan-chickpea-stew/,ok
+300,EGYPTIAN LENTIL SOUP,assets/photos/300.jpg,https://www.allrecipes.com/recipe/222661/egyptian-lentil-soup/,ok
+301,AFRICAN CABBAGE STEW,assets/photos/301.jpg,https://www.allrecipes.com/recipe/228662/african-cabbage-stew/,ok
+302,COUSCOUS WITH OLIVES AND SUN-DRIED TOMATO,assets/photos/302.jpg,https://www.allrecipes.com/recipe/232210/couscous-with-olives-and-sun-dried-tomato/,ok
+303,TRADITIONAL BABA GHANOUSH,assets/photos/303.jpg,https://www.allrecipes.com/recipe/236310/traditional-baba-ghanoush/,ok
+304,BERBERE (ETHIOPIAN SPICE),assets/photos/304.jpg,https://www.allrecipes.com/recipe/236741/berbere-ethiopian-spice/,ok
+305,AFRICAN SWEET POTATO STEW,assets/photos/305.jpg,https://www.allrecipes.com/recipe/245682/african-sweet-potato-stew/,ok
+306,SOUTH AFRICAN TRADITIONAL VETKOEK (FRIED BREAD),assets/photos/306.jpg,https://www.allrecipes.com/recipe/245683/south-african-traditional-vetkoek-fried-bread/,ok
+307,SABAAYAD (SOMALI FLATBREAD),assets/photos/307.jpg,https://www.allrecipes.com/recipe/246109/sabaayad-somali-flatbread/,ok
+308,DORO WAT: ETHIOPIAN CHICKEN DISH,assets/photos/308.jpg,https://www.allrecipes.com/recipe/246340/doro-wat-ethiopian-chicken-dish/,ok
+309,TA'AMEYA (EGYPTIAN FALAFEL),assets/photos/309.jpg,https://www.allrecipes.com/recipe/254743/taameya-egyptian-falafel/,ok
+310,THE PERFECT EGYPTIAN RICE WITH VERMICELLI,assets/photos/310.jpg,https://www.allrecipes.com/recipe/255137/the-perfect-egyptian-rice-with-vermicelli/,ok
+311,NIGERIAN SUYA,assets/photos/311.jpg,https://www.allrecipes.com/recipe/255142/nigerian-suya/,ok
+312,BERBERE SPICE BLEND,assets/photos/312.jpg,https://www.allrecipes.com/recipe/255863/berbere-spice-blend/,ok
+313,GINGER MALVA PUDDING,assets/photos/313.jpg,https://www.allrecipes.com/recipe/256679/ginger-malva-pudding/,ok
+314,ALGERIAN COUSCOUS,assets/photos/314.jpg,https://www.allrecipes.com/recipe/256729/algerian-couscous/,ok
+315,NIGERIAN JOLLOF RICE WITH CHICKEN AND FRIED PLANTAINS,assets/photos/315.jpg,https://www.allrecipes.com/recipe/259978/nigerian-jollof-rice-with-chicken-and-fried-plantains/,ok
+316,CHAPATI (EAST AFRICAN BREAD),assets/photos/316.jpg,https://www.allrecipes.com/recipe/262203/chapati-east-african-bread/,ok
+317,MANDAZI (AFRICAN DONUTS),assets/photos/317.jpg,https://www.allrecipes.com/recipe/262205/mandazi-african-donuts/,ok
+318,VEGAN CHICKPEA CURRY WITHOUT COCONUT MILK,assets/photos/318.jpg,https://www.allrecipes.com/recipe/263337/vegan-chickpea-curry-without-coconut-milk/,ok
+319,INJERA (ETHIOPIAN TEFF BREAD),assets/photos/319.jpg,https://www.allrecipes.com/recipe/264651/injera-ethiopian-teff-bread/,ok
+320,HARISSA POWDER,assets/photos/320.jpg,https://www.allrecipes.com/recipe/276693/harissa-powder/,ok
+321,MOROCCAN-SPICED PORK ROAST,assets/photos/321.jpg,https://www.allrecipes.com/recipe/277576/moroccan-spiced-pork-roast/,ok
+322,MOROCCAN BEEF AND LENTIL STEW,assets/photos/322.jpg,https://www.allrecipes.com/recipe/278891/moroccan-beef-and-lentil-stew/,ok
+323,HARISSA PASTE,assets/photos/323.jpg,https://www.allrecipes.com/recipe/279059/harissa-paste/,ok
+324,AFRICAN CURRY,assets/photos/324.jpg,https://www.allrecipes.com/recipe/47439/african-curry/,ok
+325,SAMBUSA,assets/photos/325.jpg,https://www.allrecipes.com/recipe/53603/sambusa/,ok
+326,AFRICAN SWEET POTATO AND PEANUT SOUP,assets/photos/326.jpg,https://www.allrecipes.com/recipe/55207/african-sweet-potato-and-peanut-soup/,ok
+327,SOUTH AFRICAN MALVAPOEDING (MARSHMALLOW PUDDING),assets/photos/327.jpg,https://www.allrecipes.com/recipe/58465/south-african-malvapoeding-marshmallow-pudding/,ok
+328,FUFU,assets/photos/328.jpg,https://www.allrecipes.com/recipe/60516/fufu/,ok
+329,TOMATO BREDIE,assets/photos/329.jpg,https://www.allrecipes.com/recipe/68735/tomato-bredie/,ok
+330,HOMEMADE PERI PERI CHICKEN,assets/photos/330.jpg,https://www.allrecipes.com/recipe/72064/peri-peri-african-chicken/,ok
+331,UMM ALI,assets/photos/331.jpg,https://www.allrecipes.com/recipe/73059/umm-ali/,ok
+333,SOUTH AFRICAN MELKTERT (MILK TART),assets/photos/333.jpg,https://www.allrecipes.com/recipe/80160/south-african-melktert-milk-tart/,ok
+334,SWEET AND NUTTY MOROCCAN COUSCOUS,assets/photos/334.jpg,https://www.allrecipes.com/recipe/81551/sweet-and-nutty-moroccan-couscous/,ok
+335,MIDDLE EASTERN WHITE BEANS,assets/photos/335.jpg,https://www.allrecipes.com/recipe/82184/middle-eastern-white-beans/,ok
+336,MOROCCAN HARIRA SOUP,assets/photos/336.jpg,https://www.allrecipes.com/recipe/8479335/moroccan-harira-soup/,ok
+338,ACCRA BANANA,assets/photos/338.jpg,https://www.africanbites.com/accra-banana/,ok
+339,ACCRA CASSAVA (KOUTI OR CASSAVA FRITTERS),assets/photos/339.jpg,https://www.africanbites.com/accra-cassavakouti-cassava-fritters/,ok
+340,ACHU SOUP,assets/photos/340.jpg,https://www.africanbites.com/achu-soupyellow-soup-achu/,ok
+341,AEBLESKIVER DANISH PANCAKES,assets/photos/341.jpg,https://www.africanbites.com/aebleskiver-danish-pancakes/,ok
+342,AFANG SOUP,assets/photos/342.jpg,https://www.africanbites.com/afang-soupspinach-and-okazi-leaves/,ok
+344,AFRICAN DOUGHNUT (DROP DOUGHNUT),assets/photos/344.jpg,https://www.africanbites.com/african-doughnut-drop-doughnut/,ok
+345,NIGERIAN SCOTCH EGGS,assets/photos/345.jpg,https://www.africanbites.com/african-egg-rollafrican-scotch-eggs/,ok
+346,AFRICAN FISH ROLLS (FISH PIES),assets/photos/346.jpg,https://www.africanbites.com/african-fish-rollfish-pie/,ok
+347,AFRICAN FRIED CHICKEN AND PLANTAIN FRIES,assets/photos/347.jpg,https://www.africanbites.com/african-fried-chicken-plantain-fries/,ok
+348,AFRICAN GRILL CHICKEN (KATI KATI),assets/photos/348.jpg,https://www.africanbites.com/african-grill-chickenkati-kati/,ok
+349,AFRICAN MEAT PIES (BEEF EMPANADA),assets/photos/349.jpg,https://www.africanbites.com/african-meat-pie-beef-empanada/,ok
+350,AFRICAN PEANUT STEW,assets/photos/350.jpg,https://www.africanbites.com/african-peanut-stew/,ok
+351,AFRICAN PEPPER SAUCE,assets/photos/351.jpg,https://www.africanbites.com/african-pepper-sauce/,ok
+352,AFRICAN CHICKEN PEPPER SOUP,assets/photos/352.jpg,https://www.africanbites.com/african-pepper-soupchicken/,ok
+353,AFRICAN RICE AND BEANS,assets/photos/353.jpg,https://www.africanbites.com/african-rice-and-beanswaakye/,ok
+354,AFRICAN SPICY OXTAIL STEW,assets/photos/354.jpg,https://www.africanbites.com/african-spicy-oxtail-stew/,ok
+355,AFRICAN YAM SOUP STEW,assets/photos/355.jpg,https://www.africanbites.com/african-yam-soup-stew/,ok
+356,AIR FRYER CHIN CHIN,assets/photos/356.jpg,https://www.africanbites.com/air-fryer-chin-chin/,ok
+357,ASHANTI CHICKEN (WHOLE DEBONED CHICKEN STUFFED WITH JOLLOF RICE),assets/photos/357.jpg,https://www.africanbites.com/ashanti-chicken-whole-deboned-chicken-rice/,ok
+358,ASUN (SPICY ROAST GOAT),assets/photos/358.jpg,https://www.africanbites.com/asun-spicy-roast-goat/,ok
+359,BAKED YUCA FRIES,assets/photos/359.jpg,https://www.africanbites.com/baked-crispy-cassava-friesyuca-fries/,ok
+360,BAKED PLANTAIN FRITTATA,assets/photos/360.jpg,https://www.africanbites.com/baked-plantain-frittatabaked-plantain-and-eggs/,ok
+361,PLANTAIN BREAD (PLANTAIN CAKE),assets/photos/361.jpg,https://www.africanbites.com/banana-breadcake/,ok
+362,BANANA MANGO MUFFIN,assets/photos/362.jpg,https://www.africanbites.com/banana-mango-muffin/,ok
+363,BANANA PUFF PUFF,assets/photos/363.jpg,https://www.africanbites.com/banana-puff-puff/,ok
+364,AFRICAN BEEF STEW,assets/photos/364.jpg,https://www.africanbites.com/beef-stewafrican-style/,ok
+365,BERBERE SPICE,assets/photos/365.jpg,https://www.africanbites.com/berbere-spice/,ok
+367,BITTER LEAF SOUP,assets/photos/367.jpg,https://www.africanbites.com/bitter-leaf-soup/,ok
+368,AFRICAN BLACK BEANS STEW,assets/photos/368.jpg,https://www.africanbites.com/black-beans-stew/,ok
+369,BLACK-EYED PEA SOUP,assets/photos/369.jpg,https://www.africanbites.com/black-eyed-pea-soup/,ok
+370,BLACK-EYED PEAS AND COLLARD GREENS,assets/photos/370.jpg,https://www.africanbites.com/black-eyed-peas-and-collard-greens/,ok
+371,BLACK-EYED PEAS FRITTERS(AKARA),assets/photos/371.jpg,https://www.africanbites.com/black-eyed-peas-frittersakaraacarajeakla/,ok
+372,SOUTHERN BLACK-EYED PEAS RECIPE,assets/photos/372.jpg,https://www.africanbites.com/black-eyed-peas-recipe/,ok
+373,BOBOTIE,assets/photos/373.jpg,https://www.africanbites.com/bobotie/,ok
+374,BRAAIBROODJIE (SOUTH AFRICAN GRILLED CHEESE SANDWICH),assets/photos/374.jpg,https://www.africanbites.com/braaibroodjie-south-african-grilled-cheese-sandwich/,ok
+375,"BRAISED THYME , GARLIC , MUSTARD CHICKEN",assets/photos/375.jpg,https://www.africanbites.com/braised-chicken-garlic-thyme/,ok
+376,BUNNY CHOW SOUTH AFRICA,assets/photos/376.jpg,https://www.africanbites.com/bunny-chow/,ok
+377,CABBAGE EGUSI SOUP,assets/photos/377.jpg,https://www.africanbites.com/cabbage-egusi-soup/,ok
+378,BANANA FRITTERS,assets/photos/378.jpg,https://www.africanbites.com/caribbean-banana-fritters/,ok
+379,CASSAVA FUFU/WATER FUFU,assets/photos/379.jpg,https://www.africanbites.com/cassava-fufu-water-fufu/,ok
+380,CASSAVA LEAF SOUP,assets/photos/380.jpg,https://www.africanbites.com/cassava-leaf-soup/,ok
+381,CASSAVA PONE,assets/photos/381.jpg,https://www.africanbites.com/cassava-pone/,ok
+382,CHAKALAKA,assets/photos/382.jpg,https://www.africanbites.com/chakalaka/,ok
+383,CHICKEN FRICASSEE,assets/photos/383.jpg,https://www.africanbites.com/chicken-fricassee/,ok
+384,JOLLOF RICE AND CHICKEN,assets/photos/384.jpg,https://www.africanbites.com/chicken-jollof-rice/,ok
+385,SAMOSA RECIPE,assets/photos/385.jpg,https://www.africanbites.com/chicken-samosas/,ok
+386,CHICKEN STEW (AFRICAN-STYLE),assets/photos/386.jpg,https://www.africanbites.com/chicken-stew-african-style/,ok
+387,CHICKEN TAGINE,assets/photos/387.jpg,https://www.africanbites.com/chicken-tagine/,ok
+388,CHICKEN WINGS SHAWARMA,assets/photos/388.jpg,https://www.africanbites.com/chicken-wing-shawarma/,ok
+389,CHICKPEA CURRY,assets/photos/389.jpg,https://www.africanbites.com/chickpea-curry/,ok
+390,NIGERIAN CHIN CHIN,assets/photos/390.jpg,https://www.africanbites.com/chin-chin/,ok
+391,CHITTERLINGS (CHITLINS),assets/photos/391.jpg,https://www.africanbites.com/chitterlings/,ok
+392,COCONUT BREAD,assets/photos/392.jpg,https://www.africanbites.com/coconut-bread/,ok
+393,COCONUT JELLOF RICE,assets/photos/393.jpg,https://www.africanbites.com/coconut-jollof-rice/,ok
+394,COCONUT PUFF PUFF (DEEP-FRIED COCONUT DOUGH),assets/photos/394.jpg,https://www.africanbites.com/coconut-puff-puff-deep-fried-coconut-dough/,ok
+395,CONDENSED MILK CAKE,assets/photos/395.jpg,https://www.africanbites.com/condensed-milk-cake-2/,ok
+396,CORNCHAFF/ADALU,assets/photos/396.jpg,https://www.africanbites.com/cornchaffadalu/,ok
+397,COW FOOT SOUP,assets/photos/397.jpg,https://www.africanbites.com/cow-foot-soup/,ok
+398,CRUNCHIES,assets/photos/398.jpg,https://www.africanbites.com/crunchies/,ok
+399,CURRIED GOAT STEW,assets/photos/399.jpg,https://www.africanbites.com/curried-goat-stew/,ok
+400,CURRY FISH,assets/photos/400.jpg,https://www.africanbites.com/curry-fish/,ok
+401,DORO WAT ETHIOPIAN CHICKEN STEW,assets/photos/401.jpg,https://www.africanbites.com/doro-wat-ethiopian-chicken-stew/,ok
+402,CHAPATI RECIPE,assets/photos/402.jpg,https://www.africanbites.com/east-african-chapati/,ok
+403,EASY MANDAZI WITHOUT YEAST,assets/photos/403.jpg,https://www.africanbites.com/easy-mandazi/,ok
+404,EGUSI PUDDING,assets/photos/404.jpg,https://www.africanbites.com/egusi-pudding/,ok
+406,EGUSI SOUP WITH LUMPS,assets/photos/406.jpg,https://www.africanbites.com/egusi-soupwith-lumps/,ok
+407,EKWANG ( EKPANG NKUKWO ),assets/photos/407.jpg,https://www.africanbites.com/ekwang-ekpang-nkukwo/,ok
+408,ERU SOUP (SPINACH OR OKAZI LEAVES),assets/photos/408.jpg,https://www.africanbites.com/eru-soupspinachokazi-leaves/,ok
+409,ETHIOPIAN CABBAGE,assets/photos/409.jpg,https://www.africanbites.com/ethiopian-cabbage/,ok
+410,YE'ABESHA GOMEN (ETHIOPIAN COLLARD GREENS),assets/photos/410.jpg,https://www.africanbites.com/ethiopian-collard-greens/,ok
+411,ETHIOPIAN LENTIL STEW,assets/photos/411.jpg,https://www.africanbites.com/ethiopian-lentil-stew/,ok
+412,ETHIOPIAN SPICED BUTTER,assets/photos/412.jpg,https://www.africanbites.com/ethiopian-spiced-butter-niter-kibbeh/,ok
+413,ETHIOPIAN YATAKLETE KILKIL,assets/photos/413.jpg,https://www.africanbites.com/ethiopian-yataklete-kilkil/,ok
+414,FISH IN BANANA LEAF (LIBOKE DE POISSON),assets/photos/414.jpg,https://www.africanbites.com/fish-banana-leaf-liboke-de-poisson/,ok
+415,FISH PEPPER SOUP,assets/photos/415.jpg,https://www.africanbites.com/fish-pepper-soup/,ok
+416,FISH PIE,assets/photos/416.jpg,https://www.africanbites.com/fish-pie/,ok
+417,HOMEMADE FLATBREAD,assets/photos/417.jpg,https://www.africanbites.com/flatbread/,ok
+418,FRIED BANANA RECIPE,assets/photos/418.jpg,https://www.africanbites.com/fried-banana-recipe/,ok
+419,FRIED SWEET PLANTAINS,assets/photos/419.jpg,https://www.africanbites.com/fried-plantains/,ok
+420,FUFU RECIPE,assets/photos/420.jpg,https://www.africanbites.com/fufu-recipe/,ok
+421,GHANA JOLLOF RICE,assets/photos/421.jpg,https://www.africanbites.com/ghana-jollof-rice/,ok
+422,GITHERI (CORN AND BEANS),assets/photos/422.jpg,https://www.africanbites.com/githeri/,ok
+423,GOAT PEPPER SOUP,assets/photos/423.jpg,https://www.africanbites.com/goat-pepper-soup/,ok
+424,GREEN SEASONING,assets/photos/424.jpg,https://www.africanbites.com/green-seasoningsauce/,ok
+425,GRILL PINEAPPLE BLACK BEAN SALSA,assets/photos/425.jpg,https://www.africanbites.com/grill-pineapple-black-bean-salsa/,ok
+426,GRILL TILAPIA (AFRICAN STYLE),assets/photos/426.jpg,https://www.africanbites.com/grill-tilapiaafrican-style/,ok
+427,GRILLED OKRA WITH DIPPING SAUCE,assets/photos/427.jpg,https://www.africanbites.com/grilled-okra/,ok
+428,GRILLED PLANTAINS,assets/photos/428.jpg,https://www.africanbites.com/grilled-plantains/,ok
+429,CANDIED NUTS (GROUNDNUT SWEET OR SUGAR PEANUTS),assets/photos/429.jpg,https://www.africanbites.com/groundnut-sweet-sugar-peanuts-aka-candied-nuts/,ok
+430,GROUNDNUT SOUP RECIPE,assets/photos/430.jpg,https://www.africanbites.com/groundnutpeanut-soup/,ok
+431,"HOMEMADE AKAMU (PAP, OGI, CORN PORRIDGE)",assets/photos/431.jpg,https://www.africanbites.com/homemade-akamupap-ogi-corn-porridge/,ok
+432,HOPPIN JOHN,assets/photos/432.jpg,https://www.africanbites.com/hopping-john/,ok
+433,INJERA,assets/photos/433.jpg,https://www.africanbites.com/injera/,ok
+434,IRIO (MASHED SWEET POTATO RECIPE WITH PEAS AND CORN),assets/photos/434.jpg,https://www.africanbites.com/irio/,ok
+435,JELLOF RICE,assets/photos/435.jpg,https://www.africanbites.com/jellof-rice/,ok
+436,OVEN-BAKED JOLLOF RICE,assets/photos/436.jpg,https://www.africanbites.com/jellof-riceoven-baked/,ok
+437,KACHUMBARI,assets/photos/437.jpg,https://www.africanbites.com/kachumbari/,ok
+438,KASHATA,assets/photos/438.jpg,https://www.africanbites.com/kashata/,ok
+439,KEDJENOU CHICKEN,assets/photos/439.jpg,https://www.africanbites.com/kedjenou-chicken/,ok
+440,KELEWELE,assets/photos/440.jpg,https://www.africanbites.com/kelewele-or-alocospicy-fried-plantains/,ok
+441,KOKI BEANS,assets/photos/441.jpg,https://www.africanbites.com/koki-beans/,ok
+442,KONDRES,assets/photos/442.jpg,https://www.africanbites.com/kondres-spicy-stewed-plantains/,ok
+443,KWACOCO BIBLE,assets/photos/443.jpg,https://www.africanbites.com/kwacoco-bible/,ok
+444,LEMON PEPPER CHICKEN,assets/photos/444.jpg,https://www.africanbites.com/lemon-garlic-chickenyassa-chicken/,ok
+445,LENTIL SOUP RECIPE,assets/photos/445.jpg,https://www.africanbites.com/lentil-soup/,ok
+446,LIBERIAN CHICKEN GRAVY,assets/photos/446.jpg,https://www.africanbites.com/liberian-chicken-gravy/,ok
+447,MAAFE WEST AFRICAN PEANUT SOUP,assets/photos/447.jpg,https://www.africanbites.com/maafe-west-african-peanut-soup/,ok
+448,MALVA PUDDING,assets/photos/448.jpg,https://www.africanbites.com/malva-pudding/,ok
+449,MANDAZI (EAST AFRICAN DOUGHNUTS),assets/photos/449.jpg,https://www.africanbites.com/mandazi-east-african-doughnuts/,ok
+450,MANGO LEMONADE RECIPE,assets/photos/450.jpg,https://www.africanbites.com/mango-lemonade/,ok
+451,MARINATED GRILLED SHRIMP,assets/photos/451.jpg,https://www.africanbites.com/marinated-grill-shrimp/,ok
+452,MASHED SWEET POTATOES WITH AVOCADO,assets/photos/452.jpg,https://www.africanbites.com/mashed-sweet-potatoes-with-avocado/,ok
+453,PALM NUT SOUP (BANGA),assets/photos/453.jpg,https://www.africanbites.com/mbangapalmnut-soup/,ok
+454,MBONGO TCHOBI (SPICY BLACK STEW),assets/photos/454.jpg,https://www.africanbites.com/mbongo-tchobi-african-spicy-black-stew/,ok
+455,MPUH FISH,assets/photos/455.jpg,https://www.africanbites.com/mbuh-fish/,ok
+456,MEALIE CORN BREAD,assets/photos/456.jpg,https://www.africanbites.com/mealie-bread-south-african-corn-bread/,ok
+457,MILK TART,assets/photos/457.jpg,https://www.africanbites.com/milk-tart/,ok
+458,GROUND BEEF CURRY,assets/photos/458.jpg,https://www.africanbites.com/minced-curry/,ok
+459,MOI MOI RECIPE,assets/photos/459.jpg,https://www.africanbites.com/moin-moin/,ok
+460,GRILLED PERI PERI CHICKEN,assets/photos/460.jpg,https://www.africanbites.com/mozambique-peri-peri-grill-chicken/,ok
+461,MUAMBA CHICKEN (MUAMBA DE GALINHA),assets/photos/461.jpg,https://www.africanbites.com/muamba-chickenmuamba-de-galinha/,ok
+462,MUSHROOM RICE,assets/photos/462.jpg,https://www.africanbites.com/mushroom-rice/,ok
+463,NDOLE ( SPINACH/ BITTERLEAVES AND PEANUT SOUP),assets/photos/463.jpg,https://www.africanbites.com/ndole/,ok
+464,NIGERIAN BUNS,assets/photos/464.jpg,https://www.africanbites.com/nigerian-buns/,ok
+465,NIGERIAN FRIED RICE RECIPE,assets/photos/465.jpg,https://www.africanbites.com/nigerian-fried-rice-2/,ok
+466,NIGERIAN JOLLOF RICE,assets/photos/466.jpg,https://www.africanbites.com/nigerian-jollof-rice/,ok
+467,NJAMA NJAMA AND FUFU,assets/photos/467.jpg,https://www.africanbites.com/njama-njama-and-fufu/,ok
+468,NO YEAST PUFF PUFF,assets/photos/468.jpg,https://www.africanbites.com/no-yeast-puff-puff/,ok
+469,OGBONO SOUP,assets/photos/469.jpg,https://www.africanbites.com/ogbono-soup-pounded-yam/,ok
+470,OKRA AND TOMATOES,assets/photos/470.jpg,https://www.africanbites.com/okra-and-tomatoes/,ok
+471,OKRA SOUP,assets/photos/471.jpg,https://www.africanbites.com/okra-soup/,ok
+472,OKRA STEW,assets/photos/472.jpg,https://www.africanbites.com/okra-stew/,ok
+473,PAMPOENKOEKIES RECIPE,assets/photos/473.jpg,https://www.africanbites.com/pampoenkoekies/,ok
+474,AFRICAN PANCAKES,assets/photos/474.jpg,https://www.africanbites.com/pancakes-african-style/,ok
+475,PAPRIKA CHICKEN LEGS,assets/photos/475.jpg,https://www.africanbites.com/paprika-garlic-chicken/,ok
+476,PEPPERPOT,assets/photos/476.jpg,https://www.africanbites.com/pepperpot/,ok
+477,PERI PERI MARINATED CHICKEN SKEWERS,assets/photos/477.jpg,https://www.africanbites.com/peri-peri-marinated-chicken-skewers/,ok
+478,BAKED PINEAPPLE CHICKEN,assets/photos/478.jpg,https://www.africanbites.com/pineapple-chicken/,ok
+479,PINEAPPLE GINGER-GLAZED CARROTS,assets/photos/479.jpg,https://www.africanbites.com/pineapple-ginger-glazed-carrots/,ok
+480,PINEAPPLE GINGER JUICE,assets/photos/480.jpg,https://www.africanbites.com/pineapple-ginger-juicewest-african/,ok
+481,HOW TO MAKE PERI-PERI SAUCE (PIRI-PIRI),assets/photos/481.jpg,https://www.africanbites.com/piri-piri-sauce/,ok
+482,PLANTAIN CHIPS WITH MANGO SALSA,assets/photos/482.jpg,https://www.africanbites.com/plantain-chips/,ok
+483,PLANTAIN FLOUR,assets/photos/483.jpg,https://www.africanbites.com/plantain-flour/,ok
+484,PLANTAIN FRITTERS (KLAKO),assets/photos/484.jpg,https://www.africanbites.com/plantain-frittersklako/,ok
+485,PLANTAIN PANCAKE,assets/photos/485.jpg,https://www.africanbites.com/plantain-pancake/,ok
+486,JAMAICAN PLANTAIN PORRIDGE,assets/photos/486.jpg,https://www.africanbites.com/plantain-porridge/,ok
+487,PORRIDGE YAMS(SESE YAMS),assets/photos/487.jpg,https://www.africanbites.com/porridge-yamssese-yams/,ok
+488,POULET DG,assets/photos/488.jpg,https://www.africanbites.com/poulet-d-g/,ok
+489,POUNDED YAM,assets/photos/489.jpg,https://www.africanbites.com/pounded-yam/,ok
+490,PUFF PUFF (DEEP-FRIED DOUGH),assets/photos/490.jpg,https://www.africanbites.com/puff-puff/,ok
+491,PUMPKIN LEAF (UGU) SOUP,assets/photos/491.jpg,https://www.africanbites.com/pumpkin-leavesugu-soup/,ok
+492,RED RED (AFRICAN STEWED BLACK-EYED PEAS),assets/photos/492.jpg,https://www.africanbites.com/red-redafrican-stewed-black-eyed-peas/,ok
+493,SAMOSAS (VEGAN),assets/photos/493.jpg,https://www.africanbites.com/samosas/,ok
+494,COCONUT RICE,assets/photos/494.jpg,https://www.africanbites.com/savory-coconut-rice/,ok
+495,SESE PLANTAINS (TURNING PLANTAINS),assets/photos/495.jpg,https://www.africanbites.com/sese-plantains-turning-plantains/,ok
+496,SHUKU SHUKU (COCONUT BALLS),assets/photos/496.jpg,https://www.africanbites.com/shuku-shukucoconut-balls/,ok
+497,SLOW-COOKER BLACK-EYED PEAS,assets/photos/497.jpg,https://www.africanbites.com/slow-cooker-black-eyed-peas/,ok
+498,SLOW COOKER OXTAIL SOUP,assets/photos/498.jpg,https://www.africanbites.com/slow-cooker-oxtail-soup/,ok
+499,SOFT MINI MANDAZI,assets/photos/499.jpg,https://www.africanbites.com/soft-mini-mandazi/,ok
+500,SORREL JUICE,assets/photos/500.jpg,https://www.africanbites.com/sorrel-juice/,ok
+501,YELLOW RICE,assets/photos/501.jpg,https://www.africanbites.com/south-african-yellow-rice/,ok
+502,BROWN SPINACH RICE (CHECK RICE),assets/photos/502.jpg,https://www.africanbites.com/spinach-rice-check-rice/,ok
+503,AFRICAN STEWED SPINACH,assets/photos/503.jpg,https://www.africanbites.com/stewed-spinachafrican-style/,ok
+504,STUFFED BAKED PLANTAINS,assets/photos/504.jpg,https://www.africanbites.com/stuffed-baked-plantains/,ok
+505,SUKUMA WIKI,assets/photos/505.jpg,https://www.africanbites.com/sukuma-wiki/,ok
+506,TATALE (AFRICAN PLANTAIN PANCAKES),assets/photos/506.jpg,https://www.africanbites.com/tatale-african-plantain-pancakes/,ok
+507,THIEBOUDIENNE/CEEBU JEN (POISSON AU RIZ),assets/photos/507.jpg,https://www.africanbites.com/thieboudienne-ceebu-jen-poisson-au-riz/,ok
+508,TRADITIONAL KOEKSISTERS,assets/photos/508.jpg,https://www.africanbites.com/traditional-koeksisters/,ok
+509,UGALI (CORN FUFU),assets/photos/509.jpg,https://www.africanbites.com/ugali-corn-fufu/,ok
+510,VEGETABLE BEEF SOUP,assets/photos/510.jpg,https://www.africanbites.com/vegetable-beef-soup/,ok
+511,VETKOEK,assets/photos/511.jpg,https://www.africanbites.com/vetkoek/,ok
+512,VITUMBUA (COCONUT RICE PANCAKES),assets/photos/512.jpg,https://www.africanbites.com/vitumbarice-pancakes/,ok
+513,WHOLE BAKED SEA BASS,assets/photos/513.jpg,https://www.africanbites.com/whole-baked-seabass/,ok
+514,WHOLE WHEAT ACCRA BANANAS,assets/photos/514.jpg,https://www.africanbites.com/whole-wheat-accra-bananasdeep-fried-bananas-fritters/,ok
+515,YASSA CHICKEN (POULET AU YASSA),assets/photos/515.jpg,https://www.africanbites.com/yassa-chickenpoulet-au-yassa/,ok
+516,YASSA FISH,assets/photos/516.jpg,https://www.africanbites.com/yassa-fish/,ok
+517,10-MINUTE COUSCOUS SALAD,assets/photos/517.jpg,https://www.food.com/recipe/10-minute-couscous-salad-421355,ok
+518,25-MINUTE TUNISIAN VEGETABLE COUSCOUS,assets/photos/518.jpg,https://www.food.com/recipe/25-minute-tunisian-vegetable-couscous-502982,ok
+519,3 LAYERED TUNISIAN TAGINE,assets/photos/519.jpg,https://www.food.com/recipe/3-layered-tunisian-tagine-464692,ok
+520,A SIMPLE HARISSA,assets/photos/520.jpg,https://www.food.com/recipe/a-simple-harissa-424892,ok
+521,A TASTE OF AFRICA - KENYAN CHICKEN CURRY,assets/photos/521.jpg,https://www.food.com/recipe/a-taste-of-africa-kenyan-chicken-curry-367586,ok
+522,A VERY SPECIAL MOROCCAN LAMB STEW,assets/photos/522.jpg,https://www.food.com/recipe/a-very-special-moroccan-lamb-stew-502957,ok
+523,ADD A LITTLE INTEREST WITH PERSIAN COUSCOUS,assets/photos/523.jpg,https://www.food.com/recipe/add-a-little-interest-with-persian-couscous-353023,ok
+524,AFRICAN ADOBO-RUBBED TUNA STEAKS,assets/photos/524.jpg,https://www.food.com/recipe/african-adobo-rubbed-tuna-steaks-456085,ok
+526,AFRICAN BANANA PEANUT CAKE,assets/photos/526.jpg,https://www.food.com/recipe/african-banana-peanut-cake-457019,ok
+527,AFRICAN BEANS WITH COLLARDS,assets/photos/527.jpg,https://www.food.com/recipe/african-beans-with-collards-519094,ok
+528,AFRICAN BREEZE,assets/photos/528.jpg,https://www.food.com/recipe/african-breeze-457151,ok
+530,AFRICAN CHICKEN CURRY,assets/photos/530.jpg,https://www.food.com/recipe/african-chicken-curry-50400,ok
+531,AFRICAN CHICKEN STEW,assets/photos/531.jpg,https://www.food.com/recipe/african-chicken-stew-428359,ok
+532,AFRICAN CHICKEN WINGS,assets/photos/532.jpg,https://www.food.com/recipe/african-chicken-wings-455193,ok
+533,AFRICAN COCONUT CLUSTERS,assets/photos/533.jpg,https://www.food.com/recipe/african-coconut-clusters-456764,ok
+534,AFRICAN COFFEE COOLER,assets/photos/534.jpg,https://www.food.com/recipe/african-coffee-cooler-456087,ok
+535,AFRICAN CURRY POWDER,assets/photos/535.jpg,https://www.food.com/recipe/african-curry-powder-457168,ok
+536,AFRICAN FRUIT SALAD,assets/photos/536.jpg,https://www.food.com/recipe/african-fruit-salad-455976,ok
+537,AFRICAN LULLABY COCKTAIL,assets/photos/537.jpg,https://www.food.com/recipe/african-lullaby-cocktail-309952,ok
+538,AFRICAN MINT CHUTNEY,assets/photos/538.jpg,https://www.food.com/recipe/african-mint-chutney-454994,ok
+539,AFRICAN ORANGE SPICE SALAD,assets/photos/539.jpg,https://www.food.com/recipe/african-orange-spice-salad-455529,ok
+540,AFRICAN PEANUT SOUP,assets/photos/540.jpg,https://www.food.com/recipe/african-peanut-soup-312148,ok
+541,AROMATIC AFRICAN RED BEANS,assets/photos/541.jpg,https://www.food.com/recipe/african-red-beans-456933,ok
+542,AFRICAN RED BEANS,assets/photos/542.jpg,https://www.food.com/recipe/african-red-beans-457028,ok
+543,AFRICAN RICE BALLS,assets/photos/543.jpg,https://www.food.com/recipe/african-rice-balls-456094,ok
+544,AFRICAN SAUCY CHICKEN,assets/photos/544.jpg,https://www.food.com/recipe/african-saucy-chicken-457143,ok
+545,AFRICAN SPINACH,assets/photos/545.jpg,https://www.food.com/recipe/african-spinach-309722,ok
+546,"AFRICAN SPINACH AND GROUNDNUT STEW (AKA PEANUT, KENYA/TANZANIA)",assets/photos/546.jpg,https://www.food.com/recipe/african-spinach-and-groundnut-stew-aka-peanut-kenya-tanzania-375912,ok
+547,AFRICAN SPINACH AND PEANUT BUTTER STEW,assets/photos/547.jpg,https://www.food.com/recipe/african-spinach-and-peanut-butter-stew-348276,ok
+548,AFRICAN STYLE GRILLED PEANUT BUTTER CHICKEN,assets/photos/548.jpg,https://www.food.com/recipe/african-style-grilled-peanut-butter-chicken-456733,ok
+549,AFRICAN-STYLE SHISH KEBAB,assets/photos/549.jpg,https://www.food.com/recipe/african-style-shish-kebab-504294,ok
+550,AFRICAN SWEET POTATO PEANUT STEW,assets/photos/550.jpg,https://www.food.com/recipe/african-sweet-potato-peanut-stew-528072,ok
+551,AFRICAN SWEET POTATO PUDDING,assets/photos/551.jpg,https://www.food.com/recipe/african-sweet-potato-pudding-457063,ok
+552,AFRICAN TOMATO SAUCE,assets/photos/552.jpg,https://www.food.com/recipe/african-tomato-sauce-93298,ok
+553,AFRICAN TROPICAL FRUIT SALAD,assets/photos/553.jpg,https://www.food.com/recipe/african-tropical-fruit-salad-455887,ok
+554,AINSLEY'S SPICY CASABLANCA COUSCOUS,assets/photos/554.jpg,https://www.food.com/recipe/ainsleys-spicy-casablanca-couscous-436201,ok
+556,ALGERIAN VEGETABLE COUSCOUS,assets/photos/556.jpg,https://www.food.com/recipe/algerian-vegetable-couscous-465251,ok
+557,ALMOND BUTTER AND RAS-EL-HANOUT PASTA,assets/photos/557.jpg,https://www.food.com/recipe/almond-butter-and-ras-el-hanout-pasta-417710,ok
+558,ALOHA  ALBACORE TUNA SALAD,assets/photos/558.jpg,https://www.food.com/recipe/aloha-albacore-tuna-salad-335370,ok
+559,ALOHA CHEESECAKE,assets/photos/559.jpg,https://www.food.com/recipe/aloha-cheesecake-6787,ok
+560,ALOHA CHICKEN WINGS,assets/photos/560.jpg,https://www.food.com/recipe/aloha-chicken-wings-77820,ok
+561,ALOHA DIP,assets/photos/561.jpg,https://www.food.com/recipe/aloha-dip-36642,ok
+562,ALOHA MEATBALLS,assets/photos/562.jpg,https://www.food.com/recipe/aloha-meatballs-30909,ok
+563,ALOHA PIZZA,assets/photos/563.jpg,https://www.food.com/recipe/aloha-pizza-473530,ok
+564,ALOHA! SWEET &AMP; SOUR BURGERS,assets/photos/564.jpg,https://www.food.com/recipe/aloha-sweet-sour-burgers-502044,ok
+565,ALOHA! SWEET &AMP; SOUR SAUCE,assets/photos/565.jpg,https://www.food.com/recipe/aloha-sweet-sour-sauce-504527,ok
+566,ALOHA WINGS,assets/photos/566.jpg,https://www.food.com/recipe/aloha-wings-315166,ok
+567,APPLE AND MINT COUSCOUS,assets/photos/567.jpg,https://www.food.com/recipe/apple-and-mint-couscous-356825,ok
+568,APRICOT COUSCOUS,assets/photos/568.jpg,https://www.food.com/recipe/apricot-couscous-428496,ok
+569,APRICOT-DIJON MUSTARD CHICKEN WITH COUSCOUS,assets/photos/569.jpg,https://www.food.com/recipe/apricot-dijon-mustard-chicken-with-couscous-327743,ok
+570,APRICOT GLAZED CHICKEN AND COUSCOUS,assets/photos/570.jpg,https://www.food.com/recipe/apricot-glazed-chicken-and-couscous-67468,ok
+571,ASIAN RATATOUILLE WITH COUSCOUS,assets/photos/571.jpg,https://www.food.com/recipe/asian-ratatouille-with-couscous-409308,ok
+572,BAGHRIR MOROCCAN YEAST PANCAKES,assets/photos/572.jpg,https://www.food.com/recipe/baghrir-moroccan-yeast-pancakes-497716,ok
+573,BAKED COUSCOUS PATTIES,assets/photos/573.jpg,https://www.food.com/recipe/baked-couscous-patties-470243,ok
+574,BAKED COUSCOUS WITH TOMATO AND PESTO,assets/photos/574.jpg,https://www.food.com/recipe/baked-couscous-with-tomato-and-pesto-398307,ok
+575,BALSAMIC-AGAVE TOFU WITH BEET INFUSED COUSCOUS,assets/photos/575.jpg,https://www.food.com/recipe/balsamic-agave-tofu-with-beet-infused-couscous-447762,ok
+576,BALSAMIC CHICKEN WITH GARLIC COUSCOUS,assets/photos/576.jpg,https://www.food.com/recipe/balsamic-chicken-with-garlic-couscous-90485,ok
+577,BANANA AKARA (AFRICAN BANANA FRITTERS),assets/photos/577.jpg,https://www.food.com/recipe/banana-akara-african-banana-fritters-456059,ok
+578,BASIC GHANAIAN GRAVY,assets/photos/578.jpg,https://www.food.com/recipe/basic-ghanaian-gravy-307943,ok
+579,BATATA HARRA WITH RAS EL HANOUT,assets/photos/579.jpg,https://www.food.com/recipe/batata-harra-with-ras-el-hanout-494977,ok
+580,BEEF CHAPATIS (AFRICAN VERSION OF TACOS),assets/photos/580.jpg,https://www.food.com/recipe/beef-chapatis-african-version-of-tacos-456965,ok
+581,BEEF KEFTA PATTIES WITH CUCUMBER SALAD,assets/photos/581.jpg,https://www.food.com/recipe/beef-kefta-patties-with-cucumber-salad-480931,ok
+582,BEEF TAGINE,assets/photos/582.jpg,https://www.food.com/recipe/beef-tagine-531343,ok
+583,BEEF WITH POTATO TAGINE,assets/photos/583.jpg,https://www.food.com/recipe/beef-with-potato-tagine-361566,ok
+584,BERBER TAGINE OMELETTE,assets/photos/584.jpg,https://www.food.com/recipe/berber-tagine-omelette-367985,ok
+585,BERBERE (ETHIOPIAN HOT PEPPER SEASONING),assets/photos/585.jpg,https://www.food.com/recipe/berbere-ethiopian-hot-pepper-seasoning-91929,ok
+586,BERBERE SPICE MIX,assets/photos/586.jpg,https://www.food.com/recipe/berbere-spice-mix-532427,ok
+587,BERBERE SPICE MIX (ETHIOPIAN),assets/photos/587.jpg,https://www.food.com/recipe/berbere-spice-mix-ethiopian-454642,ok
+588,BERBERE SPICED CHICKPEAS &AMP; SWEET POTATO,assets/photos/588.jpg,https://www.food.com/recipe/berbere-spiced-chickpeas-sweet-potato-526262,ok
+589,BLACK BEAN AND COUSCOUS SALAD,assets/photos/589.jpg,https://www.food.com/recipe/black-bean-and-couscous-salad-61930,ok
+590,BLACK PEPPER BASIL CHICKEN WITH CAULIFLOWER COUSCOUS (LOWER CARB,assets/photos/590.jpg,https://www.food.com/recipe/black-pepper-basil-chicken-with-cauliflower-couscous-lower-carb-519138,ok
+591,BLUEBERRY COUSCOUS SALAD,assets/photos/591.jpg,https://www.food.com/recipe/blueberry-couscous-salad-461337,ok
+594,BOBOTIE (SOUTH AFRICA),assets/photos/594.jpg,https://www.food.com/recipe/bobotie-south-africa-309618,ok
+595,BOBOTIE (SOUTH AFRICAN CURRIED MEAT CASSEROLE),assets/photos/595.jpg,https://www.food.com/recipe/bobotie-south-african-curried-meat-casserole-456518,ok
+596,BOBOTIE (SOUTH AFRICAN CURRY MEAT LOAF),assets/photos/596.jpg,https://www.food.com/recipe/bobotie-south-african-curry-meat-loaf-513973,ok
+597,BREAD POHA,assets/photos/597.jpg,https://www.food.com/recipe/bread-poha-86183,ok
+598,BUNNY CHOW,assets/photos/598.jpg,https://www.food.com/recipe/bunny-chow-532742,ok
+599,BUNNY CHOW - VEGAN,assets/photos/599.jpg,https://www.food.com/recipe/bunny-chow-vegan-456544,ok
+600,CAAKIRI (COUSCOUS PUDDING),assets/photos/600.jpg,https://www.food.com/recipe/caakiri-couscous-pudding-457272,ok
+601,CAMAR&OTILDE;ES PIRI-PIRI (ANGOLA),assets/photos/601.jpg,https://www.food.com/recipe/camar-es-piri-piri-angola-466888,ok
+602,CARAMELISED ONION AND COUSCOUS SEASONING,assets/photos/602.jpg,https://www.food.com/recipe/caramelised-onion-and-couscous-seasoning-388428,ok
+603,CARIBBEAN PEANUT SOUP,assets/photos/603.jpg,https://www.food.com/recipe/caribbean-peanut-soup-368941,ok
+604,CARNIVAL COUSCOUS,assets/photos/604.jpg,https://www.food.com/recipe/carnival-couscous-344615,ok
+605,CARROT AND CILANTRO COUSCOUS,assets/photos/605.jpg,https://www.food.com/recipe/carrot-and-cilantro-couscous-416771,ok
+606,CARROT AND RAISIN SALAD---MOROCCAN STYLE,assets/photos/606.jpg,https://www.food.com/recipe/carrot-and-raisin-salad-moroccan-style-68917,ok
+607,CARROT DATE WALNUT COUSCOUS,assets/photos/607.jpg,https://www.food.com/recipe/carrot-date-walnut-couscous-361993,ok
+608,CASBAH COUSCOUS SALAD,assets/photos/608.jpg,https://www.food.com/recipe/casbah-couscous-salad-484617,ok
+609,CAULIFLOWER COUSCOUS,assets/photos/609.jpg,https://www.food.com/recipe/cauliflower-couscous-448977,ok
+610,CAULIFLOWER TAGINE,assets/photos/610.jpg,https://www.food.com/recipe/cauliflower-tagine-359602,ok
+611,"CHAI, AFRICAN TEA",assets/photos/611.jpg,https://www.food.com/recipe/chai-african-tea-456836,ok
+612,CHAKALAKA (SOUTH AFRICAN VEGETABLE STIR-FRY),assets/photos/612.jpg,https://www.food.com/recipe/chakalaka-south-african-vegetable-stir-fry-309581,ok
+613,CHAPATIS (INDIAN OR KENYAN WHOLEWHEAT FLATBREAD),assets/photos/613.jpg,https://www.food.com/recipe/chapatis-indian-or-kenyan-wholewheat-flatbread-356829,ok
+614,CHERMOULA,assets/photos/614.jpg,https://www.food.com/recipe/chermoula-348967,ok
+615,CHERMOULA (MOROCCAN PESTO),assets/photos/615.jpg,https://www.food.com/recipe/chermoula-moroccan-pesto-386308,ok
+616,CHERMOULA ROASTED TOMATOES,assets/photos/616.jpg,https://www.food.com/recipe/chermoula-roasted-tomatoes-382421,ok
+617,CHICKEN AND COUSCOUS,assets/photos/617.jpg,https://www.food.com/recipe/chicken-and-couscous-426499,ok
+618,CHICKEN AND COUSCOUS WITH FENNEL AND ORANGE,assets/photos/618.jpg,https://www.food.com/recipe/chicken-and-couscous-with-fennel-and-orange-475980,ok
+619,CHICKEN AND VEGGIE COUSCOUS,assets/photos/619.jpg,https://www.food.com/recipe/chicken-and-veggie-couscous-396855,ok
+620,CHICKEN BAKED WITH ORANGE SPICED HARISSA SAUCE,assets/photos/620.jpg,https://www.food.com/recipe/chicken-baked-with-orange-spiced-harissa-sauce-310253,ok
+621,CHICKEN &AMP; BUTTERNUT SQUASH TAGINE,assets/photos/621.jpg,https://www.food.com/recipe/chicken-butternut-squash-tagine-509243,ok
+622,CHICKEN COUSCOUS ONE POT,assets/photos/622.jpg,https://www.food.com/recipe/chicken-couscous-one-pot-375069,ok
+623,"CHICKEN, DATE AND APRICOT TAGINE",assets/photos/623.jpg,https://www.food.com/recipe/chicken-date-and-apricot-tagine-490360,ok
+624,CHICKEN &AMP; PRESERVED LEMON TAGINE,assets/photos/624.jpg,https://www.food.com/recipe/chicken-preserved-lemon-tagine-522155,ok
+627,CHICKEN TAGINE WITH APRICOTS AND ALMONDS,assets/photos/627.jpg,https://www.food.com/recipe/chicken-tagine-with-apricots-and-almonds-428523,ok
+628,CHICKEN TAGINE WITH FENNEL AND OLIVES,assets/photos/628.jpg,https://www.food.com/recipe/chicken-tagine-with-fennel-and-olives-428625,ok
+629,"CHICKEN TAGINE WITH FIGS, OLIVES, AND PISTACHIOS",assets/photos/629.jpg,https://www.food.com/recipe/chicken-tagine-with-figs-olives-and-pistachios-82635,ok
+630,CHICKEN TAGINE WITH POTATOES AND PEAS (MOROCCO -- NORTH AFRICA),assets/photos/630.jpg,https://www.food.com/recipe/chicken-tagine-with-potatoes-and-peas-morocco-north-africa-374278,ok
+631,CHICKEN TAGINE WITH PRESERVED LEMON  AND POTATOES,assets/photos/631.jpg,https://www.food.com/recipe/chicken-tagine-with-preserved-lemon-and-potatoes-423292,ok
+632,CHICKEN &AMP; TOMATO TAGINE,assets/photos/632.jpg,https://www.food.com/recipe/chicken-tomato-tagine-313622,ok
+633,CHICKEN WITH COUSCOUS,assets/photos/633.jpg,https://www.food.com/recipe/chicken-with-couscous-504284,ok
+634,CHICKEN WITH DATES AND MOROCCAN SPICES,assets/photos/634.jpg,https://www.food.com/recipe/chicken-with-dates-and-moroccan-spices-483812,ok
+635,"CHICKPEA AND DATE TAGINE, VEGETARIAN",assets/photos/635.jpg,https://www.food.com/recipe/chickpea-and-date-tagine-vegetarian-495095,ok
+636,CHILI SHAKSHUKA,assets/photos/636.jpg,https://www.food.com/recipe/chili-shakshuka-536552,ok
+637,CHORIZO AND PRESERVED LEMON COUSCOUS,assets/photos/637.jpg,https://www.food.com/recipe/chorizo-and-preserved-lemon-couscous-532389,ok
+638,CINNAMON SCENTED COUSCOUS,assets/photos/638.jpg,https://www.food.com/recipe/cinnamon-scented-couscous-396925,ok
+639,CINNAMON-SPICED MOROCCAN CHICKEN,assets/photos/639.jpg,https://www.food.com/recipe/cinnamon-spiced-moroccan-chicken-328245,ok
+640,CLEAN EATING RAS EL HANOUT MOROCCAN SPICE MIX,assets/photos/640.jpg,https://www.food.com/recipe/clean-eating-ras-el-hanout-moroccan-spice-mix-374781,ok
+641,COCONUT COUSCOUS PUDDING,assets/photos/641.jpg,https://www.food.com/recipe/coconut-couscous-pudding-409062,ok
+642,COCONUT RICE (NIGERIAN STYLE),assets/photos/642.jpg,https://www.food.com/recipe/coconut-rice-nigerian-style-387472,ok
+643,COLLARDS MOROCCAN STYLE,assets/photos/643.jpg,https://www.food.com/recipe/collards-moroccan-style-517372,ok
+644,CONFETTI CORN COUSCOUS SALAD,assets/photos/644.jpg,https://www.food.com/recipe/confetti-corn-couscous-salad-94014,ok
+645,COOL COUSCOUS TOSS,assets/photos/645.jpg,https://www.food.com/recipe/cool-couscous-toss-69380,ok
+646,CORIANDER CHICKEN COUSCOUS,assets/photos/646.jpg,https://www.food.com/recipe/coriander-chicken-couscous-502689,ok
+647,CORIANDER LEMON COUSCOUS,assets/photos/647.jpg,https://www.food.com/recipe/coriander-lemon-couscous-96875,ok
+648,CORN COUSCOUS,assets/photos/648.jpg,https://www.food.com/recipe/corn-couscous-392952,ok
+649,COUSCOUS AND MUNG BEAN SALAD WITH GOLDEN BEETS AND GREENS,assets/photos/649.jpg,https://www.food.com/recipe/couscous-and-mung-bean-salad-with-golden-beets-and-greens-413755,ok
+650,COUSCOUS AND POMEGRANATE SALAD,assets/photos/650.jpg,https://www.food.com/recipe/couscous-and-pomegranate-salad-427783,ok
+651,COUSCOUS BASICS,assets/photos/651.jpg,https://www.food.com/recipe/couscous-basics-421073,ok
+652,COUSCOUS CHICKEN SALAD,assets/photos/652.jpg,https://www.food.com/recipe/couscous-chicken-salad-56726,ok
+653,COUSCOUS-CHICKPEA SALAD,assets/photos/653.jpg,https://www.food.com/recipe/couscous-chickpea-salad-54593,ok
+654,COUSCOUS CHICKPEA SALAD WITH GINGER LIME DRESSING,assets/photos/654.jpg,https://www.food.com/recipe/couscous-chickpea-salad-with-ginger-lime-dressing-434302,ok
+655,COUSCOUS DATE CAKE,assets/photos/655.jpg,https://www.food.com/recipe/couscous-date-cake-420405,ok
+656,COUSCOUS FETA SALAD,assets/photos/656.jpg,https://www.food.com/recipe/couscous-feta-salad-340438,ok
+657,COUSCOUS-GARBANZO SALAD,assets/photos/657.jpg,https://www.food.com/recipe/couscous-garbanzo-salad-371885,ok
+658,COUSCOUS JAMBALAYA,assets/photos/658.jpg,https://www.food.com/recipe/couscous-jambalaya-50315,ok
+659,COUSCOUS PAELLA WITH SHRIMP,assets/photos/659.jpg,https://www.food.com/recipe/couscous-paella-with-shrimp-389030,ok
+660,COUSCOUS PILAF,assets/photos/660.jpg,https://www.food.com/recipe/couscous-pilaf-37074,ok
+661,COUSCOUS SALAD,assets/photos/661.jpg,https://www.food.com/recipe/couscous-salad-438049,ok
+663,COUSCOUS SALAD WITH ALMONDS AND FETA,assets/photos/663.jpg,https://www.food.com/recipe/couscous-salad-with-almonds-and-feta-428402,ok
+664,COUSCOUS SALAD WITH DRIED CRANBERRIES AND PECANS,assets/photos/664.jpg,https://www.food.com/recipe/couscous-salad-with-dried-cranberries-and-pecans-42002,ok
+665,COUSCOUS SAUSAGE MEDITERRANEAN,assets/photos/665.jpg,https://www.food.com/recipe/couscous-sausage-mediterranean-471910,ok
+666,COUSCOUS TOSS,assets/photos/666.jpg,https://www.food.com/recipe/couscous-toss-418832,ok
+667,COUSCOUS VEGETABLE BAKE,assets/photos/667.jpg,https://www.food.com/recipe/couscous-vegetable-bake-386183,ok
+668,"COUSCOUS WITH APPLES, CRANBERRIES AND HERBS",assets/photos/668.jpg,https://www.food.com/recipe/couscous-with-apples-cranberries-and-herbs-428639,ok
+669,COUSCOUS WITH CARAMELIZED ONIONS AND GOAT CHEESE,assets/photos/669.jpg,https://www.food.com/recipe/couscous-with-caramelized-onions-and-goat-cheese-468815,ok
+670,"COUSCOUS WITH DRIED APRICOTS, CURRANTS, AND PISTACHIOS",assets/photos/670.jpg,https://www.food.com/recipe/couscous-with-dried-apricots-currants-and-pistachios-428627,ok
+671,COUSCOUS WITH FRESH CILANTRO AND LEMON JUICE,assets/photos/671.jpg,https://www.food.com/recipe/couscous-with-fresh-cilantro-and-lemon-juice-505110,ok
+672,COUSCOUS WITH MUSHROOMS,assets/photos/672.jpg,https://www.food.com/recipe/couscous-with-mushrooms-358229,ok
+673,COUSCOUS WITH OLIVES AND LEMON,assets/photos/673.jpg,https://www.food.com/recipe/couscous-with-olives-and-lemon-353731,ok
+674,COUSCOUS WITH PINE NUTS AND CURRANTS,assets/photos/674.jpg,https://www.food.com/recipe/couscous-with-pine-nuts-and-currants-457873,ok
+675,COUSCOUS WITH PINE NUTS (BAREFOOT CONTESSA),assets/photos/675.jpg,https://www.food.com/recipe/couscous-with-pine-nuts-barefoot-contessa-437549,ok
+676,"COUSCOUS WITH ROAST PUMPKIN, RAISINS AND ALMONDS",assets/photos/676.jpg,https://www.food.com/recipe/couscous-with-roast-pumpkin-raisins-and-almonds-362173,ok
+677,COUSCOUS WITH SAVORY CARAMELIZED ONION,assets/photos/677.jpg,https://www.food.com/recipe/couscous-with-savory-caramelized-onion-54006,ok
+678,COUSCOUS WITH SEVEN VEGETABLES,assets/photos/678.jpg,https://www.food.com/recipe/couscous-with-seven-vegetables-420654,ok
+679,COUSCOUS WITH SPICED CHICKPEAS AND FIGS,assets/photos/679.jpg,https://www.food.com/recipe/couscous-with-spiced-chickpeas-and-figs-503439,ok
+680,COUSCOUS WITH SUN-DRIED TOMATOES,assets/photos/680.jpg,https://www.food.com/recipe/couscous-with-sun-dried-tomatoes-304873,ok
+681,COUSCOUS WITH TOMATO AND GARLIC,assets/photos/681.jpg,https://www.food.com/recipe/couscous-with-tomato-and-garlic-484254,ok
+682,COUSCOUS WITH YELLOW SUMMER SQUASH,assets/photos/682.jpg,https://www.food.com/recipe/couscous-with-yellow-summer-squash-385968,ok
+683,COUSCOUS WITH ZUCCHINI &AMP; TOMATO,assets/photos/683.jpg,https://www.food.com/recipe/couscous-with-zucchini-tomato-332411,ok
+684,CRISPY CARROT HARISSA DUMPLINGS WITH GREEN SCHUG PESTO,assets/photos/684.jpg,https://www.food.com/recipe/crispy-carrot-harissa-dumplings-with-green-schug-pesto-529061,ok
+685,CROCK POT GLUTEN FREE MOROCCAN GOAT STEW,assets/photos/685.jpg,https://www.food.com/recipe/crock-pot-gluten-free-moroccan-goat-stew-488627,ok
+686,CROCK POT MOROCCAN CHICKEN,assets/photos/686.jpg,https://www.food.com/recipe/crock-pot-moroccan-chicken-317356,ok
+687,CROCK-POT MOROCCAN CHICKEN AND LENTILS,assets/photos/687.jpg,https://www.food.com/recipe/crock-pot-moroccan-chicken-and-lentils-310611,ok
+688,CROCK POT MOROCCAN LAMB CHOPS AND PRUNES,assets/photos/688.jpg,https://www.food.com/recipe/crock-pot-moroccan-lamb-chops-and-prunes-320322,ok
+689,CRUNCHY WEST AFRICAN CABBAGE SALAD,assets/photos/689.jpg,https://www.food.com/recipe/crunchy-west-african-cabbage-salad-319044,ok
+690,CURRIED COUSCOUS,assets/photos/690.jpg,https://www.food.com/recipe/curried-couscous-326538,ok
+691,CURRIED COUSCOUS WITH BROCCOLI AND FETA (AND CASHEWS!),assets/photos/691.jpg,https://www.food.com/recipe/curried-couscous-with-broccoli-and-feta-and-cashews-460347,ok
+692,CUSCUS BIL KHODAR (VEGETABLE COUSCOUS),assets/photos/692.jpg,https://www.food.com/recipe/cuscus-bil-khodar-vegetable-couscous-350641,ok
+693,DATE AND OLIVE COUSCOUS WITH GARLIC SHRIMP,assets/photos/693.jpg,https://www.food.com/recipe/date-and-olive-couscous-with-garlic-shrimp-465609,ok
+694,DEVILED EGGS MOROCCAN-STYLE,assets/photos/694.jpg,https://www.food.com/recipe/deviled-eggs-moroccan-style-504179,ok
+695,DIBI (SENEGALESE GRILLED LAMB WITH ONION-MUSTARD SAUCE),assets/photos/695.jpg,https://www.food.com/recipe/dibi-senegalese-grilled-lamb-with-onion-mustard-sauce-455037,ok
+696,DISNEY'S EPCOT WORLD SHOWCASE MOROCCAN ROAST LAMB SHANK MESHOUI,assets/photos/696.jpg,https://www.food.com/recipe/disneys-epcot-world-showcase-moroccan-roast-lamb-shank-meshoui-502297,ok
+697,DORO WAT (ETHIOPIAN SPICY BRAISED CHICKEN),assets/photos/697.jpg,https://www.food.com/recipe/doro-wat-ethiopian-spicy-braised-chicken-455567,ok
+698,DORO WAT (SPICY CHICKEN STEW),assets/photos/698.jpg,https://www.food.com/recipe/doro-wat-spicy-chicken-stew-456526,ok
+699,DORO WOT (ETHIOPIAN NATIONAL CHICKEN DISH),assets/photos/699.jpg,https://www.food.com/recipe/doro-wot-ethiopian-national-chicken-dish-532837,ok
+700,DRIED CHERRY COUSCOUS SALAD,assets/photos/700.jpg,https://www.food.com/recipe/dried-cherry-couscous-salad-399212,ok
+701,EAST AFRICAN BRAISED CHICKEN,assets/photos/701.jpg,https://www.food.com/recipe/east-african-braised-chicken-55013,ok
+702,EAST AFRICAN CARDAMOM TEA,assets/photos/702.jpg,https://www.food.com/recipe/east-african-cardamom-tea-455974,ok
+703,EAST AFRICAN CURRY,assets/photos/703.jpg,https://www.food.com/recipe/east-african-curry-310179,ok
+704,EAST AFRICAN PEA SOUP,assets/photos/704.jpg,https://www.food.com/recipe/east-african-pea-soup-87002,ok
+705,EAST AFRICAN ROAST CHICKEN,assets/photos/705.jpg,https://www.food.com/recipe/east-african-roast-chicken-310245,ok
+706,EAST AFRICAN TOMATO CHUTNEY,assets/photos/706.jpg,https://www.food.com/recipe/east-african-tomato-chutney-84311,ok
+707,EASY MOROCCAN CARROTS,assets/photos/707.jpg,https://www.food.com/recipe/easy-moroccan-carrots-71033,ok
+708,EASY TOMATO SOUP WITH ISRAELI COUSCOUS - CROCK-POT,assets/photos/708.jpg,https://www.food.com/recipe/easy-tomato-soup-with-israeli-couscous-crock-pot-343627,ok
+709,EGGPLANT APPETIZER FROM NIGERIA,assets/photos/709.jpg,https://www.food.com/recipe/eggplant-appetizer-from-nigeria-305020,ok
+710,EMERIL LAGASSE'S MOROCCAN MINT TEA,assets/photos/710.jpg,https://www.food.com/recipe/emeril-lagasses-moroccan-mint-tea-505571,ok
+711,ETHIOPIAN BEEF STEAK TARTAR (KITFO),assets/photos/711.jpg,https://www.food.com/recipe/ethiopian-beef-steak-tartar-kitfo-353928,ok
+713,ETHIOPIAN SAUTEED LAMB OR BEEF,assets/photos/713.jpg,https://www.food.com/recipe/ethiopian-sauteed-lamb-or-beef-454643,ok
+714,ETHIOPIAN SPICED BUTTER (NITER KIBBEH),assets/photos/714.jpg,https://www.food.com/recipe/ethiopian-spiced-butter-niter-kibbeh-532490,ok
+715,ETHIOPIAN SPICY BEEF STEW (KEY WAT),assets/photos/715.jpg,https://www.food.com/recipe/ethiopian-spicy-beef-stew-key-wat-436458,ok
+716,ETHIOPIAN SPICY SPLIT LENTIL STEW  (YIMSER WOT),assets/photos/716.jpg,https://www.food.com/recipe/ethiopian-spicy-split-lentil-stew-yimser-wot-363212,ok
+717,ETHIOPIAN TOMATO &AMP; CUCUMBER SALAD,assets/photos/717.jpg,https://www.food.com/recipe/ethiopian-tomato-cucumber-salad-454644,ok
+718,FALAFEL IN PITA W/ROASTED GARLIC&AMP;CARAMELIZED ONION COUSCOUS,assets/photos/718.jpg,https://www.food.com/recipe/falafel-in-pita-w-roasted-garlic-caramelized-onion-couscous-503608,ok
+719,FEGGOUS AND TOMATO SALAD (MOROCCAN CHOPPED CUCUMBER AND TOMATO S,assets/photos/719.jpg,https://www.food.com/recipe/feggous-and-tomato-salad-moroccan-chopped-cucumber-and-tomato-s-503818,ok
+720,FISH MARINADE (CHERMOULA),assets/photos/720.jpg,https://www.food.com/recipe/fish-marinade-chermoula-504293,ok
+721,"FISH TAGINE WITH TOMATOES, CAPERS, AND CINNAMON",assets/photos/721.jpg,https://www.food.com/recipe/fish-tagine-with-tomatoes-capers-and-cinnamon-428302,ok
+722,FIVE-SPICE MOROCCAN COUCOUS SALAD,assets/photos/722.jpg,https://www.food.com/recipe/five-spice-moroccan-coucous-salad-428334,ok
+723,FLUFFY COUSCOUS,assets/photos/723.jpg,https://www.food.com/recipe/fluffy-couscous-414772,ok
+724,FRANS'S PRIZEWINNING BOBOTIE,assets/photos/724.jpg,https://www.food.com/recipe/franss-prizewinning-bobotie-417625,ok
+725,FRENCH MERGUEZ SAUSAGES - CULINARY COMMUNION,assets/photos/725.jpg,https://www.food.com/recipe/french-merguez-sausages-culinary-communion-340487,ok
+726,FRESH MOROCCAN SALAD,assets/photos/726.jpg,https://www.food.com/recipe/fresh-moroccan-salad-424023,ok
+727,FRESH STRAWBERRIES WITH YOGURT (EASY MOROCCAN DESSERT),assets/photos/727.jpg,https://www.food.com/recipe/fresh-strawberries-with-yogurt-easy-moroccan-dessert-503681,ok
+728,FRIED CALF LIVER SUDANESE-STYLE,assets/photos/728.jpg,https://www.food.com/recipe/fried-calf-liver-sudanese-style-305967,ok
+729,FRIED FISH WITH MOROCCAN HERB SAUCE,assets/photos/729.jpg,https://www.food.com/recipe/fried-fish-with-moroccan-herb-sauce-97103,ok
+730,FRUITED ISRAELI COUSCOUS,assets/photos/730.jpg,https://www.food.com/recipe/fruited-israeli-couscous-429950,ok
+731,CINNAMON-SUGAR FUFU,assets/photos/731.jpg,https://www.food.com/recipe/fufu-310279,ok
+732,BUTTERY MASHED YAMS,assets/photos/732.jpg,https://www.food.com/recipe/fufu-310286,ok
+733,GABI'S HARISSA (MOROCCAN HOT SAUCE),assets/photos/733.jpg,https://www.food.com/recipe/gabis-harissa-moroccan-hot-sauce-310254,ok
+734,GEELRYS (SOUTH AFRICAN YELLOW RICE WITH RAISINS),assets/photos/734.jpg,https://www.food.com/recipe/geelrys-south-african-yellow-rice-with-raisins-456514,ok
+735,GHANAIAN WAAKYE (BEANS AND RICE),assets/photos/735.jpg,https://www.food.com/recipe/ghanaian-waakye-beans-and-rice-456096,ok
+736,GOLDEN COUSCOUS,assets/photos/736.jpg,https://www.food.com/recipe/golden-couscous-494398,ok
+737,GREEK COUSCOUS,assets/photos/737.jpg,https://www.food.com/recipe/greek-couscous-427578,ok
+738,GREEK COUSCOUS SALAD,assets/photos/738.jpg,https://www.food.com/recipe/greek-couscous-salad-433410,ok
+739,GRILLED BEETS WITH MOROCCAN DRESSING,assets/photos/739.jpg,https://www.food.com/recipe/grilled-beets-with-moroccan-dressing-356112,ok
+740,GRILLED COD WITH MOROCCAN-SPICED TOMATO RELISH,assets/photos/740.jpg,https://www.food.com/recipe/grilled-cod-with-moroccan-spiced-tomato-relish-94297,ok
+741,GRILLED HARISSA CARROT HUMMUS,assets/photos/741.jpg,https://www.food.com/recipe/grilled-harissa-carrot-hummus-536444,ok
+742,"GRILLED HARISSA LAMB WITH YOGURT, MOROCCAN",assets/photos/742.jpg,https://www.food.com/recipe/grilled-harissa-lamb-with-yogurt-moroccan-492545,ok
+743,GRILLED LEMON CHICKEN AND MOROCCAN COUSCOUS SALAD,assets/photos/743.jpg,https://www.food.com/recipe/grilled-lemon-chicken-and-moroccan-couscous-salad-315257,ok
+744,GRILLED SALMON WITH BROWN BUTTER COUSCOUS,assets/photos/744.jpg,https://www.food.com/recipe/grilled-salmon-with-brown-butter-couscous-478579,ok
+745,GRILLED SALMON WITH NORTH AFRICAN FLAVORS,assets/photos/745.jpg,https://www.food.com/recipe/grilled-salmon-with-north-african-flavors-307035,ok
+746,HARISSA,assets/photos/746.jpg,https://www.food.com/recipe/harissa-502691,ok
+747,HARISSA BURGERS,assets/photos/747.jpg,https://www.food.com/recipe/harissa-burgers-457053,ok
+748,HARISSA CAULIFLOWER STEAKS,assets/photos/748.jpg,https://www.food.com/recipe/harissa-cauliflower-steaks-523456,ok
+749,HARISSA COUSCOUS,assets/photos/749.jpg,https://www.food.com/recipe/harissa-couscous-421357,ok
+750,HARISSA-MARINATED TOP SIRLOIN TIPS,assets/photos/750.jpg,https://www.food.com/recipe/harissa-marinated-top-sirloin-tips-427734,ok
+751,HARISSA OIL,assets/photos/751.jpg,https://www.food.com/recipe/harissa-oil-367394,ok
+752,HARISSA PORK PATTIES OR BURGERS,assets/photos/752.jpg,https://www.food.com/recipe/harissa-pork-patties-or-burgers-59473,ok
+753,HEALTHY COUSCOUS WITH ROASTED MEDITERRANEAN VEGETABLES (WW),assets/photos/753.jpg,https://www.food.com/recipe/healthy-couscous-with-roasted-mediterranean-vegetables-ww-384987,ok
+754,HERB COUSCOUS STUFFED TOMATOES,assets/photos/754.jpg,https://www.food.com/recipe/herb-couscous-stuffed-tomatoes-449004,ok
+756,HERBED COUSCOUS,assets/photos/756.jpg,https://www.food.com/recipe/herbed-couscous-496131,ok
+757,HERBED ISRAELI COUSCOUS,assets/photos/757.jpg,https://www.food.com/recipe/herbed-israeli-couscous-332670,ok
+758,HOISIN-HONEY BEEF WITH COUSCOUS,assets/photos/758.jpg,https://www.food.com/recipe/hoisin-honey-beef-with-couscous-479774,ok
+759,HOMEMADE PIRI-PIRI ( HOT  SAUCE) MIA'S WAY,assets/photos/759.jpg,https://www.food.com/recipe/homemade-piri-piri-hot-sauce-mias-way-336778,ok
+760,HONEY ALMOND BRIOUATS,assets/photos/760.jpg,https://www.food.com/recipe/honey-almond-briouats-320735,ok
+761,HONEY DIJON ALMOND COUSCOUS,assets/photos/761.jpg,https://www.food.com/recipe/honey-dijon-almond-couscous-476004,ok
+762,HONEY ORANGE GLAZED SALMON WITH ORANGE ALMOND COUSCOUS,assets/photos/762.jpg,https://www.food.com/recipe/honey-orange-glazed-salmon-with-orange-almond-couscous-535379,ok
+763,HOT MOROCCAN CHICKEN SALAD,assets/photos/763.jpg,https://www.food.com/recipe/hot-moroccan-chicken-salad-45355,ok
+764,HOW TO PREPARE BEEF JERKY THE SOUTH AFRICAN WAY,assets/photos/764.jpg,https://www.food.com/recipe/how-to-prepare-beef-jerky-the-south-african-way-533113,ok
+765,INJERA (ETHIOPIAN FLAT BREAD),assets/photos/765.jpg,https://www.food.com/recipe/injera-ethiopian-flat-bread-455607,ok
+766,INJERA (ETHIOPIAN FLATBREAD),assets/photos/766.jpg,https://www.food.com/recipe/injera-ethiopian-flatbread-396578,ok
+767,INJERA (FERMENTED SOURDOUGH BREAD),assets/photos/767.jpg,https://www.food.com/recipe/injera-fermented-sourdough-bread-532832,ok
+768,ISRAELI COUSCOUS AND CRANBERRY SALAD,assets/photos/768.jpg,https://www.food.com/recipe/israeli-couscous-and-cranberry-salad-434259,ok
+769,ISRAELI COUSCOUS PEPPER SALAD,assets/photos/769.jpg,https://www.food.com/recipe/israeli-couscous-pepper-salad-318373,ok
+770,ISRAELI COUSCOUS  SALAD,assets/photos/770.jpg,https://www.food.com/recipe/israeli-couscous-salad-485885,ok
+771,ISRAELI COUSCOUS SALAD WITH ROASTED CHERRY TOMATOES,assets/photos/771.jpg,https://www.food.com/recipe/israeli-couscous-salad-with-roasted-cherry-tomatoes-431009,ok
+772,"ISRAELI COUSCOUS, TOMATO AND MOZZARELLA SALAD",assets/photos/772.jpg,https://www.food.com/recipe/israeli-couscous-tomato-and-mozzarella-salad-389857,ok
+773,ISRAELI COUSCOUS WITH ASPARAGUS,assets/photos/773.jpg,https://www.food.com/recipe/israeli-couscous-with-asparagus-428659,ok
+774,ISRAELI COUSCOUS WITH PECANS,assets/photos/774.jpg,https://www.food.com/recipe/israeli-couscous-with-pecans-406383,ok
+775,ISRAELI COUSCOUS WITH PINE NUTS AND FRESH PARSLEY,assets/photos/775.jpg,https://www.food.com/recipe/israeli-couscous-with-pine-nuts-and-fresh-parsley-422893,ok
+776,ISRAELI (PEARL) COUSCOUS,assets/photos/776.jpg,https://www.food.com/recipe/israeli-pearl-couscous-454207,ok
+777,ISRAELI SIMMERED VEGETABLES OVER SPICED COUSCOUS,assets/photos/777.jpg,https://www.food.com/recipe/israeli-simmered-vegetables-over-spiced-couscous-63687,ok
+778,JBEN - MOROCCAN FRESH CHEESE,assets/photos/778.jpg,https://www.food.com/recipe/jben-moroccan-fresh-cheese-502807,ok
+779,JEWELED CINNAMON COUSCOUS,assets/photos/779.jpg,https://www.food.com/recipe/jeweled-cinnamon-couscous-469676,ok
+780,JEWELED COUSCOUS,assets/photos/780.jpg,https://www.food.com/recipe/jeweled-couscous-39164,ok
+781,JOLLOF RICE,assets/photos/781.jpg,https://www.food.com/recipe/jollof-rice-455553,ok
+782,KAHAWA - ETHIOPIAN COFFEE,assets/photos/782.jpg,https://www.food.com/recipe/kahawa-ethiopian-coffee-456986,ok
+783,KALYA E KHAAS (TRADITIONAL SOUTH AFRICAN CHICKEN CURRY),assets/photos/783.jpg,https://www.food.com/recipe/kalya-e-khaas-traditional-south-african-chicken-curry-306841,ok
+784,KAYAKU GOHAN (RICE WITH VEGETABLES),assets/photos/784.jpg,https://www.food.com/recipe/kayaku-gohan-rice-with-vegetables-305670,ok
+785,KENKEY,assets/photos/785.jpg,https://www.food.com/recipe/kenkey-528961,ok
+786,KENYAN COCONUT RICE,assets/photos/786.jpg,https://www.food.com/recipe/kenyan-coconut-rice-455178,ok
+787,KENYAN GREENS SIMMERED WITH TOMATOES (SUKUMA WIKI),assets/photos/787.jpg,https://www.food.com/recipe/kenyan-greens-simmered-with-tomatoes-sukuma-wiki-455335,ok
+788,KENYAN TOMATO SALAD - QUICK &AMP; SIMPLE SIDE,assets/photos/788.jpg,https://www.food.com/recipe/kenyan-tomato-salad-quick-simple-side-456927,ok
+789,KESRA - MOROCCAN BREAD,assets/photos/789.jpg,https://www.food.com/recipe/kesra-moroccan-bread-503813,ok
+790,KEY WAT (SPICY ETHIOPIAN STEWED BEEF),assets/photos/790.jpg,https://www.food.com/recipe/key-wat-spicy-ethiopian-stewed-beef-524592,ok
+791,KHUBZ MAGHREBI (MOROCCAN BREAD),assets/photos/791.jpg,https://www.food.com/recipe/khubz-maghrebi-moroccan-bread-348387,ok
+792,KING'S ARMS TAVERN CREAM OF PEANUT SOUP,assets/photos/792.jpg,https://www.food.com/recipe/kings-arms-tavern-cream-of-peanut-soup-46837,ok
+793,KITTENCAL'S GREEK COUSCOUS,assets/photos/793.jpg,https://www.food.com/recipe/kittencals-greek-couscous-95818,ok
+794,KOEKSISTERS (SOUTH AFRICAN SYRUP-SOAKED FRITTERS),assets/photos/794.jpg,https://www.food.com/recipe/koeksisters-south-african-syrup-soaked-fritters-87992,ok
+795,KUKU PAKA (KENYAN CHICKEN CURRY),assets/photos/795.jpg,https://www.food.com/recipe/kuku-paka-kenyan-chicken-curry-456503,ok
+796,LAMB &AMP; AFRICAN FRUIT SOSATIES,assets/photos/796.jpg,https://www.food.com/recipe/lamb-african-fruit-sosaties-536667,ok
+797,LAMB CHOPS WITH CHERMOULA,assets/photos/797.jpg,https://www.food.com/recipe/lamb-chops-with-chermoula-86352,ok
+798,LAMB CHOPS WITH MOROCCAN SPICES,assets/photos/798.jpg,https://www.food.com/recipe/lamb-chops-with-moroccan-spices-340342,ok
+799,LAMB MERGUEZ - (NORTH AFRICAN RED SAUSAGE),assets/photos/799.jpg,https://www.food.com/recipe/lamb-merguez-north-african-red-sausage-503978,ok
+800,LAMB SHANK TAGINE,assets/photos/800.jpg,https://www.food.com/recipe/lamb-shank-tagine-77451,ok
+803,"LAMB TAGINE WITH CINNAMON, SAFFRON AND DRIED FRUIT",assets/photos/803.jpg,https://www.food.com/recipe/lamb-tagine-with-cinnamon-saffron-and-dried-fruit-83156,ok
+804,LAMB TAGINE WITH OKRA AND QUINCE,assets/photos/804.jpg,https://www.food.com/recipe/lamb-tagine-with-okra-and-quince-488783,ok
+805,LAMB TAGINE WITH WALNUTS AND POMEGRANATE,assets/photos/805.jpg,https://www.food.com/recipe/lamb-tagine-with-walnuts-and-pomegranate-489609,ok
+806,LEBANESE LAMB KEFTA (LAMB KABOBS),assets/photos/806.jpg,https://www.food.com/recipe/lebanese-lamb-kefta-lamb-kabobs-437869,ok
+807,LEFTOVER MOROCCAN STYLE LAMB AND BEEF SPICY COUS COUS,assets/photos/807.jpg,https://www.food.com/recipe/leftover-moroccan-style-lamb-and-beef-spicy-cous-cous-372434,ok
+808,LEMON AND PARSLEY COUSCOUS,assets/photos/808.jpg,https://www.food.com/recipe/lemon-and-parsley-couscous-309974,ok
+809,LEMON COUSCOUS,assets/photos/809.jpg,https://www.food.com/recipe/lemon-couscous-427438,ok
+810,LEMON COUSCOUS WITH PEAS AND CARROTS,assets/photos/810.jpg,https://www.food.com/recipe/lemon-couscous-with-peas-and-carrots-428609,ok
+811,LEMON HONEY CHICKEN WITH COUSCOUS,assets/photos/811.jpg,https://www.food.com/recipe/lemon-honey-chicken-with-couscous-344096,ok
+812,LEMON OREGANO SHRIMP OVER PEPPERED COUSCOUS,assets/photos/812.jpg,https://www.food.com/recipe/lemon-oregano-shrimp-over-peppered-couscous-372883,ok
+813,LEMON THYME COUSCOUS,assets/photos/813.jpg,https://www.food.com/recipe/lemon-thyme-couscous-92312,ok
+814,LEMONY COUSCOUS,assets/photos/814.jpg,https://www.food.com/recipe/lemony-couscous-93827,ok
+815,LEMONY COUSCOUS SALAD,assets/photos/815.jpg,https://www.food.com/recipe/lemony-couscous-salad-55874,ok
+816,LEMONY VEGETABLE COUSCOUS,assets/photos/816.jpg,https://www.food.com/recipe/lemony-vegetable-couscous-519292,ok
+817,LIBERIAN BLACK-EYED PEA SOUP,assets/photos/817.jpg,https://www.food.com/recipe/liberian-black-eyed-pea-soup-455404,ok
+818,LIBERIAN PINEAPPLE GINGER BEER,assets/photos/818.jpg,https://www.food.com/recipe/liberian-pineapple-ginger-beer-310515,ok
+819,LIGHTLY SPICED CAULIFLOWER FRITTERS WITH YOGHURT-CHERMOULA DIP,assets/photos/819.jpg,https://www.food.com/recipe/lightly-spiced-cauliflower-fritters-with-yoghurt-chermoula-dip-425417,ok
+820,LIME AND CORIANDER COUSCOUS,assets/photos/820.jpg,https://www.food.com/recipe/lime-and-coriander-couscous-344170,ok
+821,MARINATED MOROCCAN OLIVES,assets/photos/821.jpg,https://www.food.com/recipe/marinated-moroccan-olives-437804,ok
+822,MARINATED NORTH AFRICAN OLIVES,assets/photos/822.jpg,https://www.food.com/recipe/marinated-north-african-olives-386311,ok
+823,MARRAKESH COUSCOUS,assets/photos/823.jpg,https://www.food.com/recipe/marrakesh-couscous-411662,ok
+824,MASAI MARA (AFRICAN RED PEPPER SPREAD),assets/photos/824.jpg,https://www.food.com/recipe/masai-mara-african-red-pepper-spread-455040,ok
+825,MCHICHA (EAST AFRICAN SPINACH,assets/photos/825.jpg,https://www.food.com/recipe/mchicha-east-african-spinach-454997,ok
+826,MCHICHA - TANZANIAN SPINACH &AMP; PEANUT CURRY.,assets/photos/826.jpg,https://www.food.com/recipe/mchicha-tanzanian-spinach-peanut-curry-310341,ok
+827,MEALIE SOUP - SOUTH AFRICAN CORN SOUP,assets/photos/827.jpg,https://www.food.com/recipe/mealie-soup-south-african-corn-soup-309347,ok
+828,MEAONO POHAKU (STONE COOKIES),assets/photos/828.jpg,https://www.food.com/recipe/meaono-pohaku-stone-cookies-466559,ok
+829,MEATLESS HARIRA (A MOROCCAN SOUP),assets/photos/829.jpg,https://www.food.com/recipe/meatless-harira-a-moroccan-soup-44257,ok
+830,MEDITERRANEAN CHICKEN AND COUSCOUS,assets/photos/830.jpg,https://www.food.com/recipe/mediterranean-chicken-and-couscous-470546,ok
+831,MEDITERRANEAN CHICKEN AND COUSCOUS SALAD,assets/photos/831.jpg,https://www.food.com/recipe/mediterranean-chicken-and-couscous-salad-534132,ok
+832,MEDITERRANEAN COUSCOUS,assets/photos/832.jpg,https://www.food.com/recipe/mediterranean-couscous-335178,ok
+833,MEDITERRANEAN LAMB-AND COUSCOUS-STUFFED BELL PEPPERS,assets/photos/833.jpg,https://www.food.com/recipe/mediterranean-lamb-and-couscous-stuffed-bell-peppers-58326,ok
+834,MEDITERRANEAN SALAD WITH ISRAELI COUSCOUS,assets/photos/834.jpg,https://www.food.com/recipe/mediterranean-salad-with-israeli-couscous-379901,ok
+835,MESFOUF QSENTENA - SWEET COUSCOUS WITH DATES &AMP; NUTS,assets/photos/835.jpg,https://www.food.com/recipe/mesfouf-qsentena-sweet-couscous-with-dates-nuts-387392,ok
+836,MESIR WAT (ETHIOPIAN RED LENTILS),assets/photos/836.jpg,https://www.food.com/recipe/mesir-wat-ethiopian-red-lentils-408641,ok
+837,MIDDLE EASTERN COCONUT CAKE (HARISSAH),assets/photos/837.jpg,https://www.food.com/recipe/middle-eastern-coconut-cake-harissah-78772,ok
+838,MILLION DOLLAR CHICKEN - MOROCCAN STYLE,assets/photos/838.jpg,https://www.food.com/recipe/million-dollar-chicken-moroccan-style-50575,ok
+839,MINI TURKEY MEATBALLS WITH A FRESH COUSCOUS SALAD,assets/photos/839.jpg,https://www.food.com/recipe/mini-turkey-meatballs-with-a-fresh-couscous-salad-392537,ok
+840,MINT COUSCOUS WITH RAISINS AND ALMONDS,assets/photos/840.jpg,https://www.food.com/recipe/mint-couscous-with-raisins-and-almonds-345032,ok
+841,MISR WOT (ETHIOPIAN LENTIL SOUP),assets/photos/841.jpg,https://www.food.com/recipe/misr-wot-ethiopian-lentil-soup-398786,ok
+842,MISR WOT (ETHIOPIAN SPICY LENTIL STEW),assets/photos/842.jpg,https://www.food.com/recipe/misr-wot-ethiopian-spicy-lentil-stew-524591,ok
+843,MIXED SEAFOOD TAGINE,assets/photos/843.jpg,https://www.food.com/recipe/mixed-seafood-tagine-326422,ok
+844,MOROCCAN ALMOND CRESCENT COOKIES,assets/photos/844.jpg,https://www.food.com/recipe/moroccan-almond-crescent-cookies-438180,ok
+845,MOROCCAN ANISE BREAD,assets/photos/845.jpg,https://www.food.com/recipe/moroccan-anise-bread-503189,ok
+846,MOROCCAN APPLESAUCE CAKE (CROCK POT),assets/photos/846.jpg,https://www.food.com/recipe/moroccan-applesauce-cake-crock-pot-470556,ok
+847,MOROCCAN BEEF AND HONEY TAGINE,assets/photos/847.jpg,https://www.food.com/recipe/moroccan-beef-and-honey-tagine-374564,ok
+848,MOROCCAN BEEF KABOBS,assets/photos/848.jpg,https://www.food.com/recipe/moroccan-beef-kabobs-438638,ok
+849,MOROCCAN BEEF STEW,assets/photos/849.jpg,https://www.food.com/recipe/moroccan-beef-stew-502700,ok
+850,MOROCCAN BEEF WITH ARTICHOKES,assets/photos/850.jpg,https://www.food.com/recipe/moroccan-beef-with-artichokes-362445,ok
+851,MOROCCAN BEEF WITH HONEY SPICE COUSCOUS,assets/photos/851.jpg,https://www.food.com/recipe/moroccan-beef-with-honey-spice-couscous-399210,ok
+852,MOROCCAN BEET SALAD,assets/photos/852.jpg,https://www.food.com/recipe/moroccan-beet-salad-354717,ok
+854,MOROCCAN BRAISED BEEF,assets/photos/854.jpg,https://www.food.com/recipe/moroccan-braised-beef-527183,ok
+855,"MOROCCAN BRAISED CHICKEN LEGS AND THIGHS WITH CARROT JUICE, DATE",assets/photos/855.jpg,https://www.food.com/recipe/moroccan-braised-chicken-legs-and-thighs-with-carrot-juice-date-434670,ok
+856,MOROCCAN BRAISED CHICKEN WITH ZUCCHINI,assets/photos/856.jpg,https://www.food.com/recipe/moroccan-braised-chicken-with-zucchini-505776,ok
+857,MOROCCAN BREAD,assets/photos/857.jpg,https://www.food.com/recipe/moroccan-bread-436536,ok
+858,MOROCCAN BREAD - KHOBZ,assets/photos/858.jpg,https://www.food.com/recipe/moroccan-bread-khobz-503137,ok
+859,MOROCCAN BROWN RICE (RICE COOKER),assets/photos/859.jpg,https://www.food.com/recipe/moroccan-brown-rice-rice-cooker-504096,ok
+860,MOROCCAN B'STELLA,assets/photos/860.jpg,https://www.food.com/recipe/moroccan-bstella-425234,ok
+861,MOROCCAN CARROT AND CINNAMON SALAD,assets/photos/861.jpg,https://www.food.com/recipe/moroccan-carrot-and-cinnamon-salad-504321,ok
+862,MOROCCAN CARROT SALAD,assets/photos/862.jpg,https://www.food.com/recipe/moroccan-carrot-salad-324739,ok
+864,MOROCCAN CARROT SALAD WITH DATES AND YOGURT (VEGAN-FRIENDLY),assets/photos/864.jpg,https://www.food.com/recipe/moroccan-carrot-salad-with-dates-and-yogurt-vegan-friendly-480925,ok
+865,MOROCCAN CARROT SALAD WITH PARSLEY AND ROASTED LEMON RECIPE,assets/photos/865.jpg,https://www.food.com/recipe/moroccan-carrot-salad-with-parsley-and-roasted-lemon-recipe-504102,ok
+866,MOROCCAN CARROT SOUP,assets/photos/866.jpg,https://www.food.com/recipe/moroccan-carrot-soup-422961,ok
+868,MOROCCAN CARROTS,assets/photos/868.jpg,https://www.food.com/recipe/moroccan-carrots-512987,ok
+869,MOROCCAN CAULIFLOWER &LDQUO;COUSCOUS&RDQUO; SALAD,assets/photos/869.jpg,https://www.food.com/recipe/moroccan-cauliflower-couscous-salad-531577,ok
+870,MOROCCAN CAULIFLOWER WITH SPICES,assets/photos/870.jpg,https://www.food.com/recipe/moroccan-cauliflower-with-spices-374651,ok
+871,MOROCCAN CHAROSET BALLS,assets/photos/871.jpg,https://www.food.com/recipe/moroccan-charoset-balls-87724,ok
+872,MOROCCAN CHERMOULA MARINADE,assets/photos/872.jpg,https://www.food.com/recipe/moroccan-chermoula-marinade-502545,ok
+874,MOROCCAN CHICKEN AND COUSCOUS SOUP,assets/photos/874.jpg,https://www.food.com/recipe/moroccan-chicken-and-couscous-soup-331411,ok
+875,MOROCCAN CHICKEN AND DATE TAGINE,assets/photos/875.jpg,https://www.food.com/recipe/moroccan-chicken-and-date-tagine-44107,ok
+876,MOROCCAN CHICKEN AND RAISINS FOR 2,assets/photos/876.jpg,https://www.food.com/recipe/moroccan-chicken-and-raisins-for-2-338342,ok
+877,MOROCCAN CHICKEN AND VEGGIE SKILLET,assets/photos/877.jpg,https://www.food.com/recipe/moroccan-chicken-and-veggie-skillet-38221,ok
+878,MOROCCAN CHICKEN BREASTS,assets/photos/878.jpg,https://www.food.com/recipe/moroccan-chicken-breasts-324743,ok
+879,MOROCCAN CHICKEN &AMP; CHICKPEA TAGINE,assets/photos/879.jpg,https://www.food.com/recipe/moroccan-chicken-chickpea-tagine-407110,ok
+880,MOROCCAN CHICKEN &AMP; EGG TAGINE,assets/photos/880.jpg,https://www.food.com/recipe/moroccan-chicken-egg-tagine-404000,ok
+881,MOROCCAN CHICKEN IN PASTRY LEAVES,assets/photos/881.jpg,https://www.food.com/recipe/moroccan-chicken-in-pastry-leaves-317272,ok
+882,MOROCCAN CHICKEN KABOBS,assets/photos/882.jpg,https://www.food.com/recipe/moroccan-chicken-kabobs-478279,ok
+883,"MOROCCAN CHICKEN: MADE ON STOVE TOP, CROCK-POT OR TAGINE",assets/photos/883.jpg,https://www.food.com/recipe/moroccan-chicken-made-on-stove-top-crock-pot-or-tagine-375800,ok
+884,MOROCCAN CHICKEN PIE,assets/photos/884.jpg,https://www.food.com/recipe/moroccan-chicken-pie-446032,ok
+885,MOROCCAN CHICKEN SALAD,assets/photos/885.jpg,https://www.food.com/recipe/moroccan-chicken-salad-97430,ok
+886,MOROCCAN CHICKEN SALAD (CALIFORNIA PIZZA KITCHEN COPYCAT),assets/photos/886.jpg,https://www.food.com/recipe/moroccan-chicken-salad-california-pizza-kitchen-copycat-408831,ok
+887,MOROCCAN CHICKEN SALAD FOR A STARRY NIGHT,assets/photos/887.jpg,https://www.food.com/recipe/moroccan-chicken-salad-for-a-starry-night-372563,ok
+888,MOROCCAN CHICKEN SOUP,assets/photos/888.jpg,https://www.food.com/recipe/moroccan-chicken-soup-420507,ok
+889,MOROCCAN CHICKEN STEW,assets/photos/889.jpg,https://www.food.com/recipe/moroccan-chicken-stew-49815,ok
+890,MOROCCAN CHICKEN TAGINE,assets/photos/890.jpg,https://www.food.com/recipe/moroccan-chicken-tagine-349900,ok
+891,CLASSIC MOROCCAN CHICKEN TAGINE,assets/photos/891.jpg,https://www.food.com/recipe/moroccan-chicken-tagine-503845,ok
+892,MOROCCAN CHICKEN (TAGINE) - ATK,assets/photos/892.jpg,https://www.food.com/recipe/moroccan-chicken-tagine-atk-480338,ok
+894,MOROCCAN CHICKEN WINGS,assets/photos/894.jpg,https://www.food.com/recipe/moroccan-chicken-wings-411500,ok
+895,MOROCCAN CHICKEN WITH APRICOTS,assets/photos/895.jpg,https://www.food.com/recipe/moroccan-chicken-with-apricots-329675,ok
+896,MOROCCAN CHICKEN WITH COUSCOUS,assets/photos/896.jpg,https://www.food.com/recipe/moroccan-chicken-with-couscous-69340,ok
+897,MOROCCAN CHICKEN WITH PISTACHIO COUSCOUS,assets/photos/897.jpg,https://www.food.com/recipe/moroccan-chicken-with-pistachio-couscous-311203,ok
+898,MOROCCAN CHICKEN WITH PRESERVED LEMONS,assets/photos/898.jpg,https://www.food.com/recipe/moroccan-chicken-with-preserved-lemons-40736,ok
+899,MOROCCAN CHICKEN WITH SWEET COUSCOUS,assets/photos/899.jpg,https://www.food.com/recipe/moroccan-chicken-with-sweet-couscous-338184,ok
+900,MOROCCAN CHICKPEA AND VEGETABLE STEW WITH COUSCOUS,assets/photos/900.jpg,https://www.food.com/recipe/moroccan-chickpea-and-vegetable-stew-with-couscous-66380,ok
+901,MOROCCAN CHICKPEA CHILI,assets/photos/901.jpg,https://www.food.com/recipe/moroccan-chickpea-chili-326457,ok
+902,MOROCCAN CHICKPEA DIP,assets/photos/902.jpg,https://www.food.com/recipe/moroccan-chickpea-dip-460551,ok
+903,MOROCCAN CHICKPEA SALAD,assets/photos/903.jpg,https://www.food.com/recipe/moroccan-chickpea-salad-92523,ok
+907,MOROCCAN CHICKPEA SOUP,assets/photos/907.jpg,https://www.food.com/recipe/moroccan-chickpea-soup-6860,ok
+908,MOROCCAN CHICKPEA &AMP; ZUCCHINI SALAD (AFRICA),assets/photos/908.jpg,https://www.food.com/recipe/moroccan-chickpea-zucchini-salad-africa-310837,ok
+909,MOROCCAN CHICKPEAS AND SWEET POTATOES,assets/photos/909.jpg,https://www.food.com/recipe/moroccan-chickpeas-and-sweet-potatoes-85782,ok
+910,MOROCCAN CHICKPEAS WITH CARROT AND DATES,assets/photos/910.jpg,https://www.food.com/recipe/moroccan-chickpeas-with-carrot-and-dates-334126,ok
+911,MOROCCAN CHOCOLATE CAKE,assets/photos/911.jpg,https://www.food.com/recipe/moroccan-chocolate-cake-505632,ok
+912,MOROCCAN CINNAMON COFFEE WITH ORANGE FLOWER WATER,assets/photos/912.jpg,https://www.food.com/recipe/moroccan-cinnamon-coffee-with-orange-flower-water-424063,ok
+913,MOROCCAN COCONUT FUDGE-ZUCRE COCO,assets/photos/913.jpg,https://www.food.com/recipe/moroccan-coconut-fudge-zucre-coco-505592,ok
+914,MOROCCAN COFFEE,assets/photos/914.jpg,https://www.food.com/recipe/moroccan-coffee-493140,ok
+915,MOROCCAN COFFEE WITH SIX FRAGRANT SPICES,assets/photos/915.jpg,https://www.food.com/recipe/moroccan-coffee-with-six-fragrant-spices-502696,ok
+916,MOROCCAN COUSCOUS AND SMOKEY-PAPRIKA HONEY ROASTED CARROT SALAD,assets/photos/916.jpg,https://www.food.com/recipe/moroccan-couscous-and-smokey-paprika-honey-roasted-carrot-salad-418119,ok
+917,MOROCCAN COUSCOUS SALAD,assets/photos/917.jpg,https://www.food.com/recipe/moroccan-couscous-salad-437803,ok
+918,MOROCCAN CROCK POT TAJINE,assets/photos/918.jpg,https://www.food.com/recipe/moroccan-crock-pot-tajine-72218,ok
+919,MOROCCAN DAYDREAM COFFEE,assets/photos/919.jpg,https://www.food.com/recipe/moroccan-daydream-coffee-507584,ok
+920,MOROCCAN DRY RUB,assets/photos/920.jpg,https://www.food.com/recipe/moroccan-dry-rub-356043,ok
+921,MOROCCAN EGG AND MEATBALL TAGINE,assets/photos/921.jpg,https://www.food.com/recipe/moroccan-egg-and-meatball-tagine-532827,ok
+922,MOROCCAN EGGPLANT AND CHICKPEAS,assets/photos/922.jpg,https://www.food.com/recipe/moroccan-eggplant-and-chickpeas-364624,ok
+923,MOROCCAN EGGPLANT (AUBERGINE) FRITTERS,assets/photos/923.jpg,https://www.food.com/recipe/moroccan-eggplant-aubergine-fritters-61143,ok
+924,AUBERGINE SALAD,assets/photos/924.jpg,https://www.food.com/recipe/moroccan-eggplant-aubergine-salad-88962,ok
+925,MOROCCAN EGGS,assets/photos/925.jpg,https://www.food.com/recipe/moroccan-eggs-505612,ok
+926,MOROCCAN FEKKA COOKIES (ANISE BISCOTTI),assets/photos/926.jpg,https://www.food.com/recipe/moroccan-fekka-cookies-anise-biscotti-372028,ok
+927,MOROCCAN FISH CHARMOULA,assets/photos/927.jpg,https://www.food.com/recipe/moroccan-fish-charmoula-426697,ok
+928,MOROCCAN FISH SKEWERS / KEBABS,assets/photos/928.jpg,https://www.food.com/recipe/moroccan-fish-skewers-kebabs-318079,ok
+929,MOROCCAN FISH TAJINE,assets/photos/929.jpg,https://www.food.com/recipe/moroccan-fish-tajine-338997,ok
+930,MOROCCAN FLATBREAD,assets/photos/930.jpg,https://www.food.com/recipe/moroccan-flatbread-531395,ok
+931,MOROCCAN FLATBREAD PIZZAS (CAN BE WW),assets/photos/931.jpg,https://www.food.com/recipe/moroccan-flatbread-pizzas-can-be-ww-389902,ok
+932,MOROCCAN FRIED EGGPLANT,assets/photos/932.jpg,https://www.food.com/recipe/moroccan-fried-eggplant-428746,ok
+933,MOROCCAN FRIED EGGS WITH CUMIN AND SALT,assets/photos/933.jpg,https://www.food.com/recipe/moroccan-fried-eggs-with-cumin-and-salt-414808,ok
+934,MOROCCAN FRIED WHITING,assets/photos/934.jpg,https://www.food.com/recipe/moroccan-fried-whiting-428747,ok
+935,MOROCCAN GARBANZO BEAN AND FETA PITAS,assets/photos/935.jpg,https://www.food.com/recipe/moroccan-garbanzo-bean-and-feta-pitas-428626,ok
+936,MOROCCAN GRAPE JUICE,assets/photos/936.jpg,https://www.food.com/recipe/moroccan-grape-juice-505443,ok
+937,MOROCCAN HERBED OLIVES,assets/photos/937.jpg,https://www.food.com/recipe/moroccan-herbed-olives-420977,ok
+938,MOROCCAN HUMMUS,assets/photos/938.jpg,https://www.food.com/recipe/moroccan-hummus-505751,ok
+939,MOROCCAN INSPIRED BAKED POTATO SLICES,assets/photos/939.jpg,https://www.food.com/recipe/moroccan-inspired-baked-potato-slices-367434,ok
+940,MOROCCAN-INSPIRED FLANK STEAK,assets/photos/940.jpg,https://www.food.com/recipe/moroccan-inspired-flank-steak-366116,ok
+941,MOROCCAN KEFTA KEBABS,assets/photos/941.jpg,https://www.food.com/recipe/moroccan-kefta-kebabs-71484,ok
+942,MOROCCAN LAMB,assets/photos/942.jpg,https://www.food.com/recipe/moroccan-lamb-99655,ok
+943,MOROCCAN LAMB CHOPS WITH PRESERVED LEMON GREMOLATA,assets/photos/943.jpg,https://www.food.com/recipe/moroccan-lamb-chops-with-preserved-lemon-gremolata-513988,ok
+944,MOROCCAN LAMB FILLET (BACKSTRAP),assets/photos/944.jpg,https://www.food.com/recipe/moroccan-lamb-fillet-backstrap-378666,ok
+945,MOROCCAN LAMB SHANK WITH COUSCOUS,assets/photos/945.jpg,https://www.food.com/recipe/moroccan-lamb-shank-with-couscous-441037,ok
+946,MOROCCAN LAMB TAGINE,assets/photos/946.jpg,https://www.food.com/recipe/moroccan-lamb-tagine-422401,ok
+947,MOROCCAN LAMB  WITH COUSCOUS,assets/photos/947.jpg,https://www.food.com/recipe/moroccan-lamb-with-couscous-314128,ok
+948,MOROCCAN LEMON CHICKEN,assets/photos/948.jpg,https://www.food.com/recipe/moroccan-lemon-chicken-34697,ok
+949,MOROCCAN LEMON CHICKEN WITH OLIVES,assets/photos/949.jpg,https://www.food.com/recipe/moroccan-lemon-chicken-with-olives-324785,ok
+950,MOROCCAN LENTIL AND PUMPKIN SOUP  CROCKPOT,assets/photos/950.jpg,https://www.food.com/recipe/moroccan-lentil-and-pumpkin-soup-crockpot-493796,ok
+951,MOROCCAN LENTIL SOUP WITH YOGURT,assets/photos/951.jpg,https://www.food.com/recipe/moroccan-lentil-soup-420718,ok
+952,MOROCCAN LENTIL SOUP WITH CORIANDER OIL,assets/photos/952.jpg,https://www.food.com/recipe/moroccan-lentil-soup-with-coriander-oil-315593,ok
+953,MOROCCAN LENTIL STEW WITH RAISINS,assets/photos/953.jpg,https://www.food.com/recipe/moroccan-lentil-stew-with-raisins-443205,ok
+954,MOROCCAN LENTILS AND COUSCOUS,assets/photos/954.jpg,https://www.food.com/recipe/moroccan-lentils-and-couscous-504317,ok
+955,MOROCCAN LIVER SLICES,assets/photos/955.jpg,https://www.food.com/recipe/moroccan-liver-slices-382470,ok
+956,MOROCCAN MARINATED LAMB BLADE CHOPS,assets/photos/956.jpg,https://www.food.com/recipe/moroccan-marinated-lamb-blade-chops-536448,ok
+957,MOROCCAN MEATBALL STEW,assets/photos/957.jpg,https://www.food.com/recipe/moroccan-meatball-stew-404832,ok
+958,MOROCCAN MEATBALLS,assets/photos/958.jpg,https://www.food.com/recipe/moroccan-meatballs-531798,ok
+960,MOROCCAN MEATBALLS &AMP; COUSCOUS,assets/photos/960.jpg,https://www.food.com/recipe/moroccan-meatballs-couscous-410543,ok
+961,MOROCCAN MEATBALLS IN TOMATO SAUCE,assets/photos/961.jpg,https://www.food.com/recipe/moroccan-meatballs-in-tomato-sauce-375975,ok
+962,MOROCCAN MEATBALLS -- TAGINE KEFTA,assets/photos/962.jpg,https://www.food.com/recipe/moroccan-meatballs-tagine-kefta-87354,ok
+963,MOROCCAN MEATLOAF - LOAFING AROUND,assets/photos/963.jpg,https://www.food.com/recipe/moroccan-meatloaf-loafing-around-376365,ok
+964,MOROCCAN MINT TEA,assets/photos/964.jpg,https://www.food.com/recipe/moroccan-mint-tea-505563,ok
+966,SWEET & MINTY GREEN TEA,assets/photos/966.jpg,https://www.food.com/recipe/moroccan-mint-tea-83186,ok
+967,MOROCCAN MUSHROOM COUSCOUS,assets/photos/967.jpg,https://www.food.com/recipe/moroccan-mushroom-couscous-86590,ok
+968,MOROCCAN MUSHROOM TAGINE,assets/photos/968.jpg,https://www.food.com/recipe/moroccan-mushroom-tagine-502991,ok
+969,MOROCCAN OLIVE OMELETTE (BAYD DE ZAITUN),assets/photos/969.jpg,https://www.food.com/recipe/moroccan-olive-omelette-bayd-de-zaitun-504185,ok
+970,MOROCCAN ORANGE AND ALMOND CAKE,assets/photos/970.jpg,https://www.food.com/recipe/moroccan-orange-and-almond-cake-478889,ok
+971,MOROCCAN ORANGE-BLOSSOM SCENTED CARROT SALAD,assets/photos/971.jpg,https://www.food.com/recipe/moroccan-orange-blossom-scented-carrot-salad-428587,ok
+972,MOROCCAN ORANGE CAKE,assets/photos/972.jpg,https://www.food.com/recipe/moroccan-orange-cake-424183,ok
+973,MOROCCAN OVEN ROASTED SESAME POTATOES,assets/photos/973.jpg,https://www.food.com/recipe/moroccan-oven-roasted-sesame-potatoes-88218,ok
+974,MOROCCAN PASTA SALAD WITH CHICKEN,assets/photos/974.jpg,https://www.food.com/recipe/moroccan-pasta-salad-with-chicken-390481,ok
+975,MOROCCAN PASTA SALAD WITH TUNA,assets/photos/975.jpg,https://www.food.com/recipe/moroccan-pasta-salad-with-tuna-400659,ok
+976,MOROCCAN PEANUT COUSCOUS WITH PEAS,assets/photos/976.jpg,https://www.food.com/recipe/moroccan-peanut-couscous-with-peas-428026,ok
+977,MOROCCAN PEAS &AMP; EGGS,assets/photos/977.jpg,https://www.food.com/recipe/moroccan-peas-eggs-305567,ok
+978,MOROCCAN PHYLLO ROLLS,assets/photos/978.jpg,https://www.food.com/recipe/moroccan-phyllo-rolls-427828,ok
+979,MOROCCAN PILAF,assets/photos/979.jpg,https://www.food.com/recipe/moroccan-pilaf-321104,ok
+980,MOROCCAN PORK MINCE,assets/photos/980.jpg,https://www.food.com/recipe/moroccan-pork-mince-415397,ok
+981,MOROCCAN POTATO CASSEROLE,assets/photos/981.jpg,https://www.food.com/recipe/moroccan-potato-casserole-502901,ok
+982,MOROCCAN POUND CAKE,assets/photos/982.jpg,https://www.food.com/recipe/moroccan-pound-cake-423980,ok
+983,MOROCCAN PRESERVED LEMONS,assets/photos/983.jpg,https://www.food.com/recipe/moroccan-preserved-lemons-308919,ok
+984,MOROCCAN QUINOA SALAD WITH SWEET POTATO AND SPINACH,assets/photos/984.jpg,https://www.food.com/recipe/moroccan-quinoa-salad-with-sweet-potato-and-spinach-531661,ok
+985,MOROCCAN RAMADAN SOUP,assets/photos/985.jpg,https://www.food.com/recipe/moroccan-ramadan-soup-503356,ok
+986,MOROCCAN RAS EL HANOUT SPICE MIX,assets/photos/986.jpg,https://www.food.com/recipe/moroccan-ras-el-hanout-spice-mix-312698,ok
+987,MOROCCAN RICE MEATBALLS,assets/photos/987.jpg,https://www.food.com/recipe/moroccan-rice-meatballs-35429,ok
+988,MOROCCAN RICE PILAF,assets/photos/988.jpg,https://www.food.com/recipe/moroccan-rice-pilaf-523587,ok
+989,MOROCCAN RICE PILAF WITH SAFFRON,assets/photos/989.jpg,https://www.food.com/recipe/moroccan-rice-pilaf-with-saffron-414811,ok
+990,MOROCCAN RICE SALAD (GLUTEN-FREE),assets/photos/990.jpg,https://www.food.com/recipe/moroccan-rice-salad-gluten-free-501849,ok
+991,MOROCCAN ROASTED CHICKEN,assets/photos/991.jpg,https://www.food.com/recipe/moroccan-roasted-chicken-502706,ok
+992,MOROCCAN ROASTED POMEGRANATE CHICKEN,assets/photos/992.jpg,https://www.food.com/recipe/moroccan-roasted-pomegranate-chicken-459193,ok
+993,MOROCCAN ROASTED SALMON WITH MANGO SALSA,assets/photos/993.jpg,https://www.food.com/recipe/moroccan-roasted-salmon-with-mango-salsa-423755,ok
+994,MOROCCAN-RUBBED GRILLED STEAK AND SWEET POTATOES,assets/photos/994.jpg,https://www.food.com/recipe/moroccan-rubbed-grilled-steak-and-sweet-potatoes-423333,ok
+995,MOROCCAN SAFFRON CHICKEN,assets/photos/995.jpg,https://www.food.com/recipe/moroccan-saffron-chicken-414809,ok
+996,MOROCCAN SAFFRON RICE,assets/photos/996.jpg,https://www.food.com/recipe/moroccan-saffron-rice-502997,ok
+997,MOROCCAN SALAD OF RAW GRATED CARROTS/CITRUS CINNAMON DRESSING,assets/photos/997.jpg,https://www.food.com/recipe/moroccan-salad-of-raw-grated-carrots-citrus-cinnamon-dressing-320513,ok
+998,MOROCCAN SEASONED CHICKEN WITH PINE NUT COUSCOUS,assets/photos/998.jpg,https://www.food.com/recipe/moroccan-seasoned-chicken-with-pine-nut-couscous-383746,ok
+999,MOROCCAN SEASONED WEDGES,assets/photos/999.jpg,https://www.food.com/recipe/moroccan-seasoned-wedges-378966,ok
+1000,MOROCCAN SIZZLING SHRIMP,assets/photos/1000.jpg,https://www.food.com/recipe/moroccan-sizzling-shrimp-428595,ok
+1001,MOROCCAN SKIRT STEAK W/ROASTED PEPPER COUSCOUS (ZWT-9),assets/photos/1001.jpg,https://www.food.com/recipe/moroccan-skirt-steak-w-roasted-pepper-couscous-zwt-9-505448,ok
+1002,MOROCCAN SPICE BLEND,assets/photos/1002.jpg,https://www.food.com/recipe/moroccan-spice-blend-503841,ok
+1003,MOROCCAN SPICE CORN TOPPER,assets/photos/1003.jpg,https://www.food.com/recipe/moroccan-spice-corn-topper-503299,ok
+1004,MOROCCAN SPICE MIX,assets/photos/1004.jpg,https://www.food.com/recipe/moroccan-spice-mix-422399,ok
+1005,MOROCCAN SPICE PASTE,assets/photos/1005.jpg,https://www.food.com/recipe/moroccan-spice-paste-377034,ok
+1006,MOROCCAN SPICE RUB (FOR LAMB &AMP; OTHER MEAT),assets/photos/1006.jpg,https://www.food.com/recipe/moroccan-spice-rub-for-lamb-other-meat-349928,ok
+1007,MOROCCAN SPICE RUBBED PORK CHOPS,assets/photos/1007.jpg,https://www.food.com/recipe/moroccan-spice-rubbed-pork-chops-475667,ok
+1008,MOROCCAN-SPICED BABY CARROTS,assets/photos/1008.jpg,https://www.food.com/recipe/moroccan-spiced-baby-carrots-500463,ok
+1009,MOROCCAN SPICED CARROT SALAD,assets/photos/1009.jpg,https://www.food.com/recipe/moroccan-spiced-carrot-salad-70156,ok
+1010,MOROCCAN-SPICED CHICKEN BREASTS,assets/photos/1010.jpg,https://www.food.com/recipe/moroccan-spiced-chicken-breasts-422400,ok
+1011,MOROCCAN SPICED CHICKEN KEBABS,assets/photos/1011.jpg,https://www.food.com/recipe/moroccan-spiced-chicken-kebabs-416089,ok
+1012,MOROCCAN SPICED CHICKEN STEW WITH CARROTS,assets/photos/1012.jpg,https://www.food.com/recipe/moroccan-spiced-chicken-stew-with-carrots-362949,ok
+1013,MOROCCAN SPICED CHICKPEA OR GARBANZO SOUP,assets/photos/1013.jpg,https://www.food.com/recipe/moroccan-spiced-chickpea-or-garbanzo-soup-391963,ok
+1014,MOROCCAN-SPICED FAVA BEAN STEW,assets/photos/1014.jpg,https://www.food.com/recipe/moroccan-spiced-fava-bean-stew-325189,ok
+1015,MOROCCAN SPICED GREEN OLIVES,assets/photos/1015.jpg,https://www.food.com/recipe/moroccan-spiced-green-olives-504183,ok
+1016,MOROCCAN-SPICED LAMB BURGERS,assets/photos/1016.jpg,https://www.food.com/recipe/moroccan-spiced-lamb-burgers-305505,ok
+1017,MOROCCAN SPICED LAMB CHOPS,assets/photos/1017.jpg,https://www.food.com/recipe/moroccan-spiced-lamb-chops-63885,ok
+1018,MOROCCAN SPICED NUTS,assets/photos/1018.jpg,https://www.food.com/recipe/moroccan-spiced-nuts-505616,ok
+1019,MOROCCAN SPICED ROAST CHICKPEAS,assets/photos/1019.jpg,https://www.food.com/recipe/moroccan-spiced-roast-chickpeas-523991,ok
+1020,MOROCCAN SPICED ROAST POTATOES,assets/photos/1020.jpg,https://www.food.com/recipe/moroccan-spiced-roast-potatoes-377030,ok
+1021,MOROCCAN-SPICED ROASTED VEGETABLES,assets/photos/1021.jpg,https://www.food.com/recipe/moroccan-spiced-roasted-vegetables-305797,ok
+1022,MOROCCAN SPICED SALMON OVER LENTILS,assets/photos/1022.jpg,https://www.food.com/recipe/moroccan-spiced-salmon-over-lentils-324119,ok
+1023,MOROCCAN SPICED SPAGHETTI SQUASH,assets/photos/1023.jpg,https://www.food.com/recipe/moroccan-spiced-spaghetti-squash-425488,ok
+1024,MOROCCAN SPICED SQUASH AND CARROT SOUP,assets/photos/1024.jpg,https://www.food.com/recipe/moroccan-spiced-squash-and-carrot-soup-85052,ok
+1025,MOROCCAN SPICED STEWED PORK BELLY IN A SLOW COOKER,assets/photos/1025.jpg,https://www.food.com/recipe/moroccan-spiced-stewed-pork-belly-in-a-slow-cooker-414922,ok
+1026,MOROCCAN SPICED VEAL,assets/photos/1026.jpg,https://www.food.com/recipe/moroccan-spiced-veal-319862,ok
+1027,MOROCCAN SQUASH SALAD,assets/photos/1027.jpg,https://www.food.com/recipe/moroccan-squash-salad-389097,ok
+1028,MOROCCAN STEWED LENTILS,assets/photos/1028.jpg,https://www.food.com/recipe/moroccan-stewed-lentils-505594,ok
+1029,MOROCCAN STUFFED DATES,assets/photos/1029.jpg,https://www.food.com/recipe/moroccan-stuffed-dates-503363,ok
+1030,MOROCCAN STUFFED PEPPERS,assets/photos/1030.jpg,https://www.food.com/recipe/moroccan-stuffed-peppers-437417,ok
+1031,MOROCCAN STYLE BARRAMUNDI,assets/photos/1031.jpg,https://www.food.com/recipe/moroccan-style-barramundi-523012,ok
+1032,MOROCCAN-STYLE BEEF KABOBS,assets/photos/1032.jpg,https://www.food.com/recipe/moroccan-style-beef-kabobs-537364,ok
+1033,MOROCCAN-STYLE CHICKEN WITH LENTILS,assets/photos/1033.jpg,https://www.food.com/recipe/moroccan-style-chicken-with-lentils-357472,ok
+1034,MOROCCAN STYLE EGGPLANT,assets/photos/1034.jpg,https://www.food.com/recipe/moroccan-style-eggplant-434716,ok
+1035,MOROCCAN-STYLE MARINADE,assets/photos/1035.jpg,https://www.food.com/recipe/moroccan-style-marinade-381911,ok
+1036,MOROCCAN STYLE PASTA SALAD,assets/photos/1036.jpg,https://www.food.com/recipe/moroccan-style-pasta-salad-503679,ok
+1037,MOROCCAN STYLE POTATO AND EGG SANDWICHES,assets/photos/1037.jpg,https://www.food.com/recipe/moroccan-style-potato-and-egg-sandwiches-306114,ok
+1038,MOROCCAN STYLE PUMPKIN AND COUSCOUS SALAD,assets/photos/1038.jpg,https://www.food.com/recipe/moroccan-style-pumpkin-and-couscous-salad-310939,ok
+1039,MOROCCAN-STYLE ROAST CHICKEN,assets/photos/1039.jpg,https://www.food.com/recipe/moroccan-style-roast-chicken-421201,ok
+1040,MOROCCAN STYLE SPICY CHICKEN &AMP; RICE - 25 MINUTES TO MAKE!,assets/photos/1040.jpg,https://www.food.com/recipe/moroccan-style-spicy-chicken-rice-25-minutes-to-make-325979,ok
+1041,MOROCCAN STYLE SPICY PICKLED VEGETABLES,assets/photos/1041.jpg,https://www.food.com/recipe/moroccan-style-spicy-pickled-vegetables-504738,ok
+1042,MOROCCAN-STYLE STUFFED ACORN SQUASH,assets/photos/1042.jpg,https://www.food.com/recipe/moroccan-style-stuffed-acorn-squash-393699,ok
+1043,"MOROCCAN-STYLE TILAPIA WITH CUMIN, MANGO AND CILANTRO RECIPE",assets/photos/1043.jpg,https://www.food.com/recipe/moroccan-style-tilapia-with-cumin-mango-and-cilantro-recipe-503619,ok
+1044,MOROCCAN SWEET COUSCOUS,assets/photos/1044.jpg,https://www.food.com/recipe/moroccan-sweet-couscous-424039,ok
+1045,MOROCCAN SWEET POTATO AND CHICKPEA SOUP,assets/photos/1045.jpg,https://www.food.com/recipe/moroccan-sweet-potato-and-chickpea-soup-312286,ok
+1046,MOROCCAN SWEET POTATO WITH COUSCOUS,assets/photos/1046.jpg,https://www.food.com/recipe/moroccan-sweet-potato-with-couscous-363965,ok
+1047,MOROCCAN TAGINE,assets/photos/1047.jpg,https://www.food.com/recipe/moroccan-tagine-83356,ok
+1048,MOROCCAN TAGINE OF CHICKEN WITH APRICOTS,assets/photos/1048.jpg,https://www.food.com/recipe/moroccan-tagine-of-chicken-with-apricots-438158,ok
+1049,MOROCCAN TAJINE - FOR THE CROCK POT!,assets/photos/1049.jpg,https://www.food.com/recipe/moroccan-tajine-for-the-crock-pot-505754,ok
+1050,MOROCCAN TUNA PATTIES,assets/photos/1050.jpg,https://www.food.com/recipe/moroccan-tuna-patties-331445,ok
+1051,MOROCCAN TURKEY STEW,assets/photos/1051.jpg,https://www.food.com/recipe/moroccan-turkey-stew-519772,ok
+1052,MOROCCAN TURKEY TAGINE,assets/photos/1052.jpg,https://www.food.com/recipe/moroccan-turkey-tagine-519768,ok
+1053,MOROCCAN TURKEY TENDERLOIN,assets/photos/1053.jpg,https://www.food.com/recipe/moroccan-turkey-tenderloin-57571,ok
+1054,MOROCCAN VEGETABLE AND CHICKPEA TAGINE,assets/photos/1054.jpg,https://www.food.com/recipe/moroccan-vegetable-and-chickpea-tagine-435567,ok
+1055,MOROCCAN VEGETABLE SOUP (CHORBA),assets/photos/1055.jpg,https://www.food.com/recipe/moroccan-vegetable-soup-chorba-347072,ok
+1056,MOROCCAN VEGETABLE STEW,assets/photos/1056.jpg,https://www.food.com/recipe/moroccan-vegetable-stew-51902,ok
+1057,MOROCCAN WHITE BEANS LOUBIA,assets/photos/1057.jpg,https://www.food.com/recipe/moroccan-white-beans-loubia-465880,ok
+1058,MOROCCIAN CHICKEN TAGINE,assets/photos/1058.jpg,https://www.food.com/recipe/moroccian-chicken-tagine-503117,ok
+1059,MORROCAN CHICKEN WITH COUSCOUS,assets/photos/1059.jpg,https://www.food.com/recipe/morrocan-chicken-with-couscous-428281,ok
+1060,MORROCAN COUSCOUS WITH GREEN BEANS,assets/photos/1060.jpg,https://www.food.com/recipe/morrocan-couscous-with-green-beans-427752,ok
+1061,MSEMMEN - MOROCCAN CREPES,assets/photos/1061.jpg,https://www.food.com/recipe/msemmen-moroccan-crepes-334684,ok
+1062,MUSHROOM COUSCOUS WITH MOROCCAN FLAVORS,assets/photos/1062.jpg,https://www.food.com/recipe/mushroom-couscous-with-moroccan-flavors-407118,ok
+1063,MY MEDITERRANEAN COUSCOUS SALAD,assets/photos/1063.jpg,https://www.food.com/recipe/my-mediterranean-couscous-salad-451940,ok
+1064,NIGERIAN BEEF IN TOMATO SAUCE,assets/photos/1064.jpg,https://www.food.com/recipe/nigerian-beef-in-tomato-sauce-307519,ok
+1065,NIGERIAN EWA AGOYIN,assets/photos/1065.jpg,https://www.food.com/recipe/nigerian-ewa-agoyin-532458,ok
+1066,NIGERIAN FRUIT  SALAD,assets/photos/1066.jpg,https://www.food.com/recipe/nigerian-fruit-salad-310793,ok
+1067,NIGERIAN PANCAKES WITH SHRIMP,assets/photos/1067.jpg,https://www.food.com/recipe/nigerian-pancakes-with-shrimp-455200,ok
+1068,NIGERIAN PEANUT SOUP,assets/photos/1068.jpg,https://www.food.com/recipe/nigerian-peanut-soup-457015,ok
+1070,NIGERIAN PEPPERSOUP SEASONING SUBSTITUTE,assets/photos/1070.jpg,https://www.food.com/recipe/nigerian-peppersoup-seasoning-substitute-311240,ok
+1071,NIGERIAN RICE WATER,assets/photos/1071.jpg,https://www.food.com/recipe/nigerian-rice-water-310159,ok
+1073,NITER KIBBEH--ETHIOPIAN SPICED CLARIFIED BUTTER,assets/photos/1073.jpg,https://www.food.com/recipe/niter-kibbeh-ethiopian-spiced-clarified-butter-455044,ok
+1074,NORTH AFRICAN BULGAR SALAD,assets/photos/1074.jpg,https://www.food.com/recipe/north-african-bulgar-salad-314428,ok
+1075,NORTH AFRICAN BULGAR STUFFED BABY EGGPLANT,assets/photos/1075.jpg,https://www.food.com/recipe/north-african-bulgar-stuffed-baby-eggplant-491177,ok
+1076,NORTH AFRICAN CHICKEN,assets/photos/1076.jpg,https://www.food.com/recipe/north-african-chicken-373000,ok
+1077,NORTH AFRICAN CHICKEN AND COUSCOUS,assets/photos/1077.jpg,https://www.food.com/recipe/north-african-chicken-and-couscous-366997,ok
+1078,NORTH AFRICAN DRY RUB,assets/photos/1078.jpg,https://www.food.com/recipe/north-african-dry-rub-385552,ok
+1079,NORTH AFRICAN-GRILLED CORN ON THE COB,assets/photos/1079.jpg,https://www.food.com/recipe/north-african-grilled-corn-on-the-cob-470176,ok
+1080,NORTH AFRICAN MARINADE FOR FLANK STEAK,assets/photos/1080.jpg,https://www.food.com/recipe/north-african-marinade-for-flank-steak-503334,ok
+1081,NORTH AFRICAN MEATBALLS (BOULETTES),assets/photos/1081.jpg,https://www.food.com/recipe/north-african-meatballs-boulettes-505050,ok
+1082,NORTH AFRICAN ORANGE SALAD,assets/photos/1082.jpg,https://www.food.com/recipe/north-african-orange-salad-493125,ok
+1083,NORTH AFRICAN SOUP (VEGETARIAN),assets/photos/1083.jpg,https://www.food.com/recipe/north-african-soup-vegetarian-385621,ok
+1084,NORTH AFRICAN SPICED CHICKEN,assets/photos/1084.jpg,https://www.food.com/recipe/north-african-spiced-chicken-503438,ok
+1085,NORTH AFRICAN STYLE CHICKEN,assets/photos/1085.jpg,https://www.food.com/recipe/north-african-style-chicken-505395,ok
+1087,OKRA &AMP; CHICKPEA TAGINE,assets/photos/1087.jpg,https://www.food.com/recipe/okra-chickpea-tagine-346494,ok
+1088,ORANGE BREAKFAST COUSCOUS,assets/photos/1088.jpg,https://www.food.com/recipe/orange-breakfast-couscous-343244,ok
+1089,ORANGE ISRAELI COUSCOUS WITH SNOW PEAS,assets/photos/1089.jpg,https://www.food.com/recipe/orange-israeli-couscous-with-snow-peas-425683,ok
+1090,ORANGE-NUT COUSCOUS,assets/photos/1090.jpg,https://www.food.com/recipe/orange-nut-couscous-424710,ok
+1091,ORANGE-PINEAPPLE COUSCOUS,assets/photos/1091.jpg,https://www.food.com/recipe/orange-pineapple-couscous-422127,ok
+1092,ORANGE SCENTED COUSCOUS,assets/photos/1092.jpg,https://www.food.com/recipe/orange-scented-couscous-504145,ok
+1093,ORANGE YOGURT SMOOTHIE - MOROCCAN,assets/photos/1093.jpg,https://www.food.com/recipe/orange-yogurt-smoothie-moroccan-503815,ok
+1094,OSSO BUCO WITH COUSCOUS,assets/photos/1094.jpg,https://www.food.com/recipe/osso-buco-with-couscous-381819,ok
+1095,PALEO  MOROCCAN CARROT SALAD WITH DATES,assets/photos/1095.jpg,https://www.food.com/recipe/paleo-moroccan-carrot-salad-with-dates-486819,ok
+1096,PALESTINIAN HARISSA,assets/photos/1096.jpg,https://www.food.com/recipe/palestinian-harissa-484855,ok
+1097,PAN-FRIED MOROCCAN CHICKEN,assets/photos/1097.jpg,https://www.food.com/recipe/pan-fried-moroccan-chicken-304917,ok
+1098,PAN FRIED SEABASS FILLET WITH SALSA SAUCE AND COUSCOUS,assets/photos/1098.jpg,https://www.food.com/recipe/pan-fried-seabass-fillet-with-salsa-sauce-and-couscous-440804,ok
+1099,PAPRIKA BUTTER CHICKEN WITH COUSCOUS,assets/photos/1099.jpg,https://www.food.com/recipe/paprika-butter-chicken-with-couscous-440937,ok
+1100,PEA TOMATO COUSCOUS,assets/photos/1100.jpg,https://www.food.com/recipe/pea-tomato-couscous-436627,ok
+1101,PEANUT SOUP,assets/photos/1101.jpg,https://www.food.com/recipe/peanut-soup-95945,ok
+1102,PEANUT SOUP WITH RICE AND SCALLIONS,assets/photos/1102.jpg,https://www.food.com/recipe/peanut-soup-with-rice-and-scallions-456089,ok
+1103,PERSIAN BEEF AND COUSCOUS,assets/photos/1103.jpg,https://www.food.com/recipe/persian-beef-and-couscous-50120,ok
+1104,PIRI PIRI CHICKEN (QUICK STIR FRY VERSION),assets/photos/1104.jpg,https://www.food.com/recipe/piri-piri-chicken-quick-stir-fry-version-489613,ok
+1105,PIRI PIRI DRESSING,assets/photos/1105.jpg,https://www.food.com/recipe/piri-piri-dressing-367617,ok
+1107,PIRI PIRI SAUCE,assets/photos/1107.jpg,https://www.food.com/recipe/piri-piri-sauce-532416,ok
+1108,PISTACHIO COUSCOUS,assets/photos/1108.jpg,https://www.food.com/recipe/pistachio-couscous-425485,ok
+1109,PISTACHIO-CRUSTED MOROCCAN RACK OF LAMB WITH ISRAELI COUSCOUS,assets/photos/1109.jpg,https://www.food.com/recipe/pistachio-crusted-moroccan-rack-of-lamb-with-israeli-couscous-493364,ok
+1110,POACHED EGGS WITH HARISSA OIL,assets/photos/1110.jpg,https://www.food.com/recipe/poached-eggs-with-harissa-oil-434771,ok
+1111,PORK RIBS  WITH ALOHA SHOYU SAUCE,assets/photos/1111.jpg,https://www.food.com/recipe/pork-ribs-with-aloha-shoyu-sauce-306183,ok
+1112,PORTUGUESE-AFRICAN CHICKEN IN COCONUT SAUCE,assets/photos/1112.jpg,https://www.food.com/recipe/portuguese-african-chicken-in-coconut-sauce-371142,ok
+1113,PORTUGUESE CHICKEN PIRI-PIRI,assets/photos/1113.jpg,https://www.food.com/recipe/portuguese-chicken-piri-piri-369942,ok
+1114,PRAWN AND HARISSA STEW WITH COUSCOUS,assets/photos/1114.jpg,https://www.food.com/recipe/prawn-and-harissa-stew-with-couscous-427635,ok
+1115,PRAWNS PERI-PERI,assets/photos/1115.jpg,https://www.food.com/recipe/prawns-peri-peri-456440,ok
+1116,PRAWNS PERI PERI MOZAMBIQUE,assets/photos/1116.jpg,https://www.food.com/recipe/prawns-peri-peri-mozambique-427978,ok
+1118,PUMPKIN SPICE DABO KOLO (ETHIOPIAN PUMPKIN SPICE RICOTTA DONUTS),assets/photos/1118.jpg,https://www.food.com/recipe/pumpkin-spice-dabo-kolo-ethiopian-pumpkin-spice-ricotta-donuts-524594,ok
+1119,QUICK MOROCCAN CHICKPEA AND VEGETABLE COUSCOUS,assets/photos/1119.jpg,https://www.food.com/recipe/quick-moroccan-chickpea-and-vegetable-couscous-426033,ok
+1120,RAS EL HANOUT,assets/photos/1120.jpg,https://www.food.com/recipe/ras-el-hanout-486491,ok
+1122,RAS EL HANOUT A MOROCCAN SPICE BLEND BY RACHAEL RAY,assets/photos/1122.jpg,https://www.food.com/recipe/ras-el-hanout-a-moroccan-spice-blend-by-rachael-ray-505582,ok
+1123,RAS EL HANOUT COUSCOUS,assets/photos/1123.jpg,https://www.food.com/recipe/ras-el-hanout-couscous-505086,ok
+1124,RAS EL HANOUT - MOROCCAN SPICE MIX FROM VEGETARIAN TIMES,assets/photos/1124.jpg,https://www.food.com/recipe/ras-el-hanout-moroccan-spice-mix-from-vegetarian-times-479884,ok
+1125,"RAS EL-HANOUT, MOROCCAN SPICED CHICKEN",assets/photos/1125.jpg,https://www.food.com/recipe/ras-el-hanout-moroccan-spiced-chicken-334911,ok
+1126,RAS EL HANOUT ROASTED POTATOES,assets/photos/1126.jpg,https://www.food.com/recipe/ras-el-hanout-roasted-potatoes-505620,ok
+1127,RAS EL HANOUT SPICE MIX,assets/photos/1127.jpg,https://www.food.com/recipe/ras-el-hanout-spice-mix-80983,ok
+1128,RED BELL PEPPER COUSCOUS,assets/photos/1128.jpg,https://www.food.com/recipe/red-bell-pepper-couscous-428770,ok
+1129,ROAST PORK WITH PIRI PIRI,assets/photos/1129.jpg,https://www.food.com/recipe/roast-pork-with-piri-piri-369919,ok
+1130,ROASTED CAULIFLOWER WITH HARISSA SAUCE,assets/photos/1130.jpg,https://www.food.com/recipe/roasted-cauliflower-with-harissa-sauce-495946,ok
+1131,ROASTED CAULIFLOWER WITH RAS EL HANOUT TAHINI SAUCE,assets/photos/1131.jpg,https://www.food.com/recipe/roasted-cauliflower-with-ras-el-hanout-tahini-sauce-479886,ok
+1132,ROASTED GARLIC AND OLIVE OIL COUSCOUS,assets/photos/1132.jpg,https://www.food.com/recipe/roasted-garlic-and-olive-oil-couscous-48100,ok
+1133,ROASTED GARLIC COUSCOUS WITH TOMATOES &AMP; BASIL,assets/photos/1133.jpg,https://www.food.com/recipe/roasted-garlic-couscous-with-tomatoes-basil-391475,ok
+1134,ROASTED MOROCCAN SPICED CHICKEN,assets/photos/1134.jpg,https://www.food.com/recipe/roasted-moroccan-spiced-chicken-306750,ok
+1135,ROASTED VEGETABLE COUSCOUS SALAD,assets/photos/1135.jpg,https://www.food.com/recipe/roasted-vegetable-couscous-salad-378310,ok
+1136,ROASTED VEGETABLE COUSCOUS WITH HUMMUS,assets/photos/1136.jpg,https://www.food.com/recipe/roasted-vegetable-couscous-with-hummus-316337,ok
+1137,RUDY'S MOROCCAN STEWED CHICKEN WITH COUSCOUS,assets/photos/1137.jpg,https://www.food.com/recipe/rudys-moroccan-stewed-chicken-with-couscous-483881,ok
+1138,RWANDAN CHICKEN,assets/photos/1138.jpg,https://www.food.com/recipe/rwandan-chicken-457010,ok
+1139,SAFFRON COUSCOUS WITH HERBS,assets/photos/1139.jpg,https://www.food.com/recipe/saffron-couscous-with-herbs-428285,ok
+1140,SAFFRON &AMP; RAISIN COUSCOUS WITH FRESH MINT,assets/photos/1140.jpg,https://www.food.com/recipe/saffron-raisin-couscous-with-fresh-mint-424325,ok
+1141,SAFFRON-SCENTED  COUSCOUS WITH PINE NUTS,assets/photos/1141.jpg,https://www.food.com/recipe/saffron-scented-couscous-with-pine-nuts-359422,ok
+1142,SALMON AND COUSCOUS,assets/photos/1142.jpg,https://www.food.com/recipe/salmon-and-couscous-472837,ok
+1143,SALMON FILLETS WITH DILL COUSCOUS AND SPICY KALE,assets/photos/1143.jpg,https://www.food.com/recipe/salmon-fillets-with-dill-couscous-and-spicy-kale-391684,ok
+1144,SALMON WITH COUSCOUS,assets/photos/1144.jpg,https://www.food.com/recipe/salmon-with-couscous-501908,ok
+1145,SAMBOSSA (ETHIOPIAN APPETIZER),assets/photos/1145.jpg,https://www.food.com/recipe/sambossa-ethiopian-appetizer-457139,ok
+1146,SAVORY TOFU AND VEGETABLES OVER TOMATO COUSCOUS,assets/photos/1146.jpg,https://www.food.com/recipe/savory-tofu-and-vegetables-over-tomato-couscous-309605,ok
+1147,SEFFA (SWEET COUSCOUS WITH ALMOND MILK),assets/photos/1147.jpg,https://www.food.com/recipe/seffa-sweet-couscous-with-almond-milk-455883,ok
+1148,SELLOU (MOROCCAN COOKIE MIXTURE),assets/photos/1148.jpg,https://www.food.com/recipe/sellou-moroccan-cookie-mixture-505847,ok
+1149,SENEGAL YASSA,assets/photos/1149.jpg,https://www.food.com/recipe/senegal-yassa-456408,ok
+1150,SENEGALESE PEANUT SOUP,assets/photos/1150.jpg,https://www.food.com/recipe/senegalese-peanut-soup-57557,ok
+1151,"SENEGALESE SWEET POTATO, RICE AND BEANS STEW",assets/photos/1151.jpg,https://www.food.com/recipe/senegalese-sweet-potato-rice-and-beans-stew-457134,ok
+1152,SFENJ - DEEP FRIED MOROCCAN DOUGHNUTS,assets/photos/1152.jpg,https://www.food.com/recipe/sfenj-deep-fried-moroccan-doughnuts-509899,ok
+1153,SHAAH BIGAYS - SOMALI SPICE TEA,assets/photos/1153.jpg,https://www.food.com/recipe/shaah-bigays-somali-spice-tea-456985,ok
+1154,SHAAH (SOMALI TEA),assets/photos/1154.jpg,https://www.food.com/recipe/shaah-somali-tea-456826,ok
+1155,SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI,assets/photos/1155.jpg,https://www.food.com/recipe/shakshuka-burrito-with-roasted-pepper-salsa-and-tzatziki-537245,ok
+1156,SHAKSHUKA MIA,assets/photos/1156.jpg,https://www.food.com/recipe/shakshuka-mia-514539,ok
+1157,SHAKSHUKA WITH SWISS CHARD,assets/photos/1157.jpg,https://www.food.com/recipe/shakshuka-with-swiss-chard-514034,ok
+1158,SHAKSHUKA YEMANI BASTED EGGS,assets/photos/1158.jpg,https://www.food.com/recipe/shakshuka-yemani-basted-eggs-465881,ok
+1159,SHEET PAN HARISSA SHRIMP WITH ROASTED ZUCCHINI AND EGGPLANT,assets/photos/1159.jpg,https://www.food.com/recipe/sheet-pan-harissa-shrimp-with-roasted-zucchini-and-eggplant-536826,ok
+1160,SHELLY'S CHICKEN AND ZUCCHINI COUSCOUS,assets/photos/1160.jpg,https://www.food.com/recipe/shellys-chicken-and-zucchini-couscous-83943,ok
+1161,SHORTCUT SHAKSHUKA,assets/photos/1161.jpg,https://www.food.com/recipe/shortcut-shakshuka-531151,ok
+1162,SHRIMP AND COUSCOUS STIRFRY,assets/photos/1162.jpg,https://www.food.com/recipe/shrimp-and-couscous-stirfry-457721,ok
+1163,SIMPLE MOROCCAN CHICKEN,assets/photos/1163.jpg,https://www.food.com/recipe/simple-moroccan-chicken-98989,ok
+1164,SLOW COOKED MOROCCAN LAMB SHANKS,assets/photos/1164.jpg,https://www.food.com/recipe/slow-cooked-moroccan-lamb-shanks-351666,ok
+1165,"SLOW-COOKER LAMB, APRICOT, AND OLIVE TAGINE",assets/photos/1165.jpg,https://www.food.com/recipe/slow-cooker-lamb-apricot-and-olive-tagine-472737,ok
+1166,SLOW COOKER MOROCCAN BRISKET,assets/photos/1166.jpg,https://www.food.com/recipe/slow-cooker-moroccan-brisket-307043,ok
+1167,SLOW-COOKER MOROCCAN-SPICED CHICKEN,assets/photos/1167.jpg,https://www.food.com/recipe/slow-cooker-moroccan-spiced-chicken-503811,ok
+1168,SLOW COOKER MOROCCAN-STYLE CHICKEN &AMP; POTATO STEW,assets/photos/1168.jpg,https://www.food.com/recipe/slow-cooker-moroccan-style-chicken-potato-stew-473512,ok
+1169,SOETKOEKIES - SWEET WINE AND SPICE SOUTH AFRICAN COOKIES,assets/photos/1169.jpg,https://www.food.com/recipe/soetkoekies-sweet-wine-and-spice-south-african-cookies-309794,ok
+1170,SOMALI STEW - MARAQ (PRONOUNCED MAH-RUHK),assets/photos/1170.jpg,https://www.food.com/recipe/somali-stew-maraq-pronounced-mah-ruhk-52967,ok
+1171,SOMALIAN TEA,assets/photos/1171.jpg,https://www.food.com/recipe/somalian-tea-50407,ok
+1172,SOSATIES (SOUTH AFRICAN KABOBS),assets/photos/1172.jpg,https://www.food.com/recipe/sosaties-south-african-kabobs-455609,ok
+1173,SOUTH AFRICAN BAZAAR PANCAKES,assets/photos/1173.jpg,https://www.food.com/recipe/south-african-bazaar-pancakes-429101,ok
+1174,SOUTH AFRICAN BEET AND ONION SALAD,assets/photos/1174.jpg,https://www.food.com/recipe/south-african-beet-and-onion-salad-454996,ok
+1175,SOUTH AFRICAN BILTONG,assets/photos/1175.jpg,https://www.food.com/recipe/south-african-biltong-309886,ok
+1177,SOUTH AFRICAN BOBOTIE,assets/photos/1177.jpg,https://www.food.com/recipe/south-african-bobotie-368252,ok
+1178,"SOUTH AFRICAN BUTTERNUT RINGS (VEGAN, GLUTEN FREE)",assets/photos/1178.jpg,https://www.food.com/recipe/south-african-butternut-rings-vegan-gluten-free-418473,ok
+1179,SOUTH AFRICAN BUTTERNUT SOUP,assets/photos/1179.jpg,https://www.food.com/recipe/south-african-butternut-soup-380151,ok
+1180,SOUTH AFRICAN CHICKEN CURRY,assets/photos/1180.jpg,https://www.food.com/recipe/south-african-chicken-curry-394452,ok
+1181,SOUTH AFRICAN CREAMY DELIGHT,assets/photos/1181.jpg,https://www.food.com/recipe/south-african-creamy-delight-309558,ok
+1182,SOUTH AFRICAN CRUSTLESS MILK TART,assets/photos/1182.jpg,https://www.food.com/recipe/south-african-crustless-milk-tart-306000,ok
+1183,SOUTH AFRICAN - CURRIED CARROT SALAD,assets/photos/1183.jpg,https://www.food.com/recipe/south-african-curried-carrot-salad-455993,ok
+1184,SOUTH AFRICAN CURRIED EGGS,assets/photos/1184.jpg,https://www.food.com/recipe/south-african-curried-eggs-309938,ok
+1185,SOUTH AFRICAN CURRY,assets/photos/1185.jpg,https://www.food.com/recipe/south-african-curry-392938,ok
+1186,SOUTH AFRICAN DATE AND ONION SALAD,assets/photos/1186.jpg,https://www.food.com/recipe/south-african-date-and-onion-salad-454995,ok
+1187,SOUTH AFRICAN FRIDGE TART,assets/photos/1187.jpg,https://www.food.com/recipe/south-african-fridge-tart-530524,ok
+1188,SOUTH AFRICAN HOMEMADE LEMONADE,assets/photos/1188.jpg,https://www.food.com/recipe/south-african-homemade-lemonade-456722,ok
+1189,SOUTH AFRICAN INSPIRED POTATO SALAD,assets/photos/1189.jpg,https://www.food.com/recipe/south-african-inspired-potato-salad-307578,ok
+1190,SOUTH AFRICAN KOEKSISTERS,assets/photos/1190.jpg,https://www.food.com/recipe/south-african-koeksisters-309851,ok
+1191,SOUTH AFRICAN MELKTERT (MILKTART),assets/photos/1191.jpg,https://www.food.com/recipe/south-african-melktert-milktart-80049,ok
+1192,SOUTH AFRICAN MILKTART WITH AN EASY SHORTCRUST BASE,assets/photos/1192.jpg,https://www.food.com/recipe/south-african-milktart-with-an-easy-shortcrust-base-317470,ok
+1193,SOUTH AFRICAN NESTLE'S FUDGE,assets/photos/1193.jpg,https://www.food.com/recipe/south-african-nestles-fudge-361940,ok
+1194,SOUTH AFRICAN - ROASTED EGGPLANT SALAD,assets/photos/1194.jpg,https://www.food.com/recipe/south-african-roasted-eggplant-salad-455998,ok
+1195,SOUTH AFRICAN SAMP AND BEANS (UMNGQUSHO),assets/photos/1195.jpg,https://www.food.com/recipe/south-african-samp-and-beans-umngqusho-309678,ok
+1196,SOUTH AFRICAN SAUSAGE (BOEREWORS),assets/photos/1196.jpg,https://www.food.com/recipe/south-african-sausage-boerewors-50588,ok
+1197,SOUTH AFRICAN SEED BREAD,assets/photos/1197.jpg,https://www.food.com/recipe/south-african-seed-bread-353692,ok
+1198,SOUTH AFRICAN SPICY  MELON SALAD,assets/photos/1198.jpg,https://www.food.com/recipe/south-african-spicy-melon-salad-456080,ok
+1199,SOUTH AFRICAN TELEPHONE PUDDING,assets/photos/1199.jpg,https://www.food.com/recipe/south-african-telephone-pudding-348551,ok
+1200,SOUTH AFRICAN YELLOW RICE,assets/photos/1200.jpg,https://www.food.com/recipe/south-african-yellow-rice-526371,ok
+1201,SPICE-CRUSTED SALMON WITH COUSCOUS SALMON,assets/photos/1201.jpg,https://www.food.com/recipe/spice-crusted-salmon-with-couscous-salmon-474041,ok
+1202,SPICE-RUBBED STEAK WITH CARROTS AND COUSCOUS,assets/photos/1202.jpg,https://www.food.com/recipe/spice-rubbed-steak-with-carrots-and-couscous-519947,ok
+1203,SPICED COUSCOUS,assets/photos/1203.jpg,https://www.food.com/recipe/spiced-couscous-60838,ok
+1204,SPICED COUSCOUS WITH RAISINS AND ALMONDS,assets/photos/1204.jpg,https://www.food.com/recipe/spiced-couscous-with-raisins-and-almonds-505429,ok
+1205,SPICED SHAKSHUKA WITH GOAT CHEESE POLENTA #RAGU,assets/photos/1205.jpg,https://www.food.com/recipe/spiced-shakshuka-with-goat-cheese-polenta-ragu-524677,ok
+1206,SPICED VEGETABLE COUSCOUS,assets/photos/1206.jpg,https://www.food.com/recipe/spiced-vegetable-couscous-420635,ok
+1207,SPICY AFRICAN PEANUT SOUP WITH CHICKPEAS,assets/photos/1207.jpg,https://www.food.com/recipe/spicy-african-peanut-soup-with-chickpeas-339766,ok
+1208,SPICY AUTHENTIC MOROCCAN SALMON - A TASTE OF CASABLANCA!,assets/photos/1208.jpg,https://www.food.com/recipe/spicy-authentic-moroccan-salmon-a-taste-of-casablanca-444229,ok
+1209,SPICY CARDAMOM SALMON (NORTH AFRICAN INSPIRED),assets/photos/1209.jpg,https://www.food.com/recipe/spicy-cardamom-salmon-north-african-inspired-426915,ok
+1210,SPICY CARROT PEANUT SOUP,assets/photos/1210.jpg,https://www.food.com/recipe/spicy-carrot-peanut-soup-58593,ok
+1211,SPICY CHICKEN WITH COUSCOUS,assets/photos/1211.jpg,https://www.food.com/recipe/spicy-chicken-with-couscous-72101,ok
+1212,SPICY CHICKPEA TAGINE,assets/photos/1212.jpg,https://www.food.com/recipe/spicy-chickpea-tagine-317123,ok
+1213,SPICY LAMB WITH GARLIC COUSCOUS,assets/photos/1213.jpg,https://www.food.com/recipe/spicy-lamb-with-garlic-couscous-65835,ok
+1214,SPICY MATOKE (PLANTAINS),assets/photos/1214.jpg,https://www.food.com/recipe/spicy-matoke-plantains-309861,ok
+1215,SPICY MOROCCAN BUTTER,assets/photos/1215.jpg,https://www.food.com/recipe/spicy-moroccan-butter-426805,ok
+1216,SPICY MOROCCAN CARROT SOUP,assets/photos/1216.jpg,https://www.food.com/recipe/spicy-moroccan-carrot-soup-502940,ok
+1217,SPICY MOROCCAN CHICKEN SKEWERS,assets/photos/1217.jpg,https://www.food.com/recipe/spicy-moroccan-chicken-skewers-479326,ok
+1218,SPICY MOROCCAN YOGURT MARINADE OR DIP,assets/photos/1218.jpg,https://www.food.com/recipe/spicy-moroccan-yogurt-marinade-or-dip-460375,ok
+1219,"SPICY ORANGE SALAD, MOROCCAN STYLE",assets/photos/1219.jpg,https://www.food.com/recipe/spicy-orange-salad-moroccan-style-420506,ok
+1220,SPICY PEANUT SOUP,assets/photos/1220.jpg,https://www.food.com/recipe/spicy-peanut-soup-50572,ok
+1221,SPICY SPINACH AND ONION COUSCOUS,assets/photos/1221.jpg,https://www.food.com/recipe/spicy-spinach-and-onion-couscous-450340,ok
+1222,SPICY VEGETABLE COUSCOUS,assets/photos/1222.jpg,https://www.food.com/recipe/spicy-vegetable-couscous-51063,ok
+1223,SPINACH AND CHICKPEAS WITH COUSCOUS,assets/photos/1223.jpg,https://www.food.com/recipe/spinach-and-chickpeas-with-couscous-415544,ok
+1224,SPINACH AND ONION COUSCOUS,assets/photos/1224.jpg,https://www.food.com/recipe/spinach-and-onion-couscous-80667,ok
+1225,SPINACH -  (M'CHICHA) - EAST AFRICAN,assets/photos/1225.jpg,https://www.food.com/recipe/spinach-mchicha-east-african-455078,ok
+1226,SPRING COUSCOUS STUFFED BELL PEPPERS,assets/photos/1226.jpg,https://www.food.com/recipe/spring-couscous-stuffed-bell-peppers-305317,ok
+1227,SQUASH AND CHICKPEA MOROCCAN STEW,assets/photos/1227.jpg,https://www.food.com/recipe/squash-and-chickpea-moroccan-stew-354119,ok
+1228,STUFFED PEPPERS WITH COUSCOUS OR HARVEST GRAIN BLEND,assets/photos/1228.jpg,https://www.food.com/recipe/stuffed-peppers-with-couscous-or-harvest-grain-blend-476831,ok
+1229,SUDANESE CINNAMON TEA.,assets/photos/1229.jpg,https://www.food.com/recipe/sudanese-cinnamon-tea-310746,ok
+1230,SUDANESE TOMATO SALAD (SALATA TOMATIM BEL DAQUA),assets/photos/1230.jpg,https://www.food.com/recipe/sudanese-tomato-salad-salata-tomatim-bel-daqua-311688,ok
+1231,SUDANESE YOGURT AND TAHINI DIP,assets/photos/1231.jpg,https://www.food.com/recipe/sudanese-yogurt-and-tahini-dip-37613,ok
+1232,SUMAC FISH &AMP; COUSCOUS SALAD (21 DAY WONDER DIET: DAY 3),assets/photos/1232.jpg,https://www.food.com/recipe/sumac-fish-couscous-salad-21-day-wonder-diet-day-3-358990,ok
+1233,SUMMER COUSCOUS,assets/photos/1233.jpg,https://www.food.com/recipe/summer-couscous-340550,ok
+1234,SUN-DRIED TOMATO CHICKEN PESTO COUSCOUS SALAD,assets/photos/1234.jpg,https://www.food.com/recipe/sun-dried-tomato-chicken-pesto-couscous-salad-321792,ok
+1235,SUNDRIED TOMATO AND SWEET BASIL SHAKSHUKA #RAGU,assets/photos/1235.jpg,https://www.food.com/recipe/sundried-tomato-and-sweet-basil-shakshuka-ragu-524983,ok
+1236,SUYA (MEAT ON STICK),assets/photos/1236.jpg,https://www.food.com/recipe/suya-meat-on-stick-306963,ok
+1237,SUYA (NIGERIAN CHICKEN SKEWERS),assets/photos/1237.jpg,https://www.food.com/recipe/suya-nigerian-chicken-skewers-455402,ok
+1239,SWEET AND SOUR COUSCOUS SALAD,assets/photos/1239.jpg,https://www.food.com/recipe/sweet-and-sour-couscous-salad-472500,ok
+1240,SWEET AND SPICY COUSCOUS SALAD,assets/photos/1240.jpg,https://www.food.com/recipe/sweet-and-spicy-couscous-salad-46493,ok
+1241,SWEET HONEYED DATE NUT COUSCOUS WITH TAHINI NOTE,assets/photos/1241.jpg,https://www.food.com/recipe/sweet-honeyed-date-nut-couscous-with-tahini-note-428140,ok
+1242,SWEET POTATO AND PEANUT SOUP,assets/photos/1242.jpg,https://www.food.com/recipe/sweet-potato-and-peanut-soup-63311,ok
+1243,SWEET POTATO-PEANUT SOUP,assets/photos/1243.jpg,https://www.food.com/recipe/sweet-potato-peanut-soup-487065,ok
+1244,SWEET POTATO SALAD (SLADA BATATA HILWA) -MOROCCAN,assets/photos/1244.jpg,https://www.food.com/recipe/sweet-potato-salad-slada-batata-hilwa-moroccan-397052,ok
+1245,SWISS CHARD WITH CHICKPEAS AND COUSCOUS,assets/photos/1245.jpg,https://www.food.com/recipe/swiss-chard-with-chickpeas-and-couscous-535197,ok
+1246,TABOULI &AMP; CHICKPEA COUSCOUS SALAD,assets/photos/1246.jpg,https://www.food.com/recipe/tabouli-chickpea-couscous-salad-375265,ok
+1247,TAGINE DE POULET AUX ABRICOTS ET AUX AMANDES-CHICKEN APRICOTS AL,assets/photos/1247.jpg,https://www.food.com/recipe/tagine-de-poulet-aux-abricots-et-aux-amandes-chicken-apricots-al-460373,ok
+1248,"TAGINE OF CHICKEN, PRESERVED LEMON, & OLIVES",assets/photos/1248.jpg,https://www.food.com/recipe/tagine-of-chicken-preserved-lemon-olives-77530,ok
+1249,TAGINE WITH CHICKEN  AND QUINCES,assets/photos/1249.jpg,https://www.food.com/recipe/tagine-with-chicken-and-quinces-437225,ok
+1250,TAJINE BIL KHODAR (VEGETABLE TAGINE),assets/photos/1250.jpg,https://www.food.com/recipe/tajine-bil-khodar-vegetable-tagine-350796,ok
+1251,TAMPA CHICKEN  WITH COUSCOUS,assets/photos/1251.jpg,https://www.food.com/recipe/tampa-chicken-with-couscous-372094,ok
+1252,TANZANIAN PINEAPPLE SALAD,assets/photos/1252.jpg,https://www.food.com/recipe/tanzanian-pineapple-salad-306835,ok
+1253,TANZANIAN VEGETABLE RICE,assets/photos/1253.jpg,https://www.food.com/recipe/tanzanian-vegetable-rice-310161,ok
+1254,CLASSIC ETHIOPIAN HONEY WINE,assets/photos/1254.jpg,https://www.food.com/recipe/tej-ethiopian-honey-wine-456498,ok
+1255,THE MOROCCAN PITA SANDWICH (ZWT-9),assets/photos/1255.jpg,https://www.food.com/recipe/the-moroccan-pita-sandwich-zwt-9-503146,ok
+1256,TIKIL GOMEN (ETHIOPIAN  CABBAGE),assets/photos/1256.jpg,https://www.food.com/recipe/tikil-gomen-ethiopian-cabbage-520600,ok
+1257,TILAPIA BAKED IN COUSCOUS,assets/photos/1257.jpg,https://www.food.com/recipe/tilapia-baked-in-couscous-471643,ok
+1258,TOASTED COUSCOUS WITH ALMONDS AND RAISINS,assets/photos/1258.jpg,https://www.food.com/recipe/toasted-couscous-with-almonds-and-raisins-44180,ok
+1259,TOMATO AND BASIL COUSCOUS SALAD,assets/photos/1259.jpg,https://www.food.com/recipe/tomato-and-basil-couscous-salad-57290,ok
+1260,TOMATO AND COUSCOUS SOUP,assets/photos/1260.jpg,https://www.food.com/recipe/tomato-and-couscous-soup-348969,ok
+1261,"TOMATO, ARTICHOKE AND FETA COUSCOUS SALAD",assets/photos/1261.jpg,https://www.food.com/recipe/tomato-artichoke-and-feta-couscous-salad-505323,ok
+1262,TOMATO-BASIL COUSCOUS SALAD,assets/photos/1262.jpg,https://www.food.com/recipe/tomato-basil-couscous-salad-385217,ok
+1263,TOMATO CHICKPEA COUSCOUS,assets/photos/1263.jpg,https://www.food.com/recipe/tomato-chickpea-couscous-438728,ok
+1264,TRADITIONAL MOROCCAN CHICKEN,assets/photos/1264.jpg,https://www.food.com/recipe/traditional-moroccan-chicken-320267,ok
+1265,TRADITIONAL PORTUGUESE PIRI PIRI SAUCE FOR CHICKEN,assets/photos/1265.jpg,https://www.food.com/recipe/traditional-portuguese-piri-piri-sauce-for-chicken-371075,ok
+1266,TRADITIONAL SENEGALESE SOUP,assets/photos/1266.jpg,https://www.food.com/recipe/traditional-senegalese-soup-455314,ok
+1267,TRINCADO AFRICAN BEEF STEW - PORTUGAL,assets/photos/1267.jpg,https://www.food.com/recipe/trincado-african-beef-stew-portugal-482409,ok
+1268,TROPICAL CHICKEN COUSCOUS W/ RUM VINAIGRETTE,assets/photos/1268.jpg,https://www.food.com/recipe/tropical-chicken-couscous-w-rum-vinaigrette-368091,ok
+1269,TSIREN DAKAKKEN NAMA - NIGERIAN KOFTA,assets/photos/1269.jpg,https://www.food.com/recipe/tsiren-dakakken-nama-nigerian-kofta-455421,ok
+1270,TUNA SKEWERS WITH MOROCCAN SPICES AND CHERMOULA,assets/photos/1270.jpg,https://www.food.com/recipe/tuna-skewers-with-moroccan-spices-and-chermoula-502993,ok
+1271,TUNISIA: BEEF MEATBALLS (KEFTA DE BOEUF),assets/photos/1271.jpg,https://www.food.com/recipe/tunisia-beef-meatballs-kefta-de-boeuf-504022,ok
+1272,UGANDAN CURRIED POTATOES,assets/photos/1272.jpg,https://www.food.com/recipe/ugandan-curried-potatoes-310292,ok
+1273,UGANDAN VEGETABLE CASSEROLE,assets/photos/1273.jpg,https://www.food.com/recipe/ugandan-vegetable-casserole-455783,ok
+1274,VEGETABLE COUSCOUS SALAD WITH PARMESAN,assets/photos/1274.jpg,https://www.food.com/recipe/vegetable-couscous-salad-with-parmesan-94598,ok
+1275,VEGETABLE TAGINE,assets/photos/1275.jpg,https://www.food.com/recipe/vegetable-tagine-89278,ok
+1276,VEGETARIAN MAFE (AFRICAN STEW),assets/photos/1276.jpg,https://www.food.com/recipe/vegetarian-mafe-african-stew-457209,ok
+1277,VEGETARIAN MOROCCAN STEW,assets/photos/1277.jpg,https://www.food.com/recipe/vegetarian-moroccan-stew-335835,ok
+1278,VEGETARIAN PEANUT CURRY (AFRICAN INSPIRED),assets/photos/1278.jpg,https://www.food.com/recipe/vegetarian-peanut-curry-african-inspired-440725,ok
+1279,WALI - KENYAN COCONUT RICE,assets/photos/1279.jpg,https://www.food.com/recipe/wali-kenyan-coconut-rice-455420,ok
+1280,WEIGHT WATCHERS ETHIOPIAN FRUIT SALAD,assets/photos/1280.jpg,https://www.food.com/recipe/weight-watchers-ethiopian-fruit-salad-306295,ok
+1282,WEST AFRICAN BANANA FRITTERS,assets/photos/1282.jpg,https://www.food.com/recipe/west-african-banana-fritters-456447,ok
+1283,WEST AFRICAN BARBECUE SAUCE,assets/photos/1283.jpg,https://www.food.com/recipe/west-african-barbecue-sauce-310558,ok
+1284,WEST AFRICAN CHICKEN-PEANUT SOUP,assets/photos/1284.jpg,https://www.food.com/recipe/west-african-chicken-peanut-soup-441962,ok
+1285,WEST AFRICAN CHICKEN YASSA,assets/photos/1285.jpg,https://www.food.com/recipe/west-african-chicken-yassa-306868,ok
+1286,WEST AFRICAN CHILI,assets/photos/1286.jpg,https://www.food.com/recipe/west-african-chili-521673,ok
+1287,WEST AFRICAN GROUNDNUT STEW (MOOSEWOOD),assets/photos/1287.jpg,https://www.food.com/recipe/west-african-groundnut-stew-moosewood-333170,ok
+1288,WEST AFRICAN JOLLOF RICE,assets/photos/1288.jpg,https://www.food.com/recipe/west-african-jollof-rice-445447,ok
+1289,WEST AFRICAN MEAT KEBABS,assets/photos/1289.jpg,https://www.food.com/recipe/west-african-meat-kebabs-455559,ok
+1290,WEST AFRICAN PEANUT SOUP,assets/photos/1290.jpg,https://www.food.com/recipe/west-african-peanut-soup-455020,ok
+1291,WEST AFRICAN PEANUT STEW,assets/photos/1291.jpg,https://www.food.com/recipe/west-african-peanut-stew-438533,ok
+1292,WEST AFRICAN PEPPER SAUCE,assets/photos/1292.jpg,https://www.food.com/recipe/west-african-pepper-sauce-533964,ok
+1293,&QUOT;WEST AFRICAN'S FINEST&QUOT; MAFE,assets/photos/1293.jpg,https://www.food.com/recipe/west-african-s-finest-mafe-532472,ok
+1294,WILD FOREST MUSHROOM COUSCOUS,assets/photos/1294.jpg,https://www.food.com/recipe/wild-forest-mushroom-couscous-48102,ok
+1295,WILLIAM SONOMA TAGINE RED WINE-BRAISED SHORT RIBS,assets/photos/1295.jpg,https://www.food.com/recipe/william-sonoma-tagine-red-wine-braised-short-ribs-448587,ok
+1296,WW COUSCOUS SALAD,assets/photos/1296.jpg,https://www.food.com/recipe/ww-couscous-salad-387683,ok
+1297,YATAKLETE KILKIL (ETHIOPIAN VEGETABLE STEW),assets/photos/1297.jpg,https://www.food.com/recipe/yataklete-kilkil-ethiopian-vegetable-stew-381648,ok
+1298,YOKOHAMA STYLE SHUMAI DUMPLING,assets/photos/1298.jpg,https://www.food.com/recipe/yokohama-style-shumai-dumpling-332192,ok
+1299,"YUMMY, MORE SIMPLE JOLLOF RICE!",assets/photos/1299.jpg,https://www.food.com/recipe/yummy-more-simple-jollof-rice-335408,ok
+1300,ZUCCHINI COUSCOUS,assets/photos/1300.jpg,https://www.food.com/recipe/zucchini-couscous-31597,ok
+1301,SHAKSHUKA,,,no_url
+1301,SHAKSHUKA,,,no_url
