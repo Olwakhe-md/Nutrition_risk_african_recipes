@@ -844,7 +844,11 @@ def explore_recipes():
     else:
         CARDS_PER_ROW = 4
         MAX_CARDS = 48
-        shown = matches.head(MAX_CARDS)
+        # Recipes with a real photo first, so the grid isn't dominated by the
+        # ~90 hand-entered recipes that never had a source URL to fetch one from.
+        has_photo = matches['recipe_id'].astype(str).isin(photo_map)
+        ordered = pd.concat([matches[has_photo], matches[~has_photo]])
+        shown = ordered.head(MAX_CARDS)
         for i in range(0, len(shown), CARDS_PER_ROW):
             cols = st.columns(CARDS_PER_ROW)
             chunk = shown.iloc[i:i + CARDS_PER_ROW]
