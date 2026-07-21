@@ -682,7 +682,7 @@ def _render_recipe_card(col, row, photo_map):
         photo_html = f'<div class="pw-photo" style="background:{header_colour};"></div>'
 
     col.markdown(
-        f'<div class="pw-card" style="padding:0;overflow:hidden;margin-bottom:16px;">'
+        f'<div class="pw-card" style="padding:0;overflow:hidden;margin-bottom:8px;">'
         f'{photo_html}'
         f'<div style="padding:14px 16px;">'
         f'<div style="font-weight:700;">{name}</div>'
@@ -692,6 +692,9 @@ def _render_recipe_card(col, row, photo_map):
         f'</div>',
         unsafe_allow_html=True,
     )
+    if col.button("View details", key=f"card_btn_{recipe_id}", use_container_width=True):
+        st.session_state['explore_selected_id'] = int(row['recipe_id'])
+        st.rerun()
 
 
 def _render_recipe_detail(row):
@@ -783,10 +786,12 @@ def explore_recipes():
 
     st.markdown(f"**{len(matches)}** recipe(s)")
 
-    # ── Single-recipe detail (only when a search narrows to a specific dish) ──
+    st.session_state.setdefault('explore_selected_id', None)
+
+    # ── Single-recipe detail — driven by search or by clicking "View details" ─
     if search and len(matches) > 0:
         if len(matches) == 1:
-            sel_row = matches.iloc[0]
+            st.session_state['explore_selected_id'] = int(matches.iloc[0]['recipe_id'])
         else:
             selected_name = st.selectbox(
                 "Select a recipe to inspect:",
@@ -794,10 +799,20 @@ def explore_recipes():
                 format_func=lambda x: x.title(),
             )
             sel_row = matches[matches['recipe_name'] == selected_name].iloc[0]
-        _render_recipe_detail(sel_row)
-        st.divider()
+            st.session_state['explore_selected_id'] = int(sel_row['recipe_id'])
     elif search and len(matches) == 0:
         st.info(f"No recipes found matching **'{search}'**. Try a shorter term like 'jollof', 'egusi' or 'tagine'.")
+        st.session_state['explore_selected_id'] = None
+
+    selected_id = st.session_state.get('explore_selected_id')
+    if selected_id is not None:
+        sel_rows = df_all[df_all['recipe_id'] == selected_id]
+        if len(sel_rows) > 0:
+            if st.button("✕ Close"):
+                st.session_state['explore_selected_id'] = None
+                st.rerun()
+            _render_recipe_detail(sel_rows.iloc[0])
+            st.divider()
 
     # ── Cards / Table ──────────────────────────────────────────────────────────
     if view == "Table":
