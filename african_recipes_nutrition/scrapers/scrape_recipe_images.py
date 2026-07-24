@@ -24,6 +24,7 @@ Run from african_recipes_nutrition/:
 """
 
 import csv
+import hashlib
 import io
 import json
 import os
@@ -105,9 +106,19 @@ def find_image_url(html):
     return None
 
 
+# Known generic "no image available" placeholders served by source sites in place
+# of a real photo (discovered: BBC Food's default og:image for recipes with no hero
+# image) — rejected outright so they don't get treated as a real recipe photo.
+PLACEHOLDER_HASHES = {
+    'f3828c7ff61eacd8a5c677a5cd3891a4',  # BBC Food generic "BBC" logo card
+}
+
+
 def download_and_save(image_url, dest_path):
     resp = requests.get(image_url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
+    if hashlib.md5(resp.content).hexdigest() in PLACEHOLDER_HASHES:
+        raise ValueError('image is a known site placeholder, not a real photo')
     img = Image.open(io.BytesIO(resp.content)).convert('RGB')
     if max(img.size) > MAX_IMAGE_SIDE:
         img.thumbnail((MAX_IMAGE_SIDE, MAX_IMAGE_SIDE))

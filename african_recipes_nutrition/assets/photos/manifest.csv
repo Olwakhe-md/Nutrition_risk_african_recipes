@@ -60,26 +60,26 @@ recipe_id,recipe_name,local_path,source_url,status
 65,ZANZIBAR PIZZA,,,no_url
 66,SWEET POTATO FRITTERS,,,no_url
 127,Moroccan-style roasted veg,assets/photos/127.jpg,https://www.bbc.co.uk/food/recipes/5-ingredient_33925,ok
-128,Akara black bean fritters with ata dindin,assets/photos/128.jpg,https://www.bbc.co.uk/food/recipes/akara_black_bean_08114,ok
+128,Akara black bean fritters with ata dindin,,https://www.bbc.co.uk/food/recipes/akara_black_bean_08114,placeholder_image
 129,"Beef, black-eyed bean and plantain hotpot",assets/photos/129.jpg,https://www.bbc.co.uk/food/recipes/beef_black-eyed-bean_and_85011,ok
 131,Cape Malay-style braised chicken curry,assets/photos/131.jpg,https://www.bbc.co.uk/food/recipes/cape_malay-style_braised_02015,ok
-132,Chicken bastilla with orange salad,assets/photos/132.jpg,https://www.bbc.co.uk/food/recipes/chicken_bastilla_with_27181,ok
+132,Chicken bastilla with orange salad,,https://www.bbc.co.uk/food/recipes/chicken_bastilla_with_27181,placeholder_image
 133,Chicken yassa,assets/photos/133.jpg,https://www.bbc.co.uk/food/recipes/chicken_yassa_20973,ok
-134,"Ekuru, stewed greens and crispy cod cheeks",assets/photos/134.jpg,https://www.bbc.co.uk/food/recipes/ekuru_stewed_greens_and_67084,ok
-135,Grilled pork chops with blatjang and radishes,assets/photos/135.jpg,https://www.bbc.co.uk/food/recipes/grilled_pork_chops_with_74983,ok
-136,Jollof Quorn pilau with salted cucumber,assets/photos/136.jpg,https://www.bbc.co.uk/food/recipes/jollof_quorn_pilau_with_33526,ok
-137,Jollof rice balls with Scotch bonnet sauce,assets/photos/137.jpg,https://www.bbc.co.uk/food/recipes/jollof_rice_balls_with_03838,ok
-138,Lamb and apricot Cape Malay curry,assets/photos/138.jpg,https://www.bbc.co.uk/food/recipes/lamb_and_apricot_cape_72967,ok
-140,Nigerian stew and cauliflower fried âriceâ,assets/photos/140.jpg,https://www.bbc.co.uk/food/recipes/nigerian_stew_and_13543,ok
-141,Piri-piri chicken and slaw,assets/photos/141.jpg,https://www.bbc.co.uk/food/recipes/piri-piri_chicken_and_21433,ok
-142,Pork with monkey gland sauce,assets/photos/142.jpg,https://www.bbc.co.uk/food/recipes/pork_monkey_gland_sauce_52929,ok
-143,Quraac,assets/photos/143.jpg,https://www.bbc.co.uk/food/recipes/quraac_78934,ok
+134,"Ekuru, stewed greens and crispy cod cheeks",,https://www.bbc.co.uk/food/recipes/ekuru_stewed_greens_and_67084,placeholder_image
+135,Grilled pork chops with blatjang and radishes,,https://www.bbc.co.uk/food/recipes/grilled_pork_chops_with_74983,placeholder_image
+136,Jollof Quorn pilau with salted cucumber,,https://www.bbc.co.uk/food/recipes/jollof_quorn_pilau_with_33526,placeholder_image
+137,Jollof rice balls with Scotch bonnet sauce,,https://www.bbc.co.uk/food/recipes/jollof_rice_balls_with_03838,placeholder_image
+138,Lamb and apricot Cape Malay curry,,https://www.bbc.co.uk/food/recipes/lamb_and_apricot_cape_72967,placeholder_image
+140,Nigerian stew and cauliflower fried âriceâ,,https://www.bbc.co.uk/food/recipes/nigerian_stew_and_13543,placeholder_image
+141,Piri-piri chicken and slaw,,https://www.bbc.co.uk/food/recipes/piri-piri_chicken_and_21433,placeholder_image
+142,Pork with monkey gland sauce,,https://www.bbc.co.uk/food/recipes/pork_monkey_gland_sauce_52929,placeholder_image
+143,Quraac,,https://www.bbc.co.uk/food/recipes/quraac_78934,placeholder_image
 144,Red-red stew with spiced plantain,assets/photos/144.jpg,https://www.bbc.co.uk/food/recipes/red-red_stew_with_spiced_28798,ok
 145,South African-inspired sausage rolls,,https://www.bbc.co.uk/food/recipes/sausage_rolls_97331,error: 404 Client Error: Not Found for url: https://www.bbc.co.uk/food/recipes/sausage_rolls_97331
 146,Suya beef fillet burger,assets/photos/146.jpg,https://www.bbc.co.uk/food/recipes/suya_fillet_burger_with_59824,ok
 147,Sweet potato shakshuka with sriracha butter,assets/photos/147.jpg,https://www.bbc.co.uk/food/recipes/sweet_potato_shakshuka_33464,ok
-148,Ugandan rolex,assets/photos/148.jpg,https://www.bbc.co.uk/food/recipes/ugandan_rolex_11861,ok
-149,Zoeâs jollof,assets/photos/149.jpg,https://www.bbc.co.uk/food/recipes/zoes_jollof_43216,ok
+148,Ugandan rolex,,https://www.bbc.co.uk/food/recipes/ugandan_rolex_11861,placeholder_image
+149,Zoeâs jollof,,https://www.bbc.co.uk/food/recipes/zoes_jollof_43216,placeholder_image
 150,Kicha,,,no_url
 151,Zebhi Hamli,,,no_url
 152,Shiro,,,no_url
