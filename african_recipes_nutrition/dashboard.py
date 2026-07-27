@@ -645,6 +645,15 @@ def _load_photo_manifest():
     return dict(zip(ok['recipe_id'].astype(str), ok['local_path']))
 
 
+@st.cache_data(show_spinner=False)
+def _photo_data_uri(abs_path: str) -> str:
+    """base64 data URI for a recipe photo, cached so the ~45 KB JPEGs aren't
+    re-read and re-encoded on every Explore rerun (search/filter/click)."""
+    with open(abs_path, 'rb') as f:
+        b64 = base64.b64encode(f.read()).decode()
+    return f"data:image/jpeg;base64,{b64}"
+
+
 def _render_recipe_card(col, row, photo_map):
     recipe_id  = str(row['recipe_id'])
     name       = str(row['recipe_name']).title()
@@ -659,9 +668,7 @@ def _render_recipe_card(col, row, photo_map):
     if local_path:
         abs_path = os.path.join(BASE, local_path)
         if os.path.exists(abs_path):
-            with open(abs_path, 'rb') as f:
-                b64 = base64.b64encode(f.read()).decode()
-            photo_html = f'<img class="pw-photo" src="data:image/jpeg;base64,{b64}">'
+            photo_html = f'<img class="pw-photo" src="{_photo_data_uri(abs_path)}">'
     if not photo_html:
         header_colour = RISK_COLOURS.get(level, '#95a5a6')
         photo_html = f'<div class="pw-photo" style="background:{header_colour};"></div>'

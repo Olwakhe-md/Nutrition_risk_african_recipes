@@ -7,3 +7,4 @@ streamlit>=1.30.0         # Dashboard app
 plotly>=5.20.0            # Charts in dashboard.py
 requests>=2.31.0         # Fetch recipe pages for URL import
 beautifulsoup4>=4.12.0   # Parse recipe HTML (WPRM/microdata fallback)
+pyarrow>=14.0.0          # Read the pre-filtered nutrient parquet (fast cold start)

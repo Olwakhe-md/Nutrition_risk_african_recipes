@@ -35,6 +35,7 @@ NUTRIENT_FILE    = os.path.join(BASE, 'data', 'raw',  'food_nutrient.csv')
 FOOD_CSV         = os.path.join(BASE, 'data', 'raw',  'food.csv')
 WAFCT_CSV        = os.path.join(BASE, 'data', 'raw',  'wafct_foods.csv')
 DENSITY_CSV      = os.path.join(BASE, 'data', 'interim', 'food_density.csv')
+NUTRIENT_PARQUET = os.path.join(BASE, 'data', 'interim', 'food_nutrients.parquet')
 
 # ── USDA nutrient IDs we care about ──────────────────────────────────────────
 # The food_nutrient.csv file has hundreds of nutrient types.
@@ -787,16 +788,27 @@ class LiveAnalyser:
     @staticmethod
     def _load_nutrients(filepath: str) -> dict[int, dict[int, float]]:
         """
-        Read food_nutrient.csv and keep only the six nutrients we care about.
+        Return {fdc_id: {nutrient_id: amount_per_100g}} for the six nutrients
+        we score on.
 
-        WHY filter early?
-        The file has ~9 million rows (every food × every nutrient).
-        Loading all of it would waste RAM.  By filtering to just our 6
-        nutrient IDs we keep the footprint small.
+        Fast path: a pre-filtered parquet (built by build_nutrient_table.py) —
+        ~48k rows, loads in a fraction of a second. Fallback: parse the full
+        19 MB food_nutrient.csv (~9 M rows, ~2 s) so the app still works if the
+        parquet hasn't been built.
         """
         target_ids = set(NUTRIENT_IDS.keys())
         nutrients: dict[int, dict[int, float]] = {}
 
+        # ── Fast path: pre-filtered parquet ───────────────────────────────────
+        if os.path.exists(NUTRIENT_PARQUET):
+            df = pd.read_parquet(NUTRIENT_PARQUET)
+            for fdc_id, nid, amount in zip(df["fdc_id"], df["nutrient_id"], df["amount"]):
+                nid = int(nid)
+                if nid in target_ids:
+                    nutrients.setdefault(int(fdc_id), {})[nid] = float(amount)
+            return nutrients
+
+        # ── Fallback: parse the full CSV ──────────────────────────────────────
         with open(filepath, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 try:
