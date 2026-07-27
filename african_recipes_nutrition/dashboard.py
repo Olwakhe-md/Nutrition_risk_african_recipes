@@ -20,6 +20,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+# Single source of truth for risk thresholds + continuous scoring — imported from
+# the scoring module so the dashboard and the batch pipeline can never desync.
+from scoring.score_nutrition_risk import (
+    THRESHOLDS as _THRESH,
+    nutrient_score as _nutrient_risk_score,
+)
+
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title  = "African Recipes — Nutritional Risk Analyser & Explorer",
@@ -78,15 +85,6 @@ NUTRIENT_COLOURS = {
     "low"    : "#27ae60",
     "medium" : "#f39c12",
     "high"   : "#e74c3c",
-}
-
-# ── Per-nutrient thresholds (mirrors scoring script) ──────────────────────────
-_THRESH = {
-    'energy_kcal': dict(medium=500,  high=800),
-    'sodium_mg'  : dict(medium=400,  high=700),
-    'fat_g'      : dict(medium=15,   high=25),
-    'sugars_g'   : dict(medium=12,   high=20),
-    'protein_g'  : dict(medium=15,   high=8),   # inverted
 }
 
 RISK_CLASS = {"Low": "pw-low", "Medium": "pw-med", "High": "pw-high", "Very High": "pw-vhigh"}
@@ -156,19 +154,6 @@ def _plain_verdict(risk):
     if med:
         return f"A decent meal — just a little {_join(med)}."
     return "A reasonably balanced dish."
-
-
-def _nutrient_risk_score(nutrient, value):
-    """0.0 = no risk → 1.0 = maximum risk (same logic as scoring script)."""
-    t = _THRESH[nutrient]
-    if nutrient == 'protein_g':
-        if value >= t['medium']:  return 0.0
-        elif value >= t['high']:  return 0.5 * (t['medium'] - value) / (t['medium'] - t['high'])
-        else:                     return min(0.5 + 0.5 * (t['high'] - value) / max(t['high'], 1e-9), 1.0)
-    else:
-        if value <= t['medium']:  return 0.0
-        elif value <= t['high']:  return 0.5 * (value - t['medium']) / (t['high'] - t['medium'])
-        else:                     return min(0.5 + 0.5 * (value - t['high']) / max(t['high'], 1e-9), 1.0)
 
 
 def _render_nutrition_label(nutrition, risk, servings):
@@ -967,15 +952,30 @@ def check_a_recipe():
 
     # ── Results ───────────────────────────────────────────────────────────────
     if analyse_clicked:
+        MAX_LINES = 60
         lines = [ln for ln in ingredients_input.split("\n") if ln.strip()]
 
         if not lines:
             st.warning("Please enter at least one ingredient before clicking Analyse.")
         else:
-            analyser = get_live_analyser()
+            if len(lines) > MAX_LINES:
+                st.info(
+                    f"That's {len(lines)} lines — analysing the first {MAX_LINES}. "
+                    "Most recipes have far fewer ingredients."
+                )
+                lines = lines[:MAX_LINES]
 
-            with st.spinner("Matching ingredients to USDA database…"):
-                result = analyser.analyse(lines, int(servings_input))
+            try:
+                analyser = get_live_analyser()
+                with st.spinner("Matching ingredients to USDA database…"):
+                    result = analyser.analyse(lines, int(servings_input))
+            except Exception as exc:  # noqa: BLE001 — surface any failure gracefully
+                st.error(
+                    "Something went wrong analysing that recipe. Please check your "
+                    "ingredient list and try again — one ingredient per line, with amounts."
+                )
+                st.caption(f"Technical detail: {type(exc).__name__}: {exc}")
+                st.stop()
 
             nutrition    = result["nutrition"]
             risk         = result["risk"]

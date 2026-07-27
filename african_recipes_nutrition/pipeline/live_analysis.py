@@ -34,6 +34,7 @@ MAPPING_REF_FILE = os.path.join(BASE, 'data', 'raw',  'ingredient_mapping_origin
 NUTRIENT_FILE    = os.path.join(BASE, 'data', 'raw',  'food_nutrient.csv')
 FOOD_CSV         = os.path.join(BASE, 'data', 'raw',  'food.csv')
 WAFCT_CSV        = os.path.join(BASE, 'data', 'raw',  'wafct_foods.csv')
+DENSITY_CSV      = os.path.join(BASE, 'data', 'interim', 'food_density.csv')
 
 # ── USDA nutrient IDs we care about ──────────────────────────────────────────
 # The food_nutrient.csv file has hundreds of nutrient types.
@@ -71,6 +72,40 @@ UNIT_GRAMS: dict[str, float] = {
     "drop":  0.05,  "drops":   0.05,
 }
 
+# Volumetric units — millilitres per unit. These need an ingredient DENSITY to
+# become grams (a cup of oil weighs far less than a cup of honey), so they are
+# handled separately from the weight units above: the parser records the volume
+# in ml here, and LiveAnalyser.analyse() converts it to grams once the food (and
+# therefore its density) is known. See _density_for().
+VOLUME_ML: dict[str, float] = {
+    "ml": 1.0,      "l": 1000.0,       "litre": 1000.0,  "liter": 1000.0,
+    "tsp": 5.0,     "teaspoon": 5.0,   "teaspoons": 5.0,  "ts": 5.0,
+    "tbsp": 15.0,   "tablespoon": 15.0, "tablespoons": 15.0, "tbs": 15.0,
+    "cup": 240.0,   "cups": 240.0,
+}
+
+# Fallback density (grams per millilitre) by ingredient category, used when the
+# matched food has no real USDA portion. Keyword match on the cleaned name, first
+# hit wins, so ORDER MATTERS: more specific categories come before broader ones.
+# Reference densities: water 1.0, oils ~0.91, granulated sugar ~0.85, wheat flour
+# ~0.53, dry rice/grain ~0.85, chopped leafy greens ~0.2, honey/syrup ~1.4.
+CATEGORY_DENSITY: list[tuple[tuple[str, ...], float]] = [
+    (("oil", "butter", "ghee", "margarine", "lard", "shortening", "dripping"), 0.91),
+    (("honey", "syrup", "molasses", "treacle", "golden syrup"),                1.42),
+    (("flour", "cornmeal", "cornflour", "semolina", "besan", "starch"),        0.53),
+    (("sugar", "icing", "confectioner"),                                        0.85),
+    (("rice", "couscous", "bulgur", "fonio", "millet", "quinoa", "oats",
+      "oatmeal", "cornmeal", "sorghum", "semolina"),                            0.85),
+    (("spinach", "kale", "cabbage", "lettuce", "greens", "leaf", "leaves",
+      "ugu", "herb", "parsley", "cilantro", "coriander", "basil", "mint"),      0.20),
+    (("water", "milk", "broth", "stock", "juice", "vinegar", "wine",
+      "beer", "cream", "sauce", "puree", "yoghurt", "yogurt", "coconut milk"),  1.00),
+]
+
+# Any density outside this band is treated as a bad USDA portion and ignored in
+# favour of the category fallback (mirrors the build-time sanity filter).
+MIN_DENSITY, MAX_DENSITY = 0.1, 2.0
+
 # Count units — "3 cloves garlic": 3 × 4g = 12g
 COUNT_GRAMS: dict[str, float] = {
     "clove": 4.0,   "cloves": 4.0,
@@ -100,10 +135,14 @@ _TRAILING_UNIT_WORDS: frozenset[str] = frozenset({
     "sprigs", "sprig",
 })
 
+# Map each glyph to its "numerator/denominator" form (not a decimal) so the
+# fraction handling below reads it. Keeping the n/d form lets "2½" become
+# "2 1/2" and flow through the mixed-number parser instead of gluing into
+# "20.5" (which previously turned 2½ cups into 20.5 cups).
 UNICODE_FRACTIONS: dict[str, str] = {
-    "¼": "0.25", "½": "0.5", "¾": "0.75",
-    "⅓": "0.333", "⅔": "0.667",
-    "⅛": "0.125",
+    "¼": "1/4", "½": "1/2", "¾": "3/4",
+    "⅓": "1/3", "⅔": "2/3",
+    "⅛": "1/8",
 }
 
 
@@ -140,12 +179,17 @@ def parse_ingredient_line(line: str) -> dict:
     """
     raw = line.strip()
     if not raw:
-        return {"raw": raw, "qty": 0.0, "unit": "", "name_raw": raw, "grams": None}
+        return {"raw": raw, "qty": 0.0, "unit": "", "volume_ml": None,
+                "name_raw": raw, "grams": None}
 
-    # Replace unicode fractions so the regex can read them as decimals
+    # Expand unicode fractions into "n/d" text the numeric parser understands.
+    # A glyph glued to a whole number ("2½") gets a space inserted so it becomes
+    # a mixed number ("2 1/2"); a standalone glyph ("½") expands in place.
     text = raw
-    for char, dec in UNICODE_FRACTIONS.items():
-        text = text.replace(char, dec)
+    for char, frac in UNICODE_FRACTIONS.items():
+        text = re.sub(r'(?<=\d)' + re.escape(char), ' ' + frac, text)
+        text = text.replace(char, frac)
+    text = text.strip()
 
     qty  = 0.0
     unit = ""
@@ -167,13 +211,14 @@ def parse_ingredient_line(line: str) -> dict:
     else:
         # A2: whole number + space + fraction  (e.g. "2 1/2")
         m = re.match(r'^(\d+)\s+(\d+)/(\d+)\s*(.*)', text)
-        if m:
+        if m and int(m.group(3)) != 0:
             qty  = float(m.group(1)) + float(m.group(2)) / float(m.group(3))
             rest = m.group(4).strip()
         else:
-            # A3: pure fraction  (e.g. "1/2 cup")
+            # A3: pure fraction  (e.g. "1/2 cup") — guard against a zero
+            # denominator like "1/0" so a garbage line can't divide by zero.
             m = re.match(r'^(\d+)/(\d+)\s*(.*)', text)
-            if m:
+            if m and int(m.group(2)) != 0:
                 qty  = float(m.group(1)) / float(m.group(2))
                 rest = m.group(3).strip()
             else:
@@ -246,8 +291,16 @@ def parse_ingredient_line(line: str) -> dict:
         qty = 1.0
 
     # ── Gram conversion ───────────────────────────────────────────────────────
-    grams = None
-    if unit in UNIT_GRAMS and qty > 0:
+    # Volumetric units record their volume in ml and get a PROVISIONAL gram
+    # value at water density (1 g/ml). analyse() refines this to the real weight
+    # using the matched food's density; callers that use the parser standalone
+    # (e.g. tests) still get a sensible water-equivalent estimate.
+    grams     = None
+    volume_ml = None
+    if unit in VOLUME_ML and qty > 0:
+        volume_ml = qty * VOLUME_ML[unit]
+        grams     = volume_ml                      # provisional (water density)
+    elif unit in UNIT_GRAMS and qty > 0:
         grams = qty * UNIT_GRAMS[unit]
     elif unit in COUNT_GRAMS and qty > 0:
         grams = qty * COUNT_GRAMS[unit]
@@ -256,9 +309,10 @@ def parse_ingredient_line(line: str) -> dict:
         grams = qty * 150.0
 
     return {
-        "raw":      raw,
-        "qty":      qty,
-        "unit":     unit,
+        "raw":       raw,
+        "qty":       qty,
+        "unit":      unit,
+        "volume_ml": volume_ml,
         "name_raw": name_raw,
         "grams":    grams,
     }
@@ -617,7 +671,41 @@ class LiveAnalyser:
         # Nutrient lookup table: {fdc_id: {nutrient_id: amount_per_100g}}
         self._food_nutrients = self._load_nutrients(nutrient_file)
 
+        # Per-food density {fdc_id: g_per_ml}, derived from USDA portions by
+        # pipeline/build_density_table.py. Used to turn a volume ("2 cups flour")
+        # into a realistic weight. Optional — falls back to category densities.
+        self._density = self._load_density(DENSITY_CSV)
+
     # ── Internal helpers ──────────────────────────────────────────────────────
+
+    @staticmethod
+    def _load_density(filepath: str) -> dict[int, float]:
+        """Load {fdc_id: g_per_ml}. Returns {} if the table hasn't been built."""
+        if not os.path.exists(filepath):
+            return {}
+        df = pd.read_csv(filepath)
+        return {int(fid): float(g) for fid, g in zip(df['fdc_id'], df['g_per_ml'])}
+
+    def _density_for(self, fdc_id, cleaned_name: str) -> float:
+        """Grams per millilitre for an ingredient, best source first:
+          1. the matched food's real USDA density (if fdc_id is an integer
+             food id present in the table and within a sane range),
+          2. a category density keyed on the ingredient name,
+          3. water (1.0) as a last resort.
+        WAFCT matches use non-integer codes, so they skip straight to step 2.
+        """
+        try:
+            dens = self._density.get(int(fdc_id))
+        except (TypeError, ValueError):
+            dens = None
+        if dens is not None and MIN_DENSITY <= dens <= MAX_DENSITY:
+            return dens
+
+        name = (cleaned_name or "").lower()
+        for keywords, category_density in CATEGORY_DENSITY:
+            if any(kw in name for kw in keywords):
+                return category_density
+        return 1.0
 
     @staticmethod
     def _load_nutrients(filepath: str) -> dict[int, dict[int, float]]:
@@ -677,6 +765,17 @@ class LiveAnalyser:
             flag_count_risk_level,
         )
 
+        # Guard: servings drives a per-serving division, so it must be >= 1.
+        try:
+            servings = max(1, int(servings))
+        except (TypeError, ValueError):
+            servings = 1
+
+        # Guard: accept only a list of strings; ignore blanks/non-strings.
+        if isinstance(ingredient_lines, str):
+            ingredient_lines = ingredient_lines.splitlines()
+        ingredient_lines = [ln for ln in (ingredient_lines or []) if isinstance(ln, str)]
+
         ingredients_detail = []
         totals = {col: 0.0 for col in NUTRIENT_IDS.values()}
         n_matched = 0
@@ -725,6 +824,15 @@ class LiveAnalyser:
                     wafct_code, food_name, wafct_nutrients = wafct_hit
                     fdc_id     = wafct_code
                     match_type = "wafct"
+
+            # ── Ingredient-aware weight ───────────────────────────────────────
+            # Now that we know which food this is, convert a VOLUME ("2 cups
+            # flour") into a realistic weight using that food's density, instead
+            # of the flat water-equivalent the parser assumed. Weight and count
+            # units already have a real gram value and are left untouched.
+            if parsed["volume_ml"] is not None:
+                density = self._density_for(fdc_id, cleaned)
+                parsed["grams"] = round(parsed["volume_ml"] * density, 1)
 
             detail = {
                 "raw":          line.strip(),
