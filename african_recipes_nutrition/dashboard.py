@@ -895,6 +895,307 @@ def explore_recipes():
 #   5. We display the same risk cards/radar/gauge as the Dataset Explorer tab
 #   6. We also show a per-ingredient breakdown table so the user can see
 #      exactly which ingredients were matched and what they contributed.
+def _render_matches_editor(rx, analyser):
+    """Up-front, editable list of what each ingredient matched to. The user can
+    pick a better USDA food per ingredient and re-score. State lives in `rx`
+    (st.session_state['rx']) so the correction survives the rerun."""
+    from pipeline.live_analysis import match_confidence
+
+    ings = rx["result"]["ingredients"]
+    # confidence bucket → (label, badge css class)
+    CONF_BADGE = {
+        "high":   ("High confidence", "pw-low"),
+        "medium": ("Fair match",      "pw-med"),
+        "low":    ("Low confidence",  "pw-high"),
+        "custom": ("Your choice",     "pw-vhigh"),
+        "none":   ("No match",        "pw-high"),
+    }
+
+    st.markdown("#### Ingredient matches")
+    st.caption(
+        "Here's the USDA food we matched each ingredient to. If one looks wrong, "
+        "pick a better match below and re-score."
+    )
+
+    selections = {}
+    for i, ing in enumerate(ings):
+        conf = match_confidence(ing["match_type"])
+        badge_label, badge_cls = CONF_BADGE.get(conf, CONF_BADGE["none"])
+        cands = rx["candidates"][i]
+        cur_fdc = ing["fdc_id"]
+
+        c_name, c_pick = st.columns([2, 3])
+        with c_name:
+            st.markdown(
+                f'**{ing["raw"]}**  \n'
+                f'<span class="pw-badge {badge_cls}">{badge_label}</span>',
+                unsafe_allow_html=True,
+            )
+        with c_pick:
+            # Option None = keep the current match; other options are alternative
+            # fdc_ids (excluding whatever is already current).
+            options = [None] + [fid for fid, _ in cands if fid != cur_fdc]
+            desc_by_fid = dict(cands)
+
+            def _fmt(val, ing=ing, desc_by_fid=desc_by_fid):
+                if val is None:
+                    return f"✓ {ing['food_name'] or 'no match'} (current)"
+                return desc_by_fid.get(val, str(val))
+
+            selections[i] = st.selectbox(
+                "Match", options, index=0, format_func=_fmt,
+                key=f"match_sel_{i}", label_visibility="collapsed",
+            )
+
+    if st.button("Re-score with my changes", type="primary", key="rescore_btn"):
+        new_overrides = dict(rx["overrides"])
+        for i, sel in selections.items():
+            if sel is not None:
+                new_overrides[i] = int(sel)
+        lines = [ing["raw"] for ing in ings]
+        with st.spinner("Re-scoring…"):
+            rx["result"] = analyser.analyse(lines, rx["servings"], overrides=new_overrides)
+        rx["overrides"] = new_overrides
+        st.session_state["rx"] = rx
+        # Reset the dropdowns: an overridden food becomes the new "(current)" and
+        # is dropped from the options, which would otherwise orphan the stored
+        # selection and show "Choose an option".
+        for i in range(len(ings)):
+            st.session_state.pop(f"match_sel_{i}", None)
+        st.rerun()
+
+
+def _render_analysis(rx):
+    """Render the full Check-a-recipe result from st.session_state['rx']."""
+    analyser     = get_live_analyser()
+    result       = rx["result"]
+    nutrition    = result["nutrition"]
+    risk         = result["risk"]
+    coverage     = result["coverage"]
+    servings     = rx["servings"]
+    recipe_label = rx["name"]
+
+    risk_level  = risk["weighted_risk_level"]
+    risk_colour = RISK_COLOURS.get(risk_level, "#95a5a6")
+
+    # ── Verdict banner ────────────────────────────────────────────────────────
+    verdict_class    = RISK_CLASS.get(risk_level, "pw-med")
+    verdict_sentence = _plain_verdict(risk)
+    w_score = float(risk["weighted_risk_score"])
+    st.markdown(
+        f'<div class="pw-card" style="display:flex;align-items:center;gap:20px;">'
+        f'<div style="flex-shrink:0;width:84px;height:84px;border-radius:50%;'
+        f'background:{risk_colour};color:#fff;display:flex;align-items:center;'
+        f'justify-content:center;font-family:\'Caprasimo\',serif;font-size:1.6rem;">'
+        f'{w_score:.0f}</div>'
+        f'<div>'
+        f'<div style="font-family:\'Caprasimo\',serif;font-size:1.4rem;">{recipe_label} '
+        f'<span class="pw-badge {verdict_class}">{risk_level.upper()}</span></div>'
+        f'<div style="color:#5b5650;margin-top:4px;">{verdict_sentence}</div>'
+        f'</div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
+
+    n_matched = sum(1 for i in result["ingredients"] if i["status"] == "matched")
+    n_total   = len(result["ingredients"])
+    st.markdown(
+        f"Servings: **{servings}** · "
+        f"Ingredient coverage: **{coverage:.0f}%** "
+        f"({n_matched} of {n_total} ingredients matched to USDA)"
+    )
+
+    if coverage < 30:
+        st.warning(
+            "⚠ Coverage is below 30% — fewer than a third of ingredients matched the "
+            "USDA database.  The nutrition totals are likely a significant underestimate.  "
+            "Check the ingredient matches below to see what was missed."
+        )
+    elif coverage < 60:
+        st.info(
+            "ℹ Coverage is moderate (30–60%).  Some ingredients weren't matched.  "
+            "Results give a useful directional estimate."
+        )
+
+    st.markdown("")
+
+    # ── Editable ingredient matches (up front) ────────────────────────────────
+    with st.container(border=True):
+        _render_matches_editor(rx, analyser)
+
+    st.markdown("")
+
+    # ── Nutrient rows (plain-English) | Nutrition Facts label ─────────────────
+    col_rows, col_label = st.columns([3, 2])
+
+    with col_rows:
+        nutrient_display = [
+            ("energy_kcal", "energy_risk",  "Energy"),
+            ("sodium_mg",   "sodium_risk",  "Sodium"),
+            ("fat_g",       "fat_risk",     "Fat"),
+            ("sugars_g",    "sugar_risk",   "Sugars"),
+            ("protein_g",   "protein_risk", "Protein"),
+        ]
+        rows_html = ""
+        for col, risk_col, label in nutrient_display:
+            band = risk[risk_col]
+            dot  = DOT_COLOUR.get(band, "#95a5a6")
+            sentence = NUTRIENT_SENTENCES[col][band]
+            rows_html += (
+                '<div style="display:flex;align-items:center;gap:10px;padding:8px 0;'
+                'border-bottom:1px solid #ded2ba;">'
+                f'<span style="width:12px;height:12px;border-radius:50%;background:{dot};'
+                'flex-shrink:0;"></span>'
+                f'<span style="font-weight:700;min-width:75px;">{label}</span>'
+                f'<span style="color:#5b5650;">{sentence}</span>'
+                '</div>'
+            )
+        st.markdown(f'<div class="pw-card">{rows_html}</div>', unsafe_allow_html=True)
+
+        flagged = [col for col, risk_col, _ in nutrient_display if risk[risk_col] == "high"]
+        if flagged:
+            st.markdown("**Tips to make this healthier:**")
+            for col in flagged:
+                st.markdown(f"- {NUTRIENT_TIPS[col]}")
+
+    with col_label:
+        st.markdown(
+            _render_nutrition_label(nutrition, risk, int(servings)),
+            unsafe_allow_html=True,
+        )
+
+    st.divider()
+
+    # ── Curious how we worked this out? ───────────────────────────────────────
+    with st.expander("Curious how we worked this out?"):
+
+        def _hex_rgb2(h):
+            h = h.lstrip("#")
+            return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+        r_rgb = _hex_rgb2(risk_colour)
+
+        col_radar, col_gauge = st.columns(2)
+
+        with col_radar:
+            rad_nutrients = ["energy_kcal", "sodium_mg", "fat_g", "sugars_g", "protein_g"]
+            rad_labels    = ["Energy",      "Sodium",    "Fat",   "Sugars",   "Protein"]
+            scores   = [_nutrient_risk_score(n, float(nutrition[n])) for n in rad_nutrients]
+            scores_c = scores + [scores[0]]
+            labels_c = rad_labels + [rad_labels[0]]
+
+            fig_radar = go.Figure()
+            fig_radar.add_trace(go.Scatterpolar(
+                r=[0.5] * 6, theta=labels_c,
+                mode="lines",
+                line=dict(color="#e74c3c", width=1.5, dash="dash"),
+                name="High-risk threshold",
+            ))
+            fig_radar.add_trace(go.Scatterpolar(
+                r=scores_c, theta=labels_c,
+                fill="toself",
+                fillcolor=f"rgba({r_rgb[0]},{r_rgb[1]},{r_rgb[2]},0.25)",
+                line=dict(color=risk_colour, width=2),
+                name="Risk profile",
+            ))
+            fig_radar.update_layout(
+                polar=dict(
+                    radialaxis=dict(
+                        visible=True, range=[0, 1],
+                        tickvals=[0, 0.25, 0.5, 0.75, 1.0],
+                        ticktext=["0", "", "High", "", "Max"],
+                        gridcolor="#ddd",
+                    ),
+                    angularaxis=dict(gridcolor="#ddd"),
+                    bgcolor="rgba(0,0,0,0)",
+                ),
+                showlegend=False,
+                height=300,
+                margin=dict(t=30, b=10, l=40, r=40),
+                title=dict(
+                    text="Nutrient Risk Profile (dashed = high-risk boundary)",
+                    font_size=12,
+                ),
+            )
+            st.plotly_chart(fig_radar, use_container_width=True)
+
+        with col_gauge:
+            fig_gauge = go.Figure(go.Indicator(
+                mode="gauge+number",
+                value=w_score,
+                number={"suffix": " / 100", "font": {"size": 26}},
+                gauge={
+                    "axis": {"range": [0, 100], "tickwidth": 1},
+                    "bar":  {"color": risk_colour, "thickness": 0.25},
+                    "steps": [
+                        {"range": [0,  25], "color": RISK_COLOURS["Low"]},
+                        {"range": [25, 50], "color": RISK_COLOURS["Medium"]},
+                        {"range": [50, 75], "color": RISK_COLOURS["High"]},
+                        {"range": [75, 100], "color": RISK_COLOURS["Very High"]},
+                    ],
+                },
+                title={
+                    "text": f"Weighted Risk Score<br><b>{risk_level}</b>",
+                    "font": {"size": 14},
+                },
+            ))
+            fig_gauge.update_layout(height=250, margin=dict(t=60, b=10, l=20, r=20))
+            st.plotly_chart(fig_gauge, use_container_width=True)
+
+            flag_count = int(risk["flag_count"])
+            flag_level = risk["flag_risk_level"]
+            flag_col   = RISK_COLOURS.get(flag_level, "#95a5a6")
+            flag_badge = (
+                f'<span style="background:{flag_col};color:white;padding:3px 10px;'
+                f'border-radius:10px;font-weight:600">{flag_level}</span>'
+            )
+            st.markdown(
+                f"**Flag count:** {flag_count} high-risk nutrient(s)  \n"
+                f"**Flag risk level:** {flag_badge}",
+                unsafe_allow_html=True,
+            )
+
+        st.divider()
+
+        # ── Ingredient breakdown table ────────────────────────────────────────
+        st.subheader("Ingredient Breakdown")
+        st.caption(
+            "How each ingredient was parsed, matched to the USDA database, "
+            "and what it contributed to the per-serving totals."
+        )
+
+        STATUS_LABEL = {
+            "matched":       "✅ Matched",
+            "no_grams":      "⚠ No quantity",
+            "no_usda_match": "❌ No USDA match",
+            "no_usda_data":  "❌ No USDA data",
+        }
+
+        table_rows = []
+        for ing in result["ingredients"]:
+            contrib = ing.get("nutrition") or {}
+            table_rows.append({
+                "As typed":         ing["raw"],
+                "Cleaned name":     ing["name_cleaned"],
+                "USDA food":        ing["food_name"] or "—",
+                "Match":            ing["match_type"],
+                "Grams (recipe)":   f"{ing['grams']:.0f} g" if ing["grams"] else "—",
+                "Status":           STATUS_LABEL.get(ing["status"], ing["status"]),
+                "kcal/serving":     f"{contrib.get('energy_kcal', 0):.1f}" if contrib else "—",
+                "Protein g":        f"{contrib.get('protein_g',   0):.1f}" if contrib else "—",
+                "Fat g":            f"{contrib.get('fat_g',       0):.1f}" if contrib else "—",
+                "Sodium mg":        f"{contrib.get('sodium_mg',   0):.1f}" if contrib else "—",
+            })
+
+        st.dataframe(pd.DataFrame(table_rows), use_container_width=True)
+
+        st.caption(
+            "**Grams (recipe)** = total gram weight across all servings.  "
+            "Per-serving values = Grams ÷ servings ÷ 100 × USDA nutrient per 100 g.  "
+            "Ingredients with *No quantity* or *No USDA match* are excluded from the totals — "
+            "this is why low coverage = underestimated nutrition."
+        )
+
+
 def check_a_recipe():
     st.title("🧪 Check a Recipe")
     st.subheader("Analyse a Recipe")
@@ -957,6 +1258,7 @@ def check_a_recipe():
 
         if not lines:
             st.warning("Please enter at least one ingredient before clicking Analyse.")
+            st.session_state.pop("rx", None)
         else:
             if len(lines) > MAX_LINES:
                 st.info(
@@ -969,6 +1271,10 @@ def check_a_recipe():
                 analyser = get_live_analyser()
                 with st.spinner("Matching ingredients to USDA database…"):
                     result = analyser.analyse(lines, int(servings_input))
+                    candidates = [
+                        analyser.candidate_foods(ing["name_cleaned"], 8)
+                        for ing in result["ingredients"]
+                    ]
             except Exception as exc:  # noqa: BLE001 — surface any failure gracefully
                 st.error(
                     "Something went wrong analysing that recipe. Please check your "
@@ -977,225 +1283,19 @@ def check_a_recipe():
                 st.caption(f"Technical detail: {type(exc).__name__}: {exc}")
                 st.stop()
 
-            nutrition    = result["nutrition"]
-            risk         = result["risk"]
-            coverage     = result["coverage"]
-            recipe_label = recipe_name_input.strip() or "Your Recipe"
+            st.session_state["rx"] = {
+                "servings":   int(servings_input),
+                "name":       recipe_name_input.strip() or "Your Recipe",
+                "overrides":  {},
+                "result":     result,
+                "candidates": candidates,
+            }
 
-            risk_level  = risk["weighted_risk_level"]
-            risk_colour = RISK_COLOURS.get(risk_level, "#95a5a6")
-
-            # ── Verdict banner ────────────────────────────────────────────────
-            verdict_class    = RISK_CLASS.get(risk_level, "pw-med")
-            verdict_sentence = _plain_verdict(risk)
-            w_score = float(risk["weighted_risk_score"])
-            st.markdown(
-                f'<div class="pw-card" style="display:flex;align-items:center;gap:20px;">'
-                f'<div style="flex-shrink:0;width:84px;height:84px;border-radius:50%;'
-                f'background:{risk_colour};color:#fff;display:flex;align-items:center;'
-                f'justify-content:center;font-family:\'Caprasimo\',serif;font-size:1.6rem;">'
-                f'{w_score:.0f}</div>'
-                f'<div>'
-                f'<div style="font-family:\'Caprasimo\',serif;font-size:1.4rem;">{recipe_label} '
-                f'<span class="pw-badge {verdict_class}">{risk_level.upper()}</span></div>'
-                f'<div style="color:#5b5650;margin-top:4px;">{verdict_sentence}</div>'
-                f'</div>'
-                f'</div>',
-                unsafe_allow_html=True,
-            )
-
-            n_matched = sum(1 for i in result["ingredients"] if i["status"] == "matched")
-            n_total   = len(result["ingredients"])
-            st.markdown(
-                f"Servings: **{servings_input}** · "
-                f"Ingredient coverage: **{coverage:.0f}%** "
-                f"({n_matched} of {n_total} ingredients matched to USDA)"
-            )
-
-            if coverage < 30:
-                st.warning(
-                    "⚠ Coverage is below 30% — fewer than a third of ingredients matched the "
-                    "USDA database.  The nutrition totals are likely a significant underestimate.  "
-                    "Check the ingredient breakdown below to see what was missed."
-                )
-            elif coverage < 60:
-                st.info(
-                    "ℹ Coverage is moderate (30–60%).  Some ingredients weren't matched.  "
-                    "Results give a useful directional estimate."
-                )
-
-            st.markdown("")
-
-            # ── Nutrient rows (plain-English) | Nutrition Facts label ────────
-            col_rows, col_label = st.columns([3, 2])
-
-            with col_rows:
-                nutrient_display = [
-                    ("energy_kcal", "energy_risk",  "Energy"),
-                    ("sodium_mg",   "sodium_risk",  "Sodium"),
-                    ("fat_g",       "fat_risk",     "Fat"),
-                    ("sugars_g",    "sugar_risk",   "Sugars"),
-                    ("protein_g",   "protein_risk", "Protein"),
-                ]
-                rows_html = ""
-                for col, risk_col, label in nutrient_display:
-                    band = risk[risk_col]
-                    dot  = DOT_COLOUR.get(band, "#95a5a6")
-                    sentence = NUTRIENT_SENTENCES[col][band]
-                    rows_html += (
-                        '<div style="display:flex;align-items:center;gap:10px;padding:8px 0;'
-                        'border-bottom:1px solid #ded2ba;">'
-                        f'<span style="width:12px;height:12px;border-radius:50%;background:{dot};'
-                        'flex-shrink:0;"></span>'
-                        f'<span style="font-weight:700;min-width:75px;">{label}</span>'
-                        f'<span style="color:#5b5650;">{sentence}</span>'
-                        '</div>'
-                    )
-                st.markdown(f'<div class="pw-card">{rows_html}</div>', unsafe_allow_html=True)
-
-                flagged = [col for col, risk_col, _ in nutrient_display if risk[risk_col] == "high"]
-                if flagged:
-                    st.markdown("**Tips to make this healthier:**")
-                    for col in flagged:
-                        st.markdown(f"- {NUTRIENT_TIPS[col]}")
-
-            with col_label:
-                st.markdown(
-                    _render_nutrition_label(nutrition, risk, int(servings_input)),
-                    unsafe_allow_html=True,
-                )
-
-            st.divider()
-
-            # ── Curious how we worked this out? ───────────────────────────────
-            with st.expander("Curious how we worked this out?"):
-
-                def _hex_rgb2(h):
-                    h = h.lstrip("#")
-                    return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
-                r_rgb = _hex_rgb2(risk_colour)
-
-                col_radar, col_gauge = st.columns(2)
-
-                with col_radar:
-                    rad_nutrients = ["energy_kcal", "sodium_mg", "fat_g", "sugars_g", "protein_g"]
-                    rad_labels    = ["Energy",      "Sodium",    "Fat",   "Sugars",   "Protein"]
-                    scores   = [_nutrient_risk_score(n, float(nutrition[n])) for n in rad_nutrients]
-                    scores_c = scores + [scores[0]]
-                    labels_c = rad_labels + [rad_labels[0]]
-
-                    fig_radar = go.Figure()
-                    fig_radar.add_trace(go.Scatterpolar(
-                        r=[0.5] * 6, theta=labels_c,
-                        mode="lines",
-                        line=dict(color="#e74c3c", width=1.5, dash="dash"),
-                        name="High-risk threshold",
-                    ))
-                    fig_radar.add_trace(go.Scatterpolar(
-                        r=scores_c, theta=labels_c,
-                        fill="toself",
-                        fillcolor=f"rgba({r_rgb[0]},{r_rgb[1]},{r_rgb[2]},0.25)",
-                        line=dict(color=risk_colour, width=2),
-                        name="Risk profile",
-                    ))
-                    fig_radar.update_layout(
-                        polar=dict(
-                            radialaxis=dict(
-                                visible=True, range=[0, 1],
-                                tickvals=[0, 0.25, 0.5, 0.75, 1.0],
-                                ticktext=["0", "", "High", "", "Max"],
-                                gridcolor="#ddd",
-                            ),
-                            angularaxis=dict(gridcolor="#ddd"),
-                            bgcolor="rgba(0,0,0,0)",
-                        ),
-                        showlegend=False,
-                        height=300,
-                        margin=dict(t=30, b=10, l=40, r=40),
-                        title=dict(
-                            text="Nutrient Risk Profile (dashed = high-risk boundary)",
-                            font_size=12,
-                        ),
-                    )
-                    st.plotly_chart(fig_radar, use_container_width=True)
-
-                with col_gauge:
-                    fig_gauge = go.Figure(go.Indicator(
-                        mode="gauge+number",
-                        value=w_score,
-                        number={"suffix": " / 100", "font": {"size": 26}},
-                        gauge={
-                            "axis": {"range": [0, 100], "tickwidth": 1},
-                            "bar":  {"color": risk_colour, "thickness": 0.25},
-                            "steps": [
-                                {"range": [0,  25], "color": RISK_COLOURS["Low"]},
-                                {"range": [25, 50], "color": RISK_COLOURS["Medium"]},
-                                {"range": [50, 75], "color": RISK_COLOURS["High"]},
-                                {"range": [75, 100], "color": RISK_COLOURS["Very High"]},
-                            ],
-                        },
-                        title={
-                            "text": f"Weighted Risk Score<br><b>{risk_level}</b>",
-                            "font": {"size": 14},
-                        },
-                    ))
-                    fig_gauge.update_layout(height=250, margin=dict(t=60, b=10, l=20, r=20))
-                    st.plotly_chart(fig_gauge, use_container_width=True)
-
-                    flag_count = int(risk["flag_count"])
-                    flag_level = risk["flag_risk_level"]
-                    flag_col   = RISK_COLOURS.get(flag_level, "#95a5a6")
-                    flag_badge = (
-                        f'<span style="background:{flag_col};color:white;padding:3px 10px;'
-                        f'border-radius:10px;font-weight:600">{flag_level}</span>'
-                    )
-                    st.markdown(
-                        f"**Flag count:** {flag_count} high-risk nutrient(s)  \n"
-                        f"**Flag risk level:** {flag_badge}",
-                        unsafe_allow_html=True,
-                    )
-
-                st.divider()
-
-                # ── Ingredient breakdown table ─────────────────────────────────
-                st.subheader("Ingredient Breakdown")
-                st.caption(
-                    "How each ingredient was parsed, matched to the USDA database, "
-                    "and what it contributed to the per-serving totals."
-                )
-
-                STATUS_LABEL = {
-                    "matched":       "✅ Matched",
-                    "no_grams":      "⚠ No quantity",
-                    "no_usda_match": "❌ No USDA match",
-                    "no_usda_data":  "❌ No USDA data",
-                }
-
-                table_rows = []
-                for ing in result["ingredients"]:
-                    contrib = ing.get("nutrition") or {}
-                    table_rows.append({
-                        "As typed":         ing["raw"],
-                        "Cleaned name":     ing["name_cleaned"],
-                        "USDA food":        ing["food_name"] or "—",
-                        "Match":            ing["match_type"],
-                        "Grams (recipe)":   f"{ing['grams']:.0f} g" if ing["grams"] else "—",
-                        "Status":           STATUS_LABEL.get(ing["status"], ing["status"]),
-                        "kcal/serving":     f"{contrib.get('energy_kcal', 0):.1f}" if contrib else "—",
-                        "Protein g":        f"{contrib.get('protein_g',   0):.1f}" if contrib else "—",
-                        "Fat g":            f"{contrib.get('fat_g',       0):.1f}" if contrib else "—",
-                        "Sodium mg":        f"{contrib.get('sodium_mg',   0):.1f}" if contrib else "—",
-                    })
-
-                st.dataframe(pd.DataFrame(table_rows), use_container_width=True)
-
-                st.caption(
-                    "**Grams (recipe)** = total gram weight across all servings.  "
-                    "Per-serving values = Grams ÷ servings ÷ 100 × USDA nutrient per 100 g.  "
-                    "Ingredients with *No quantity* or *No USDA match* are excluded from the totals — "
-                    "this is why low coverage = underestimated nutrition."
-                )
-
+    # Render from session_state so re-scoring (which triggers a rerun with
+    # analyse_clicked == False) keeps showing the results.
+    rx = st.session_state.get("rx")
+    if rx:
+        _render_analysis(rx)
     else:
         # Shown before the user clicks Analyse — explains what to do
         st.info(
@@ -1208,15 +1308,16 @@ def check_a_recipe():
 
 | What you type | How it's parsed |
 |---|---|
-| `2 cups rice` | 2 × 240 g = 480 g of rice |
+| `2 cups rice` | 2 cups converted to grams using rice's real density |
 | `500g chicken thighs` | 500 g of chicken |
-| `1 tbsp palm oil` | 1 × 15 g = 15 g of palm oil |
+| `1 tbsp palm oil` | 1 tbsp converted to grams using oil's density |
 | `3 cloves garlic` | 3 × 4 g = 12 g of garlic |
 | `1 onion, chopped` | 1 × 150 g = 150 g (prep notes after comma are ignored) |
-| `½ tsp cayenne pepper` | 0.5 × 5 g = 2.5 g |
+| `½ tsp cayenne pepper` | half a teaspoon, by density |
 | `salt to taste` | ⚠ Skipped — no quantity |
 """
         )
+
 
 
 # ═════════════════════════════════════════════════════════════════════════════

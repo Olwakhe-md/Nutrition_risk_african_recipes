@@ -318,6 +318,30 @@ def parse_ingredient_line(line: str) -> dict:
     }
 
 
+def match_confidence(match_type: str | None) -> str:
+    """Map an ingredient's match_type to a confidence bucket for the UI:
+    'high' | 'medium' | 'low' | 'custom' | 'none'.
+
+      manual_match   curated mapping           -> high
+      user_override  the user picked it        -> custom
+      usda_search    fuzzy search of food.csv  -> medium
+      wafct          West African food table   -> medium
+      fuzzy_NN%      fuzzy MANUAL_MAPPINGS key  -> medium if NN>=85 else low
+      no_match / other                          -> none
+    """
+    mt = (match_type or "").lower()
+    if mt == "manual_match":
+        return "high"
+    if mt == "user_override":
+        return "custom"
+    if mt in ("usda_search", "wafct"):
+        return "medium"
+    if mt.startswith("fuzzy_"):
+        m = re.search(r'(\d+)', mt)
+        return "medium" if (m and int(m.group(1)) >= 85) else "low"
+    return "none"
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # STEP 2 — LiveAnalyser class
 # ─────────────────────────────────────────────────────────────────────────────
@@ -393,6 +417,7 @@ class USDAFoodIndex:
         self._threshold = threshold
         self._foods: list[tuple[int, str]] = []       # (fdc_id, description)
         self._desc_lower: list[str] = []               # pre-lowercased for speed
+        self._desc_by_fdc: dict[int, str] = {}         # fdc_id → description
         # Inverted word index: token → list of indices in _foods
         self._index: dict[str, list[int]] = {}
 
@@ -407,6 +432,7 @@ class USDAFoodIndex:
                     continue
                 idx = len(self._foods)
                 self._foods.append((fdc_id, desc))
+                self._desc_by_fdc[fdc_id] = desc
                 dl = desc.lower()
                 self._desc_lower.append(dl)
                 # Index every meaningful token (>2 chars)
@@ -454,9 +480,17 @@ class USDAFoodIndex:
             return None  # no word overlap with any USDA food
 
         # ── Step 2: score each candidate ─────────────────────────────────────
-        best_score = -999
-        best_idx   = -1
+        scored = self._score_candidates(query, query_words, candidate_indices)
+        if not scored:
+            return None
 
+        _, fdc_id, desc = scored[0]
+        return fdc_id, desc
+
+    def _score_candidates(self, query, query_words, candidate_indices):
+        """Rank candidate foods by relevance. Returns [(score, fdc_id, desc), ...]
+        sorted best-first, keeping only entries above the fuzzy threshold."""
+        scored: list[tuple[float, int, str]] = []
         for idx in candidate_indices:
             fdc_id, desc = self._foods[idx]
             dl = self._desc_lower[idx]
@@ -483,15 +517,53 @@ class USDAFoodIndex:
             # Prefer shorter descriptions (fewer comma-separated parts = simpler food)
             score -= len(dl) * 0.4
 
-            if score > best_score:
-                best_score = score
-                best_idx   = idx
+            scored.append((score, fdc_id, desc))
 
-        if best_idx < 0:
-            return None
+        scored.sort(key=lambda t: t[0], reverse=True)
+        return scored
 
-        fdc_id, desc = self._foods[best_idx]
-        return fdc_id, desc
+    def search_candidates(self, cleaned_name: str, n: int = 8) -> list[tuple[int, str]]:
+        """Return up to N ranked (fdc_id, description) candidates for a name, so a
+        user can pick a better match than the automatic one.
+
+        Uses partial_ratio (rewards the query appearing inside the description)
+        rather than search()'s token_sort_ratio, because for a *browsable* list
+        we want simple foods with long official names — "Rice, cooked, NFS" —
+        to rank highly, which token_sort_ratio penalises. Empty list if the name
+        shares no words with any USDA food."""
+        if not cleaned_name or not cleaned_name.strip():
+            return []
+        query = cleaned_name.lower().strip()
+        query_words = set(re.split(r'\s+', query))
+
+        candidate_indices: set[int] = set()
+        for word in query_words:
+            candidate_indices.update(self._index.get(word, []))
+            if word.endswith("s") and len(word) > 3:
+                candidate_indices.update(self._index.get(word[:-1], []))
+
+        scored: list[tuple[float, int, str]] = []
+        for idx in candidate_indices:
+            fdc_id, desc = self._foods[idx]
+            dl = self._desc_lower[idx]
+            score = float(_rf_fuzz.partial_ratio(query, dl))
+            if ", raw" in dl:
+                score += 15
+            elif dl.endswith("nfs") or ", nfs" in dl:
+                score += 8
+            for compound in _COMPOUND_DISH_WORDS:
+                if compound in dl and compound not in query_words:
+                    score -= 15
+                    break
+            score -= len(dl) * 0.2
+            scored.append((score, fdc_id, desc))
+
+        scored.sort(key=lambda t: t[0], reverse=True)
+        return [(fdc_id, desc) for _, fdc_id, desc in scored[:n]]
+
+    def describe(self, fdc_id: int) -> str | None:
+        """Return the USDA description for an fdc_id, or None if unknown."""
+        return self._desc_by_fdc.get(int(fdc_id)) if fdc_id is not None else None
 
 
 class WAFCTFoodIndex:
@@ -678,6 +750,11 @@ class LiveAnalyser:
 
     # ── Internal helpers ──────────────────────────────────────────────────────
 
+    def candidate_foods(self, cleaned_name: str, n: int = 8) -> list[tuple[int, str]]:
+        """Top-N alternative USDA foods for an ingredient name, for the UI's
+        'change this match' dropdown. Thin wrapper over USDAFoodIndex."""
+        return self._usda_index.search_candidates(cleaned_name, n)
+
     @staticmethod
     def _load_density(filepath: str) -> dict[int, float]:
         """Load {fdc_id: g_per_ml}. Returns {} if the table hasn't been built."""
@@ -739,7 +816,8 @@ class LiveAnalyser:
 
     # ── Public interface ──────────────────────────────────────────────────────
 
-    def analyse(self, ingredient_lines: list[str], servings: int = 4) -> dict:
+    def analyse(self, ingredient_lines: list[str], servings: int = 4,
+                overrides: dict[int, int] | None = None) -> dict:
         """
         Analyse a recipe from a list of raw ingredient strings.
 
@@ -747,6 +825,10 @@ class LiveAnalyser:
         ----------
         ingredient_lines : list of strings, one ingredient per entry
         servings         : number of servings the recipe makes
+        overrides        : optional {ingredient_index: fdc_id} — force a specific
+                           USDA food for an ingredient (index into the returned
+                           "ingredients" list), bypassing automatic matching. Lets
+                           the user correct a wrong match and re-score.
 
         Returns
         -------
@@ -776,13 +858,16 @@ class LiveAnalyser:
             ingredient_lines = ingredient_lines.splitlines()
         ingredient_lines = [ln for ln in (ingredient_lines or []) if isinstance(ln, str)]
 
+        overrides = overrides or {}
         ingredients_detail = []
         totals = {col: 0.0 for col in NUTRIENT_IDS.values()}
         n_matched = 0
+        ing_index = -1   # position in ingredients_detail (skips blank lines)
 
         for line in ingredient_lines:
             if not line.strip():
                 continue
+            ing_index += 1
 
             # ── Parse the line ────────────────────────────────────────────────
             parsed = parse_ingredient_line(line)
@@ -792,38 +877,40 @@ class LiveAnalyser:
             # brand names, etc. and handles African ingredient proxies.
             cleaned, tag, display = clean_ingredient(parsed["name_raw"])
 
-            # ── Match to USDA/WAFCT — three layers ───────────────────────────
-            # Layer 1: MANUAL_MAPPINGS + fuzzy pool (Matcher)
-            food_name, fdc_id, match_type = self._matcher.match(cleaned)
-
-            # Layer 2: if still no match, search food.csv directly.
-            if fdc_id is None:
-                query_words = set(cleaned.lower().split())
-                usda_hit = self._usda_index.search(cleaned, query_words)
-                if usda_hit:
-                    fdc_id, food_name = usda_hit
-                    match_type = "usda_search"
-
-            # Layer 3: if USDA still has nothing, try the West African
-            # Food Composition Table (FAO/INFOODS WAFCT 2019).
-            # This covers African staples absent from USDA: fufu, pounded yam,
-            # egusi, fonio, dawadawa, African leafy vegetables, etc.
-            #
-            # WHY we also try name_raw:
-            # The cleaner substitutes some African ingredients with USDA proxies
-            # (e.g. fonio → millet) to improve USDA matching.  For WAFCT we want
-            # the ORIGINAL name because WAFCT actually has the African ingredient.
             wafct_nutrients = None
-            if fdc_id is None:
-                wafct_hit = self._wafct_index.search(cleaned)
-                # If cleaned was proxy-substituted (e.g. fonio→millet), also try
-                # the original raw name against WAFCT
-                if wafct_hit is None and parsed["name_raw"].lower() != cleaned.lower():
-                    wafct_hit = self._wafct_index.search(parsed["name_raw"])
-                if wafct_hit:
-                    wafct_code, food_name, wafct_nutrients = wafct_hit
-                    fdc_id     = wafct_code
-                    match_type = "wafct"
+
+            # ── User override: force a specific USDA food, skip auto-matching ──
+            # Everything downstream (density, nutrient lookup, scoring) is shared.
+            if ing_index in overrides and overrides[ing_index] is not None:
+                fdc_id     = int(overrides[ing_index])
+                food_name  = self._usda_index.describe(fdc_id) or f"USDA {fdc_id}"
+                match_type = "user_override"
+            else:
+                # ── Match to USDA/WAFCT — three layers ───────────────────────
+                # Layer 1: MANUAL_MAPPINGS + fuzzy pool (Matcher)
+                food_name, fdc_id, match_type = self._matcher.match(cleaned)
+
+                # Layer 2: if still no match, search food.csv directly.
+                if fdc_id is None:
+                    query_words = set(cleaned.lower().split())
+                    usda_hit = self._usda_index.search(cleaned, query_words)
+                    if usda_hit:
+                        fdc_id, food_name = usda_hit
+                        match_type = "usda_search"
+
+                # Layer 3: if USDA still has nothing, try the West African Food
+                # Composition Table (FAO/INFOODS WAFCT 2019). Covers African
+                # staples absent from USDA: fufu, pounded yam, egusi, fonio, etc.
+                # We also try name_raw because the cleaner proxy-substitutes some
+                # African ingredients (fonio→millet); WAFCT has the real one.
+                if fdc_id is None:
+                    wafct_hit = self._wafct_index.search(cleaned)
+                    if wafct_hit is None and parsed["name_raw"].lower() != cleaned.lower():
+                        wafct_hit = self._wafct_index.search(parsed["name_raw"])
+                    if wafct_hit:
+                        wafct_code, food_name, wafct_nutrients = wafct_hit
+                        fdc_id     = wafct_code
+                        match_type = "wafct"
 
             # ── Ingredient-aware weight ───────────────────────────────────────
             # Now that we know which food this is, convert a VOLUME ("2 cups
