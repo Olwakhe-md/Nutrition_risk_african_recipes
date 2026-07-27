@@ -1207,6 +1207,49 @@ def check_a_recipe():
 
     st.divider()
 
+    # Defaults for the form widgets — also the targets a URL import writes into.
+    st.session_state.setdefault("name_text", "")
+    st.session_state.setdefault("ing_text", "")
+    st.session_state.setdefault("serv_num", 4)
+
+    # ── Import from a recipe URL (optional) ───────────────────────────────────
+    # A button can't live inside st.form, so this sits above it: on success it
+    # writes the ingredients/title/servings into session_state and reruns, which
+    # pre-fills the form below. Works on any site exposing schema.org recipe data.
+    with st.expander("🔗 Have a recipe link? Import the ingredients"):
+        url_col, btn_col = st.columns([4, 1])
+        url_input = url_col.text_input(
+            "Recipe URL", key="import_url",
+            placeholder="https://www.example.com/recipe/…",
+            label_visibility="collapsed",
+        )
+        if btn_col.button("Fetch", use_container_width=True):
+            from pipeline.recipe_url_import import fetch_ingredients, RecipeImportError
+            try:
+                with st.spinner("Reading the recipe…"):
+                    imported = fetch_ingredients(url_input)
+            except RecipeImportError as exc:
+                st.warning(str(exc))
+            else:
+                st.session_state["ing_text"] = "\n".join(imported["ingredients"])
+                if imported.get("title"):
+                    st.session_state["name_text"] = imported["title"]
+                if imported.get("servings"):
+                    st.session_state["serv_num"] = max(1, min(30, imported["servings"]))
+                st.session_state["import_msg"] = (
+                    f"Imported {len(imported['ingredients'])} ingredient(s)"
+                    + (f" from “{imported['title']}”" if imported.get("title") else "")
+                    + " — review below and click Analyse."
+                )
+                st.rerun()
+        st.caption(
+            "Paste a link from most recipe sites. Some sites block automated reads "
+            "or hide ingredients — if it doesn't work, just paste them manually."
+        )
+
+    if st.session_state.get("import_msg"):
+        st.success(st.session_state.pop("import_msg"))
+
     # ── Input form ────────────────────────────────────────────────────────────
     # WHY st.form?
     #   Without a form, every keypress (including Enter) triggers a Streamlit
@@ -1220,6 +1263,7 @@ def check_a_recipe():
             recipe_name_input = st.text_input(
                 "Recipe name (optional)",
                 placeholder="e.g. Jollof Rice, Egusi Soup, Tagine…",
+                key="name_text",
             )
             ingredients_input = st.text_area(
                 "Ingredients — one per line",
@@ -1234,11 +1278,12 @@ def check_a_recipe():
                     "1 tsp curry powder"
                 ),
                 height=240,
+                key="ing_text",
             )
 
         with col_settings:
             servings_input = st.number_input(
-                "Servings", min_value=1, max_value=30, value=4, step=1,
+                "Servings", min_value=1, max_value=30, step=1, key="serv_num",
             )
             st.markdown("")   # spacer
             analyse_clicked = st.form_submit_button(
