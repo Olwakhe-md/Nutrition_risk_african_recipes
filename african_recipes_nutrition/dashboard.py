@@ -636,6 +636,18 @@ def _load_photo_manifest():
 
 
 @st.cache_data(show_spinner=False)
+def _load_ingredient_index():
+    """{recipe_id: ingredients_text} for the Explore 'contains ingredient'
+    filter, precomputed by pipeline/build_ingredient_index.py."""
+    path = os.path.join(BASE, 'data', 'interim', 'recipe_ingredient_index.csv')
+    if not os.path.exists(path):
+        return {}
+    idx = pd.read_csv(path)
+    idx['ingredients_text'] = idx['ingredients_text'].fillna('').astype(str)
+    return dict(zip(idx['recipe_id'].astype(int), idx['ingredients_text']))
+
+
+@st.cache_data(show_spinner=False)
 def _photo_data_uri(abs_path: str) -> str:
     """base64 data URI for a recipe photo, cached so the ~45 KB JPEGs aren't
     re-read and re-encoded on every Explore rerun (search/filter/click)."""
@@ -759,12 +771,42 @@ def explore_recipes():
     with c_view:
         view = st.segmented_control("View", ["Cards", "Table"], default="Cards")
 
+    SORT_OPTIONS = {
+        "Risk score (high → low)": ("weighted_risk_score", False),
+        "Risk score (low → high)": ("weighted_risk_score", True),
+        "Calories (high → low)":   ("energy_kcal", False),
+        "Salt (high → low)":       ("sodium_mg", False),
+        "Name (A → Z)":            ("recipe_name", True),
+    }
+    c_ing, c_sort = st.columns([3, 2])
+    with c_ing:
+        ingredient_q = st.text_input(
+            "Contains ingredient",
+            placeholder="contains ingredient… e.g. egusi, palm oil, coconut",
+            label_visibility="collapsed",
+        )
+    with c_sort:
+        sort_label = st.selectbox("Sort by", list(SORT_OPTIONS), label_visibility="collapsed")
+    sort_col, sort_asc = SORT_OPTIONS[sort_label]
+
     base_df = df_all if show_insuf else df_f
     matches = base_df.copy()
     if search:
         matches = matches[matches['recipe_name'].str.contains(search, case=False, na=False)]
     if risk_pill and risk_pill != "All":
         matches = matches[matches['weighted_risk_level'] == risk_pill]
+    if ingredient_q and ingredient_q.strip():
+        ing_index = _load_ingredient_index()
+        term = ingredient_q.strip().lower()
+        keep = {rid for rid, text in ing_index.items() if isinstance(text, str) and term in text}
+        matches = matches[matches['recipe_id'].isin(keep)]
+
+    # Sort once, up front, so Cards and Table share the same order.
+    if sort_col == "recipe_name":
+        matches = matches.sort_values("recipe_name", key=lambda s: s.str.lower(), ascending=sort_asc)
+    else:
+        matches = matches.assign(_k=pd.to_numeric(matches[sort_col], errors="coerce")) \
+                         .sort_values("_k", ascending=sort_asc).drop(columns="_k")
 
     st.markdown(f"**{len(matches)}** recipe(s)")
 
@@ -807,14 +849,8 @@ def explore_recipes():
             'weighted_risk_score', 'weighted_risk_level',
             'data_status',
         ]
-        sort_col = st.selectbox(
-            "Sort by",
-            options=['weighted_risk_score', 'energy_kcal', 'sodium_mg', 'fat_g', 'sugars_g', 'protein_g', 'flag_count'],
-            index=0,
-        )
-        display_df_sorted = matches[table_cols].copy()
-        numeric_sort = pd.to_numeric(display_df_sorted[sort_col], errors='coerce')
-        display_df_sorted = display_df_sorted.loc[numeric_sort.sort_values(ascending=False).index]
+        # Already sorted up front (shared with the card view) via the Sort control.
+        display_df_sorted = matches[table_cols]
 
         st.dataframe(
             display_df_sorted.reset_index(drop=True),
