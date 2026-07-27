@@ -24,7 +24,10 @@ import socket
 from urllib.parse import urlparse
 
 import requests
-from bs4 import BeautifulSoup
+
+# NOTE: BeautifulSoup is imported lazily inside the HTML-markup fallback so the
+# primary (JSON-LD) path depends only on the standard library — one less thing
+# that can break a deploy.
 
 HEADERS = {
     'User-Agent': (
@@ -119,7 +122,11 @@ def _from_jsonld(html: str):
 
 def _from_html_markup(html: str):
     """Fallback: WordPress Recipe Maker list items or schema.org microdata."""
-    soup = BeautifulSoup(html, 'lxml')
+    try:
+        from bs4 import BeautifulSoup
+    except ImportError:
+        return None    # no bs4 available — JSON-LD is our only path then
+    soup = BeautifulSoup(html, 'html.parser')
 
     # WPRM plugin (africanbites, cheflola, many food blogs)
     wprm = []
