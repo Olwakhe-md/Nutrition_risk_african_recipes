@@ -120,16 +120,6 @@ NUTRIENT_SENTENCES = {
     },
 }
 
-# Tip shown when a nutrient comes back flagged
-NUTRIENT_TIPS = {
-    "sodium_mg":  "Try halving the bouillon cube (or using a low-sodium one) and lean on herbs and spices instead of extra salt.",
-    "fat_g":      "Cut the oil or palm oil by about a third, or trim visible fat off the meat before cooking.",
-    "energy_kcal":"Serve with a lighter side — salad or steamed greens instead of extra starch — to bring the calories down.",
-    "sugars_g":   "Check whether the sugar is doing anything for the dish — many savoury stews don't need it.",
-    "protein_g":  "Add a handful of beans, lentils, or extra meat/fish to boost the protein.",
-}
-
-
 def _plain_verdict(risk):
     """One-sentence, jargon-free summary of a recipe's risk profile."""
     order = [
@@ -972,6 +962,94 @@ def _render_matches_editor(rx, analyser):
         st.rerun()
 
 
+# Interactive "what-if": each tip maps to a rough change in a per-serving
+# nutrient. Deltas are deliberate estimates — the point is to show the direction
+# and rough size of the effect, not to promise an exact new value.
+WHATIF_TIPS = {
+    "sodium_mg":   "Halve the bouillon / added salt",
+    "fat_g":       "Cut the oil or palm oil by about a third",
+    "sugars_g":    "Drop the added sugar",
+    "energy_kcal": "Serve with a lighter side",
+    "protein_g":   "Add beans, lentils, or extra meat / fish",
+}
+
+
+def _apply_whatif(nutrition: dict, applied: dict) -> dict:
+    """Return an adjusted per-serving nutrient dict with the ticked tips applied.
+    Nutrient changes that add/remove food also nudge energy (fat ~9 kcal/g,
+    sugar & protein ~4 kcal/g)."""
+    adj = {k: float(v) for k, v in nutrition.items()}
+    if applied.get("fat_g"):
+        removed = adj["fat_g"] * 0.33
+        adj["fat_g"] = max(0.0, adj["fat_g"] - removed)
+        adj["energy_kcal"] = max(0.0, adj["energy_kcal"] - removed * 9)
+    if applied.get("sugars_g"):
+        removed = adj["sugars_g"] * 0.50
+        adj["sugars_g"] = max(0.0, adj["sugars_g"] - removed)
+        adj["energy_kcal"] = max(0.0, adj["energy_kcal"] - removed * 4)
+    if applied.get("protein_g"):
+        added = adj["protein_g"] * 0.40
+        adj["protein_g"] += added
+        adj["energy_kcal"] += added * 4
+    if applied.get("sodium_mg"):
+        adj["sodium_mg"] *= 0.60
+    if applied.get("energy_kcal"):
+        adj["energy_kcal"] *= 0.85
+    return adj
+
+
+def _render_whatif(nutrition, risk):
+    """Let the user tick improvement tips and see the projected risk score."""
+    from scoring.score_nutrition_risk import weighted_score, weighted_risk_level
+
+    order = [
+        ("sodium_mg", "sodium_risk"), ("fat_g", "fat_risk"),
+        ("sugars_g", "sugar_risk"), ("energy_kcal", "energy_risk"),
+        ("protein_g", "protein_risk"),
+    ]
+    improvable = [n for n, rc in order if risk[rc] in ("medium", "high")]
+    if not improvable:
+        return
+
+    st.markdown("#### What if you tweaked it?")
+    st.caption(
+        "Tick a change to see roughly how it would move the risk score. "
+        "These are estimates — the real effect depends on your exact recipe."
+    )
+
+    col_ticks, col_proj = st.columns([3, 2])
+    with col_ticks:
+        applied = {n: st.checkbox(WHATIF_TIPS[n], key=f"whatif_{n}") for n in improvable}
+
+    adj        = _apply_whatif(nutrition, applied)
+    base_score = float(risk["weighted_risk_score"])
+    base_level = risk["weighted_risk_level"]
+    new_score  = weighted_score(adj)
+    new_level  = weighted_risk_level(new_score)
+
+    with col_proj:
+        if not any(applied.values()):
+            st.markdown(
+                '<div class="pw-card" style="text-align:center;color:#5b5650;">'
+                'Tick a change to see the projected score.</div>',
+                unsafe_allow_html=True,
+            )
+        else:
+            colour = RISK_COLOURS.get(new_level, "#95a5a6")
+            arrow  = "▼" if new_score < base_score - 0.5 else ("▲" if new_score > base_score + 0.5 else "→")
+            st.markdown(
+                f'<div class="pw-card" style="text-align:center;">'
+                f'<div style="font-size:0.8rem;color:#5b5650;">Projected score</div>'
+                f'<div style="font-family:\'Caprasimo\',serif;font-size:2rem;color:{colour};">'
+                f'{new_score:.0f} <span style="font-size:1rem;">/100</span></div>'
+                f'<span class="pw-badge {RISK_CLASS.get(new_level, "pw-med")}">{new_level.upper()}</span>'
+                f'<div style="font-size:0.8rem;color:#5b5650;margin-top:6px;">'
+                f'{arrow} from {base_score:.0f} ({base_level})</div>'
+                f'</div>',
+                unsafe_allow_html=True,
+            )
+
+
 def _render_analysis(rx):
     """Render the full Check-a-recipe result from st.session_state['rx']."""
     analyser     = get_live_analyser()
@@ -1059,17 +1137,16 @@ def _render_analysis(rx):
             )
         st.markdown(f'<div class="pw-card">{rows_html}</div>', unsafe_allow_html=True)
 
-        flagged = [col for col, risk_col, _ in nutrient_display if risk[risk_col] == "high"]
-        if flagged:
-            st.markdown("**Tips to make this healthier:**")
-            for col in flagged:
-                st.markdown(f"- {NUTRIENT_TIPS[col]}")
-
     with col_label:
         st.markdown(
             _render_nutrition_label(nutrition, risk, int(servings)),
             unsafe_allow_html=True,
         )
+
+    st.markdown("")
+
+    # ── Interactive what-if (apply a tip → projected score) ───────────────────
+    _render_whatif(nutrition, risk)
 
     st.divider()
 
