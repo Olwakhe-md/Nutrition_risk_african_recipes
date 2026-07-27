@@ -20,5 +20,17 @@ african_recipes_nutrition/streamlit_log.txt
 # Scraper development sample pages (raw downloaded HTML, not source code)
 african_recipes_nutrition/*.html
 
+# One-off debug / inspection scratch scripts + their outputs (never source code)
+african_recipes_nutrition/debug_*.py
+african_recipes_nutrition/inspect_*.py
+african_recipes_nutrition/check_other_urls*.py
+african_recipes_nutrition/check_other_urls_output.txt
+african_recipes_nutrition/final_status.py
+
+# Scraper / pipeline run logs
+african_recipes_nutrition/**/reanalyse_log.txt
+african_recipes_nutrition/**/rescrape_log.txt
+african_recipes_nutrition/**/rescrape_failed.txt
+
 # IDE
 .vscode/

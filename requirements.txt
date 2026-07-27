@@ -1,10 +1,15 @@
-pandas>=2.0.0
-rapidfuzz>=3.0.0
-psycopg2-binary>=2.9.0   # PostgreSQL driver
-sqlalchemy>=2.0.0         # ORM / connection abstraction
-python-dotenv>=1.0.0      # Load .env for DB credentials
-streamlit>=1.30.0         # Dashboard app
-plotly>=5.20.0            # Charts in dashboard.py
-requests>=2.31.0         # Fetch recipe pages for URL import
-beautifulsoup4>=4.12.0   # Parse recipe HTML (WPRM/microdata fallback)
-pyarrow>=14.0.0          # Read the pre-filtered nutrient parquet (fast cold start)
+# Runtime dependencies for the deployed Streamlit app.
+# Pinned with a lower bound (tested floor) and an upper major-version cap, so a
+# surprise major release can't silently break the deploy.
+
+pandas>=2.0,<4           # DataFrames + parquet
+rapidfuzz>=3.0,<4        # Fuzzy ingredient matching
+streamlit>=1.30,<2       # Dashboard app
+plotly>=5.20,<7          # Charts
+requests>=2.31,<3        # Fetch recipe pages for URL import
+beautifulsoup4>=4.12,<5  # Parse recipe HTML (WPRM/microdata fallback)
+pyarrow>=14.0,<25        # Read the pre-filtered nutrient parquet (fast cold start)
+
+# Offline data-loading pipeline only (scripts/loader.py, config.py) — NOT used
+# by the deployed app, so they're kept out of the deploy manifest above:
+#   sqlalchemy, psycopg2-binary, python-dotenv
